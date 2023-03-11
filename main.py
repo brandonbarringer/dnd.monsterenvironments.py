@@ -10,16 +10,14 @@ import re
 import datetime
 from pprint import pprint
 
-# load the monsters.json file
-with open('monsters.json') as f:
+with open('data/open5e/monsters.json') as f:
     monsters = json.load(f)
 
-# load the monsters_environment.json file
-with open('monsters_environment.json') as f:
+with open('data/kobold_press/monsters_by_terrain.json') as f:
     monsters_environment = json.load(f)
 
 # load the alternate_environment.json file
-with open('alternate_environments.json') as f:
+with open('data/xios_guide_to_monsters/xios_guide_to_monsters.json') as f:
     alt_environment = json.load(f)
 
 environments = ['arctic', 'coastal', 'desert', 'forest', 'grassland', 'hill', 'jungle', 'plain', 'mountain', 'swamp', 'underdark', 'underwater', 'urban', 'badlands', 'any']
@@ -61,7 +59,7 @@ def is_name_match(name1:str, name2:str):
     # if none of the words in the name are in the other name, return false
     if not any(word in n2 for word in n1) and not any(word in n1 for word in n2):
         return False
-    
+
     # if each word in the name is in the other name, return true
     if (all(word in n2 for word in n1) or all(word in n1 for word in n2)) and len(n1) == len(n2):
         return True
@@ -71,11 +69,11 @@ def is_name_match(name1:str, name2:str):
     environs = ['arctic', 'coastal', 'desert', 'forest', 'grassland', 'hill', 'mountain', 'swamp', 'underdark', 'underwater', 'urban', 'void', 'cave', 'sea']
     types = ['flame', 'light', 'dark', 'shadow', 'stone', 'vine', 'fire', 'ice', 'kelp', 'sand', 'snow', 'deep', 'water', 'wind', 'windy', 'wood', 'imperial', 'wasteland', 'boreal']
     differentiators = [*colors, *metals, *environs, *types]
-    
+
     # if all of the words are the same, except for differentiators, return false
     if all(word in differentiators for word in n1) and all(word in differentiators for word in n2):
         return False
-    
+
     return False
 
 # remove duplicates

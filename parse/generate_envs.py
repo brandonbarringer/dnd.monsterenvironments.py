@@ -2,7 +2,7 @@ import json
 import datetime
 from pprint import pprint
 
-with open('monsters-2023-03-05.json') as f:
+with open('../exports/monsters-2023-03-05.json') as f:
     monsters = json.load(f)
 
 environments = ['arctic', 'coastal', 'desert', 'forest', 'grassland', 'hill', 'jungle', 'plain', 'mountain', 'swamp', 'underdark', 'underwater', 'urban', 'badlands', 'any']
