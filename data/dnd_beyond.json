@@ -1,230 +1,230 @@
 [
   {
-      "name": "Aarakocra",
-      "environments": "Mountain"
+    "name": "Aarakocra",
+    "environments": "Mountain"
   },
   {
-      "name": "Aarakocra Simulacrum",
-      "environments": "Mountain"
+    "name": "Aarakocra Simulacrum",
+    "environments": "Mountain"
   },
   {
-      "name": "Abjurer",
-      "environments": "Urban"
+    "name": "Abjurer",
+    "environments": "Urban"
   },
   {
-      "name": "Abjurer Wizard",
-      "environments": "Urban"
+    "name": "Abjurer Wizard",
+    "environments": "Urban"
   },
   {
-      "name": "Aboleth",
-      "environments": "Underdark"
+    "name": "Aboleth",
+    "environments": "Underdark"
   },
   {
-      "name": "Abominable Yeti",
-      "environments": "Arctic"
+    "name": "Abominable Yeti",
+    "environments": "Arctic"
   },
   {
-      "name": "Abominable Yeti (Allowak variant)",
-      "environments": "Arctic"
+    "name": "Abominable Yeti (Allowak variant)",
+    "environments": "Arctic"
   },
   {
-      "name": "Acolyte",
-      "environments": "Urban"
+    "name": "Acolyte",
+    "environments": "Urban"
   },
   {
-      "name": "Adult Black Dragon",
-      "environments": "Swamp"
+    "name": "Adult Black Dragon",
+    "environments": "Swamp"
   },
   {
-      "name": "Adult Blue Dracolich",
-      "environments": "Desert"
+    "name": "Adult Blue Dracolich",
+    "environments": "Desert"
   },
   {
-      "name": "Adult Blue Dragon",
-      "environments": [
-          "Coastal",
-          "Desert"
-      ]
+    "name": "Adult Blue Dragon",
+    "environments": [
+      "Coastal",
+      "Desert"
+    ]
   },
   {
-      "name": "Adult Brass Dragon",
-      "environments": "Desert"
+    "name": "Adult Brass Dragon",
+    "environments": "Desert"
   },
   {
-      "name": "Adult Bronze Dragon",
-      "environments": "Coastal"
+    "name": "Adult Bronze Dragon",
+    "environments": "Coastal"
   },
   {
-      "name": "Adult Copper Dragon",
-      "environments": "Hill"
+    "name": "Adult Copper Dragon",
+    "environments": "Hill"
   },
   {
-      "name": "Adult Gold Dragon",
-      "environments": [
-          "Forest",
-          "Grassland"
-      ]
+    "name": "Adult Gold Dragon",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
   },
   {
-      "name": "Adult Green Dragon",
-      "environments": "Forest"
+    "name": "Adult Green Dragon",
+    "environments": "Forest"
   },
   {
-      "name": "Adult Kruthik",
-      "environments": [
-          "Desert",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Adult Kruthik",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Adult Kruthik",
-      "environments": [
-          "Desert",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Adult Kruthik",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Adult Oblex",
-      "environments": [
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Adult Oblex",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Adult Oblex",
-      "environments": [
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Adult Oblex",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
     "name": "Adult Red Dracolich",
     "environments": [
-        "Hill",
-        "Mountain"
+      "Hill",
+      "Mountain"
     ]
   },
   {
-      "name": "Adult Red Dragon",
-      "environments": [
-          "Hill",
-          "Mountain"
-      ]
+    "name": "Adult Red Dragon",
+    "environments": [
+      "Hill",
+      "Mountain"
+    ]
   },
   {
-      "name": "Adult Silver Dragon",
-      "environments": [
-          "Mountain",
-          "Urban"
-      ]
+    "name": "Adult Silver Dragon",
+    "environments": [
+      "Mountain",
+      "Urban"
+    ]
   },
   {
-      "name": "Adult White Dragon",
-      "environments": "Arctic"
+    "name": "Adult White Dragon",
+    "environments": "Arctic"
   },
   {
-      "name": "Air Elemental",
-      "environments": [
-          "Desert",
-          "Mountain"
-      ]
+    "name": "Air Elemental",
+    "environments": [
+      "Desert",
+      "Mountain"
+    ]
   },
   {
-      "name": "Alhoon",
-      "environments": "Underdark"
+    "name": "Alhoon",
+    "environments": "Underdark"
   },
   {
-      "name": "Alhoon",
-      "environments": "Underdark"
+    "name": "Alhoon",
+    "environments": "Underdark"
   },
   {
-      "name": "Alkilith",
-      "environments": [
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Alkilith",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Alkilith",
-      "environments": [
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Alkilith",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Allip",
-      "environments": [
-          "Swamp",
-          "Urban"
-      ]
+    "name": "Allip",
+    "environments": [
+      "Swamp",
+      "Urban"
+    ]
   },
   {
-      "name": "Allip",
-      "environments": [
-          "Swamp",
-          "Urban"
-      ]
+    "name": "Allip",
+    "environments": [
+      "Swamp",
+      "Urban"
+    ]
   },
   {
-      "name": "Allosaurus",
-      "environments": "Grassland"
+    "name": "Allosaurus",
+    "environments": "Grassland"
   },
   {
-      "name": "Amarith Coppervein",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Amarith Coppervein",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Amphisbaena",
-      "environments": [
-          "Desert",
-          "Forest",
-          "Swamp",
-          "Underdark",
-          "Underwater"
-      ]
+    "name": "Amphisbaena",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Underwater"
+    ]
   },
   {
-      "name": "Ancient Black Dragon",
-      "environments": "Swamp"
+    "name": "Ancient Black Dragon",
+    "environments": "Swamp"
   },
   {
-      "name": "Ancient Blue Dragon",
-      "environments": [
-          "Coastal",
-          "Desert"
-      ]
+    "name": "Ancient Blue Dragon",
+    "environments": [
+      "Coastal",
+      "Desert"
+    ]
   },
   {
-      "name": "Ancient Brass Dragon",
-      "environments": "Desert"
+    "name": "Ancient Brass Dragon",
+    "environments": "Desert"
   },
   {
-      "name": "Ancient Bronze Dragon",
-      "environments": "Coastal"
+    "name": "Ancient Bronze Dragon",
+    "environments": "Coastal"
   },
   {
-      "name": "Ancient Copper Dragon",
-      "environments": "Hill"
+    "name": "Ancient Copper Dragon",
+    "environments": "Hill"
   },
   {
-      "name": "Ancient Gold Dragon",
-      "environments": [
-          "Forest",
-          "Grassland"
-      ]
+    "name": "Ancient Gold Dragon",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
   },
   {
     "name": "Ancient Green Dragon",
@@ -233,15 +233,15 @@
   {
     "name": "Ancient Red Dragon",
     "environments": [
-        "Hill",
-        "Mountain"
+      "Hill",
+      "Mountain"
     ]
   },
   {
     "name": "Ancient Silver Dragon",
     "environments": [
-        "Mountain",
-        "Urban"
+      "Mountain",
+      "Urban"
     ]
   },
   {
@@ -259,8 +259,8 @@
   {
     "name": "Angry Sorrowsworn",
     "environments": [
-        "Underdark",
-        "Urban"
+      "Underdark",
+      "Urban"
     ]
   },
   {
@@ -274,8 +274,8 @@
   {
     "name": "Ankheg",
     "environments": [
-        "Forest",
-        "Grassland"
+      "Forest",
+      "Grassland"
     ]
   },
   {
@@ -285,15 +285,15 @@
   {
     "name": "Annis Hag",
     "environments": [
-        "Hill",
-        "Mountain"
+      "Hill",
+      "Mountain"
     ]
   },
   {
     "name": "Annis Hag",
     "environments": [
-        "Hill",
-        "Mountain"
+      "Hill",
+      "Mountain"
     ]
   },
   {
@@ -311,33 +311,33 @@
   {
     "name": "Archdruid",
     "environments": [
-        "Forest",
-        "Mountain",
-        "Swamp",
-        "Underwater"
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underwater"
     ]
   },
   {
     "name": "Archdruid",
     "environments": [
-        "Forest",
-        "Mountain",
-        "Swamp",
-        "Underwater"
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underwater"
     ]
   },
   {
     "name": "Archer",
     "environments": [
-        "Forest",
-        "Urban"
+      "Forest",
+      "Urban"
     ]
   },
   {
     "name": "Archer",
     "environments": [
-        "Forest",
-        "Urban"
+      "Forest",
+      "Urban"
     ]
   },
   {
@@ -375,24 +375,24 @@
   {
     "name": "Astyrranthor",
     "environments": [
-        "Hill",
-        "Mountain"
+      "Hill",
+      "Mountain"
     ]
   },
   {
     "name": "Aurochs",
     "environments": [
-        "Grassland",
-        "Hill",
-        "Mountain"
+      "Grassland",
+      "Hill",
+      "Mountain"
     ]
   },
   {
     "name": "Aurochs",
     "environments": [
-        "Grassland",
-        "Hill",
-        "Mountain"
+      "Grassland",
+      "Hill",
+      "Mountain"
     ]
   },
   {
@@ -418,42 +418,42 @@
   {
     "name": "Axe Beak",
     "environments": [
-        "Grassland",
-        "Hill"
+      "Grassland",
+      "Hill"
     ]
   },
   {
     "name": "Axe of Mirabar Veteran",
     "environments": [
-        "Arctic",
-        "Coastal",
-        "Forest",
-        "Grassland",
-        "Hill",
-        "Mountain",
-        "Underdark",
-        "Urban"
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
     ]
   },
   {
     "name": "Babau",
     "environments": [
-        "Underdark",
-        "Urban"
+      "Underdark",
+      "Urban"
     ]
   },
   {
     "name": "Babau",
     "environments": [
-        "Underdark",
-        "Urban"
+      "Underdark",
+      "Urban"
     ]
   },
   {
     "name": "Baboon",
     "environments": [
-        "Forest",
-        "Hill"
+      "Forest",
+      "Hill"
     ]
   },
   {
@@ -467,17 +467,17 @@
   {
     "name": "Balhannoth",
     "environments": [
-        "Coastal",
-        "Mountain",
-        "Underdark"
+      "Coastal",
+      "Mountain",
+      "Underdark"
     ]
   },
   {
     "name": "Balhannoth",
     "environments": [
-        "Coastal",
-        "Mountain",
-        "Underdark"
+      "Coastal",
+      "Mountain",
+      "Underdark"
     ]
   },
   {
@@ -491,23 +491,23 @@
   {
     "name": "Bandit",
     "environments": [
-        "Arctic",
-        "Coastal",
-        "Desert",
-        "Forest",
-        "Hill",
-        "Urban"
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Urban"
     ]
   },
   {
     "name": "Bandit Captain",
     "environments": [
-        "Arctic",
-        "Coastal",
-        "Desert",
-        "Forest",
-        "Hill",
-        "Urban"
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Urban"
     ]
   },
   {
@@ -521,21 +521,21 @@
   {
     "name": "Barghest",
     "environments": [
-        "Forest",
-        "Grassland",
-        "Hill",
-        "Mountain",
-        "Underdark"
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
     ]
   },
   {
     "name": "Barghest",
     "environments": [
-        "Forest",
-        "Grassland",
-        "Hill",
-        "Mountain",
-        "Underdark"
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
     ]
   },
   {
@@ -565,15 +565,15 @@
   {
     "name": "Belak the Outcast",
     "environments": [
-        "Arctic",
-        "Coastal",
-        "Desert",
-        "Forest",
-        "Grassland",
-        "Hill",
-        "Mountain",
-        "Swamp",
-        "Underdark"
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
     ]
   },
   {
@@ -591,12 +591,12 @@
   {
     "name": "Berserker",
     "environments": [
-        "Arctic",
-        "Coastal",
-        "Desert",
-        "Forest",
-        "Hill",
-        "Mountain"
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain"
     ]
   },
   {
@@ -630,20 +630,20 @@
   {
     "name": "Black Guard Drake",
     "environments": [
-        "Swamp",
-        "Urban"
+      "Swamp",
+      "Urban"
     ]
   },
   {
     "name": "Black Guard Drake",
     "environments": [
-        "Arctic",
-        "Desert",
-        "Forest",
-        "Mountain",
-        "Swamp",
-        "Underdark",
-        "Urban"
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
     ]
   },
   {
@@ -653,15 +653,15 @@
   {
     "name": "Blackguard",
     "environments": [
-        "Underdark",
-        "Urban"
+      "Underdark",
+      "Urban"
     ]
   },
   {
     "name": "Blackguard",
     "environments": [
-        "Underdark",
-        "Urban"
+      "Underdark",
+      "Urban"
     ]
   },
   {
@@ -671,1757 +671,7308 @@
   {
     "name": "Blood Hawk",
     "environments": [
-        "Arctic",
-        "Coastal",
-        "Forest",
-        "Grassland",
-        "Hill",
-        "Mountain"
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
     ]
   },
   {
     "name": "Blue Abishai",
     "environments": [
-        "Coastal",
-        "Urban"
+      "Coastal",
+      "Urban"
     ]
   },
   {
     "name": "Blue Abishai",
     "environments": [
-        "Coastal",
-        "Urban"
+      "Coastal",
+      "Urban"
     ]
   },
   {
-      "name": "Blue Guard Drake",
-      "environments": [
-          "Desert",
-          "Urban"
-      ]
-  },
-  {
-      "name": "Blue Guard Drake",
-      "environments": [
-          "Arctic",
-          "Desert",
-          "Forest",
-          "Mountain",
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Blue Guard Drake",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Blue Guard Drake",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Boar",
-      "environments": [
-          "Forest",
-          "Grassland",
-          "Hill"
-      ]
+    "name": "Boar",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
   },
   {
-      "name": "Bodak",
-      "environments": [
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
-  },
-  {
-      "name": "Bodak",
-      "environments": [
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
-  },
-  {
-      "name": "Boggle",
-      "environments": [
-          "Forest",
-          "Hill",
-          "Underdark",
-          "Urban"
-      ]
-  },
+    "name": "Bodak",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Bodak",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Boggle",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Underdark",
+      "Urban"
+    ]
+  },
   {
-      "name": "Boggle",
-      "environments": [
-          "Forest",
-          "Hill",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Boggle",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Bone Naga",
-      "environments": "Underdark"
+    "name": "Bone Naga",
+    "environments": "Underdark"
   },
   {
-      "name": "Boneclaw",
-      "environments": [
-          "Arctic",
-          "Desert",
-          "Urban"
-      ]
+    "name": "Boneclaw",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Urban"
+    ]
   },
   {
-      "name": "Boneclaw",
-      "environments": [
-          "Arctic",
-          "Desert",
-          "Urban"
-      ]
+    "name": "Boneclaw",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Urban"
+    ]
   },
   {
-      "name": "Broken King Antigonos",
-      "environments": "Underdark"
+    "name": "Broken King Antigonos",
+    "environments": "Underdark"
   },
   {
-      "name": "Brontosaurus",
-      "environments": [
-          "Forest",
-          "Grassland"
-      ]
+    "name": "Brontosaurus",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
   },
   {
-      "name": "Brontosaurus",
-      "environments": [
-          "Forest",
-          "Grassland"
-      ]
+    "name": "Brontosaurus",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
   },
   {
-      "name": "Bronze Scout",
-      "environments": [
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain"
-      ]
+    "name": "Bronze Scout",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
   },
   {
-      "name": "Bronzefume",
-      "environments": [
-          "Coastal",
-          "Underwater"
-      ]
+    "name": "Bronzefume",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
   },
   {
-      "name": "Brown Bear",
-      "environments": [
-          "Arctic",
-          "Forest",
-          "Hill"
-      ]
+    "name": "Brown Bear",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Hill"
+    ]
   },
   {
-      "name": "Brughor Axe-Biter",
-      "environments": [
-          "Arctic",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain",
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Brughor Axe-Biter",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Bugbear",
-      "environments": [
-          "Forest",
-          "Grassland",
-          "Underdark"
-      ]
+    "name": "Bugbear",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Underdark"
+    ]
   },
   {
-      "name": "Bugbear Chief",
-      "environments": [
-          "Forest",
-          "Grassland",
-          "Underdark"
-      ]
+    "name": "Bugbear Chief",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Underdark"
+    ]
   },
   {
-      "name": "Bulette",
-      "environments": [
-          "Grassland",
-          "Hill",
-          "Mountain"
-      ]
+    "name": "Bulette",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
   },
   {
-      "name": "Bulezau",
-      "environments": "Underdark"
+    "name": "Bulezau",
+    "environments": "Underdark"
   },
   {
-      "name": "Bullywug",
-      "environments": "Swamp"
+    "name": "Bullywug",
+    "environments": "Swamp"
   },
   {
-      "name": "Cadaver Collector",
-      "environments": "Grassland"
+    "name": "Cadaver Collector",
+    "environments": "Grassland"
   },
   {
-      "name": "Cadaver Collector",
-      "environments": "Grassland"
+    "name": "Cadaver Collector",
+    "environments": "Grassland"
   },
   {
-      "name": "Cambion",
-      "environments": "Urban"
+    "name": "Cambion",
+    "environments": "Urban"
   },
   {
-      "name": "Camel",
-      "environments": "Desert"
+    "name": "Camel",
+    "environments": "Desert"
   },
   {
-      "name": "Canoloth",
-      "environments": [
-          "Coastal",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Canoloth",
+    "environments": [
+      "Coastal",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Canoloth",
-      "environments": [
-          "Coastal",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Canoloth",
+    "environments": [
+      "Coastal",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Carrion Crawler",
-      "environments": "Underdark"
+    "name": "Carrion Crawler",
+    "environments": "Underdark"
   },
   {
-      "name": "Carrion Ogre",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain",
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Carrion Ogre",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Cassiok Shadowdusk",
-      "environments": "Urban"
+    "name": "Cassiok Shadowdusk",
+    "environments": "Urban"
   },
   {
-      "name": "Cat",
-      "environments": [
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Urban"
-      ]
+    "name": "Cat",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Urban"
+    ]
   },
   {
-      "name": "Catoblepas",
-      "environments": "Swamp"
+    "name": "Catoblepas",
+    "environments": "Swamp"
   },
   {
-      "name": "Catoblepas",
-      "environments": "Swamp"
+    "name": "Catoblepas",
+    "environments": "Swamp"
   },
   {
-      "name": "Cave Badger",
-      "environments": "Forest"
+    "name": "Cave Badger",
+    "environments": "Forest"
   },
   {
-      "name": "Cave Fisher",
-      "environments": "Underdark"
+    "name": "Cave Fisher",
+    "environments": "Underdark"
   },
   {
-      "name": "Cave Fisher",
-      "environments": "Underdark"
+    "name": "Cave Fisher",
+    "environments": "Underdark"
   },
   {
-      "name": "Centaur",
-      "environments": [
-          "Forest",
-          "Grassland"
-      ]
+    "name": "Centaur",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
   },
   {
-      "name": "Champion",
-      "environments": [
-          "Desert",
-          "Urban"
-      ]
+    "name": "Champion",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
   },
   {
-      "name": "Champion",
-      "environments": [
-          "Desert",
-          "Urban"
-      ]
+    "name": "Champion",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
   },
   {
-      "name": "Chief Guh",
-      "environments": "Hill"
+    "name": "Chief Guh",
+    "environments": "Hill"
   },
   {
-      "name": "Chief Nosnra",
-      "environments": "Mountain"
+    "name": "Chief Nosnra",
+    "environments": "Mountain"
   },
   {
-      "name": "Chimera",
-      "environments": [
-          "Grassland",
-          "Hill",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Chimera",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Chitine",
-      "environments": "Underdark"
+    "name": "Chitine",
+    "environments": "Underdark"
   },
   {
-      "name": "Chitine",
-      "environments": "Underdark"
+    "name": "Chitine",
+    "environments": "Underdark"
   },
   {
-      "name": "Choker",
-      "environments": [
-          "Forest",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Choker",
+    "environments": [
+      "Forest",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Choker",
-      "environments": [
-          "Forest",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Choker",
+    "environments": [
+      "Forest",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Choldrith",
-      "environments": "Underdark"
+    "name": "Choldrith",
+    "environments": "Underdark"
   },
   {
-      "name": "Choldrith",
-      "environments": "Underdark"
+    "name": "Choldrith",
+    "environments": "Underdark"
   },
   {
-      "name": "Chuul",
-      "environments": "Underdark"
+    "name": "Chuul",
+    "environments": "Underdark"
   },
   {
-      "name": "Cinderhild",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain",
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Cinderhild",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Claugiyliamatar",
-      "environments": "Forest"
+    "name": "Claugiyliamatar",
+    "environments": "Forest"
   },
   {
-      "name": "Claugiyliamatar (possessed)",
-      "environments": "Forest"
+    "name": "Claugiyliamatar (possessed)",
+    "environments": "Forest"
   },
   {
-      "name": "Clay Gladiator",
-      "environments": "Urban"
+    "name": "Clay Gladiator",
+    "environments": "Urban"
   },
   {
-      "name": "Cloaker",
-      "environments": "Underdark"
+    "name": "Cloaker",
+    "environments": "Underdark"
   },
   {
-      "name": "Clockwork Behir",
-      "environments": "Underdark"
+    "name": "Clockwork Behir",
+    "environments": "Underdark"
   },
   {
-      "name": "Clockwork Bronze Scout",
-      "environments": [
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain"
-      ]
+    "name": "Clockwork Bronze Scout",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
   },
   {
-      "name": "Clockwork Iron Cobra",
-      "environments": [
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain"
-      ]
+    "name": "Clockwork Iron Cobra",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
   },
   {
-      "name": "Clockwork Oaken Bolter",
-      "environments": [
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain"
-      ]
+    "name": "Clockwork Oaken Bolter",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
   },
   {
-      "name": "Clockwork Stone Defender",
-      "environments": [
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain"
-      ]
+    "name": "Clockwork Stone Defender",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
   },
   {
-      "name": "Cloud Giant",
-      "environments": "Mountain"
+    "name": "Cloud Giant",
+    "environments": "Mountain"
   },
   {
-      "name": "Cloud Giant (variant)",
-      "environments": "Mountain"
+    "name": "Cloud Giant (variant)",
+    "environments": "Mountain"
   },
   {
-      "name": "Cloud Giant Child",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Urban"
-      ]
+    "name": "Cloud Giant Child",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Urban"
+    ]
   },
   {
-      "name": "Cloud Giant Smiling One",
-      "environments": "Mountain"
+    "name": "Cloud Giant Smiling One",
+    "environments": "Mountain"
   },
   {
-      "name": "Cloud Giant Smiling One",
-      "environments": "Mountain"
+    "name": "Cloud Giant Smiling One",
+    "environments": "Mountain"
   },
   {
-      "name": "Cockatrice",
-      "environments": "Grassland"
+    "name": "Cockatrice",
+    "environments": "Grassland"
   },
   {
-      "name": "Commoner",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Urban"
-      ]
+    "name": "Commoner",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Urban"
+    ]
   },
   {
-      "name": "Conjurer",
-      "environments": "Urban"
+    "name": "Conjurer",
+    "environments": "Urban"
   },
   {
-      "name": "Conjurer Wizard",
-      "environments": "Urban"
+    "name": "Conjurer Wizard",
+    "environments": "Urban"
   },
   {
-      "name": "Constrictor Snake",
-      "environments": [
-          "Desert",
-          "Forest",
-          "Swamp",
-          "Underwater"
-      ]
+    "name": "Constrictor Snake",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underwater"
+    ]
   },
   {
-      "name": "Copper Stormforge",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain",
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Copper Stormforge",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Corpse Flower",
-      "environments": [
-          "Forest",
-          "Swamp",
-          "Urban"
-      ]
+    "name": "Corpse Flower",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
   },
   {
-      "name": "Corpse Flower",
-      "environments": [
-          "Forest",
-          "Swamp",
-          "Urban"
-      ]
+    "name": "Corpse Flower",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
   },
   {
-      "name": "Corrin Delmaco",
-      "environments": "Urban"
+    "name": "Corrin Delmaco",
+    "environments": "Urban"
   },
   {
-      "name": "Couatl",
-      "environments": [
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Urban"
-      ]
+    "name": "Couatl",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Urban"
+    ]
   },
   {
-      "name": "Count Thullen",
-      "environments": "Mountain"
+    "name": "Count Thullen",
+    "environments": "Mountain"
   },
   {
-      "name": "Countess Sansuri",
-      "environments": "Mountain"
+    "name": "Countess Sansuri",
+    "environments": "Mountain"
   },
   {
-      "name": "Cow",
-      "environments": "Grassland"
+    "name": "Cow",
+    "environments": "Grassland"
   },
   {
-      "name": "Crab",
-      "environments": "Coastal"
+    "name": "Crab",
+    "environments": "Coastal"
   },
   {
-      "name": "Cranium Rat",
-      "environments": [
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Cranium Rat",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Cranium Rat",
-      "environments": [
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Cranium Rat",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Cressaro",
-      "environments": "Mountain"
+    "name": "Cressaro",
+    "environments": "Mountain"
   },
   {
-      "name": "Crocodile",
-      "environments": [
-          "Swamp",
-          "Urban"
-      ]
+    "name": "Crocodile",
+    "environments": [
+      "Swamp",
+      "Urban"
+    ]
   },
   {
-      "name": "Cult Fanatic",
-      "environments": "Urban"
+    "name": "Cult Fanatic",
+    "environments": "Urban"
   },
   {
-      "name": "Cultist",
-      "environments": "Urban"
+    "name": "Cultist",
+    "environments": "Urban"
   },
   {
-      "name": "Cyclops",
-      "environments": [
-          "Coastal",
-          "Desert",
-          "Grassland",
-          "Hill",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Cyclops",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Dagdra Deepforge",
-      "environments": "Urban"
+    "name": "Dagdra Deepforge",
+    "environments": "Urban"
   },
   {
-      "name": "Dao",
-      "environments": "Underdark"
+    "name": "Dao",
+    "environments": "Underdark"
   },
   {
-      "name": "Darkling",
-      "environments": [
-          "Forest",
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Darkling",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Darkling",
-      "environments": [
-          "Forest",
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Darkling",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Darkling Elder",
-      "environments": [
-          "Forest",
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Darkling Elder",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Darkling Elder",
-      "environments": [
-          "Forest",
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Darkling Elder",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Darkmantle",
-      "environments": "Underdark"
+    "name": "Darkmantle",
+    "environments": "Underdark"
   },
   {
-      "name": "Darribeth Meltimer",
-      "environments": "Urban"
+    "name": "Darribeth Meltimer",
+    "environments": "Urban"
   },
   {
-      "name": "Death Dog",
-      "environments": "Desert"
+    "name": "Death Dog",
+    "environments": "Desert"
   },
   {
-      "name": "Death Kiss",
-      "environments": "Underdark"
+    "name": "Death Kiss",
+    "environments": "Underdark"
   },
   {
-      "name": "Death Kiss",
-      "environments": "Underdark"
+    "name": "Death Kiss",
+    "environments": "Underdark"
   },
   {
-      "name": "Death Tyrant",
-      "environments": "Underdark"
+    "name": "Death Tyrant",
+    "environments": "Underdark"
   },
   {
-      "name": "Deathlock",
-      "environments": "Urban"
+    "name": "Deathlock",
+    "environments": "Urban"
   },
   {
-      "name": "Deathlock",
-      "environments": "Urban"
+    "name": "Deathlock",
+    "environments": "Urban"
   },
   {
-      "name": "Deathlock Mastermind",
-      "environments": "Urban"
+    "name": "Deathlock Mastermind",
+    "environments": "Urban"
   },
   {
-      "name": "Deathlock Mastermind",
-      "environments": "Urban"
+    "name": "Deathlock Mastermind",
+    "environments": "Urban"
   },
   {
-      "name": "Deep Gnome (Svirfneblin)",
-      "environments": "Underdark"
+    "name": "Deep Gnome (Svirfneblin)",
+    "environments": "Underdark"
   },
   {
-      "name": "Deep Rothé",
-      "environments": "Underdark"
+    "name": "Deep Rothé",
+    "environments": "Underdark"
   },
   {
-      "name": "Deep Rothé",
-      "environments": "Underdark"
+    "name": "Deep Rothé",
+    "environments": "Underdark"
   },
   {
-      "name": "Deep Scion",
-      "environments": [
-          "Coastal",
-          "Underwater"
-      ]
+    "name": "Deep Scion",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
   },
   {
-      "name": "Deep Scion",
-      "environments": [
-          "Coastal",
-          "Underwater"
-      ]
+    "name": "Deep Scion",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
   },
   {
-      "name": "Deer",
-      "environments": [
-          "Forest",
-          "Grassland"
-      ]
+    "name": "Deer",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
   },
   {
-      "name": "Deformed Duergar",
-      "environments": "Underdark"
+    "name": "Deformed Duergar",
+    "environments": "Underdark"
   },
   {
-      "name": "Deinonychus",
-      "environments": [
-          "Forest",
-          "Grassland",
-          "Hill"
-      ]
+    "name": "Deinonychus",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
   },
   {
-      "name": "Deinonychus",
-      "environments": [
-          "Forest",
-          "Grassland",
-          "Hill"
-      ]
+    "name": "Deinonychus",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
   },
   {
-      "name": "Derrion Shadowdusk",
-      "environments": [
-          "Desert",
-          "Urban"
-      ]
+    "name": "Derrion Shadowdusk",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
   },
   {
-      "name": "Derro",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Derro",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Derro",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Derro",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Derro Savant",
-      "environments": "Underdark"
+    "name": "Derro Savant",
+    "environments": "Underdark"
   },
   {
-      "name": "Derro Savant",
-      "environments": "Underdark"
+    "name": "Derro Savant",
+    "environments": "Underdark"
   },
   {
-      "name": "Devil Dog",
-      "environments": "Urban"
+    "name": "Devil Dog",
+    "environments": "Urban"
   },
   {
-      "name": "Devourer",
-      "environments": "Underdark"
+    "name": "Devourer",
+    "environments": "Underdark"
   },
   {
-      "name": "Devourer",
-      "environments": "Underdark"
+    "name": "Devourer",
+    "environments": "Underdark"
   },
   {
-      "name": "Dhergoloth",
-      "environments": "Underdark"
+    "name": "Dhergoloth",
+    "environments": "Underdark"
   },
   {
-      "name": "Dhergoloth",
-      "environments": "Underdark"
+    "name": "Dhergoloth",
+    "environments": "Underdark"
   },
   {
-      "name": "Diderius",
-      "environments": "Desert"
+    "name": "Diderius",
+    "environments": "Desert"
   },
   {
-      "name": "Dimetrodon",
-      "environments": [
-          "Coastal",
-          "Swamp"
-      ]
+    "name": "Dimetrodon",
+    "environments": [
+      "Coastal",
+      "Swamp"
+    ]
   },
   {
-      "name": "Dimetrodon",
-      "environments": [
-          "Coastal",
-          "Swamp"
-      ]
+    "name": "Dimetrodon",
+    "environments": [
+      "Coastal",
+      "Swamp"
+    ]
   },
   {
-      "name": "Dinosaur Skeleton",
-      "environments": "Grassland"
+    "name": "Dinosaur Skeleton",
+    "environments": "Grassland"
   },
   {
-      "name": "Dire Corby",
-      "environments": "Underdark"
+    "name": "Dire Corby",
+    "environments": "Underdark"
   },
   {
-      "name": "Dire Troll",
-      "environments": [
-          "Arctic",
-          "Forest",
-          "Hill",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Dire Troll",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Dire Troll",
-      "environments": [
-          "Arctic",
-          "Forest",
-          "Hill",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Dire Troll",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Dire Wolf",
-      "environments": [
-          "Forest",
-          "Hill"
-      ]
+    "name": "Dire Wolf",
+    "environments": [
+      "Forest",
+      "Hill"
+    ]
   },
   {
-      "name": "Diseased Giant Rat",
-      "environments": [
-          "Forest",
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Diseased Giant Rat",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Displacer Beast",
-      "environments": "Forest"
+    "name": "Displacer Beast",
+    "environments": "Forest"
   },
   {
-      "name": "Diviner",
-      "environments": "Urban"
+    "name": "Diviner",
+    "environments": "Urban"
   },
   {
-      "name": "Diviner Wizard",
-      "environments": "Urban"
+    "name": "Diviner Wizard",
+    "environments": "Urban"
   },
   {
-      "name": "Djinni",
-      "environments": "Coastal"
+    "name": "Djinni",
+    "environments": "Coastal"
   },
   {
-      "name": "Dolphin",
-      "environments": [
-          "Coastal",
-          "Underwater"
-      ]
+    "name": "Dolphin",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
   },
   {
-      "name": "Dolphin",
-      "environments": [
-          "Coastal",
-          "Underwater"
-      ]
+    "name": "Dolphin",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
   },
   {
-      "name": "Dolphin Delighter",
-      "environments": [
-          "Coastal",
-          "Underwater"
-      ]
+    "name": "Dolphin Delighter",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
   },
   {
-      "name": "Doppelganger",
-      "environments": [
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Doppelganger",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Draegloth",
-      "environments": "Underdark"
+    "name": "Draegloth",
+    "environments": "Underdark"
   },
   {
-      "name": "Draegloth",
-      "environments": "Underdark"
+    "name": "Draegloth",
+    "environments": "Underdark"
   },
   {
-      "name": "Draft Horse",
-      "environments": "Urban"
+    "name": "Draft Horse",
+    "environments": "Urban"
   },
   {
-      "name": "Dragon Hunter",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Dragon Hunter",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Dragon Tortoise",
-      "environments": [
-          "Coastal",
-          "Underwater"
-      ]
+    "name": "Dragon Tortoise",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
   },
   {
-      "name": "Dragon Turtle",
-      "environments": [
-          "Coastal",
-          "Underwater"
-      ]
+    "name": "Dragon Turtle",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
   },
   {
-      "name": "Drider",
-      "environments": "Underdark"
+    "name": "Drider",
+    "environments": "Underdark"
   },
   {
-      "name": "Drider (variant)",
-      "environments": "Underdark"
+    "name": "Drider (variant)",
+    "environments": "Underdark"
   },
   {
-      "name": "Drivvin Freth",
-      "environments": "Urban"
+    "name": "Drivvin Freth",
+    "environments": "Urban"
   },
   {
-      "name": "Drow",
-      "environments": "Underdark"
+    "name": "Drow",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Arachnomancer",
-      "environments": "Underdark"
+    "name": "Drow Arachnomancer",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Arachnomancer",
-      "environments": "Underdark"
+    "name": "Drow Arachnomancer",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Assassin",
-      "environments": "Urban"
+    "name": "Drow Assassin",
+    "environments": "Urban"
   },
   {
-      "name": "Drow Elite Warrior",
-      "environments": "Underdark"
+    "name": "Drow Elite Warrior",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Favored Consort",
-      "environments": "Underdark"
+    "name": "Drow Favored Consort",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Favored Consort",
-      "environments": "Underdark"
+    "name": "Drow Favored Consort",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow House Captain",
-      "environments": "Underdark"
+    "name": "Drow House Captain",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow House Captain",
-      "environments": "Underdark"
+    "name": "Drow House Captain",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Inquisitor",
-      "environments": "Underdark"
+    "name": "Drow Inquisitor",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Inquisitor",
-      "environments": "Underdark"
+    "name": "Drow Inquisitor",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Inquisitor (Summoner Variant)",
-      "environments": "Underdark"
+    "name": "Drow Inquisitor (Summoner Variant)",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Inquisitor (Summoner Variant)",
-      "environments": "Underdark"
+    "name": "Drow Inquisitor (Summoner Variant)",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Mage",
-      "environments": "Underdark"
+    "name": "Drow Mage",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Matron Mother",
-      "environments": "Underdark"
+    "name": "Drow Matron Mother",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Matron Mother",
-      "environments": "Underdark"
+    "name": "Drow Matron Mother",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Mother of Rebellion",
-      "environments": "Underdark"
+    "name": "Drow Mother of Rebellion",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Shadowblade",
-      "environments": "Underdark"
+    "name": "Drow Shadowblade",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Shadowblade",
-      "environments": "Underdark"
+    "name": "Drow Shadowblade",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Shadowblade (Summoner Variant)",
-      "environments": "Underdark"
+    "name": "Drow Shadowblade (Summoner Variant)",
+    "environments": "Underdark"
   },
   {
-      "name": "Drow Shadowblade (Summoner Variant)",
-      "environments": "Underdark"
+    "name": "Drow Shadowblade (Summoner Variant)",
+    "environments": "Underdark"
   },
   {
-      "name": "Druid",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain",
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Druid",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Dryad",
-      "environments": "Forest"
+    "name": "Dryad",
+    "environments": "Forest"
   },
   {
-      "name": "Duchess Brimskarda",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duchess Brimskarda",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar",
-      "environments": "Underdark"
+    "name": "Duergar",
+    "environments": "Underdark"
   },
   {
-      "name": "Duergar Alchemist",
-      "environments": "Underdark"
+    "name": "Duergar Alchemist",
+    "environments": "Underdark"
   },
   {
-      "name": "Duergar Despot",
-      "environments": "Mountain"
+    "name": "Duergar Despot",
+    "environments": "Mountain"
   },
   {
-      "name": "Duergar Despot",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Despot",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Hammerer",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Hammerer",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Hammerer",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Hammerer",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Kavalrachni",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Kavalrachni",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Kavalrachni",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Kavalrachni",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Mind Master",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Mind Master",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Mind Master",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Mind Master",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Screamer",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Screamer",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Screamer",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Screamer",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Soulblade",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Soulblade",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Soulblade",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Soulblade",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Stone Guard",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Stone Guard",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Stone Guard",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Stone Guard",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Warlord",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Warlord",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Warlord",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Warlord",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Xarrorn",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Xarrorn",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duergar Xarrorn",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duergar Xarrorn",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Duke Zalto",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Duke Zalto",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Durnn",
-      "environments": [
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Underdark"
-      ]
+    "name": "Durnn",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
   },
   {
-      "name": "Dust Devil",
-      "environments": [
-          "Desert",
-          "Mountain"
-      ]
+    "name": "Dust Devil",
+    "environments": [
+      "Desert",
+      "Mountain"
+    ]
   },
   {
-      "name": "Dust Mephit",
-      "environments": "Desert"
+    "name": "Dust Mephit",
+    "environments": "Desert"
   },
   {
-      "name": "Dust Mephit (Summoner Variant)",
-      "environments": "Desert"
+    "name": "Dust Mephit (Summoner Variant)",
+    "environments": "Desert"
   },
   {
-      "name": "Dwarven Worker",
-      "environments": "Urban"
+    "name": "Dwarven Worker",
+    "environments": "Urban"
   },
   {
-      "name": "Dybbuk",
-      "environments": [
-          "Desert",
-          "Urban"
-      ]
+    "name": "Dybbuk",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
   },
   {
-      "name": "Dybbuk",
-      "environments": [
-          "Desert",
-          "Urban"
-      ]
+    "name": "Dybbuk",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
   },
   {
-      "name": "Eagle",
-      "environments": [
-          "Coastal",
-          "Grassland",
-          "Hill",
-          "Mountain"
-      ]
+    "name": "Eagle",
+    "environments": [
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
   },
   {
-      "name": "Earth Elemental",
-      "environments": "Underdark"
+    "name": "Earth Elemental",
+    "environments": "Underdark"
   },
   {
-      "name": "East Wind",
-      "environments": "Urban"
+    "name": "East Wind",
+    "environments": "Urban"
   },
   {
-      "name": "Ebondeath",
-      "environments": [
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Ebondeath",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Efreeti",
-      "environments": "Desert"
+    "name": "Efreeti",
+    "environments": "Desert"
   },
   {
-      "name": "Eidolon",
-      "environments": [
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Mountain",
-          "Urban"
-      ]
+    "name": "Eidolon",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Mountain",
+      "Urban"
+    ]
   },
   {
-      "name": "Eidolon",
-      "environments": [
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Mountain",
-          "Urban"
-      ]
+    "name": "Eidolon",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Mountain",
+      "Urban"
+    ]
   },
   {
-      "name": "Eigeron’s Spirit",
-      "environments": [
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Eigeron’s Spirit",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Elder Black Pudding",
-      "environments": "Underdark"
+    "name": "Elder Black Pudding",
+    "environments": "Underdark"
   },
   {
-      "name": "Elder Brain",
-      "environments": "Underdark"
+    "name": "Elder Brain",
+    "environments": "Underdark"
   },
   {
-      "name": "Elder Brain",
-      "environments": "Underdark"
+    "name": "Elder Brain",
+    "environments": "Underdark"
   },
   {
-      "name": "Elder Oblex",
-      "environments": [
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Elder Oblex",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Elder Oblex",
-      "environments": [
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Elder Oblex",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Elder Tempest",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Grassland",
-          "Mountain"
-      ]
+    "name": "Elder Tempest",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Grassland",
+      "Mountain"
+    ]
   },
   {
-      "name": "Elder Tempest",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Grassland",
-          "Hill",
-          "Mountain"
-      ]
+    "name": "Elder Tempest",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
   },
   {
-      "name": "Elephant",
-      "environments": "Grassland"
+    "name": "Elephant",
+    "environments": "Grassland"
   },
   {
-      "name": "Elister Noggins",
-      "environments": "Urban"
+    "name": "Elister Noggins",
+    "environments": "Urban"
   },
   {
-      "name": "Elk",
-      "environments": [
-          "Forest",
-          "Grassland",
-          "Hill"
-      ]
+    "name": "Elk",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
   },
   {
-      "name": "Emberosa",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Emberosa",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Embric",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Hill",
-          "Urban"
-      ]
+    "name": "Embric",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Urban"
+    ]
   },
   {
-      "name": "Enchanter",
-      "environments": "Urban"
+    "name": "Enchanter",
+    "environments": "Urban"
   },
   {
-      "name": "Enchanter Wizard",
-      "environments": "Urban"
+    "name": "Enchanter Wizard",
+    "environments": "Urban"
   },
   {
-      "name": "Enhanced Medusa",
-      "environments": "Desert"
+    "name": "Enhanced Medusa",
+    "environments": "Desert"
   },
   {
-      "name": "Enhanced Sphinx",
-      "environments": "Desert"
+    "name": "Enhanced Sphinx",
+    "environments": "Desert"
   },
   {
-      "name": "Enormous Tentacle",
-      "environments": [
-          "Desert",
-          "Forest",
-          "Swamp",
-          "Underdark",
-          "Underwater"
-      ]
+    "name": "Enormous Tentacle",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Underwater"
+    ]
   },
   {
-      "name": "Erky Timbers",
-      "environments": "Urban"
+    "name": "Erky Timbers",
+    "environments": "Urban"
   },
   {
-      "name": "Estia",
-      "environments": "Mountain"
+    "name": "Estia",
+    "environments": "Mountain"
   },
   {
-      "name": "Ettercap",
-      "environments": "Forest"
+    "name": "Ettercap",
+    "environments": "Forest"
   },
   {
-      "name": "Ettercap (variant)",
-      "environments": "Forest"
+    "name": "Ettercap (variant)",
+    "environments": "Forest"
   },
   {
-      "name": "Ettin",
-      "environments": [
-          "Hill",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Ettin",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Evoker",
-      "environments": "Urban"
+    "name": "Evoker",
+    "environments": "Urban"
   },
   {
-      "name": "Evoker Wizard",
-      "environments": "Urban"
+    "name": "Evoker Wizard",
+    "environments": "Urban"
   },
   {
-      "name": "Faerie Dragon (Older)",
-      "environments": "Forest"
+    "name": "Faerie Dragon (Older)",
+    "environments": "Forest"
   },
   {
-      "name": "Faerie Dragon (Younger)",
-      "environments": "Forest"
+    "name": "Faerie Dragon (Younger)",
+    "environments": "Forest"
   },
   {
-      "name": "Failed Dragonpriest",
-      "environments": [
-          "Arctic",
-          "Forest",
-          "Hill",
-          "Mountain",
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Failed Dragonpriest",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Fala Lefaliir",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain",
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Fala Lefaliir",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Felbarren Dwarf",
-      "environments": [
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Mountain",
-          "Urban"
-      ]
+    "name": "Felbarren Dwarf",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Urban"
+    ]
   },
   {
-      "name": "Female Steeder",
-      "environments": "Underdark"
+    "name": "Female Steeder",
+    "environments": "Underdark"
   },
   {
-      "name": "Female Steeder",
-      "environments": "Underdark"
+    "name": "Female Steeder",
+    "environments": "Underdark"
   },
   {
-      "name": "Fennor",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Hill",
-          "Mountain"
-      ]
+    "name": "Fennor",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain"
+    ]
   },
   {
-      "name": "Ferol Sal",
-      "environments": [
-          "Desert",
-          "Swamp",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Ferol Sal",
+    "environments": [
+      "Desert",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Fiendish Giant Spider",
-      "environments": [
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill"
-      ]
+    "name": "Fiendish Giant Spider",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
   },
   {
-      "name": "Fire Elemental",
-      "environments": "Desert"
+    "name": "Fire Elemental",
+    "environments": "Desert"
   },
   {
-      "name": "Fire Giant",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Fire Giant",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Fire Giant (variant)",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Fire Giant (variant)",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Fire Giant Dreadnought",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Fire Giant Dreadnought",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Fire Giant Dreadnought",
-      "environments": [
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Fire Giant Dreadnought",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Fire Snake",
-      "environments": "Underdark"
+    "name": "Fire Snake",
+    "environments": "Underdark"
   },
   {
-      "name": "Firenewt Warlock of Imix",
-      "environments": [
-          "Hill",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Firenewt Warlock of Imix",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Firenewt Warlock of Imix",
-      "environments": [
-          "Hill",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Firenewt Warlock of Imix",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Firenewt Warrior",
-      "environments": [
-          "Desert",
-          "Hill",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Firenewt Warrior",
+    "environments": [
+      "Desert",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Firenewt Warrior",
-      "environments": [
-          "Desert",
-          "Hill",
-          "Mountain",
-          "Underdark"
-      ]
+    "name": "Firenewt Warrior",
+    "environments": [
+      "Desert",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
   },
   {
-      "name": "Five-armed Troll",
-      "environments": [
-          "Arctic",
-          "Forest",
-          "Hill",
-          "Mountain",
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Five-armed Troll",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Flail Snail",
-      "environments": [
-          "Forest",
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Flail Snail",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Flail Snail",
-      "environments": [
-          "Forest",
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Flail Snail",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Flameskull",
-      "environments": "Underdark"
+    "name": "Flameskull",
+    "environments": "Underdark"
   },
   {
-      "name": "Flind",
-      "environments": [
-          "Arctic",
-          "Forest",
-          "Grassland",
-          "Hill"
-      ]
+    "name": "Flind",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
   },
   {
-      "name": "Flind",
-      "environments": [
-          "Coastal",
-          "Forest",
-          "Grassland",
-          "Hill"
-      ]
+    "name": "Flind",
+    "environments": [
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
   },
   {
-      "name": "Floon Blagmaar",
-      "environments": [
-          "Arctic",
-          "Coastal",
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill",
-          "Urban"
-      ]
+    "name": "Floon Blagmaar",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Urban"
+    ]
   },
   {
-      "name": "Flumph",
-      "environments": "Underdark"
+    "name": "Flumph",
+    "environments": "Underdark"
   },
   {
-      "name": "Flying Snake",
-      "environments": [
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Urban"
-      ]
+    "name": "Flying Snake",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Urban"
+    ]
   },
   {
-      "name": "Fomorian",
-      "environments": "Underdark"
+    "name": "Fomorian",
+    "environments": "Underdark"
   },
   {
-      "name": "Four-Armed Gargoyle",
-      "environments": [
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Four-Armed Gargoyle",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Froghemoth",
-      "environments": [
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Froghemoth",
+    "environments": [
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Froghemoth",
-      "environments": [
-          "Swamp",
-          "Underdark"
-      ]
+    "name": "Froghemoth",
+    "environments": [
+      "Swamp",
+      "Underdark"
+    ]
   },
   {
-      "name": "Frost Giant",
-      "environments": [
-          "Arctic",
-          "Mountain"
-      ]
+    "name": "Frost Giant",
+    "environments": [
+      "Arctic",
+      "Mountain"
+    ]
   },
   {
-      "name": "Frost Giant (variant)",
-      "environments": [
-          "Arctic",
-          "Mountain"
-      ]
+    "name": "Frost Giant (variant)",
+    "environments": [
+      "Arctic",
+      "Mountain"
+    ]
   },
   {
-      "name": "Frost Giant Everlasting One",
-      "environments": [
-          "Arctic",
-          "Coastal"
-      ]
+    "name": "Frost Giant Everlasting One",
+    "environments": [
+      "Arctic",
+      "Coastal"
+    ]
   },
   {
-      "name": "Frost Giant Everlasting One",
-      "environments": "Coastal"
+    "name": "Frost Giant Everlasting One",
+    "environments": "Coastal"
   },
   {
-      "name": "Frost Salamander",
-      "environments": "Arctic"
+    "name": "Frost Salamander",
+    "environments": "Arctic"
   },
   {
-      "name": "Frost Salamander",
-      "environments": "Arctic"
+    "name": "Frost Salamander",
+    "environments": "Arctic"
   },
   {
-      "name": "Galeb Duhr",
-      "environments": [
-          "Hill",
-          "Mountain"
-      ]
+    "name": "Galeb Duhr",
+    "environments": [
+      "Hill",
+      "Mountain"
+    ]
   },
   {
-      "name": "Gargoyle",
-      "environments": [
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Gargoyle",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Garra",
-      "environments": [
-          "Arctic",
-          "Desert",
-          "Forest",
-          "Hill",
-          "Mountain",
-          "Underdark",
-          "Urban"
-      ]
+    "name": "Garra",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
   },
   {
-      "name": "Gas Spore",
-      "environments": "Underdark"
+    "name": "Gas Spore",
+    "environments": "Underdark"
   },
   {
-      "name": "Gash the Gnoll",
-      "environments": [
-          "Desert",
-          "Forest",
-          "Grassland",
-          "Hill"
-      ]
+    "name": "Gash the Gnoll",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
   },
   {
-      "name": "Gauth",
-      "environments": "Underdark"
+    "name": "Gauth",
+    "environments": "Underdark"
   },
   {
-      "name": "Gauth",
-      "environments": "Underdark"
+    "name": "Gauth",
+    "environments": "Underdark"
   },
   {
-      "name": "Gazer",
-      "environments": "Underdark"
+    "name": "Gazer",
+    "environments": "Underdark"
   },
   {
-      "name": "Gazer",
-      "environments": "Underdark"
+    "name": "Gazer",
+    "environments": "Underdark"
   },
   {
-      "name": "Gazer (Familiar Variant)",
-      "environments": "Underdark"
+    "name": "Gazer (Familiar Variant)",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Gazer Familiar",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Gelatinous Cube",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Gelatinous Cube (Giant Ooze variant)",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Gem Stalker",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Ghast",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Ghost",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Ghoul",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Giant Ape",
+    "environments": "Forest"
+  },
+  {
+    "name": "Giant Badger",
+    "environments": "Forest"
+  },
+  {
+    "name": "Giant Bat",
+    "environments": [
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Giant Boar",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Giant Centipede",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Giant Crab",
+    "environments": "Coastal"
+  },
+  {
+    "name": "Giant Crocodile",
+    "environments": "Swamp"
+  },
+  {
+    "name": "Giant Eagle",
+    "environments": [
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Giant Elk",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Giant Frog",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Giant Goat",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Giant Hyena",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Giant Lizard",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Giant Lizard (variant)",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Giant Mimic",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Giant Octopus",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Giant Owl",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Giant Rat",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Giant Riding Lizard",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Giant Rocktopus",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Giant Scorpion",
+    "environments": "Desert"
+  },
+  {
+    "name": "Giant Sea Horse",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Giant Shark",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Giant Shark Skeleton",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Giant Spider",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Giant Strider",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Giant Strider",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Giant Swan",
+    "environments": [
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Giant Toad",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Giant Vulture",
+    "environments": [
+      "Desert",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Giant Wasp",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Giant Weasel",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Giant White Moray Eel",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gibbering Mouther",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Giff",
+    "environments": "Urban"
+  },
+  {
+    "name": "Giff",
+    "environments": "Urban"
+  },
+  {
+    "name": "Giff (Gunpowder Keg Variant)",
+    "environments": "Urban"
+  },
+  {
+    "name": "Gildha Duhn",
+    "environments": "Urban"
+  },
+  {
+    "name": "Girallon",
+    "environments": "Forest"
+  },
+  {
+    "name": "Girallon",
+    "environments": "Forest"
+  },
+  {
+    "name": "Githyanki Gish",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Githyanki Gish",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Githyanki Kith’rak",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Githyanki Kith’rak",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Githyanki Supreme Commander",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Githyanki Supreme Commander",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Githzerai Enlightened",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Githzerai Enlightened",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Glabbagool",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Gladiator",
+    "environments": "Urban"
+  },
+  {
+    "name": "Gloine Nathair-Nathair",
+    "environments": "Desert"
+  },
+  {
+    "name": "Gloom Weaver",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Gnoll",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gnoll Fang of Yeenoghu",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gnoll Flesh Gnawer",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gnoll Flesh Gnawer",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gnoll Hunter",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gnoll Hunter",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gnoll Pack Lord",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gnoll Witherling",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gnoll Witherling",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Goat",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Goblin",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Goblin Boss",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Goblin Commoner",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Gold Dragon Wyrmling",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Gorgon",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gorka Tharn",
+    "environments": "Desert"
+  },
+  {
+    "name": "Grandfather Oak",
+    "environments": "Forest"
+  },
+  {
+    "name": "Gray Ooze",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Gray Render",
+    "environments": [
+      "Forest",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gray Render",
+    "environments": [
+      "Forest",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Great Chief Halric Bonesnapper",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Green Abishai",
+    "environments": "Urban"
+  },
+  {
+    "name": "Green Abishai",
+    "environments": "Urban"
+  },
+  {
+    "name": "Green Guard Drake",
+    "environments": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Green Guard Drake",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Green Hag",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Green Hag (Coven Variant)",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Grell",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Grenl",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Grick",
+    "environments": [
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Grick Alpha",
+    "environments": [
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Griffon",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Grimlock",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Grung",
+    "environments": "Forest"
+  },
+  {
+    "name": "Grung",
+    "environments": "Forest"
+  },
+  {
+    "name": "Grung Elite Warrior",
+    "environments": "Forest"
+  },
+  {
+    "name": "Grung Elite Warrior",
+    "environments": "Forest"
+  },
+  {
+    "name": "Grung Wildling",
+    "environments": "Forest"
+  },
+  {
+    "name": "Grung Wildling",
+    "environments": "Forest"
+  },
+  {
+    "name": "Grunka",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Guard",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Guard Drake",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Guard Drake",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Guardian Naga",
+    "environments": [
+      "Desert",
+      "Forest"
+    ]
+  },
+  {
+    "name": "Guthash",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Gynosphinx",
+    "environments": "Desert"
+  },
+  {
+    "name": "Hadrosaurus",
+    "environments": [
+      "Grassland",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Hadrosaurus",
+    "environments": [
+      "Grassland",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Halfling Musician",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Halfling Wererat",
+    "environments": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Half-Ogre",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Hanne Hallen",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Harpy",
+    "environments": [
+      "Coastal",
+      "Forest",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Harria Valashtar",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Harshnag the Grim",
+    "environments": [
+      "Arctic",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Havia Quickknife",
+    "environments": "Urban"
+  },
+  {
+    "name": "Hell Hound",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Hester Barch",
+    "environments": "Urban"
+  },
+  {
+    "name": "Hew Hackinstone",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Hill Giant",
+    "environments": "Hill"
+  },
+  {
+    "name": "Hill Giant (variant)",
+    "environments": "Hill"
+  },
+  {
+    "name": "Hill Giant Sergeant",
+    "environments": "Hill"
+  },
+  {
+    "name": "Hill Giant Subchief",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Hippogriff",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Hobgoblin",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Hobgoblin Captain",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Hobgoblin Devastator",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Hobgoblin Devastator",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Hobgoblin Iron Shadow",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Hobgoblin Iron Shadow",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Hobgoblin Warlord",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Hook Horror",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Hook Horror (Infant)",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Hook Horror (Juvenile)",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Hook Horror (Young)",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Horgar Steelshadow V",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Howler",
+    "environments": [
+      "Desert",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Howler",
+    "environments": [
+      "Desert",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Huge Giant Crab",
+    "environments": "Coastal"
+  },
+  {
+    "name": "Huge Gray Ooze",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Hulil Lutan",
+    "environments": "Urban"
+  },
+  {
+    "name": "Hungry Sorrowsworn",
+    "environments": [
+      "Forest",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Hunter Shark",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Hydra",
+    "environments": "Swamp"
+  },
+  {
+    "name": "Hyena",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Ice Mephit",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Ice Mephit (Summoner Variant)",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Ice Spider",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Ice Spider Queen",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Ice Troll",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Illusionist",
+    "environments": "Urban"
+  },
+  {
+    "name": "Illusionist Wizard",
+    "environments": "Urban"
+  },
+  {
+    "name": "Immured One",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Imperator Uthor",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Incubus",
+    "environments": "Urban"
+  },
+  {
+    "name": "Intellect Devourer",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Intelligent Black Pudding",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Invisible Stalker",
+    "environments": "Urban"
+  },
+  {
+    "name": "Iron Cobra",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Ishel",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Iymrith",
+    "environments": [
+      "Coastal",
+      "Desert"
+    ]
+  },
+  {
+    "name": "Jackal",
+    "environments": [
+      "Desert",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Jackalwere",
+    "environments": [
+      "Desert",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Jarl Grugnur",
+    "environments": "Mountain"
+  },
+  {
+    "name": "Jarl Storvald",
+    "environments": [
+      "Arctic",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Jasper Dimmerchasm",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Jelayne",
+    "environments": "Urban"
+  },
+  {
+    "name": "Juvenile Kraken",
+    "environments": "Underwater"
+  },
+  {
+    "name": "K’Tulah",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Kaarghaz",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Kadroth",
+    "environments": "Urban"
+  },
+  {
+    "name": "Kaevja Cynavern",
+    "environments": "Urban"
+  },
+  {
+    "name": "Kalain",
+    "environments": "Urban"
+  },
+  {
+    "name": "Karkethzerethzerus, the Sable Despoiler",
+    "environments": [
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Kasimir Velikov",
+    "environments": "Urban"
+  },
+  {
+    "name": "Kayalithica",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Kenku",
+    "environments": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Keresta Delvingstone",
+    "environments": "Urban"
+  },
+  {
+    "name": "Khalessa Draga",
+    "environments": "Urban"
+  },
+  {
+    "name": "Killer Whale",
+    "environments": "Underwater"
+  },
+  {
+    "name": "King Grol",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "King Hekaton",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "King of Feathers",
+    "environments": "Grassland"
+  },
+  {
+    "name": "King Snurre",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Kiril Stoyanovich",
+    "environments": [
+      "Forest",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Ki-rin",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Grassland",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Ki-rin",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Grassland",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Klauth",
+    "environments": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Knight",
+    "environments": "Urban"
+  },
+  {
+    "name": "Knight of the Mithral Shield",
+    "environments": "Urban"
+  },
+  {
+    "name": "Kobold",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Kobold Commoner",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Kobold Dragonshield",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Kobold Dragonshield",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Kobold Inventor",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Kobold Inventor",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Kobold Scale Sorcerer",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Kobold Scale Sorcerer",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Kobold Underling",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Korred",
+    "environments": "Forest"
+  },
+  {
+    "name": "Korred",
+    "environments": "Forest"
+  },
+  {
+    "name": "Kraken",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Kraken Priest",
+    "environments": [
+      "Coastal",
+      "Underwater",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Kraken Priest",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Krell Grohlg",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Kruthik Hive Lord",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Kruthik Hive Lord",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Kuo-toa",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Kuo-toa Archpriest",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Kuo-toa Monitor",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Kuo-toa Whip",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Lacedon",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Lady Gondafrey",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Lamia",
+    "environments": "Desert"
+  },
+  {
+    "name": "Large Subterranean Lizard",
+    "environments": "Swamp"
+  },
+  {
+    "name": "Left Hand of Manshoon",
+    "environments": "Urban"
+  },
+  {
+    "name": "Leucrotta",
+    "environments": [
+      "Desert",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Leucrotta",
+    "environments": [
+      "Desert",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Leviathan",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Leviathan",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Lhupo",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Ligotti",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Lion",
+    "environments": [
+      "Desert",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Lizardfolk",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Lizardfolk Commoner",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Lizardfolk Render",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Lizardfolk Scaleshield",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Lizardfolk Shaman",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Lizardfolk Subchief",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Lonely Sorrowsworn",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Lord Khaspere Drylund",
+    "environments": "Urban"
+  },
+  {
+    "name": "Lorthuun",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Losser Mirklav",
+    "environments": "Urban"
+  },
+  {
+    "name": "Lost Sorrowsworn",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Madcap",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Mage",
+    "environments": "Urban"
+  },
+  {
+    "name": "Magister Umbero Zastro",
+    "environments": "Urban"
+  },
+  {
+    "name": "Magma Mephit",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Magma Mephit (Summoner Variant)",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Male Steeder",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Male Steeder",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Mammoth",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Manafret Cherryport",
+    "environments": "Urban"
+  },
+  {
+    "name": "Manticore",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Marid",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Marta Moonshadow",
+    "environments": "Urban"
+  },
+  {
+    "name": "Martial Arts Adept",
+    "environments": "Urban"
+  },
+  {
+    "name": "Martial Arts Adept",
+    "environments": "Urban"
+  },
+  {
+    "name": "Master Thief",
+    "environments": "Urban"
+  },
+  {
+    "name": "Master Thief",
+    "environments": "Urban"
+  },
+  {
+    "name": "Mastiff",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Maurezhi",
+    "environments": [
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Maurezhi",
+    "environments": [
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Maw Demon",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Maw Demon",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Maw of Sekolah",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Meazel",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Meazel",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Mechachimera",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Medusa",
+    "environments": "Desert"
+  },
+  {
+    "name": "Medusa (Theran variant)",
+    "environments": "Desert"
+  },
+  {
+    "name": "Meenlock",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Meenlock",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Melannor Fellbranch",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Melissara Shadowdusk",
+    "environments": "Urban"
+  },
+  {
+    "name": "Merfolk",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Merfolk Salvager",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Merfolk Scout",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Merrenoloth",
+    "environments": "Coastal"
+  },
+  {
+    "name": "Merrenoloth",
+    "environments": "Coastal"
+  },
+  {
+    "name": "Merrow",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Metal Wasp",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Mev Flintknapper",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Milivoj",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Mimic",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Mimic Chair",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Mind Flayer",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Mind Flayer Arcanist",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Mind Flayer Lich (Illithilich)",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Mind Flayer Psion",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Mindwitness",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Mindwitness",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Minotaur",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Minotaur Skeleton",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Mjenir",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Molten Magma Roper",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Monastery of the Distressed Body, Elder Monk",
+    "environments": "Urban"
+  },
+  {
+    "name": "Monastery of the Distressed Body, Monk",
+    "environments": "Urban"
+  },
+  {
+    "name": "Monstrous Peryton",
+    "environments": "Coastal"
+  },
+  {
+    "name": "Mookie Plush",
+    "environments": "Urban"
+  },
+  {
+    "name": "Moonshark",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Morkoth",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Morkoth",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Mouth of Grolantor",
+    "environments": [
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Mouth of Grolantor",
+    "environments": [
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Mud Mephit",
+    "environments": "Swamp"
+  },
+  {
+    "name": "Mud Mephit (Summoner Variant)",
+    "environments": "Swamp"
+  },
+  {
+    "name": "Mule",
+    "environments": [
+      "Desert",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Mummy",
+    "environments": "Desert"
+  },
+  {
+    "name": "Mummy Lord",
+    "environments": "Desert"
+  },
+  {
+    "name": "Mutated Drow",
+    "environments": "Mountain"
+  },
+  {
+    "name": "Myconid Adult",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Myconid Sovereign",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Myconid Sprout",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Nabassu",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Nabassu",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Nagpa",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Nagpa",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Necromancer",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Necromancer Wizard",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Necrotic Centipede",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Needle Blight",
+    "environments": "Forest"
+  },
+  {
+    "name": "Neogi",
+    "environments": [
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Neogi",
+    "environments": [
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Neogi Hatchling",
+    "environments": [
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Neogi Hatchling",
+    "environments": [
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Neogi Master",
+    "environments": [
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Neogi Master",
+    "environments": [
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Neothelid",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Neothelid",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Nester",
+    "environments": "Urban"
+  },
+  {
+    "name": "Nightsea chil-liren",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Nightwalker",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Nightwalker",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Nilbog",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Nilbog",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Nimira",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Noble",
+    "environments": "Urban"
+  },
+  {
+    "name": "Noska Ur’gray",
+    "environments": "Urban"
+  },
+  {
+    "name": "Nothic",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Nurvureem",
+    "environments": "Swamp"
+  },
+  {
+    "name": "Nyxborn lynx",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Oaken Bolter",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Oblex Spawn",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Oblex Spawn",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Obliteros",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Obmi",
+    "environments": "Urban"
+  },
+  {
+    "name": "Ochre Jelly",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Octopus",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Ogre",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Ogre Battering Ram",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Ogre Battering Ram",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Ogre Bolt Launcher",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Ogre Bolt Launcher",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Ogre Chain Brute",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Ogre Chain Brute",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Ogre Howdah",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Ogre Howdah",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Ogre Lord Buhfal II",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Ogre Skeleton",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Oinoloth",
+    "environments": [
+      "Desert",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Oinoloth",
+    "environments": [
+      "Desert",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Old Croaker",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Oni",
+    "environments": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Onyx",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Oracs the Enduring",
+    "environments": "Swamp"
+  },
+  {
+    "name": "Orc",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Orc Blade of Ilneval",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Orc Claw of Luthic",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Orc Eye of Gruumsh",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Orc Hand of Yurtrus",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Orc Nurtured One of Yurtrus",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Orc Red Fang of Shargaas",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Orog",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Orok",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Orond Gralhund",
+    "environments": "Urban"
+  },
+  {
+    "name": "Orthon",
+    "environments": [
+      "Desert",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Orthon",
+    "environments": [
+      "Desert",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Orvex Ocrammas",
+    "environments": "Urban"
+  },
+  {
+    "name": "Ott Steeltoes",
+    "environments": "Urban"
+  },
+  {
+    "name": "Otto",
+    "environments": "Forest"
+  },
+  {
+    "name": "Otyugh",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Owl",
+    "environments": [
+      "Arctic",
+      "Forest"
+    ]
+  },
+  {
+    "name": "Owlbear",
+    "environments": "Forest"
+  },
+  {
+    "name": "Ox",
+    "environments": [
+      "Grassland",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Ox",
+    "environments": [
+      "Grassland",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Padraich",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Panther",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Parasite-infested Behir",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Parson Pellinost",
+    "environments": "Urban"
+  },
+  {
+    "name": "Pegasus",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Peryton",
+    "environments": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Phase Spider",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Phoenix",
+    "environments": [
+      "Desert",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Phoenix",
+    "environments": [
+      "Desert",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Piercer",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Pig",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Pixie",
+    "environments": "Forest"
+  },
+  {
+    "name": "Plesiosaurus",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Poison Weird",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Poisonous Snake",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Polar Bear",
+    "environments": [
+      "Arctic",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Poltergeist",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Pony",
+    "environments": "Urban"
+  },
+  {
+    "name": "Pow Ming",
+    "environments": "Urban"
+  },
+  {
+    "name": "Preeta Kreepa",
+    "environments": "Urban"
+  },
+  {
+    "name": "Priest",
+    "environments": "Urban"
+  },
+  {
+    "name": "Prince Livid",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Princess Ebonmire",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Princess Serissa",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Prophetess Dran",
+    "environments": "Urban"
+  },
+  {
+    "name": "Pseudodragon",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Pseudodragon (familiar variant)",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Psychic Gray Ooze",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Pteranodon",
+    "environments": [
+      "Coastal",
+      "Grassland",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Purple Worm",
+    "environments": [
+      "Desert",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Quaggoth",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Quaggoth Spore Servant",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Quaggoth Thonot",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "environments": [
+      "Coastal",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "environments": [
+      "Coastal",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Quickling",
+    "environments": "Forest"
+  },
+  {
+    "name": "Quickling",
+    "environments": "Forest"
+  },
+  {
+    "name": "Quipper",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Raegrin Mau",
+    "environments": "Urban"
+  },
+  {
+    "name": "Rakshasa",
+    "environments": "Urban"
+  },
+  {
+    "name": "Ram Sugar",
+    "environments": "Urban"
+  },
+  {
+    "name": "Rat",
+    "environments": [
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Raven",
+    "environments": [
+      "Hill",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Red Abishai",
+    "environments": [
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Red Abishai",
+    "environments": [
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Red Guard Drake",
+    "environments": [
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Red Guard Drake",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Redcap",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Redcap",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Reduced-threat Aboleth",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Reduced-threat Basilisk",
+    "environments": "Mountain"
+  },
+  {
+    "name": "Reduced-threat Behir",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Reduced-threat Black Pudding",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Reduced-threat Carrion Crawler",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Reduced-threat Darkmantle",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Reduced-threat Displacer Beast",
+    "environments": "Forest"
+  },
+  {
+    "name": "Reduced-threat Dragon Turtle",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Reduced-threat Ettercap",
+    "environments": "Forest"
+  },
+  {
+    "name": "Reduced-threat Gray Ooze",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Reduced-threat Hook Horror",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Reduced-threat Ochre Jelly",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Reduced-threat Otyugh",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Reduced-threat Owlbear",
+    "environments": "Forest"
+  },
+  {
+    "name": "Reduced-threat Peryton",
+    "environments": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Reduced-threat Remorhaz",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Reduced-threat Wight",
+    "environments": [
+      "Desert",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Reduced-threat Wyvern",
+    "environments": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Reef Shark",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Reflections",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Refrum",
+    "environments": "Urban"
+  },
+  {
+    "name": "Regenerating Black Pudding",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Reghed Shaman",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Reghed Warrior",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Remorhaz",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Retriever",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Retriever",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Revenant",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Rhinoceros",
+    "environments": "Grassland"
+  },
+  {
+    "name": "Rhundorth",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Riding Horse",
+    "environments": [
+      "Grassland",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Rihuud",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Rishaal",
+    "environments": "Urban"
+  },
+  {
+    "name": "Roc",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Roper",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Roscoe Underbough",
+    "environments": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Rose Durst",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Rot Troll",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Rot Troll",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Rothé",
+    "environments": "Grassland"
+  },
+  {
+    "name": "Rust Monster",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Saber-Toothed Tiger",
+    "environments": [
+      "Arctic",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Saeth Cromley",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Sahuagin",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Sahuagin Baron",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Sahuagin Hatchling Swarm",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Sahuagin Priestess",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Salamander",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Salida",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Samara Strongbones",
+    "environments": "Urban"
+  },
+  {
+    "name": "Sangzor",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Satyr",
+    "environments": "Forest"
+  },
+  {
+    "name": "Satyr (Variant)",
+    "environments": "Forest"
+  },
+  {
+    "name": "Sauriv",
+    "environments": "Urban"
+  },
+  {
+    "name": "Scarecrow",
+    "environments": "Grassland"
+  },
+  {
+    "name": "Scorpion",
+    "environments": "Desert"
+  },
+  {
+    "name": "Scout",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Sea Elf",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Sea Hag",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Sea Hag (Coven Variant)",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Sea Spawn",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Sea Spawn",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Sekelok",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Sensa Prince",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Sentient Gray Ooze",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Sentient Ochre Jelly",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Seodra",
+    "environments": "Urban"
+  },
+  {
+    "name": "Shadar-kai Gloom Weaver",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Shadar-kai Shadow Dancer",
+    "environments": [
+      "Forest",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Shadar-kai Soul Monger",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Shadow",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Shadow Dancer",
+    "environments": [
+      "Forest",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Shadow Mastiff",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Shadow Mastiff",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Shadow Mastiff Alpha",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Shadow Mastiff Alpha",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Shadowy Duplicate",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Shago",
+    "environments": "Urban"
+  },
+  {
+    "name": "Shambling Mound",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Sharkbody Abomination",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Shedrak of the Eyes",
+    "environments": "Urban"
+  },
+  {
+    "name": "Sheep",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Shell Shark",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Shield Dwarf",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Shield Guardian",
+    "environments": "Urban"
+  },
+  {
+    "name": "Shoosuva",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Shoosuva",
+    "environments": [
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Shrieker",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Shunn Shurreth",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Sibriex",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Sibriex",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Sir Godfrey Gwilym",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Skeletal Two-Headed Owlbear",
+    "environments": "Forest"
+  },
+  {
+    "name": "Skeleton",
+    "environments": "Urban"
+  },
+  {
+    "name": "Skeleton Key",
+    "environments": "Urban"
+  },
+  {
+    "name": "Skr’a S’orsk",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Skulk",
+    "environments": [
+      "Coastal",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Skulk",
+    "environments": [
+      "Coastal",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Skull Flier",
+    "environments": "Urban"
+  },
+  {
+    "name": "Skull Lord",
+    "environments": [
+      "Desert",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Skull Lord",
+    "environments": [
+      "Desert",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Sladis Vadir",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Slarkrethel",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Slithering Tracker",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Slithering Tracker",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Smoke Mephit",
+    "environments": "Urban"
+  },
+  {
+    "name": "Smoke Mephit (Summoner Variant)",
+    "environments": "Urban"
+  },
+  {
+    "name": "Snarl",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Snarla",
+    "environments": [
+      "Forest",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Snow Maiden",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Snowy Owlbear",
+    "environments": "Forest"
+  },
+  {
+    "name": "Snurrevin",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Soul Monger",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Spawn of Kyuss",
+    "environments": [
+      "Desert",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Spawn of Kyuss",
+    "environments": [
+      "Desert",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Spectator",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Specter",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Sphinx of Judgment",
+    "environments": "Desert"
+  },
+  {
+    "name": "Spider King",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Spiderbait",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Spirit Naga",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Spirit Troll",
+    "environments": [
+      "Coastal",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Spirit Troll",
+    "environments": [
+      "Coastal",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Spring Eladrin",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Spring Eladrin",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Sprite",
+    "environments": "Forest"
+  },
+  {
+    "name": "Spy",
+    "environments": "Urban"
+  },
+  {
+    "name": "Stalagma Steelshadow",
+    "environments": [
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Star Spawn Grue",
+    "environments": [
+      "Mountain",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Star Spawn Grue",
+    "environments": [
+      "Mountain",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Star Spawn Larva Mage",
+    "environments": "Mountain"
+  },
+  {
+    "name": "Star Spawn Larva Mage",
+    "environments": "Mountain"
+  },
+  {
+    "name": "Star Spawn Seer",
+    "environments": [
+      "Mountain",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Star Spawn Seer",
+    "environments": [
+      "Mountain",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Steam Mephit",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Steam Mephit (Summoner Variant)",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Steel Predator",
+    "environments": "Urban"
+  },
+  {
+    "name": "Steel Predator",
+    "environments": "Urban"
+  },
+  {
+    "name": "Stegosaurus",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Stegosaurus",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Stirge",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Stolos",
+    "environments": [
+      "Arctic",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Stone Cursed",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Stone Cursed",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Stone Defender",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Stone Giant",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Stone Giant (variant)",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Stone Giant Dreamwalker",
+    "environments": [
+      "Coastal",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Stone Giant Dreamwalker",
+    "environments": [
+      "Coastal",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Stone Giant of Deadstone Cleft",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Storm Giant",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Storm Giant (Variant)",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Storm Giant Princess",
+    "environments": [
+      "Coastal",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Storm Giant Quintessent",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Mountain",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Storm Giant Quintessent",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Mountain",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Succubus",
+    "environments": "Urban"
+  },
+  {
+    "name": "Summer Eladrin",
+    "environments": [
+      "Desert",
+      "Forest"
+    ]
+  },
+  {
+    "name": "Summer Eladrin",
+    "environments": [
+      "Desert",
+      "Forest"
+    ]
+  },
+  {
+    "name": "Sundeth",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Svirfneblin Wererat",
+    "environments": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Bats",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Cranium Rats",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Cranium Rats",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Insects",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Insects (Beetles)",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Insects (Centipedes)",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Insects (Spiders)",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Insects (Wasps)",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Mechanical Spiders",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Poisonous Snakes",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Swarm of Quippers",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Swarm of Rats",
+    "environments": [
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Rats (Diseased Variant)",
+    "environments": [
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Ravens",
+    "environments": [
+      "Forest",
+      "Hill",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swarm of Rot Grubs",
+    "environments": [
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Swarm of Rot Grubs",
+    "environments": [
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Swarm of Undead Snakes",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Swashbuckler",
+    "environments": [
+      "Coastal",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swashbuckler",
+    "environments": [
+      "Coastal",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Sword Wraith Commander",
+    "environments": [
+      "Grassland",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Sword Wraith Warrior",
+    "environments": [
+      "Grassland",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Sylvira Savikas",
+    "environments": "Urban"
+  },
+  {
+    "name": "Syndra Silvane",
+    "environments": "Urban"
+  },
+  {
+    "name": "Talisolvanar “Tally” Fellbranch",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Tanarukk",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Tanarukk",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Targor Bloodsword",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Tarrasque",
+    "environments": "Urban"
+  },
+  {
+    "name": "The Angry",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "The Hungry",
+    "environments": [
+      "Forest",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "The Keeper",
+    "environments": [
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "The Lonely",
+    "environments": [
+      "Coastal",
+      "Desert",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "The Lost",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "The Wretched",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Thorn Durst",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Thorny",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Thorny Vegepygmy",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Thorvin Twinbeard",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Three Earrings",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Thri-kreen",
+    "environments": [
+      "Desert",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Thri-kreen (psionics variant)",
+    "environments": [
+      "Desert",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Thri-kreen (weapons variant)",
+    "environments": [
+      "Desert",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Thug",
+    "environments": "Urban"
+  },
+  {
+    "name": "Thunderbeast Skeleton",
+    "environments": "Grassland"
+  },
+  {
+    "name": "Thwad Underbrew",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Tiefling Muralist",
+    "environments": "Urban"
+  },
+  {
+    "name": "Tiger",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Tlincalli",
+    "environments": "Desert"
+  },
+  {
+    "name": "Tlincalli",
+    "environments": "Desert"
+  },
+  {
+    "name": "Tloques-Popolocas",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Tooth-N-Claw",
+    "environments": [
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Torbit",
+    "environments": "Urban"
+  },
+  {
+    "name": "Tortle",
+    "environments": "Coastal"
+  },
+  {
+    "name": "Tortle",
+    "environments": "Coastal"
+  },
+  {
+    "name": "Tortle Druid",
+    "environments": "Coastal"
+  },
+  {
+    "name": "Tortle Druid",
+    "environments": "Coastal"
+  },
+  {
+    "name": "Transmuter",
+    "environments": "Urban"
+  },
+  {
+    "name": "Transmuter Wizard",
+    "environments": "Urban"
+  },
+  {
+    "name": "Trapper",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Trapper",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Traxigor",
+    "environments": "Urban"
+  },
+  {
+    "name": "Treant",
+    "environments": "Forest"
+  },
+  {
+    "name": "Trenzia",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Tribal Warrior",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Tribal Warrior Spore Servants",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Triceratops",
+    "environments": "Grassland"
+  },
+  {
+    "name": "Troglodyte",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Troll",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Troll (variant)",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Turbulence",
+    "environments": "Urban"
+  },
+  {
+    "name": "Turlang",
+    "environments": "Forest"
+  },
+  {
+    "name": "Twig Blight",
+    "environments": "Forest"
+  },
+  {
+    "name": "Two Dry Cloaks",
+    "environments": "Urban"
+  },
+  {
+    "name": "Two-Headed Troll",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "environments": "Grassland"
+  },
+  {
+    "name": "Uktarl Krannoc",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Ulitharid",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Ulitharid",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Umber Hulk",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Umber Hulk, modified variant",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Umbraxakar",
+    "environments": "Coastal"
+  },
+  {
+    "name": "Undead Bulette",
+    "environments": [
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Undead Cockatrice",
+    "environments": "Grassland"
+  },
+  {
+    "name": "Undead Shambling Mound",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Unicorn",
+    "environments": "Forest"
+  },
+  {
+    "name": "Urstul Floxin",
+    "environments": "Urban"
+  },
+  {
+    "name": "Uthgardt Barbarian Leader",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Valetta",
+    "environments": "Urban"
+  },
+  {
+    "name": "Valin Sarnaster",
+    "environments": "Desert"
+  },
+  {
+    "name": "Valtagar Steelshadow",
+    "environments": "Urban"
+  },
+  {
+    "name": "Vampire",
+    "environments": "Urban"
+  },
+  {
+    "name": "Vampire Spawn",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Vampire Spellcaster",
+    "environments": "Urban"
+  },
+  {
+    "name": "Vampire Warrior",
+    "environments": "Urban"
+  },
+  {
+    "name": "Vampiric Mist",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Vampiric Mist",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Vargouille",
+    "environments": [
+      "Desert",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Vargouille",
+    "environments": [
+      "Desert",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Varnyr",
+    "environments": "Urban"
+  },
+  {
+    "name": "Vegepygmy",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Vegepygmy",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Vegepygmy Chief",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Vegepygmy Chief",
+    "environments": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Velociraptor",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Velociraptor",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Venom Troll",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Venom Troll",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Vertrand Shadowdusk",
+    "environments": "Urban"
+  },
+  {
+    "name": "Veteran",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Viln Tirin",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Vine Blight",
+    "environments": "Forest"
+  },
+  {
+    "name": "Violence",
+    "environments": "Urban"
+  },
+  {
+    "name": "Violet Fungus",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Vizeran DeVir",
+    "environments": "Urban"
+  },
+  {
+    "name": "Vulture",
+    "environments": [
+      "Desert",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Walking Corpse",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "War Priest",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
+  },
+  {
+    "name": "War Priest",
+    "environments": [
+      "Desert",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Warhorse",
+    "environments": "Urban"
+  },
+  {
+    "name": "Warlock of the Archfey",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Warlock of the Archfey",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Warlock of the Fiend",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Warlock of the Fiend",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Warlock of the Great Old One",
+    "environments": [
+      "Arctic",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Warlock of the Great Old One",
+    "environments": [
+      "Arctic",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Warlord",
+    "environments": "Urban"
+  },
+  {
+    "name": "Warlord",
+    "environments": "Urban"
+  },
+  {
+    "name": "Wastrilith",
+    "environments": [
+      "Coastal",
+      "Underdark",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Wastrilith",
+    "environments": [
+      "Coastal",
+      "Swamp",
+      "Underdark",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Water Elemental",
+    "environments": [
+      "Coastal",
+      "Swamp",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Water Weird",
+    "environments": [
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Werebear",
+    "environments": [
+      "Arctic",
+      "Forest",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Wereboar",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Wererat",
+    "environments": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Weretiger",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Werewolf",
+    "environments": [
+      "Forest",
+      "Hill"
+    ]
+  },
+  {
+    "name": "West Wind",
+    "environments": "Urban"
+  },
+  {
+    "name": "White Abishai",
+    "environments": "Urban"
+  },
+  {
+    "name": "White Abishai",
+    "environments": "Urban"
+  },
+  {
+    "name": "White Guard Drake",
+    "environments": [
+      "Arctic",
+      "Urban"
+    ]
+  },
+  {
+    "name": "White Guard Drake",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Wight",
+    "environments": [
+      "Desert",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Will-o’-Wisp (Variant)",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Will-o'-Wisp",
+    "environments": [
+      "Forest",
+      "Swamp",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Winged Kobold",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Winter Eladrin",
+    "environments": [
+      "Arctic",
+      "Forest"
+    ]
+  },
+  {
+    "name": "Winter Eladrin",
+    "environments": [
+      "Arctic",
+      "Forest"
+    ]
+  },
+  {
+    "name": "Winter Wolf",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Wiri Fleagol",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Withers",
+    "environments": [
+      "Desert",
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Wolf",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Wood Elf Scout",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Swamp",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Wood Elf Wizard",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Wood Woad",
+    "environments": "Forest"
+  },
+  {
+    "name": "Wood Woad",
+    "environments": "Forest"
+  },
+  {
+    "name": "Wooden Donkey",
+    "environments": [
+      "Desert",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Worg",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Worvil “the Weevil” Forkbeard",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Wraith",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Wretched Sorrowsworn",
+    "environments": [
+      "Swamp",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Wyllow",
+    "environments": [
+      "Forest",
+      "Mountain",
+      "Swamp",
+      "Underwater"
+    ]
+  },
+  {
+    "name": "Wyvern",
+    "environments": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Xipe",
+    "environments": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Xorn",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Xvart",
+    "environments": [
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Xvart",
+    "environments": [
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Xvart Speaker",
+    "environments": [
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Xvart Warlock of Raxivort",
+    "environments": [
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Xvart Warlock of Raxivort",
+    "environments": [
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yagnoloth",
+    "environments": "Urban"
+  },
+  {
+    "name": "Yagnoloth",
+    "environments": "Urban"
+  },
+  {
+    "name": "Yalah Gralhund",
+    "environments": "Urban"
+  },
+  {
+    "name": "Yantha Coaxrock",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Yeemik",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yegg",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yeth Hound",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yeth Hound",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Yeti",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Yeti (Allowak variant)",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Yorn the Terror",
+    "environments": "Urban"
+  },
+  {
+    "name": "Young Black Dragon",
+    "environments": "Swamp"
+  },
+  {
+    "name": "Young Blue Dragon",
+    "environments": [
+      "Coastal",
+      "Desert"
+    ]
+  },
+  {
+    "name": "Young Brass Dragon",
+    "environments": "Desert"
+  },
+  {
+    "name": "Young Bronze Dragon",
+    "environments": "Coastal"
+  },
+  {
+    "name": "Young Cloud Giant",
+    "environments": "Hill"
+  },
+  {
+    "name": "Young Copper Dragon",
+    "environments": "Hill"
+  },
+  {
+    "name": "Young Deep Dragon",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Young Gold Dragon",
+    "environments": [
+      "Forest",
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Young Green Dragon",
+    "environments": "Forest"
+  },
+  {
+    "name": "Young Griffon (Medium)",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Young Griffon (Small)",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Young Griffon (Tiny)",
+    "environments": [
+      "Arctic",
+      "Coastal",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Young Kraken",
+    "environments": "Underwater"
+  },
+  {
+    "name": "Young Kruthik",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Young Kruthik",
+    "environments": [
+      "Desert",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Young Purple Worm",
+    "environments": [
+      "Desert",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Young Red Dragon",
+    "environments": [
+      "Hill",
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Young Red Shadow Dragon",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Young Remorhaz",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Young Silver Dragon",
+    "environments": [
+      "Mountain",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Young White Dragon",
+    "environments": "Arctic"
+  },
+  {
+    "name": "Yuan-ti Abomination",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuan-ti Anathema",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yuan-ti Anathema",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yuan-ti Broodguard",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yuan-ti Broodguard",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yuan-ti Malison",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuan-ti Malison (Type 1)",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuan-ti Malison (Type 2)",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuan-ti Malison (Type 3)",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuan-ti Malison (Type 4)",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuan-ti Malison (Type 5)",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuan-ti Mind Whisperer",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yuan-ti Mind Whisperer",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yuan-ti Nightmare Speaker",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yuan-ti Nightmare Speaker",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yuan-ti Pit Master",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yuan-ti Pit Master",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Yuan-ti Priest",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuan-ti Pureblood",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Yuk Yuk",
+    "environments": [
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Zaltember",
+    "environments": [
+      "Arctic",
+      "Desert",
+      "Forest",
+      "Hill",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Zaratan",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Zaratan",
+    "environments": [
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain",
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Zegdar",
+    "environments": "Underdark"
+  },
+  {
+    "name": "Zephyros",
+    "environments": "Mountain"
+  },
+  {
+    "name": "Zikran",
+    "environments": "Urban"
+  },
+  {
+    "name": "Zikzokrishka",
+    "environments": "Desert"
+  },
+  {
+    "name": "Zombie",
+    "environments": "Urban"
+  },
+  {
+    "name": "Zorak Lightdrinker",
+    "environments": "Urban"
+  },
+  {
+    "name": "Zox Clammersham",
+    "environments": "Urban"
+  },
+  {
+    "name": "Zress Orlezziir",
+    "environments": "Underdark"
   }
 ]
