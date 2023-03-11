@@ -2,8 +2,10 @@
 
 ## Resources
 
-* Data Source: [Source URL](https://www.dndbeyond.com/monsters?filter-environment=1&filter-environment=2&filter-environment=3&filter-environment=4&filter-environment=5&filter-environment=6&filter-environment=7&filter-environment=8&filter-environment=9&filter-environment=10&filter-environment=11&filter-search=&filter-type=0)
+* Data Source: [Source URL](https://raw.githubusercontent.com/nicolevanderhoeven/xios-guide-to-monsters/main/monsters.csv)
 
-* Console Script: dnd_beyond_console_script.js
+* Output File: data/xios_guide_to_monsters/xios_guide_to_monsters.json
 
-* Output File: dnd_beyond.json
+## Notes
+CSV was automatically converted to JSON file using [csvjson](https://csvjson.com/)
+There was some misformatted items in the CSV so those were manually fixed. I sent the author a message about it and gave them the updated csv so hopefully this should be merged in at some point

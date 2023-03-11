@@ -1,9 +1,10 @@
-# DND Beyond dataset
+# Kolbold Press
 
 ## Resources
 
-* Data Source: [Source URL](https://www.dndbeyond.com/monsters?filter-environment=1&filter-environment=2&filter-environment=3&filter-environment=4&filter-environment=5&filter-environment=6&filter-environment=7&filter-environment=8&filter-environment=9&filter-environment=10&filter-environment=11&filter-search=&filter-type=0)
+* Data Source: [Source URL](https://koboldpress.com/kpstore/product/monsters-by-terrain-pdf/)
 
-* Console Script: dnd_beyond_console_script.js
+* Output File: monsters_by_terrain.json
 
-* Output File: dnd_beyond.json
+## Notes
+Data source was manually copied from the PDF and formatted into JSON
