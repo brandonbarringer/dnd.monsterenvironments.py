@@ -1,0 +1,462 @@
+{
+    "count": 5,
+    "monsters": [
+        {
+            "slug": "algorith",
+            "name": "Algorith",
+            "size": "Medium",
+            "type": "construct",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful neutral",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 136,
+            "hit_dice": "16d8+64",
+            "speed": {
+                "walk": 40,
+                "fly": 40
+            },
+            "strength": 21,
+            "dexterity": 14,
+            "constitution": 19,
+            "intelligence": 13,
+            "wisdom": 16,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": 6,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": 7,
+            "charisma_save": 8,
+            "perception": 7,
+            "skills": {
+                "athletics": 9,
+                "insight": 7,
+                "investigation": 5,
+                "perception": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, cold, lightning",
+            "damage_immunities": "poison",
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 17",
+            "languages": "Common, Celestial, Draconic, Infernal",
+            "challenge_rating": "10",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The algorith makes two logic razor attacks."
+                },
+                {
+                    "name": "Logic Razor",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 31 (4d12 + 5) force damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "4d12"
+                },
+                {
+                    "name": "Cone of Negation (Recharge 5-6)",
+                    "desc": "An algorith can project a cone of null energy. Targets inside the 30 foot cone take 42 (12d6) force damage and suffer the effect of a dispel magic spell. A successful DC 16 Dexterity saving throw reduces the damage to half and negates the dispel magic effect on that target."
+                },
+                {
+                    "name": "Reality Bomb (5/Day)",
+                    "desc": "The algorith can summon forth a tiny rune of law and throw it as a weapon. Any creature within 30 feet of the square where the reality bomb lands takes 21 (6d6) force damage and is stunned until the start of the algorith's next turn. A target that makes a successful DC 16 Dexterity saving throw takes half damage and isn't stunned."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Immutable Form",
+                    "desc": "The algorith is immune to any spell or effect that would alter its form."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "The algorith's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:\n\nat will: aid, blur, detect magic, dimension door\n\n5/day each: dispel magic\n\n1/day: commune (5 questions), wall of force"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "automata-devil",
+            "name": "Automata Devil",
+            "size": "Large",
+            "type": "fiend",
+            "subtype": "devil",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 168,
+            "hit_dice": "16d10+80",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 24,
+            "dexterity": 17,
+            "constitution": 20,
+            "intelligence": 11,
+            "wisdom": 14,
+            "charisma": 19,
+            "strength_save": 11,
+            "dexterity_save": 7,
+            "constitution_save": 9,
+            "intelligence_save": null,
+            "wisdom_save": 6,
+            "charisma_save": 8,
+            "perception": null,
+            "skills": {
+                "athletics": 11,
+                "intimidation": 8
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "damage_immunities": "fire, poison",
+            "condition_immunities": "poisoned",
+            "senses": "passive Perception $1",
+            "languages": "Common, Infernal; telepathy 100 ft.",
+            "challenge_rating": "10",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The automata devil makes two melee attacks, using any combination of bite, claw, and whip attacks. The bite attack can be used only once per turn."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 18 (2d10 + 7) slashing damage.",
+                    "attack_bonus": 11,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage.",
+                    "attack_bonus": 11,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Whip",
+                    "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 11 (1d8 + 7) slashing damage and the target is grappled (escape DC 17) and restrained. Only two targets can be grappled by the automata devil at one time, and each grappled target prevents one whip from being used to attack. An individual target can be grappled by only one whip at a time. A grappled target takes 9 (2d8) piercing damage at the start of its turn.",
+                    "attack_bonus": 11,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Punishing Maw",
+                    "desc": "If a target is already grappled in a whip at the start of the automata devil's turn, both creatures make opposed Strength (Athletics) checks. If the grappled creature wins, it takes 9 (2d8) piercing damage and remains grappled. If the devil wins, the grappled creature is dragged into the devil's stomach maw, a mass of churning gears, razor teeth, and whirling blades. The creature takes 49 (4d20 + 7) slashing damage and is grappled, and the whip is free to attack again on the devil's next turn. The creature takes another 49 (4d20 + 7) slashing damage automatically at the start of each of the automata devil's turns for as long as it remains grappled in the maw. Only one creature can be grappled in the punishing maw at a time. The automata devil can freely \"spit out\"a creature or corpse during its turn, to free up the maw for another victim."
+                },
+                {
+                    "name": "Fear Aura",
+                    "desc": "Automata devils radiate fear in a 10-foot radius. A creature that starts its turn in the affected area must make a successful DC 16 Wisdom saving throw or become frightened. A creature that makes the save successfully cannot be affected by the same automata devil's fear aura again."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Devil's Sight",
+                    "desc": "Magical darkness doesn't impede the devil's darkvision."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The automata devil has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the automata devils' spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:\n\nat will: charm person, suggestion, teleport\n\n1/day each: banishing smite, cloudkill"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "bone-swarm",
+            "name": "Bone Swarm",
+            "size": "Large",
+            "type": "swarm of Tiny undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 198,
+            "hit_dice": "36d10",
+            "speed": {
+                "walk": 20,
+                "fly": 60
+            },
+            "strength": 22,
+            "dexterity": 18,
+            "constitution": 10,
+            "intelligence": 9,
+            "wisdom": 15,
+            "charisma": 20,
+            "strength_save": null,
+            "dexterity_save": 8,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 6,
+            "charisma_save": 9,
+            "perception": 6,
+            "skills": {
+                "acrobatics": 8,
+                "perception": 6,
+                "stealth": 8
+            },
+            "damage_vulnerabilities": "bludgeoning",
+            "damage_resistances": "piercing and slashing from nonmagical attacks",
+            "damage_immunities": "poison",
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned, prone, restrained, stunned",
+            "senses": "darkvision 60 ft., passive Perception 16",
+            "languages": "Common, Void Speech",
+            "challenge_rating": "10",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The bone swarm can attack every hostile creature in its space with swirling bones."
+                },
+                {
+                    "name": "Swirling Bones",
+                    "desc": "Melee Weapon Attack: +10 to hit, reach 0 ft., one creature in the swarm's space. Hit: 31 (5d8 + 9) bludgeoning, piercing, or slashing damage (includes Strength of Bone special ability).",
+                    "attack_bonus": 10,
+                    "damage_dice": "5d8"
+                },
+                {
+                    "name": "Death's Embrace (Recharge 5-6)",
+                    "desc": "Melee Weapon Attack: +10 to hit, reach 0 ft., one creature in the swarm's space. Hit: the target is grappled (escape DC 16) and enveloped within the swarm's bones. The swarm can force the creature to move at its normal speed wherever the bone swarm wishes. Any non-area attack against the bone swarm has a 50 percent chance of hitting a creature grappled in Death's Embrace instead."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Strength of Bone",
+                    "desc": "A bone swarm can choose to deal bludgeoning, piercing, or slashing damage, and adds 1.5x its Strength bonus on swarm damage rolls as bits and pieces of broken skeletons claw, bite, stab, and slam at the victim."
+                },
+                {
+                    "name": "Swarm",
+                    "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a human skull. The swarm can't regain hit points or gain temporary hit points."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "hundun",
+            "name": "Hundun",
+            "size": "Large",
+            "type": "celestial",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic good",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 153,
+            "hit_dice": "18d10+54",
+            "speed": {
+                "walk": 40,
+                "fly": 40
+            },
+            "strength": 20,
+            "dexterity": 14,
+            "constitution": 16,
+            "intelligence": 4,
+            "wisdom": 20,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 7,
+            "intelligence_save": null,
+            "wisdom_save": 9,
+            "charisma_save": 8,
+            "perception": 9,
+            "skills": {
+                "athletics": 9,
+                "insight": 9,
+                "perception": 9
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "acid, psychic",
+            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, stunned, unconscious",
+            "senses": "blindsight 60 ft., passive Perception 20",
+            "languages": "understands Celestial and Primordial, but cannot speak intelligibly",
+            "challenge_rating": "10",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The hundun makes four slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "3d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Brainless",
+                    "desc": "Hunduns are immune to any spell or effect that allows an Intelligence, Wisdom, or Charisma saving throw. Trying to contact or read a Hundun's mind confuses the caster as the spell for 1 round."
+                },
+                {
+                    "name": "Dance of Creation",
+                    "desc": "Hunduns can perform an act of magical creation almost unlimited in scope every 1d8 days. The effect is equivalent to a wish spell, but it must create something."
+                },
+                {
+                    "name": "Enlightening Befuddlement",
+                    "desc": "when a hundun's confusion spell affects a target, it can elect to use the following table rather than the standard one:\n\n1d100 Result"
+                },
+                {
+                    "name": "01-10 Inspired:",
+                    "desc": "Advantage on attack rolls, ability checks, and saving throws"
+                },
+                {
+                    "name": "11-20 Distracted:",
+                    "desc": "Disadvantage on attack rolls, ability checks, and saving throws"
+                },
+                {
+                    "name": "21-50 Incoherent:",
+                    "desc": "The target does nothing but babble or scribble incoherent notes on a new idea"
+                },
+                {
+                    "name": "51-75 Obsessed:",
+                    "desc": "Target is recipient of geas to create a quality magical object"
+                },
+                {
+                    "name": "76-100 Suggestible:",
+                    "desc": "Target receives a suggestion from the hundun"
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the hundun's innate spellcasting ability is Wisdom (spell save DC 17). It can cast the following spells, requiring no material components:\n\nconstant: confusion (always centered on the hundun), detect thoughts\n\nat will: create or destroy water, dancing lights, mending, prestidigitation\n\n3/day each: compulsion, dimension door, black tentacles, irresistible dance\n\n1/day each: awaken, creation, heroes' feast, magnificent mansion, plant growth, reincarnate, stone shape"
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The hundun's weapon attacks are magical."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "thuellai",
+            "name": "Thuellai",
+            "size": "Huge",
+            "type": "elemental",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 17,
+            "armor_desc": "",
+            "hit_points": 149,
+            "hit_dice": "13d12+65",
+            "speed": {
+                "hover": true,
+                "walk": 0,
+                "fly": 100
+            },
+            "strength": 22,
+            "dexterity": 24,
+            "constitution": 20,
+            "intelligence": 10,
+            "wisdom": 11,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": 4,
+            "wisdom_save": 4,
+            "charisma_save": 6,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "fire",
+            "damage_resistances": "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "poison",
+            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Common, Dwarvish, Primordial",
+            "challenge_rating": "10",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The thuellai makes two claw attacks."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) slashing damage plus 26 (4d12) cold damage. If the target is wearing metal armor, it must make a successful DC 17 Constitution saving throw or gain one level of exhaustion.",
+                    "attack_bonus": 10,
+                    "damage_dice": "2d8+6"
+                },
+                {
+                    "name": "Freezing Breath (Recharge 5-6)",
+                    "desc": "The thuellai exhales an icy blast in a 40-foot cone. Each target in the area takes 39 (6d12) cold damage, or half damage with a successful DC 17 Constitution saving throw."
+                },
+                {
+                    "name": "Algid Aura",
+                    "desc": "All creatures within 10 feet of a thuellai take 7 (2d6) cold damage at the beginning of the thuellai's turn. Spells or magical effects that protect against cold are affected as if by a dispel magic spell (the theullai's effective spellcasting bonus is +5) if a thuellai is within 20 feet of the target at the start of the theullai's turn, and nonmagical flames within 20 feet of the thuellai are extinguished at the start of its turn."
+                },
+                {
+                    "name": "Howl of the Maddening Wind (3/day)",
+                    "desc": "a thuellai's howl can cause creatures to temporarily lose their minds and even to attack themselves or their companions. Each target within 100 feet of the theullai and able to hear the howl must make a successful DC 14 Wisdom saving throw or roll 1d8 and consult the table below at the start of its next turn. An affected creature repeats the saving throw at the end of each of its turns; a success ends the effect on itself, but a failure means it must roll again on the table below at the start of its next turn.\n\n1 - Act normally\n\n2-4 - Do nothing but babble incoherently\n\n5-6 - Do 1d8 damage + Str modifier to self with item in hand\n\n7-8 - Attack nearest target; select randomly if more than one"
+                },
+                {
+                    "name": "Blizzard (1/Day)",
+                    "desc": "The thuellai creates an icy blizzard in the area around it. A 50-foot radius sphere surrounding the theullai fills with icy fog, whirling snow, and driving ice crystals. Vision is lightly obscured, and creatures have disadvantage on Wisdom (Perception) checks that rely on vision or hearing. The ground in the affected area becomes difficult terrain. The effect lasts for 10 minutes and moves with the theullai."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Air Mastery",
+                    "desc": "Airborne creatures have disadvantage on attack rolls against the thuellai."
+                },
+                {
+                    "name": "Snow Vision",
+                    "desc": "The thuellai see perfectly well in snowy conditions. It does not suffer Wisdom (Perception) penalties from snow, whiteout, or snow blindness."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        }
+    ]
+}

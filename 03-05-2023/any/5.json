@@ -1,0 +1,1162 @@
+{
+    "count": 14,
+    "monsters": [
+        {
+            "slug": "aridni",
+            "name": "Aridni",
+            "size": "Small",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "",
+            "hit_points": 82,
+            "hit_dice": "15d6+30",
+            "speed": {
+                "walk": 20,
+                "fly": 60
+            },
+            "strength": 9,
+            "dexterity": 21,
+            "constitution": 14,
+            "intelligence": 12,
+            "wisdom": 11,
+            "charisma": 16,
+            "strength_save": null,
+            "dexterity_save": 8,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "acrobatics": 11,
+                "perception": 3,
+                "stealth": 11
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Common, Gnoll, Sylvan, Void Speech",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Pixie Bow",
+                    "desc": "Ranged Weapon Attack: +8 to hit, range 40/160 ft., one target. Hit: 7 (1d4 + 5) piercing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Slaver Arrows",
+                    "desc": "An aridni can add a magical effect in addition to the normal damage done by its arrows. If so, the aridni chooses from the following effects:\n\nConfusion. The target must succeed on a DC 14 Wisdom saving throw or become confused (as the spell) for 2d4 - 1 rounds.\n\nFear. The target must succeed on a DC 14 Wisdom saving throw or become frightened for 2d4 rounds.\n\nHideous Laughter. The target must succeed on a DC 14 Wisdom saving throw or become incapacitated for 2d4 rounds. While incapacitated, the target is prone and laughing uncontrollably.\n\nSleep. The target must succeed on a DC 14 Wisdom saving throw or fall asleep for 2d4 minutes. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Flyby",
+                    "desc": "The aridni doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The aridni has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the aridni's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells:\n\nat will: dancing lights, detect magic, invisibility\n\n3/day: charm person, faerie fire, mage armor\n\n1/day: spike growth"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "black-knight-commander",
+            "name": "Black Knight Commander",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 18,
+            "armor_desc": "plate",
+            "hit_points": 78,
+            "hit_dice": "12d8+24",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 18,
+            "dexterity": 10,
+            "constitution": 14,
+            "intelligence": 12,
+            "wisdom": 13,
+            "charisma": 15,
+            "strength_save": 7,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 4,
+            "charisma_save": 5,
+            "perception": null,
+            "skills": {
+                "athletics": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception $1",
+            "languages": "any two languages",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The black knight commander makes two melee attacks."
+                },
+                {
+                    "name": "Mace",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) bludgeoning damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Lance",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 11 (1d12 + 5) piercing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d12"
+                },
+                {
+                    "name": "Frightful Charge (Recharges after a Short or Long Rest)",
+                    "desc": "The black knight commander lets loose a terrifying cry and makes one melee attack at the end of a charge. Whether the attack hits or misses, all enemies within 15 feet of the target and aware of the black knight commander's presence must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Charge",
+                    "desc": "If the black knight commander is mounted and moves at least 30 feet in a straight line toward a target and then hits it with a melee attack on the same turn, the target takes an extra 10 (3d6) damage."
+                },
+                {
+                    "name": "Hateful Aura",
+                    "desc": "The black knight commander and allies within 10 feet of the commander add its Charisma modifier to weapon damage rolls (included in damage below)."
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The black knight commander's weapon attacks are made with magical (+1) weapons."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "bouda",
+            "name": "Bouda",
+            "size": "Medium",
+            "type": "fiend",
+            "subtype": "shapechanger",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 93,
+            "hit_dice": "11d8+44",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 19,
+            "dexterity": 14,
+            "constitution": 18,
+            "intelligence": 10,
+            "wisdom": 12,
+            "charisma": 15,
+            "strength_save": null,
+            "dexterity_save": 5,
+            "constitution_save": 7,
+            "intelligence_save": 4,
+            "wisdom_save": null,
+            "charisma_save": 6,
+            "perception": 4,
+            "skills": {
+                "athletics": 7,
+                "deception": 5,
+                "intimidation": 5,
+                "perception": 4,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, lightning; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "damage_immunities": "fire, poison",
+            "condition_immunities": "charmed, exhaustion, poisoned",
+            "senses": "darkvision 120 ft., passive Perception 14",
+            "languages": "Common, Celestial, Infernal, Nurian; telepathy 100 ft.",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The bouda makes one bite attack and one mephitic claw attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 10 (3d6) poison damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Mephitic Claw",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage, and the target must make a successful DC 15 Constitution saving throw or become poisoned for 1 round by the visible cloud of vermin swarming around the bouda's forearms.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Ravenous Gorge",
+                    "desc": "The bouda consumes the organs of a corpse in a space it occupies. It gains temporary hit points equal to the dead creature's HD that last 1 hour. Organs consumed by this ability are gone, and the creature can't be restored to life through spells and magical effects that require a mostly intact corpse."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Shapechanger",
+                    "desc": "The bouda can use its action to polymorph into a human, a hyena, or its true form, which is a hyena-humanoid hybrid. Its statistics, other than its Mephitic Claw attack, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if destroyed, before turning to dust."
+                },
+                {
+                    "name": "Defiling Smear (1/Day)",
+                    "desc": "The bouda can secrete a disgusting whitish-yellow substance with the viscosity of tar to mark food and territory. As a bonus action, the bouda marks a single adjacent 5-foot space, object, or helpless creature. Any living creature within 30 feet of the smear at the start of its turn must succeed on a DC 15 Constitution saving throw against poison or be poisoned for 1d6 rounds. A creature that makes a successful saving throw is immune to that particular bouda's defiling smear for 24 hours. The stench of a smear remains potent for one week."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the bouda's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can cast the following spells, requiring no material components: Constant: detect evil and good, detect magic\n\nat will: thaumaturgy\n\n3/day: darkness, expeditious retreat\n\n1/day: contagion"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "clockwork-abomination",
+            "name": "Clockwork Abomination",
+            "size": "Large",
+            "type": "construct",
+            "subtype": "devil",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 76,
+            "hit_dice": "8d10+32",
+            "speed": {
+                "walk": 30,
+                "climb": 30
+            },
+            "strength": 21,
+            "dexterity": 12,
+            "constitution": 18,
+            "intelligence": 10,
+            "wisdom": 10,
+            "charisma": 12,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": 7,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "athletics": 9,
+                "perception": 4,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "poison",
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Common, Infernal",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The clockwork abomination makes one bite attack and one slam attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 13 (2d6 + 6) bludgeoning damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Breath Weapon (Recharge 5-6)",
+                    "desc": "The clockwork abomination's Infernal Power Source allows it to breathe fire in a 20-foot cone. Targets in this cone take 22 (4d10) fire damage, or half damage with a successful DC 14 Dexterity saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Additional Legs",
+                    "desc": "Four legs allow the clockwork abomination to climb at a speed equal to its base speed and to ignore difficult terrain."
+                },
+                {
+                    "name": "Piston Reach",
+                    "desc": "The abomination's melee attacks have a deceptively long reach thanks to the pistons powering them."
+                },
+                {
+                    "name": "Immutable Form",
+                    "desc": "The clockwork abomination is immune to any spell or effect that would alter its form."
+                },
+                {
+                    "name": "Infernal Power Source",
+                    "desc": "When a clockwork abomination falls to 0 hp, its infernal battery explodes. Creatures within 10 feet of the clockwork abomination take 14 (4d6) fire damage, or half damage with a successful DC 14 Dexterity saving throw."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "corrupting-ooze",
+            "name": "Corrupting Ooze",
+            "size": "Large",
+            "type": "ooze",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 12,
+            "armor_desc": "natural armor",
+            "hit_points": 115,
+            "hit_dice": "10d10+60",
+            "speed": {
+                "walk": 20,
+                "swim": 30
+            },
+            "strength": 16,
+            "dexterity": 10,
+            "constitution": 22,
+            "intelligence": 4,
+            "wisdom": 2,
+            "charisma": 1,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "slashing, bludgeoning",
+            "damage_immunities": "acid, fire, poison",
+            "condition_immunities": "exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "blindsight 60 ft., tremorsense 60 ft., passive Perception 5",
+            "languages": "-",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage plus 3 (1d6) acid damage, and the target is grappled (escape DC 13).",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Corrupting Touch",
+                    "desc": "When a corrupting ooze scores a critical hit or starts its turn with a foe grappled, it can dissolve one leather, metal, or wood item of its choosing in the possession of the target creature. A mundane item is destroyed automatically; a magical item is destroyed if its owner fails to make a successful DC 16 Dexterity saving throw."
+                },
+                {
+                    "name": "Strong Swimmer",
+                    "desc": "A corrupting ooze naturally floats on the surface of water. It swims with a pulsating motion that propels it faster than walking speed."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "fellforged",
+            "name": "Fellforged",
+            "size": "Medium",
+            "type": "construct",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 135,
+            "hit_dice": "18d8+54",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 14,
+            "dexterity": 12,
+            "constitution": 17,
+            "intelligence": 12,
+            "wisdom": 14,
+            "charisma": 15,
+            "strength_save": 8,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, cold, fire, lightning",
+            "damage_immunities": "necrotic, poison",
+            "condition_immunities": "charmed, exhaustion, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "any languages it knew in life",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The fellforged makes two necrotic slam attacks."
+                },
+                {
+                    "name": "Necrotic Slam",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) bludgeoning damage plus 4 (1d8) necrotic damage, and the target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the total damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Violent Escapement",
+                    "desc": "With little regard for the clockwork bodies they inhabit, fellforged wraiths can stress and strain their mechanisms in such a violent manner that flywheels become unbalanced, gears shatter, and springs snap. As a bonus action, this violent burst of gears and pulleys deals 7 (2d6) piercing damage to all foes within 5 feet who fail a DC 14 Dexterity saving throw. Each use of this ability imposes a cumulative reduction in movement of 5 feet upon the fellforged. If its speed is reduced to 0 feet, the fellforged becomes paralyzed."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Expelled Spirit",
+                    "desc": "While the fellforged body was made to bind spirits, the wraith within is vulnerable to turning attempts. Any successful turn attempt exorcises the wraith from its clockwork frame. The expelled wraith retains its current hp total and fights normally. The construct dies without an animating spirit."
+                },
+                {
+                    "name": "Sunlight Sensitivity",
+                    "desc": "While in sunlight, the fellforged has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+                },
+                {
+                    "name": "Unnatural Aura",
+                    "desc": "All animals, whether wild or domesticated, can sense the unnatural presence of fellforged at a distance of 30 feet. They do not willingly approach nearer than that and panic if forced to do so, and they remain panicked as long as they are within that range."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "fidele-angel",
+            "name": "Fidele Angel",
+            "size": "Medium",
+            "type": "celestial",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful good",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 104,
+            "hit_dice": "16d8+32",
+            "speed": {
+                "walk": 40,
+                "fly": 40
+            },
+            "strength": 20,
+            "dexterity": 18,
+            "constitution": 14,
+            "intelligence": 14,
+            "wisdom": 16,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": 7,
+            "constitution_save": 5,
+            "intelligence_save": 5,
+            "wisdom_save": 6,
+            "charisma_save": 7,
+            "perception": 6,
+            "skills": {
+                "insight": 6,
+                "perception": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "acid, cold",
+            "condition_immunities": "charmed, petrified, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 16",
+            "languages": "Common, Celestial, Infernal",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The angel makes two longsword attacks or two longbow attacks; in eagle form, it instead makes two talon attacks and one beak attack."
+                },
+                {
+                    "name": "+1 Longsword (Mortal or Angel Form Only)",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage or 11 (1d10 + 6) slashing damage if used with two hands.",
+                    "attack_bonus": 9,
+                    "damage_dice": "1d8+6"
+                },
+                {
+                    "name": "+1 Longbow (Mortal or Angel Form Only)",
+                    "desc": "Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d8+5"
+                },
+                {
+                    "name": "Beak (Eagle Form Only)",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d8+5"
+                },
+                {
+                    "name": "Talons (Eagle Form Only)",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d6+5"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Shapechange",
+                    "desc": "The angel can change between winged celestial form, its original mortal form, and that of a Medium-sized eagle. Its statistics are the same in each form, with the exception of its attacks in eagle form."
+                },
+                {
+                    "name": "Ever Touching",
+                    "desc": "Fidele angels maintain awareness of their mate's disposition and health. Damage taken by one is split evenly between both, with the original target of the attack taking the extra point when damage doesn't divide evenly. Any other baneful effect, such as ability damage, affects both equally."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the angel's innate spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nat will: guidance, light, purify food and drink, spare the dying\n\n3/day: cure wounds, scorching ray (5 rays)\n\n1/day: bless, daylight, detect evil and good, enhance ability, hallow, protection from evil and good"
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The angel has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The angel's weapon attacks are magical while it is in eagle form."
+                },
+                {
+                    "name": "To My Lover's Side",
+                    "desc": "If separated from its mate, each fidele angel can use both plane shift and teleport 1/day to reunite."
+                },
+                {
+                    "name": "Unshakeable Fidelity",
+                    "desc": "Fidele angels are never voluntarily without their partners. No magical effect or power can cause a fidele angel to act against its mate, and no charm or domination effect can cause them to leave their side or to change their feelings of love and loyalty toward each other."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "hulking-whelp",
+            "name": "Hulking Whelp",
+            "size": "Small",
+            "type": "fey",
+            "subtype": "shapechanger",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 94,
+            "hit_dice": "9d12+36",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 21,
+            "dexterity": 10,
+            "constitution": 18,
+            "intelligence": 7,
+            "wisdom": 14,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "impaired sight 30 ft., passive Perception 12",
+            "languages": "-",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The hulking whelp makes two slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "3d8"
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Quick Step",
+                    "desc": "A hulking whelp can move 20 feet as a reaction when it is attacked. No opportunity attacks are triggered by this move."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Calm State",
+                    "desc": "When a hulking whelp is calm and unafraid, it uses the following statistics instead of those listed above: Size Small; HP 9 (6d6 . 12); Speed 20 ft.; STR 8 (-1); CON 6 (-2); Languages Common, Sylvan"
+                },
+                {
+                    "name": "Poor Senses",
+                    "desc": "A hulking whelp has poor hearing and is nearsighted. It can see in normal or dim light up to 30 feet and hear sounds from up to 60 feet away."
+                },
+                {
+                    "name": "Unleashed Emotion",
+                    "desc": "When a hulking whelp feels threatened - it's touched, intimidated, cornered, attacked, or even just if a stranger moves adjacent to the whelp - it immediately grows from size Small to Huge as a reaction. If the whelp was attacked, this reaction occurs after the attack is made but before damage is done. Nearby creatures and objects are pushed to the nearest available space and must make a successful DC 15 Strength saving throw or fall prone. Weapons, armor, and other objects worn or carried by the hulking whelp grow (and shrink again) proportionally when it changes size. Overcome by raw emotion, it sets about destroying anything and everything it can see (which isn't much) and reach (which is quite a lot). The transformation lasts until the hulking whelp is unaware of any nearby creatures for 1 round, it drops to 0 hit points, it has 5 levels of exhaustion, or it's affected by a calm emotions spell or comparable magic. The transformation isn't entirely uncontrollable; people or creatures the whelp knows and trusts can be near it without triggering the reaction. Under the wrong conditions, such as in a populated area, a hulking whelp's Unleashed Emotion can last for days."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "mi-go",
+            "name": "Mi-Go",
+            "size": "Medium",
+            "type": "plant",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 76,
+            "hit_dice": "8d8+40",
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "strength": 16,
+            "dexterity": 19,
+            "constitution": 21,
+            "intelligence": 25,
+            "wisdom": 15,
+            "charisma": 13,
+            "strength_save": 6,
+            "dexterity_save": null,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 4,
+            "perception": 5,
+            "skills": {
+                "arcana": 10,
+                "deception": 7,
+                "medicine": 5,
+                "perception": 5,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "radiant, cold",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 30 ft., darkvision 240 ft., passive Perception 15",
+            "languages": "Common, Mi-go, Void Speech",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The mi-go makes two attacks with its claws."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage, and the target is grappled (escape DC 13). If both claw attacks strike the same target in a single turn, the target takes an additional 13 (2d12) psychic damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "3d6"
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Spore Release",
+                    "desc": "When a mi-go dies, it releases its remaining spores. All living creatures within 10 feet take 14 (2d8 + 5) poison damage and become poisoned; a successful DC 16 Constitution saving throw halves the damage and prevents poisoning. A poisoned creature repeats the saving throw at the end of its turn, ending the effect on itself with a success."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Astral Travelers",
+                    "desc": "Mi-go do not require air or heat to survive, only sunlight (and very little of that). They can enter a sporulated form capable of surviving travel through the void and returning to consciousness when conditions are right."
+                },
+                {
+                    "name": "Sneak Attack (1/Turn)",
+                    "desc": "The mi-go does an extra 7 (2d6) damage when it hits a target with a claw attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the mi-go that isn't incapacitated and the mi-go doesn't have disadvantage on the attack roll."
+                },
+                {
+                    "name": "Disquieting Technology",
+                    "desc": "The mi-go are a highly advanced race, and may carry items of powerful technology. Mi-go technology can be represented using the same rules as magic items, but their functions are very difficult to determine: identify is useless, but an hour of study and a successful DC 19 Arcana check can reveal the purpose and proper functioning of a mi-go item."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "rift-swine",
+            "name": "Rift Swine",
+            "size": "Large",
+            "type": "aberration",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 110,
+            "hit_dice": "13d10+39",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 18,
+            "dexterity": 10,
+            "constitution": 17,
+            "intelligence": 4,
+            "wisdom": 12,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "force, poison",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "-",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The rift swine makes one tusks attack and two tentacle attacks."
+                },
+                {
+                    "name": "Tusks",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Tentacle",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. If the target is a creature, it is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the rift swine can't use this tentacle against another target.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "360-Degree Vision",
+                    "desc": "The rift swine's extra eyes give it advantage on Wisdom (Perception) checks that rely on sight."
+                },
+                {
+                    "name": "Chaos mutations",
+                    "desc": "50% of rift swine have additional mutant features. Choose or roll on the table below.\n\n1 - Acid Boils: A creature that hits the rift swine with a melee attack must make a successful DC 12 Dexterity saving throw or take 3 (1d6) acid damage.\n\n2 - Tentacular Tongue: Instead of using its tusks, the rift swine can attack with its tongue: Melee weapon attack: +7 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a creature, it is grappled and restrained as with a tentacle attack (escape DC 14).\n\n3 - Covered in Slime:Increase the rift swine's AC by 1.\n\n4 - Acid Saliva: The rift swine's tusk or tongue attack does an additional 3 (1d6) acid damage.\n\n5 - Poison Spit: Ranged Weapon Attack: +3 to hit, range 15 ft., one target. Hit: 6 (1d12) poison damage.\n\n6 - Roll Twice"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "sandman",
+            "name": "Sandman",
+            "size": "Medium",
+            "type": "celestial",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 82,
+            "hit_dice": "11d8+33",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 11,
+            "dexterity": 19,
+            "constitution": 16,
+            "intelligence": 13,
+            "wisdom": 14,
+            "charisma": 19,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 7,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 7,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "poison, psychic",
+            "condition_immunities": "charmed, exhaustion, frightened, poisoned, unconscious",
+            "senses": "truesight 60 ft., passive Perception 12",
+            "languages": "Common, Celestial, Giant, Infernal, Umbral",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The sandman makes two claw attacks."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Eye-Closer's Curse",
+                    "desc": "If a sandman obtains a critical hit or successful surprise attack against an opponent, its talons scratch a rune onto the target's eyeballs that snaps their eyelids shut, leaving them blinded. This effect can be ended with greater restoration, remove curse, or comparable magic."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the sandman's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:\n\nat will: darkness, minor illusion, plane shift (at night only), phantom steed, prestidigitation, sleep (11d8)\n\n3/day each: hypnotic pattern, major image\n\n1/day each: dream, phantasmal killer (5d10)"
+                },
+                {
+                    "name": "Stuff of Dreams",
+                    "desc": "Made partially from dreams and imagination, a sandman takes only half damage from critical hits and from sneak attacks. All of the attack's damage is halved, not just bonus damage."
+                },
+                {
+                    "name": "Surprise Attack",
+                    "desc": "If the sandman hits a surprised creature during the first round of combat, the target takes 14 (4d6) extra damage from the attack."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "spawn-of-akyishigal",
+            "name": "Spawn Of Akyishigal",
+            "size": "Medium",
+            "type": "fiend",
+            "subtype": "demon",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 119,
+            "hit_dice": "14d8+56",
+            "speed": {
+                "walk": 30,
+                "climb": 15
+            },
+            "strength": 15,
+            "dexterity": 13,
+            "constitution": 19,
+            "intelligence": 10,
+            "wisdom": 11,
+            "charisma": 12,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison",
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Infernal, Spawn of Akyishigal",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The spawn makes one bite attack and two sting attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d10"
+                },
+                {
+                    "name": "Sting",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage plus 5 (1d10) poison damage, and the target must succeed on a DC 15 Constitution saving throw or become poisoned for 1d6 rounds.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Command Vermin",
+                    "desc": "Spawn of Akyishigal can command tiny beasts of Intelligence 2 or less within 30 feet that aren't under any magical control. The vermin obey the spawn's commands to the best of their ability, heedless of their own safety."
+                },
+                {
+                    "name": "Swarming Cough (recharge 5-6)",
+                    "desc": "The spawn can belch forth a swarm of insects. The swarm is completely under the spawn's control. It remains for 1 minute or until destroyed."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "temple-dog",
+            "name": "Temple Dog",
+            "size": "Medium",
+            "type": "celestial",
+            "subtype": "",
+            "group": null,
+            "alignment": "good",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 97,
+            "hit_dice": "15d8+30",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 18,
+            "dexterity": 14,
+            "constitution": 15,
+            "intelligence": 8,
+            "wisdom": 14,
+            "charisma": 10,
+            "strength_save": 7,
+            "dexterity_save": null,
+            "constitution_save": 5,
+            "intelligence_save": 2,
+            "wisdom_save": 5,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "understands Celestial and Common but can't speak",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) piercing damage plus 9 (2d4 + 4) bludgeoning damage, and the target is grappled (escape DC 14). The target must also make a successful DC 15 Constitution saving throw or be stunned until the end of its next turn.",
+                    "attack_bonus": 7,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage, and the target must succeed on a DC 15 Strength saving throw or be knocked prone and pushed 5 feet. The temple dog can immediately enter the position the target was pushed out of, if it chooses to.",
+                    "attack_bonus": 7,
+                    "damage_dice": "3d6+4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The temple dog has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Protector's Initiative",
+                    "desc": "If the temple dog is entering combat against a clear threat to its temple, it has advantage on its initiative roll."
+                },
+                {
+                    "name": "Rushing Slam",
+                    "desc": "If the temple dog moves at least 10 feet straight toward a target and then makes a slam attack against that target, it can make an additional slam attack against a second creature within 5 feet of the first target as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "urban",
+                "any"
+            ]
+        },
+        {
+            "slug": "wormhearted-suffragan",
+            "name": "Wormhearted Suffragan",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 97,
+            "hit_dice": "13d8+39",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 10,
+            "dexterity": 14,
+            "constitution": 16,
+            "intelligence": 11,
+            "wisdom": 16,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "medicine": 6,
+                "religion": 3
+            },
+            "damage_vulnerabilities": "radiant",
+            "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "the languages it knew in life",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The wormhearted suffragan can make two helminth infestation attacks, or it can cast one spell and make one helminth infestation attack."
+                },
+                {
+                    "name": "Helminth Infestation",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (2d6) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or be afflicted with a helminth infestation (parasitic worms). An afflicted creature can't regain hit points and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the affliction reduces the target's hit point maximum to 0, the victim dies. The affliction lasts until removed by any magic that cures disease.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the wormhearted suffragan's innate spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It can cast the following spells, requiring no material components:\n\nat will: command, detect evil and good\n\n4/day: inflict wounds\n\n2/day each: blindness-deafness, hold person\n\n1/day each: animate dead, speak with dead"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "count": 2,
+    "monsters": [
+        {
+            "slug": "remorhaz",
+            "name": "Remorhaz",
+            "size": "Huge",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 195,
+            "hit_dice": "17d12+85",
+            "speed": {
+                "walk": 30,
+                "burrow": 20
+            },
+            "strength": 24,
+            "dexterity": 13,
+            "constitution": 21,
+            "intelligence": 4,
+            "wisdom": 10,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "cold, fire",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10",
+            "languages": "",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 40 (6d10 + 7) piercing damage plus 10 (3d6) fire damage. If the target is a creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the remorhaz can't bite another target.",
+                    "attack_bonus": 11,
+                    "damage_dice": "6d10+3d6",
+                    "damage_bonus": 7
+                },
+                {
+                    "name": "Swallow",
+                    "desc": "The remorhaz makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the remorhaz, and it takes 21 (6d6) acid damage at the start of each of the remorhaz's turns.\nIf the remorhaz takes 30 damage or more on a single turn from a creature inside it, the remorhaz must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet oft he remorhaz. If the remorhaz dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Heated Body",
+                    "desc": "A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes 10 (3d6) fire damage.",
+                    "attack_bonus": 0,
+                    "damage_dice": "3d6"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Mountains",
+                "Tundra",
+                "arctic"
+            ]
+        },
+        {
+            "slug": "roc",
+            "name": "Roc",
+            "size": "Gargantuan",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 248,
+            "hit_dice": "16d20+80",
+            "speed": {
+                "walk": 20,
+                "fly": 120
+            },
+            "strength": 28,
+            "dexterity": 10,
+            "constitution": 20,
+            "intelligence": 3,
+            "wisdom": 10,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": 9,
+            "intelligence_save": null,
+            "wisdom_save": 4,
+            "charisma_save": 3,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The roc makes two attacks: one with its beak and one with its talons."
+                },
+                {
+                    "name": "Beak",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 27 (4d8 + 9) piercing damage.",
+                    "attack_bonus": 13,
+                    "damage_dice": "4d8",
+                    "damage_bonus": 9
+                },
+                {
+                    "name": "Talons",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23 (4d6 + 9) slashing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the roc can't use its talons on another target.",
+                    "attack_bonus": 13,
+                    "damage_dice": "4d6",
+                    "damage_bonus": 9
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Sight",
+                    "desc": "The roc has advantage on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Water",
+                "arctic",
+                "coastal",
+                "desert",
+                "hill",
+                "mountain"
+            ]
+        }
+    ]
+}

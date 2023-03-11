@@ -1,0 +1,791 @@
+{
+    "count": 9,
+    "monsters": [
+        {
+            "slug": "bandit-captain",
+            "name": "Bandit Captain",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any non-lawful alignment",
+            "armor_class": 15,
+            "armor_desc": "studded leather",
+            "hit_points": 65,
+            "hit_dice": "10d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 15,
+            "dexterity": 16,
+            "constitution": 14,
+            "intelligence": 14,
+            "wisdom": 11,
+            "charisma": 14,
+            "strength_save": 4,
+            "dexterity_save": 5,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 2,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "athletics": 4,
+                "deception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "any two languages",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers."
+                },
+                {
+                    "name": "Scimitar",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Dagger",
+                    "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Parry",
+                    "desc": "The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Laboratory",
+                "Mountains",
+                "Ruin",
+                "Settlement",
+                "Sewer",
+                "Swamp",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "hill",
+                "urban"
+            ]
+        },
+        {
+            "slug": "berserker",
+            "name": "Berserker",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any chaotic alignment",
+            "armor_class": 13,
+            "armor_desc": "hide armor",
+            "hit_points": 67,
+            "hit_dice": "9d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 12,
+            "constitution": 17,
+            "intelligence": 9,
+            "wisdom": 11,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "any one language (usually Common)",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Greataxe",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d12",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Reckless",
+                    "desc": "At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "druid",
+            "name": "Druid",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 11,
+            "armor_desc": "16 with _barkskin_",
+            "hit_points": 27,
+            "hit_dice": "5d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 10,
+            "dexterity": 12,
+            "constitution": 13,
+            "intelligence": 12,
+            "wisdom": 15,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "medicine": 4,
+                "nature": 3,
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "Druidic plus any two languages",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Quarterstaff",
+                    "desc": "Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands.",
+                    "attack_bonus": 2,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Spellcasting",
+                    "desc": "The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:\n\n\u2022 Cantrips (at will): druidcraft, produce flame, shillelagh\n\u2022 1st level (4 slots): entangle, longstrider, speak with animals, thunderwave\n\u2022 2nd level (3 slots): animal messenger, barkskin"
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/druidcraft/?format=json",
+                "https://api.open5e.com/spells/produce-flame/?format=json",
+                "https://api.open5e.com/spells/shillelagh/?format=json",
+                "https://api.open5e.com/spells/entangle/?format=json",
+                "https://api.open5e.com/spells/longstrider/?format=json",
+                "https://api.open5e.com/spells/speak-with-animals/?format=json",
+                "https://api.open5e.com/spells/thunderwave/?format=json",
+                "https://api.open5e.com/spells/animal-messenger/?format=json",
+                "https://api.open5e.com/spells/barkskin/?format=json"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "griffon",
+            "name": "Griffon",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 59,
+            "hit_dice": "7d10+21",
+            "speed": {
+                "walk": 30,
+                "fly": 80
+            },
+            "strength": 18,
+            "dexterity": 15,
+            "constitution": 16,
+            "intelligence": 2,
+            "wisdom": 13,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The griffon makes two attacks: one with its beak and one with its claws."
+                },
+                {
+                    "name": "Beak",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Sight",
+                    "desc": "The griffon has advantage on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Plane of Air",
+                "arctic",
+                "coastal",
+                "desert",
+                "grassland",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "kappa",
+            "name": "Kappa",
+            "size": "Small",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral or chaotic evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 49,
+            "hit_dice": "11d6+11",
+            "speed": {
+                "swim": 40,
+                "walk": 25
+            },
+            "strength": 18,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 7,
+            "wisdom": 14,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "athletics": 6,
+                "medicine": 4,
+                "perception": 4,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "Common, Sylvan",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "desc": "The kappa makes two claw attacks.",
+                    "name": "Multiattack"
+                },
+                {
+                    "attack_bonus": 6,
+                    "damage_dice": "2d4+4",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage. The target is grappled (escape DC 14) if it is a Large or smaller creature and the kappa doesn't already have another creature grappled.",
+                    "name": "Claw"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "desc": "The kappa can breathe air and water.",
+                    "name": "Amphibious"
+                },
+                {
+                    "desc": "The kappa can grapple creatures that are two sizes larger than itself and can move at full speed when dragging a creature it has grappled.",
+                    "name": "Expert Wrestler"
+                },
+                {
+                    "desc": "The kappa has a bowl-like indentation on its head which holds water from the river or lake where it lives. If the kappa's head bowl is empty, it has disadvantage on attack rolls and ability checks until the bowl is refilled with water. \n\nNormal movement and combat do not cause water to spill from the bowl, but an opponent can empty the bowl by knocking the kappa prone or by making two successful grapple attacks - one to grab the kappa, and one to tip its head while it is grappled.",
+                    "name": "Head Bowl"
+                },
+                {
+                    "desc": "The kappa has advantage on ability checks and saving throws made to escape a grapple.",
+                    "name": "Slippery"
+                },
+                {
+                    "desc": "The kappa has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.",
+                    "name": "Sure-Footed"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "cc",
+            "document__title": "Creature Codex OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "coastal"
+            ]
+        },
+        {
+            "slug": "merrow",
+            "name": "Merrow",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 45,
+            "hit_dice": "6d10+12",
+            "speed": {
+                "walk": 10,
+                "swim": 40
+            },
+            "strength": 18,
+            "dexterity": 10,
+            "constitution": 15,
+            "intelligence": 8,
+            "wisdom": 10,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Abyssal, Aquan",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The merrow makes two attacks: one with its bite and one with its claws or harpoon."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d4",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Harpoon",
+                    "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a Huge or smaller creature, it must succeed on a Strength contest against the merrow or be pulled up to 20 feet toward the merrow.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The merrow can breathe air and water."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Swamp",
+                "Water",
+                "coastal",
+                "desert",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "ogre",
+            "name": "Ogre",
+            "size": "Large",
+            "type": "giant",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 11,
+            "armor_desc": "hide armor",
+            "hit_points": 59,
+            "hit_dice": "7d10+21",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 19,
+            "dexterity": 8,
+            "constitution": 16,
+            "intelligence": 5,
+            "wisdom": 7,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 8",
+            "languages": "Common, Giant",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Greatclub",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Javelin",
+                    "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Feywild",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Plane of Earth",
+                "Ruin",
+                "Swamp",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "plesiosaurus",
+            "name": "Plesiosaurus",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": "Dinosaurs",
+            "alignment": "unaligned",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 68,
+            "hit_dice": "8d10+24",
+            "speed": {
+                "walk": 20,
+                "swim": 40
+            },
+            "strength": 18,
+            "dexterity": 15,
+            "constitution": 16,
+            "intelligence": 2,
+            "wisdom": 12,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "3d6",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Hold Breath",
+                    "desc": "The plesiosaurus can hold its breath for 1 hour."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Plane of Water",
+                "Water",
+                "coastal",
+                "desert",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "sea-hag",
+            "name": "Sea Hag",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": "Hags",
+            "alignment": "chaotic evil",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 52,
+            "hit_dice": "7d8+21",
+            "speed": {
+                "walk": 30,
+                "swim": 40
+            },
+            "strength": 16,
+            "dexterity": 13,
+            "constitution": 16,
+            "intelligence": 12,
+            "wisdom": 12,
+            "charisma": 13,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Aquan, Common, Giant",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Death Glare",
+                    "desc": "The hag targets one frightened creature she can see within 30 ft. of her. If the target can see the hag, it must succeed on a DC 11 Wisdom saving throw against this magic or drop to 0 hit points."
+                },
+                {
+                    "name": "Illusory Appearance",
+                    "desc": "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies.\nThe changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The hag can breathe air and water."
+                },
+                {
+                    "name": "Horrific Appearance",
+                    "desc": "Any humanoid that starts its turn within 30 feet of the hag and can see the hag's true form must make a DC 11 Wisdom saving throw. On a failed save, the creature is frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the hag is within line of sight, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Horrific Appearance for the next 24 hours.\nUnless the target is surprised or the revelation of the hag's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has disadvantage on attack rolls against the hag."
+                },
+                {
+                    "name": "Hag Coven",
+                    "desc": "When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.\nA coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos."
+                },
+                {
+                    "name": "Shared Spellcasting (Coven Only)",
+                    "desc": "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:\n\n\u2022 1st level (4 slots): identify, ray of sickness\n\u2022 2nd level (3 slots): hold person, locate object\n\u2022 3rd level (3 slots): bestow curse, counterspell, lightning bolt\n\u2022 4th level (3 slots): phantasmal killer, polymorph\n\u2022 5th level (2 slots): contact other plane, scrying\n\u2022 6th level (1 slot): eye bite\n\nFor casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier."
+                },
+                {
+                    "name": "Hag Eye (Coven Only)",
+                    "desc": "A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.\nA hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/identify/?format=json",
+                "https://api.open5e.com/spells/ray-of-sickness/?format=json",
+                "https://api.open5e.com/spells/hold-person/?format=json",
+                "https://api.open5e.com/spells/locate-object/?format=json",
+                "https://api.open5e.com/spells/bestow-curse/?format=json",
+                "https://api.open5e.com/spells/counterspell/?format=json",
+                "https://api.open5e.com/spells/lightning-bolt/?format=json",
+                "https://api.open5e.com/spells/phantasmal-killer/?format=json",
+                "https://api.open5e.com/spells/polymorph/?format=json",
+                "https://api.open5e.com/spells/contact-other-plane/?format=json",
+                "https://api.open5e.com/spells/scrying/?format=json",
+                "https://api.open5e.com/spells/eye-bite/?format=json"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Feywild",
+                "Plane of Water",
+                "Water",
+                "coastal",
+                "desert",
+                "underwater"
+            ]
+        }
+    ]
+}

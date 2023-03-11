@@ -1,0 +1,641 @@
+{
+    "count": 7,
+    "monsters": [
+        {
+            "slug": "clockwork-huntsman",
+            "name": "Clockwork Huntsman",
+            "size": "Medium",
+            "type": "construct",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 110,
+            "hit_dice": "20d8+20",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 17,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 4,
+            "wisdom": 10,
+            "charisma": 1,
+            "strength_save": 5,
+            "dexterity_save": 4,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4,
+                "survival": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison, psychic",
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "understands Common",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Longsword",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Net Cannon",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 5/15 ft., one target, size Large or smaller. Hit: the target is restrained. A mechanism within the clockwork huntsman's chest can fire a net with a 20-foot trailing cable anchored within the huntsman's chest. A creature can free itself (or another creature) from the net by using its action to make a successful DC 10 Strength check or by dealing 5 slashing damage to the net. The huntsman can fire up to four nets before it must be reloaded.",
+                    "attack_bonus": 4,
+                    "damage_dice": "0"
+                },
+                {
+                    "name": "Explosive Core",
+                    "desc": "The mechanism that powers the huntsman explodes when the construct is destroyed, projecting superheated steam and shrapnel. Every creature within 5 ft. of the construct takes 10 (3d6) fire damage, or half damage with a successful DC 13 Dexterity saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Immutable Form",
+                    "desc": "The clockwork huntsman is immune to any spell or effect that would alter its form."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The clockwork huntsman has advantage on saving throws against spells and other magical effects."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "urban",
+                "forest"
+            ]
+        },
+        {
+            "slug": "doppelganger",
+            "name": "Doppelganger",
+            "size": "Medium",
+            "type": "monstrosity",
+            "subtype": "shapechanger",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": null,
+            "hit_points": 52,
+            "hit_dice": "8d8+16",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 11,
+            "dexterity": 18,
+            "constitution": 14,
+            "intelligence": 11,
+            "wisdom": 12,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "deception": 6,
+                "insight": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "charmed",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Common",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The doppelganger makes two melee attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Read Thoughts",
+                    "desc": "The doppelganger magically reads the surface thoughts of one creature within 60 ft. of it. The effect can penetrate barriers, but 3 ft. of wood or dirt, 2 ft. of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Shapechanger",
+                    "desc": "The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                },
+                {
+                    "name": "Ambusher",
+                    "desc": "The doppelganger has advantage on attack rolls against any creature it has surprised."
+                },
+                {
+                    "name": "Surprise Attack",
+                    "desc": "If the doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.",
+                    "attack_bonus": 0,
+                    "damage_dice": "3d6"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Laboratory",
+                "Ruin",
+                "Settlement",
+                "Sewer",
+                "Shadowfell",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "knight",
+            "name": "Knight",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 18,
+            "armor_desc": "plate",
+            "hit_points": 52,
+            "hit_dice": "8d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 11,
+            "constitution": 14,
+            "intelligence": 11,
+            "wisdom": 11,
+            "charisma": 15,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 4,
+            "intelligence_save": null,
+            "wisdom_save": 2,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "any one language (usually Common)",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The knight makes two melee attacks."
+                },
+                {
+                    "name": "Greatsword",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.",
+                    "attack_bonus": 2,
+                    "damage_dice": "1d10"
+                },
+                {
+                    "name": "Leadership (Recharges after a Short or Long Rest)",
+                    "desc": "For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is incapacitated."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Parry",
+                    "desc": "The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Brave",
+                    "desc": "The knight has advantage on saving throws against being frightened."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Settlement",
+                "Temple",
+                "urban"
+            ]
+        },
+        {
+            "slug": "phase-spider",
+            "name": "Phase Spider",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 32,
+            "hit_dice": "5d10",
+            "speed": {
+                "walk": 30,
+                "climb": 30
+            },
+            "strength": 15,
+            "dexterity": 15,
+            "constitution": 12,
+            "intelligence": 6,
+            "wisdom": 10,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Ethereal Jaunt",
+                    "desc": "As a bonus action, the spider can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
+                },
+                {
+                    "name": "Spider Climb",
+                    "desc": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                },
+                {
+                    "name": "Web Walker",
+                    "desc": "The spider ignores movement restrictions caused by webbing."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Astral Plane",
+                "Caverns",
+                "Ethereal Plane",
+                "Feywild",
+                "Grassland",
+                "Mountains",
+                "Ruin",
+                "Shadowfell",
+                "forest",
+                "grassland",
+                "hill",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "ravenfolk-warrior",
+            "name": "Ravenfolk Warrior",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "kenku",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 15,
+            "armor_desc": "studded leather armor",
+            "hit_points": 78,
+            "hit_dice": "12d8+24",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 12,
+            "dexterity": 16,
+            "constitution": 14,
+            "intelligence": 10,
+            "wisdom": 13,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": 5,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 3,
+            "charisma_save": 2,
+            "perception": 5,
+            "skills": {
+                "deception": 2,
+                "perception": 5,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 120 ft., passive Perception 15",
+            "languages": "Common, Feather Speech, Huginn",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "A ravenfolk warrior makes two runespear attacks, or two longbow attacks, or one ghost wings attack and one runespear attack. It can substitute one peck attack for any other attack."
+                },
+                {
+                    "name": "Ghost Wings",
+                    "desc": "The ravenfolk warrior furiously \"beats\"a set of phantasmal wings. Every creature within 5 feet of the ravenfolk must make a successful DC 13 Dexterity saving throw or be blinded until the start of the ravenfolk's next turn."
+                },
+                {
+                    "name": "Longbow",
+                    "desc": "Ranged Weapon Attack. +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+                },
+                {
+                    "name": "Peck",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Radiant Runespear",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit: 7 (1d12 + 1) piercing damage plus 2 (1d4) radiant damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d12"
+                },
+                {
+                    "name": "Rapier",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8"
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Odin's Call",
+                    "desc": "A ravenfolk warrior can disengage after an attack reduces it to 10 hp or less."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Rune Weapons",
+                    "desc": "Kept keen with runic magic, runespears and runestaves are two-handed weapons that count as magical, though they provide no bonus to attack. Their magic must be renewed each week by a doom croaker or by Odin's own hand."
+                },
+                {
+                    "name": "Mimicry",
+                    "desc": "Ravenfolk warriors can mimic the voices of others with uncanny accuracy. They have advantage on Charisma (Deception) checks involving audible mimicry."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "hills",
+                "urban",
+                "forest",
+                "hill"
+            ]
+        },
+        {
+            "slug": "veteran",
+            "name": "Veteran",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 17,
+            "armor_desc": "splint",
+            "hit_points": 58,
+            "hit_dice": "9d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 13,
+            "constitution": 14,
+            "intelligence": 10,
+            "wisdom": 11,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "athletics": 5,
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "any one language (usually Common)",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+                },
+                {
+                    "name": "Longsword",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 1
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Settlement",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "mountain",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "wight",
+            "name": "Wight",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 14,
+            "armor_desc": "studded leather",
+            "hit_points": 45,
+            "hit_dice": "6d8+18",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 15,
+            "dexterity": 14,
+            "constitution": 16,
+            "intelligence": 10,
+            "wisdom": 13,
+            "charisma": 15,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "the languages it knew in life",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack."
+                },
+                {
+                    "name": "Life Drain",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.\nA humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Longsword",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Longbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Sunlight Sensitivity",
+                    "desc": "While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "swamp",
+                "underdark",
+                "urban"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,327 @@
+{
+    "count": 4,
+    "monsters": [
+        {
+            "slug": "gerridae",
+            "name": "Gerridae",
+            "size": "Large",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 77,
+            "hit_dice": "9d10+27",
+            "speed": {
+                "walk": 10,
+                "climb": 10,
+                "swim": 80
+            },
+            "strength": 16,
+            "dexterity": 15,
+            "constitution": 17,
+            "intelligence": 2,
+            "wisdom": 13,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "-",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The gerridae makes one bite attack and one claw attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Bred to the Saddle",
+                    "desc": "Gerridae do not take any penalties to their movement or speed due to encumbrance or carrying a single rider."
+                },
+                {
+                    "name": "Waterborne",
+                    "desc": "Any gerridae can run while on the surface of water, but not while on land or climbing. They treat stormy water as normal rather than difficult terrain. A gerridae takes one point of damage for every hour spent on dry land."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "aquatic",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "giant-octopus",
+            "name": "Giant Octopus",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 52,
+            "hit_dice": "8d10",
+            "speed": {
+                "walk": 10,
+                "swim": 60
+            },
+            "strength": 17,
+            "dexterity": 13,
+            "constitution": 13,
+            "intelligence": 4,
+            "wisdom": 10,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Tentacles",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Ink Cloud (Recharges after a Short or Long Rest)",
+                    "desc": "A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Hold Breath",
+                    "desc": "While out of water, the octopus can hold its breath for 1 hour."
+                },
+                {
+                    "name": "Underwater Camouflage",
+                    "desc": "The octopus has advantage on Dexterity (Stealth) checks made while underwater."
+                },
+                {
+                    "name": "Water Breathing",
+                    "desc": "The octopus can breathe only underwater."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Water",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "glass-gator",
+            "name": "Glass Gator",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 45,
+            "hit_dice": "7d10+7",
+            "speed": {
+                "walk": 30,
+                "swim": 50
+            },
+            "strength": 15,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 4,
+            "wisdom": 10,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "Blindsight 30 ft., passive Perception 12",
+            "languages": "-",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the glass gator can't attack a different target.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d4"
+                },
+                {
+                    "name": "Constrict",
+                    "desc": "One creature that's already grappled by the glass gator takes 7 (2d4 + 2) bludgeoning damage plus 7 (2d6) poison damage, or half as much poison damage with a successful DC 11 Constitution saving throw."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Silt Cloud (Recharges after a Short or Long Rest)",
+                    "desc": "After taking damage while in water, the glass gator thrashes to stir up a 10-foot-radius cloud of silt around itself. The area inside the sphere is heavily obscured for 1 minute (10 rounds) in still water or 5 (2d4) rounds in a strong current. After stirring up the silt, the glass gator can move its speed."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The glass gator can breathe air and water."
+                },
+                {
+                    "name": "Lunge",
+                    "desc": "When the glass gator leaps at least 10 feet toward a creature and hits that creature with a claws attack on the same turn, it can immediately constrict the target as a bonus action."
+                },
+                {
+                    "name": "Transparency",
+                    "desc": "The glass gator has advantage on Dexterity (Stealth) checks while underwater or in dim light."
+                },
+                {
+                    "name": "Standing Leap",
+                    "desc": "The glass gator can long jump up to 15 feet from water or up to 10 feet on land, with or without a running start."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "aquatic",
+                "marshes",
+                "swamp",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "swarm-of-quippers",
+            "name": "Swarm of Quippers",
+            "size": "Medium",
+            "type": "swarm of Tiny beasts",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 13,
+            "armor_desc": null,
+            "hit_points": 28,
+            "hit_dice": "8d8",
+            "speed": {
+                "walk": 0,
+                "swim": 40
+            },
+            "strength": 13,
+            "dexterity": 16,
+            "constitution": 9,
+            "intelligence": 1,
+            "wisdom": 7,
+            "charisma": 2,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, slashing",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+            "senses": "darkvision 60 ft., passive Perception 8",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Bites",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.",
+                    "attack_bonus": 5,
+                    "damage_dice": "4d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Blood Frenzy",
+                    "desc": "The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+                },
+                {
+                    "name": "Swarm",
+                    "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points."
+                },
+                {
+                    "name": "Water Breathing",
+                    "desc": "The swarm can breathe only underwater."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Sewer",
+                "Water",
+                "underwater"
+            ]
+        }
+    ]
+}

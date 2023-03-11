@@ -1,0 +1,652 @@
+{
+    "count": 8,
+    "monsters": [
+        {
+            "slug": "cactid",
+            "name": "Cactid",
+            "size": "Large",
+            "type": "plant",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 76,
+            "hit_dice": "8d10+32",
+            "speed": {
+                "walk": 5
+            },
+            "strength": 16,
+            "dexterity": 8,
+            "constitution": 18,
+            "intelligence": 7,
+            "wisdom": 10,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "fire",
+            "damage_resistances": "bludgeoning, piercing",
+            "damage_immunities": "",
+            "condition_immunities": "blinded, deafened",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10",
+            "languages": "understands Sylvan, but can't speak",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The cactid makes two attacks with its tendrils and uses Reel."
+                },
+                {
+                    "name": "Tendril",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 15 ft., one creature. Hit: 10 (2d6 + 3) bludgeoning damage plus 3 (1d6) piercing damage, and a Medium or smaller target is grappled (escape DC 13). Until this grapple ends, the target is restrained. If the target is neither undead nor a construct, the cactid drains the target's body fluids; at the start of each of the target's turns, the target must make a DC 13 Constitution saving throw. On a failed save, the creature's hit point maximum is reduced by 3 (1d6). If a creature's hit point maximum is reduced to 0 by this effect, the creature dies. This reduction lasts until the creature finishes a long rest and drinks abundant water or until it receives a greater restoration spell or comparable magic. The cactid has two tendrils, each of which can grapple one target at a time.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Reel",
+                    "desc": "Each creature grappled by the cactid is pulled up to 5 feet straight toward the cactid."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Hail of Needles (1/Day)",
+                    "desc": "When reduced below 10 hp (even below 0 hp), the cactid releases a hail of needles as a reaction. All creatures within 15 feet take 21 (6d6) piercing damage, or half damage with a successful DC 14 Dexterity saving throw."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert"
+            ]
+        },
+        {
+            "slug": "gnoll-havoc-runner",
+            "name": "Gnoll Havoc Runner",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "gnoll",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "chain shirt",
+            "hit_points": 58,
+            "hit_dice": "9d8+18",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 14,
+            "constitution": 14,
+            "intelligence": 8,
+            "wisdom": 12,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "athletics": 5,
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "Gnoll",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The gnoll makes one bite attack and two battleaxe attacks."
+                },
+                {
+                    "name": "Battleaxe",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage or 8 (1d10 + 3) slashing damage if used in two hands.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Harrying Attacks",
+                    "desc": "If the gnoll attacks two creatures in the same turn, the first target has disadvantage on attack rolls until the end of its next turn."
+                },
+                {
+                    "name": "Lightning Lope",
+                    "desc": "The gnoll can Dash or Disengage as a bonus action."
+                },
+                {
+                    "name": "Pack Tactics",
+                    "desc": "The gnoll has advantage on its attack rolls against a target if at least one of the gnoll's allies is within 5 feet of the target and the ally isn't incapacitated."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "plains",
+                "plain"
+            ]
+        },
+        {
+            "slug": "manticore",
+            "name": "Manticore",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 68,
+            "hit_dice": "8d10+24",
+            "speed": {
+                "walk": 30,
+                "fly": 50
+            },
+            "strength": 17,
+            "dexterity": 16,
+            "constitution": 17,
+            "intelligence": 7,
+            "wisdom": 12,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The manticore makes three attacks: one with its bite and two with its claws or three with its tail spikes."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Tail Spike",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 100/200 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Tail Spike Regrowth",
+                    "desc": "The manticore has twenty-four tail spikes. Used spikes regrow when the manticore finishes a long rest."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "grassland",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "mirager",
+            "name": "Mirager",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "shapechanger",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 13,
+            "armor_desc": "",
+            "hit_points": 78,
+            "hit_dice": "12d8+24",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 12,
+            "dexterity": 16,
+            "constitution": 14,
+            "intelligence": 10,
+            "wisdom": 14,
+            "charisma": 20,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "deception": 7,
+                "perception": 4,
+                "performance": 9
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Common, Sylvan",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack.",
+                    "desc": "The mirager makes two slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Thirst Kiss",
+                    "desc": "The mirager feeds on the body moisture of creatures it lures into kissing it. A creature must be charmed, grappled, or incapacitated to be kissed. A kiss hits automatically, does 21 (6d6) necrotic damage, and fills the mirager with an exultant rush of euphoria that has the same effect as a heroism spell lasting 1 minute. The creature that was kissed doesn't notice that it took damage from the kiss unless it makes a successful DC 16 Wisdom (Perception) check."
+                },
+                {
+                    "name": "Captivating Dance (Recharges after a Short or Long Rest, Humanoid Form Only)",
+                    "desc": "The mirager performs a sinuously swaying dance. Humanoids within 20 feet that view this dance must make a successful DC 16 Wisdom saving throw or be stunned for 1d4 rounds and charmed by the mirager for 1 minute. Humanoids of all races and genders have disadvantage on this saving throw. A creature that saves successfully is immune to this mirager's dance for the next 24 hours."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Shapechanger",
+                    "desc": "The mirager can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the mirager's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:\n\n3/day: charm person\n\n1/day each: hallucinatory terrain, suggestion"
+                },
+                {
+                    "name": "Enthralling Mirage",
+                    "desc": "When the mirager casts hallucinatory terrain, the area appears so lush and inviting that those who view it feel compelled to visit. Any creature that approaches within 120 feet of the terrain must make a DC 15 Wisdom saving throw. Those that fail are affected as by the enthrall spell with the mirager as the caster; they give the mirage their undivided attention, wanting only to explore it, marvel at its beauty, and rest there for an hour. The mirager can choose to have creatures focus their attention on it instead of the hallucinatory terrain. Creatures affected by the enthrall effect automatically fail saving throws to disbelieve the hallucinatory terrain. This effect ends if the hallucinatory terrain is dispelled."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "desert"
+            ]
+        },
+        {
+            "slug": "night-scorpion",
+            "name": "Night Scorpion",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 90,
+            "hit_dice": "12d10+24",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 15,
+            "dexterity": 14,
+            "constitution": 14,
+            "intelligence": 1,
+            "wisdom": 9,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 60 ft., passive Perception 9",
+            "languages": "-",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The scorpion makes three attacks: two with its claws and one with its sting."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple one target.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8+2"
+                },
+                {
+                    "name": "Sting",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target takes 7 (2d6) poison damage and is blinded for 1d3 hours; a successful DC 12 Constitution saving throw reduces damage by half and prevents blindness. If the target fails the saving throw by 5 or more, the target is also paralyzed while poisoned. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d10"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "forests",
+                "plains",
+                "ruins",
+                "underground",
+                "forest",
+                "plain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "stygian-fat-tailed-scorpion",
+            "name": "Stygian Fat-Tailed Scorpion",
+            "size": "Tiny",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 10,
+            "hit_dice": "4d4",
+            "speed": {
+                "walk": 30,
+                "climb": 20
+            },
+            "strength": 3,
+            "dexterity": 16,
+            "constitution": 10,
+            "intelligence": 1,
+            "wisdom": 10,
+            "charisma": 2,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "-",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The scorpion makes three attacks: two with its claws and one with its sting."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1"
+                },
+                {
+                    "name": "Sting",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, plus 21 (6d6) poison damage and the target is poisoned until it completes a short or long rest. A successful DC 10 Constitution saving throw reduces the poison damage to half and prevents the poisoned condition. If the target fails this saving throw while already poisoned, it gains one level of exhaustion in addition to the other effects.",
+                    "attack_bonus": 5,
+                    "damage_dice": "6d6+1"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "forests",
+                "plains",
+                "ruins",
+                "underground",
+                "forest",
+                "plain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "venomous-mummy",
+            "name": "Venomous Mummy",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 11,
+            "armor_desc": "natural armor",
+            "hit_points": 58,
+            "hit_dice": "9d8+18",
+            "speed": {
+                "walk": 20
+            },
+            "strength": 16,
+            "dexterity": 8,
+            "constitution": 15,
+            "intelligence": 7,
+            "wisdom": 10,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 2,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "fire",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "necrotic, poison",
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "the languages it knew in life",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Venomous Fist",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be affected by the Selket's venom curse (see above).",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6+7"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Selket's Venom",
+                    "desc": "The venomous mummy's body and wrappings are magically imbued with substances that are highly toxic. Any creature that comes in physical contact with the venomous mummy (e.g., touching the mummy barehanded, grappling, using a bite attack) must succeed on a DC 12 Constitution saving throw or be poisoned with Selket's venom. The poisoned target takes 3 (1d6) poison damage every 10 minutes. Selket's venom is a curse, so it lasts until ended by the remove curse spell or comparable magic."
+                },
+                {
+                    "name": "Toxic Smoke",
+                    "desc": "The venomous mummy's poison-imbued wrappings and flesh create toxic fumes when burned. If a venomous mummy takes fire damage, it is surrounded by a cloud of toxic smoke in a 10-foot radius. This cloud persists for one full round. A creature that starts its turn inside the cloud or enters it for the first time on its turn takes 14 (4d6) poison damage, or half damage with a successful DC 12 Constitution saving throw."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "ruins",
+                "underground",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "veteran",
+            "name": "Veteran",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 17,
+            "armor_desc": "splint",
+            "hit_points": 58,
+            "hit_dice": "9d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 13,
+            "constitution": 14,
+            "intelligence": 10,
+            "wisdom": 11,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "athletics": 5,
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "any one language (usually Common)",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+                },
+                {
+                    "name": "Longsword",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 1
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Settlement",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "mountain",
+                "underdark",
+                "urban"
+            ]
+        }
+    ]
+}

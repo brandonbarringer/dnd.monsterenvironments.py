@@ -1,0 +1,910 @@
+{
+    "count": 10,
+    "monsters": [
+        {
+            "slug": "abominable-beauty",
+            "name": "Abominable Beauty",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 187,
+            "hit_dice": "22d8+88",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 17,
+            "dexterity": 18,
+            "constitution": 18,
+            "intelligence": 17,
+            "wisdom": 16,
+            "charisma": 26,
+            "strength_save": null,
+            "dexterity_save": 8,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 12,
+            "perception": 7,
+            "skills": {
+                "deception": 12,
+                "perception": 7,
+                "performance": 12,
+                "persuasion": 12
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire",
+            "condition_immunities": "",
+            "senses": "passive Perception $1",
+            "languages": "Common, Draconic, Elven, Sylvan",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The abominable beauty makes two slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "+8 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) damage plus 28 (8d6) fire damage."
+                },
+                {
+                    "name": "Blinding Gaze (Recharge 5-6)",
+                    "desc": "A creature within 30 feet of the abominable beauty who is targeted by this attack and who meets the abominable beauty's gaze must succeed on a DC 17 Charisma saving throw or be blinded. If the saving throw succeeds, the target creature is permanently immune to this abominable beauty's Blinding Gaze."
+                },
+                {
+                    "name": "Deafening Voice (Recharge 5-6)",
+                    "desc": "An abominable beauty's voice is lovely, but any creature within 90 feet and able to hear her when she makes her Deafening Voice attack must succeed on a DC 16 Constitution saving throw or be permanently deafened."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Burning Touch",
+                    "desc": "The abominable beauty's slam attacks do 28 (8d6) fire damage. A creature who touches her also takes 28 (8d6) fire damage."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "blood-hag",
+            "name": "Blood Hag",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 178,
+            "hit_dice": "21d8+84",
+            "speed": {
+                "walk": 30,
+                "climb": 30
+            },
+            "strength": 20,
+            "dexterity": 16,
+            "constitution": 18,
+            "intelligence": 19,
+            "wisdom": 21,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": 7,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 7,
+            "perception": 9,
+            "skills": {
+                "deception": 7,
+                "intimidation": 7,
+                "perception": 9,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, poisoned",
+            "senses": "blood sense 90 ft., darkvision 60 ft., passive Perception 19",
+            "languages": "Common, Giant, Infernal, Sylvan, Trollkin",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The blood hag makes two claw attacks and one blood-drinking hair attack."
+                },
+                {
+                    "name": "Blood-Drinking Hair",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) piercing damage and a Medium or smaller target is grappled (escape DC 15). A grappled creature takes 13 (2d8 + 3) necrotic damage at the start of the hag's turns, and the hag heals half as many hit points. The hag gains excess healing as temporary hit points. The hag can grapple one or two creatures at a time. Also see Face Peel.",
+                    "attack_bonus": 9,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 19 (4d6 + 5) slashing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "4d6"
+                },
+                {
+                    "name": "Call the Blood",
+                    "desc": "The blood hag targets a living creature within 30 feet that she detects with her blood sense and makes the target bleed uncontrollably. The target must make a successful DC 16 Constitution saving throw or suffer one of the effects listed below. A target that saves successfully cannot be affected by this hag's ability again for 24 hours."
+                },
+                {
+                    "name": "1",
+                    "desc": "Blood Choke Curse. The target's mouth fills with blood, preventing any speech or spellcasting with verbal components for 1 minute."
+                },
+                {
+                    "name": "2",
+                    "desc": "Blood Eye. The target's eyes well up with bloody tears. The target is blinded for 1 minute."
+                },
+                {
+                    "name": "3",
+                    "desc": "Heart Like Thunder. The target hears only the rushing of blood and their thumping heart. They are deaf for 1 minute."
+                },
+                {
+                    "name": "4",
+                    "desc": "Rupturing Arteries. The victim suffers 7 (2d6) slashing damage as its veins and arteries burst open. The target repeats the saving throw at the beginning of each of its turns. It takes 3 (1d6) necrotic damage if the saving throw fails, but the effect ends on a successful save."
+                },
+                {
+                    "name": "Face Peel",
+                    "desc": "The blood hag peels the face off one grappled foe. The target must make a DC 17 Dexterity saving throw. If the saving throw fails, the face is torn off; the target takes 38 (8d6 + 10) slashing damage and is stunned until the start of the hag's next turn. If the save succeeds, the target takes half damage and isn't stunned. Heal, regeneration, or comparable magic restores the stolen features; other curative magic forms a mass of scar tissue. The peeled-off face is a tiny, animated object (per the spell-20 HP, AC 18, no attack, Str 4, Dex 18) under the hag's control. It retains the former owner's memories and personality. Blood hags keep such faces as trophies, but they can also wear someone's face to gain advantage on Charisma (Deception) checks made to imitate the face's former owner."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Blood Sense",
+                    "desc": "A blood hag automatically senses the blood of living creatures within 90 feet and can pinpoint their locations within 30 feet."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the hag's innate spellcasting ability is Charisma (spell save DC 15). She can innately cast the following spells, requiring no material components:\n\nat will: disguise self, knock, minor illusion, misty step, pass without trace, protection from evil and good, tongues, water breathing\n\n3/day each: bestow curse, invisibility, mirror image\n\n1/day each: cloudkill, modify memory"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "buraq",
+            "name": "Buraq",
+            "size": "Medium",
+            "type": "celestial",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful good",
+            "armor_class": 17,
+            "armor_desc": "",
+            "hit_points": 152,
+            "hit_dice": "16d8+80",
+            "speed": {
+                "walk": 60,
+                "fly": 90
+            },
+            "strength": 15,
+            "dexterity": 18,
+            "constitution": 20,
+            "intelligence": 18,
+            "wisdom": 18,
+            "charisma": 20,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 9,
+            "intelligence_save": null,
+            "wisdom_save": 8,
+            "charisma_save": 9,
+            "perception": null,
+            "skills": {
+                "history": 8,
+                "religion": 8
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "radiant; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, exhaustion, frightened",
+            "senses": "truesight 120 ft., passive Perception 14",
+            "languages": "Celestial, Common, Primordial, telepathy 120 ft.",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The buraq makes two attacks with its hooves."
+                },
+                {
+                    "name": "Hooves",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Teleport (1/Day)",
+                    "desc": "The buraq magically teleports itself and its rider, along with any equipment it is wearing or carrying, to a location the buraq is familiar with, up to 1 mile away."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Angelic Weapons",
+                    "desc": "The buraq's attacks are magical. When the buraq hits with its hooves, it deals an extra 4d8 radiant damage (included in the attack)."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the buraq's innate spellcasting ability is Charisma (spell save DC 17). The buraq can innately cast the following spells, requiring no components:\n\nat will: comprehend languages, detect evil and good, holy aura, pass without trace\n\n3/day each: haste, longstrider\n\n1/day each: plane shift, wind walk"
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The buraq has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Night Journey",
+                    "desc": "When outdoors at night, a buraq's vision is not limited by nonmagical darkness. Once per month, the buraq can declare it is on a night journey; for the next 24 hours, it can use its Teleport once per round. Its destination must always be in an area of nonmagical darkness within its line of sight. At any point during the night journey, as a bonus action, the buraq can return itself and its rider to the location where it began the night journey."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "corpse-mound",
+            "name": "Corpse Mound",
+            "size": "Huge",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 207,
+            "hit_dice": "18d12+90",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 24,
+            "dexterity": 11,
+            "constitution": 21,
+            "intelligence": 8,
+            "wisdom": 10,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 9,
+            "intelligence_save": 3,
+            "wisdom_save": 4,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "necrotic",
+            "damage_immunities": "poison",
+            "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Understands Common but can't speak",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The corpse mound makes two weapon attacks or uses envelop once."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 18 (2d10 + 7) bludgeoning damage plus 10 (3d6) necrotic damage and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained.",
+                    "attack_bonus": 11,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Bone Shard",
+                    "desc": "Ranged Weapon Attack: +11 to hit, range 30/120 ft., one target. Hit: 14 (2d6 + 7) piercing damage and 10 (3d6) necrotic damage. When hit, the target must make a successful DC 17 Strength check or be knocked prone, pinned to the ground by the shard, and restrained. To end this restraint, the target or a creature adjacent to it must use an action to make a successful DC 17 Strength (Athletics) check to remove the shard.",
+                    "attack_bonus": 11,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Envelop",
+                    "desc": "The corpse mound makes a slam attack against a restrained creature. If the attack hits, the target takes damage as normal, is pulled 5 feet into the corpse mound's space, and is enveloped, which ends any grappled or prone condition. While enveloped, the creature is blinded and restrained, it has total cover against attacks and other effects outside the corpse mound, and it takes 21 (6d6) necrotic damage at the start of each of the corpse mound's turns. An enveloped creature can escape by using its action to make a successful DC 17 Strength saving throw. If the corpse mound takes 30 or more damage on a single turn from the enveloped creature, it must succeed on a DC 17 Constitution saving throw at the end of that turn or expel the creature, which falls prone in a space within 10 feet of the corpse mound. If the corpse mound dies, an enveloped creature is no longer restrained by it and can escape by using 10 feet of movement, exiting prone. A corpse mound can envelop up to 4 creatures at once."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Absorb the Dead",
+                    "desc": "Whenever a Small or larger non-undead creature dies within 20 feet of the corpse mound, that creature's remains join its form and the corpse mound regains 10 hit points."
+                },
+                {
+                    "name": "Noxious Aura",
+                    "desc": "Creatures that are within 20 feet of the corpse mound at the end of its turn must succeed on a DC 17 Constitution saving throw or become poisoned until the end of their next turn. On a successful saving throw, the creature is immune to the Noxious Aura for 24 hours."
+                },
+                {
+                    "name": "Zombie Drop",
+                    "desc": "At the start of the corpse mound's turn during combat, one corpse falls from the mound onto the ground and immediately rises as a zombie under its control. Up to 10 such zombies can be active at one time. Zombies take their turns immediately after the corpse mound's turn."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "dullahan",
+            "name": "Dullahan",
+            "size": "Large",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 178,
+            "hit_dice": "17d10+85",
+            "speed": {
+                "walk": 60
+            },
+            "strength": 19,
+            "dexterity": 18,
+            "constitution": 20,
+            "intelligence": 13,
+            "wisdom": 15,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 6,
+            "skills": {
+                "intimidation": 7,
+                "perception": 6,
+                "persuasion": 7,
+                "survival": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "necrotic",
+            "condition_immunities": "charmed, frightened, exhaustion",
+            "senses": "blindsight 60 ft., passive Perception 16",
+            "languages": "Common, Elvish, Sylvan",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dullahan makes two attacks with its spine whip."
+                },
+                {
+                    "name": "Spine Whip",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) slashing damage plus 10 (3d10) necrotic damage. If the target is a creature it must make a DC 15 Constitution saving throw or be wracked with pain and fall prone.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Seal the Doom",
+                    "desc": "The dullahan points at a creature marked by Deathly Doom within 40 feet than it can see. The creature must succeed at a DC 15 Constitution saving throw against this magic or immediately drop to 0 hit points. A creature that successfully saves is immune to this effect for 24 hours."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Interposing Glare",
+                    "desc": "When the dullahan is hit by a melee attack it can move its severed head in front of the attacker's face. The attacker is affected by the dullahan's Baleful Glare immediately. If the creature is averting its eyes this turn, it must still make the save, but does so with advantage."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Baleful Glare",
+                    "desc": "When a creature that can see the eyes of the dullahan's severed head starts its turn within 30 feet of the dullahan, the dullahan can force it to make a DC 15 Wisdom saving throw if the dullahan isn't incapacitated and can see the creature. On a failed save, the creature is frightened until the start of its next turn. While frightened in this way the creature must move away from the dullahan, and can only use its action to Dash. If the creature is affected by the dullahan's Deathly Doom trait, it is restrained while frightened instead. Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the dullahan until the start of its next turn, when it can avert its eyes again. If the creature looks at the dullahan in the meantime, it must immediately make the save."
+                },
+                {
+                    "name": "Deathly Doom (1/Day)",
+                    "desc": "As a bonus action, the dullahan magically dooms a creature. The dullahan knows the direction to the doomed creature as long as it is on the same plane."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the dullahan's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The dullahan can innately cast the following spells, requiring no material or somatic components:\n\nat will: bane, chill touch, hex, knock\n\n3/day each: false life, see invisibility\n\n1/day: blight"
+                },
+                {
+                    "name": "Relentless Advance",
+                    "desc": "The dullahan is unaffected by difficult terrain, and can ride over water and other liquid surfaces."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "eye-golem",
+            "name": "Eye Golem",
+            "size": "Large",
+            "type": "construct",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 20,
+            "armor_desc": "natural armor",
+            "hit_points": 157,
+            "hit_dice": "15d10+75",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 22,
+            "dexterity": 9,
+            "constitution": 20,
+            "intelligence": 5,
+            "wisdom": 11,
+            "charisma": 1,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 8,
+            "skills": {
+                "perception": 8
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+            "condition_immunities": "charmed, exhausted, frightened, paralyzed, petrified, poisoned",
+            "senses": "truesight 120 ft., passive Perception 18",
+            "languages": "understands the language of its creator, but can't speak",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The golem makes two melee attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +10 to hit, reach 5ft., one target. Hit: 24 (4d8 + 6) bludgeoning damage.",
+                    "attack_bonus": 10,
+                    "damage_dice": "4d8"
+                },
+                {
+                    "name": "Gaze of Ancient Light (Recharge 6)",
+                    "desc": "The golem emits a burst of blinding light, affecting all opponents within 30 feet who are visible to it. These creatures must make a successful DC 17 Constitution saving throw or be permanently blinded. All affected creatures, including those that save successfully, are stunned until the end of their next turn."
+                },
+                {
+                    "name": "Primal Voice of Doom (1/Day)",
+                    "desc": "The golem intones a disturbing invocation of the sun god. Creatures within 30 feet of the golem must make a successful DC 17 Wisdom saving throw or become frightened Deaf or unhearing creatures are unaffected."
+                },
+                {
+                    "name": "Shoot into the Sun (1 minute/day)",
+                    "desc": "When roused for combat, the golem opens many of its eyes, emitting blinding light. All ranged attacks, including ranged spells that require a spell attack roll, are made with disadvantage against the golem. The effect persists as long as the eye golem desires, up to a total of 1 minute (10 rounds) per day."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Immutable Form",
+                    "desc": "The golem is immune to any spell or effect that would alter its form."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The golem has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The golem's weapon attacks are magical."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "grim-jester",
+            "name": "Grim Jester",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 136,
+            "hit_dice": "16d8+64",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 14,
+            "dexterity": 22,
+            "constitution": 18,
+            "intelligence": 16,
+            "wisdom": 16,
+            "charisma": 20,
+            "strength_save": null,
+            "dexterity_save": 10,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 9,
+            "perception": 7,
+            "skills": {
+                "acrobatics": 10,
+                "deception": 9,
+                "perception": 7,
+                "performance": 9,
+                "stealth": 10
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold",
+            "damage_immunities": "necrotic, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 17",
+            "languages": "Abyssal, Celestial, Common, Gnomish, telepathy 60 ft.",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Joker's Shuffle (recharge 6)",
+                    "desc": "The jester forces one Medium or Small humanoid within 60 feet to make a DC 17 Charisma saving throw. If the saving throw fails, the jester and the target exchange locations via teleportation and an illusion causes them to swap appearance: the jester looks and sounds like the target, and the target looks and sounds like the jester. The illusion lasts for 1 hour unless it is dismissed earlier by the jester as a bonus action, or dispelled (DC 17)."
+                },
+                {
+                    "name": "Killing Joke (recharge 6)",
+                    "desc": "The jester performs an ancient, nihilistic joke of necromantic power. This joke has no effect on undead or constructs. All other creatures within 60 feet of the jester must make a DC 17 Wisdom saving throw. Those that fail fall prone in a fit of deadly laughter. The laughter lasts 1d4 rounds, during which time the victim is incapacitated and unable to stand up from prone. At the end of its turn each round, an incapacitated victim must make a successful DC 17 Constitution saving throw or be reduced to 0 hit points. The laughter can be ended early by rendering the victim unconscious or with greater restoration or comparable magic."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Ridicule Hope (recharge 4-6)",
+                    "desc": "When a spell that restores hit points is cast within 60 feet of the jester, the jester can cause that spell to inflict damage instead of curing it. The damage equals the hit points the spell would have cured."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the jester's spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). It can innately cast the following spells requiring no components:\n\nat will: disguise self, grease, inflict wounds, magic mouth, misty step\n\n3/day each: contagion, mirror image\n\n1/day each: delayed blast fireball, finger of death, mislead, seeming"
+                },
+                {
+                    "name": "Last Laugh",
+                    "desc": "Unless it is destroyed in a manner amusing to the god of death that created it, the grim jester is brought back after 1d20 days in a place of the god's choosing."
+                },
+                {
+                    "name": "Mock the Dying",
+                    "desc": "Death saving throws made within 60 feet of the jester have disadvantage."
+                },
+                {
+                    "name": "Turn Resistance",
+                    "desc": "The jester has advantage on saving throws against any effect that turns undead."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "naina",
+            "name": "Naina",
+            "size": "Large",
+            "type": "dragon",
+            "subtype": "shapechanger",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 231,
+            "hit_dice": "22d10+110",
+            "speed": {
+                "walk": 40,
+                "fly": 120
+            },
+            "strength": 20,
+            "dexterity": 16,
+            "constitution": 21,
+            "intelligence": 15,
+            "wisdom": 18,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": 7,
+            "constitution_save": 9,
+            "intelligence_save": 6,
+            "wisdom_save": 8,
+            "charisma_save": 8,
+            "perception": 8,
+            "skills": {
+                "arcana": 6,
+                "deception": 8,
+                "insight": 8,
+                "perception": 8
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "",
+            "condition_immunities": "paralyzed, poisoned, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 18",
+            "languages": "Common, Darakhul, Draconic, Elvish, Sylvan",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The naina makes two claw attacks and one bite attack."
+                },
+                {
+                    "name": "Bite (drake form only)",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (3d12 + 5) piercing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "3d12"
+                },
+                {
+                    "name": "Claw (drake form only)",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (3d12 + 5) slashing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "3d12"
+                },
+                {
+                    "name": "Poison Breath (Recharge 5-6)",
+                    "desc": "While in drake form (only), the naina breathes a 20-foot cone of poison gas, paralytic gas, or sleep gas."
+                },
+                {
+                    "name": "Poison",
+                    "desc": "A creature caught in this poison gas takes 18 (4d8) poison damage and is poisoned; a successful DC 17 Constitution saving throw reduces damage to half and negates the poisoned condition. While poisoned this way, the creature must repeat the saving throw at the end of each of its turns. On a failure, it takes 9 (2d8) poison damage and the poisoning continues; on a success, the poisoning ends."
+                },
+                {
+                    "name": "Paralysis",
+                    "desc": "A creature caught in this paralytic gas must succeed on a DC 17 Constitution saving throw or be paralyzed for 2d4 rounds. A paralyzed creature repeats the saving throw at the end of each of its turns; a successful save ends the paralysis."
+                },
+                {
+                    "name": "Sleep",
+                    "desc": "A creature caught in this sleeping gas must succeed on a DC 17 Constitution saving throw or fall unconscious for 6 rounds. A sleeping creature repeats the saving throw at the end of each of its turns; it wakes up if it makes the save successfully."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Magic Sensitive",
+                    "desc": "The naina detects magic as if it were permanently under the effect of a detect magic spell."
+                },
+                {
+                    "name": "Spellcasting",
+                    "desc": "the naina is a 9th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). The naina has the following sorcerer spells prepared:\n\ncantrips (at will): dancing lights, mage hand, mending, ray of frost, resistance, silent image\n\n1st level (4 slots): charm person, thunderwave, witch bolt\n\n2nd level (3 slots): darkness, invisibility, locate object\n\n3rd level (3 slots): dispel magic, hypnotic pattern\n\n4th level (3 slots): dimension door\n\n5th level (1 slot): dominate person"
+                },
+                {
+                    "name": "Shapechanger",
+                    "desc": "The naina can use her action to polymorph into one of her two forms: a drake or a female humanoid. She cannot alter either form's appearance or capabilities (with the exception of her breath weapon) using this ability, and damage sustained in one form transfers to the other form."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "valkyrie",
+            "name": "Valkyrie",
+            "size": "Medium",
+            "type": "celestial",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 16,
+            "armor_desc": "chain mail) or 18 (chain mail with shield",
+            "hit_points": 112,
+            "hit_dice": "15d8+45",
+            "speed": {
+                "walk": 30,
+                "fly": 30
+            },
+            "strength": 18,
+            "dexterity": 18,
+            "constitution": 16,
+            "intelligence": 12,
+            "wisdom": 19,
+            "charisma": 18,
+            "strength_save": 12,
+            "dexterity_save": 12,
+            "constitution_save": 11,
+            "intelligence_save": 5,
+            "wisdom_save": 8,
+            "charisma_save": 12,
+            "perception": 8,
+            "skills": {
+                "perception": 8
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, cold, fire, lightning, thunder",
+            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "condition_immunities": "frightened",
+            "senses": "truesight 60 ft., passive Perception 18",
+            "languages": "Common, Dwarvish, Giant, and see Gift of Tongues",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Longsword",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage or 9 (1d10 + 4) slashing damage if used with two hands, plus 11 (2d10) radiant damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Spear",
+                    "desc": "Melee or Ranged Weapon Attack: +8 to hit, reach 10 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage or 8 (1d8 + 4) piercing damage if used with two hands to make a melee attack, plus 11 (2d10) radiant damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "A valkyrie can take 3 legendary actions, choosing from the options below. Only one option can be used at a time and only at the end of another creature's turn. A valkyrie regains spent legendary actions at the start of her turn.",
+            "legendary_actions": [
+                {
+                    "name": "Cast a Cantrip",
+                    "desc": "The valkyrie casts one spell from her at-will list."
+                },
+                {
+                    "name": "Spear or Longsword Attack",
+                    "desc": "The valkyrie makes one longsword or spear attack."
+                },
+                {
+                    "name": "Harvest the Fallen (Costs 2 Actions)",
+                    "desc": "A valkyrie can take the soul of a newly dead body and bind it into a weapon or shield. Only one soul can be bound to any object. Individuals whose souls are bound can't be raised by any means short of a wish or comparable magic. A valkyrie can likewise release any soul that has been bound by another valkyrie, or transfer a bound soul from one object to another. Once bound, the soul grants the item a +1 bonus for every 4 character levels of the soul (maximum of +3), and this replaces any other magic on the item. At the DM's discretion, part of this bonus can become an appropriate special quality (a fire giant's soul might create a flaming weapon, for example)."
+                }
+            ],
+            "special_abilities": [
+                {
+                    "name": "Asgardian Weapons",
+                    "desc": "The valkyrie's weapon attacks are magical. When she hits with any weapon, it does an extra 11 (2d10) radiant damage (included in attacks listed below)."
+                },
+                {
+                    "name": "Cloak of Doom",
+                    "desc": "Any living creature that starts its turn within 60 feet of a valkyrie senses her unsettling presence and must succeed on a DC 16 Charisma saving throw or be frightened for 1d4 rounds. Those who succeed are immune to the effect for 24 hours. The valkyrie can suppress this aura at will."
+                },
+                {
+                    "name": "Gift of Tongues",
+                    "desc": "Valkyries become fluent in any language they hear spoken for at least 1 minute, and they retain this knowledge forever."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the valkyrie's innate spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). She can innately cast the following spells, requiring no material components:\n\nat will: bane, bless, invisibility, sacred flame, spare the dying, speak with animals, thaumaturgy\n\n5/day each: gentle repose, healing word, warding bond\n\n3/day each: beacon of hope, mass healing word, revivify\n\n1/day each: commune, death ward, freedom of movement, geas"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "planar",
+                "any"
+            ]
+        },
+        {
+            "slug": "voidling",
+            "name": "Voidling",
+            "size": "Large",
+            "type": "aberration",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 16,
+            "armor_desc": "",
+            "hit_points": 110,
+            "hit_dice": "20d10",
+            "speed": {
+                "hover": true,
+                "walk": 0,
+                "fly": 50
+            },
+            "strength": 15,
+            "dexterity": 22,
+            "constitution": 10,
+            "intelligence": 14,
+            "wisdom": 16,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 4,
+            "intelligence_save": 6,
+            "wisdom_save": 7,
+            "charisma_save": 4,
+            "perception": null,
+            "skills": {
+                "stealth": 10
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "necrotic",
+            "condition_immunities": "exhaustion, petrified, prone",
+            "senses": "truesight 60 ft., passive Perception 13",
+            "languages": "telepathy 60 ft.",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The voidling makes 4 tendril attacks."
+                },
+                {
+                    "name": "Tendril",
+                    "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 10 (1d8 + 6) slashing damage plus 11 (2d10) necrotic damage.",
+                    "attack_bonus": 10,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Necrotic Burst (Recharge 5-6)",
+                    "desc": "The voidling releases a burst of necrotic energy in a 20-foot radius sphere centered on itself. Those in the area take 35 (10d6) necrotic damage, or half damage with a successful DC 17 Constitution saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Fed by Darkness",
+                    "desc": "A voidling in magical darkness at the start of its turn heals 5 hit points."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The voidling has advantage on saving throws against spells and other magical effects except those that cause radiant damage."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the voidling's innate spellcasting ability is Wisdom (spell save DC 15, spell attack bonus +7). It can innately cast the following spells, requiring no material components:\n\nat will: darkness, detect magic, fear\n\n3/day each: eldritch blast (3 beams), black tentacles\n\n1/day each: phantasmal force, reverse gravity"
+                },
+                {
+                    "name": "Natural Invisibility",
+                    "desc": "A voidling in complete darkness is considered invisible to creatures that rely on normal vision or darkvision."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        }
+    ]
+}

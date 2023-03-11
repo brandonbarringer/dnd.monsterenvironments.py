@@ -1,0 +1,411 @@
+{
+    "count": 5,
+    "monsters": [
+        {
+            "slug": "ape",
+            "name": "Ape",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 19,
+            "hit_dice": "3d8",
+            "speed": {
+                "walk": 30,
+                "climb": 30
+            },
+            "strength": 16,
+            "dexterity": 14,
+            "constitution": 14,
+            "intelligence": 6,
+            "wisdom": 12,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "athletics": 5,
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The ape makes two fist attacks."
+                },
+                {
+                    "name": "Fist",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Rock",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 25/50 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Jungle",
+                "forest",
+                "jungle"
+            ]
+        },
+        {
+            "slug": "giant-wasp",
+            "name": "Giant Wasp",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 13,
+            "hit_dice": "3d8",
+            "speed": {
+                "walk": 10,
+                "fly": 50
+            },
+            "strength": 10,
+            "dexterity": 14,
+            "constitution": 10,
+            "intelligence": 1,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Sting",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Grassland",
+                "Hills",
+                "forest",
+                "grassland",
+                "jungle",
+                "urban"
+            ]
+        },
+        {
+            "slug": "lizardfolk",
+            "name": "Lizardfolk",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "lizardfolk",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 15,
+            "armor_desc": "natural armor, shield",
+            "hit_points": 22,
+            "hit_dice": "4d8+4",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 15,
+            "dexterity": 10,
+            "constitution": 13,
+            "intelligence": 7,
+            "wisdom": 12,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 4,
+                "survival": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "Draconic",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The lizardfolk makes two melee attacks, each one with a different weapon."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Heavy Club",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Javelin",
+                    "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Spiked Shield",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Hold Breath",
+                    "desc": "The lizardfolk can hold its breath for 15 minutes."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Jungle",
+                "Swamp",
+                "forest",
+                "jungle",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "scout",
+            "name": "Scout",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 13,
+            "armor_desc": "leather armor",
+            "hit_points": 16,
+            "hit_dice": "3d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 11,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 11,
+            "wisdom": 13,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "nature": 4,
+                "perception": 5,
+                "stealth": 6,
+                "survival": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 15",
+            "languages": "any one language (usually Common)",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The scout makes two melee attacks or two ranged attacks."
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Longbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Hearing and Sight",
+                    "desc": "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Feywild",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "jungle",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "swarm-of-insects",
+            "name": "Swarm of Insects",
+            "size": "Medium",
+            "type": "swarm of Tiny beasts",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": "natural armor",
+            "hit_points": 22,
+            "hit_dice": "5d8",
+            "speed": {
+                "walk": 20,
+                "climb": 20
+            },
+            "strength": 3,
+            "dexterity": 13,
+            "constitution": 10,
+            "intelligence": 1,
+            "wisdom": 7,
+            "charisma": 1,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, slashing",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+            "senses": "blindsight 10 ft., passive Perception 8",
+            "languages": "",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Bites",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer.",
+                    "attack_bonus": 3,
+                    "damage_dice": "4d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Swarm",
+                    "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Jungle",
+                "Swamp",
+                "forest",
+                "grassland",
+                "hill",
+                "jungle",
+                "swamp",
+                "underdark",
+                "urban"
+            ]
+        }
+    ]
+}

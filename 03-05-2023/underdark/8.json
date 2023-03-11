@@ -1,0 +1,538 @@
+{
+    "count": 6,
+    "monsters": [
+        {
+            "slug": "cloaker",
+            "name": "Cloaker",
+            "size": "Large",
+            "type": "aberration",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 78,
+            "hit_dice": "12d10+12",
+            "speed": {
+                "walk": 10,
+                "fly": 40
+            },
+            "strength": 17,
+            "dexterity": 15,
+            "constitution": 12,
+            "intelligence": 13,
+            "wisdom": 12,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Deep Speech, Undercommon",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The cloaker makes two attacks: one with its bite and one with its tail."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) piercing damage, and if the target is Large or smaller, the cloaker attaches to it. If the cloaker has advantage against the target, the cloaker attaches to the target's head, and the target is blinded and unable to breathe while the cloaker is attached. While attached, the cloaker can make this attack only against the target and has advantage on the attack roll. The cloaker can detach itself by spending 5 feet of its movement. A creature, including the target, can take its action to detach the cloaker by succeeding on a DC 16 Strength check.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Tail",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 7 (1d8 + 3) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Moan",
+                    "desc": "Each creature within 60 feet of the cloaker that can hear its moan and that isn't an aberration must succeed on a DC 13 Wisdom saving throw or become frightened until the end of the cloaker's next turn. If a creature's saving throw is successful, the creature is immune to the cloaker's moan for the next 24 hours."
+                },
+                {
+                    "name": "Phantasms (Recharges after a Short or Long Rest)",
+                    "desc": "The cloaker magically creates three illusory duplicates of itself if it isn't in bright light. The duplicates move with it and mimic its actions, shifting position so as to make it impossible to track which cloaker is the real one. If the cloaker is ever in an area of bright light, the duplicates disappear.\nWhenever any creature targets the cloaker with an attack or a harmful spell while a duplicate remains, that creature rolls randomly to determine whether it targets the cloaker or one of the duplicates. A creature is unaffected by this magical effect if it can't see or if it relies on senses other than sight.\nA duplicate has the cloaker's AC and uses its saving throws. If an attack hits a duplicate, or if a duplicate fails a saving throw against an effect that deals damage, the duplicate disappears."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Damage Transfer",
+                    "desc": "While attached to a creature, the cloaker takes only half the damage dealt to it (rounded down). and that creature takes the other half."
+                },
+                {
+                    "name": "False Appearance",
+                    "desc": "While the cloaker remains motionless without its underside exposed, it is indistinguishable from a dark leather cloak."
+                },
+                {
+                    "name": "Light Sensitivity",
+                    "desc": "While in bright light, the cloaker has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": "http://api.open5e.com/static/img/monsters/cloaker.png",
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Laboratory",
+                "Sewer",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "degenerate-titan",
+            "name": "Degenerate Titan",
+            "size": "Huge",
+            "type": "giant",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 12,
+            "armor_desc": "crude armored coat",
+            "hit_points": 161,
+            "hit_dice": "14d12+70",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 24,
+            "dexterity": 6,
+            "constitution": 20,
+            "intelligence": 6,
+            "wisdom": 9,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "intimidation": 1,
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Titan",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The degenerate titan makes two greatclub attacks."
+                },
+                {
+                    "name": "Greatclub",
+                    "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 20 (3d8 + 7) bludgeoning damage.",
+                    "attack_bonus": 10,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Rock",
+                    "desc": "Ranged Weapon Attack: +10 to hit, range 60/240 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.",
+                    "attack_bonus": 10,
+                    "damage_dice": "4d10"
+                },
+                {
+                    "name": "Earthstrike (Recharge 4-6)",
+                    "desc": "The degenerate titan slams his fists onto the ground, creating a shockwave in a line 60 feet long and 10 feet wide. Each creature in the line takes 35 (10d6) force damage and is flung up 20 feet away from the titan and knocked prone; a successful DC 18 Dexterity saving throw halves the damage and prevents the creature from being flung or knocked prone. A creature that's flung against an unyielding object such as a wall or floor takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If it collides with another creature, that creature must succeed on a DC 18 Dexterity saving throw or take the same damage (1d6 bludgeoning per 10 feet) and be knocked prone."
+                },
+                {
+                    "name": "Shout of the Void (Recharge 4-6)",
+                    "desc": "The degenerate titan utters a scream that rends reality in a 30-foot cone. Any ongoing spell or magical effect of 3rd level or lower in the area ends. For every spell or effect of 4th level or higher in the area, the degenerate titan makes a Constitution check against DC (10 + the level of the spell or effect). On a success, the spell or effect ends."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The degenerate titan has advantage on saving throws against spells and other magical effects."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "plains",
+                "ruins",
+                "underground",
+                "plain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "rust-drake",
+            "name": "Rust Drake",
+            "size": "Medium",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 161,
+            "hit_dice": "19d8+76",
+            "speed": {
+                "walk": 30,
+                "burrow": 5,
+                "fly": 100
+            },
+            "strength": 20,
+            "dexterity": 15,
+            "constitution": 19,
+            "intelligence": 12,
+            "wisdom": 8,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "acid",
+            "damage_resistances": "",
+            "damage_immunities": "poison",
+            "condition_immunities": "paralyzed, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Common, Draconic",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The drake makes one bite attack and one tail swipe attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) piercing damage, and the target must succeed on a DC 16 Constitution save or contract Rust Drake Lockjaw.",
+                    "attack_bonus": 8,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Tail Swipe",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Vomits Scrap (Recharge 5-6)",
+                    "desc": "A rust drake can vomit forth a 15-foot cone of rusted metal. Targets in the affected area take 55 (10d10) slashing damage, or half damage with a successful DC 15 Dexterity saving throw. In addition, affected creatures must also make a successful DC 15 Constitution saving throw or contract Rust Drake Tetanus."
+                },
+                {
+                    "name": "Rust Drake Lockjaw",
+                    "desc": "This disease manifests symptoms in 1d4 days, when the affected creature experiences painful muscle spasms, particularly in the jaw. After each long rest, the creature must repeat the saving throw. If it fails, the victim takes 1d3 Dexterity damage and is paralyzed for 24 hours; if the saving throw succeeds, the creature takes no damage and feels well enough to act normally for the day. This continues until the creature dies from Dexterity loss, recovers naturally by making successful saving throws after two consecutive long rests, or is cured with lesser restoration or comparable magic. After the disease ends, the victim recovers 1d3 lost Dexterity with each long rest; greater restoration or comparable magic can restore it all at once."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "urban",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "shabti",
+            "name": "Shabti",
+            "size": "Medium",
+            "type": "construct",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 102,
+            "hit_dice": "12d8+48",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 14,
+            "dexterity": 20,
+            "constitution": 18,
+            "intelligence": 6,
+            "wisdom": 11,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "understands the languages of its creator but can't speak",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The shabti uses Telekinesis and makes two attacks with its nabboot."
+                },
+                {
+                    "name": "Nabboot",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d4 + 5) bludgeoning damage plus 7 (2d6) necrotic damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be cursed with tomb taint. The cursed target's speed is reduced to half, and its hit point maximum decreases by 3 (1d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies and its body turns to dust. The curse lasts until removed by the remove curse spell or comparable magic.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Telekinesis",
+                    "desc": "The shabti targets a creature within 60 feet. The target must succeed on a DC 15 Strength check or the shabti moves it up to 30 feet in any direction (including upward), and it is restrained until the end of the shabti's next turn."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Immutable Form",
+                    "desc": "The shabti is immune to spells and effects that would alter its form."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The shabti has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The shabti's weapon attacks are magical."
+                },
+                {
+                    "name": "Serpentine Armlets",
+                    "desc": "As a bonus action, the shabti commands its armlets to drop to the floor, whereupon they become two giant poisonous snakes. The shabti can mentally direct the serpents (this does not require an action). If the snakes are killed, they dissolve into wisps of smoke which reform around the shabti's forearms, and they can't be turned into snakes for 1 week. These armlets are linked to the shabti at the time of its creation and do not function for other creatures."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "marshes",
+                "ruins",
+                "underground",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "spirit-naga",
+            "name": "Spirit Naga",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": "Nagas",
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 75,
+            "hit_dice": "10d10+20",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 18,
+            "dexterity": 17,
+            "constitution": 14,
+            "intelligence": 16,
+            "wisdom": 15,
+            "charisma": 16,
+            "strength_save": null,
+            "dexterity_save": 6,
+            "constitution_save": 5,
+            "intelligence_save": null,
+            "wisdom_save": 5,
+            "charisma_save": 6,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison",
+            "condition_immunities": "charmed, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Abyssal, Common",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one.",
+                    "attack_bonus": 7,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Rejuvenation",
+                    "desc": "If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning."
+                },
+                {
+                    "name": "Spellcasting",
+                    "desc": "The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:\n\n\u2022 Cantrips (at will): mage hand, minor illusion, ray of frost\n\u2022 1st level (4 slots): charm person, detect magic, sleep\n\u2022 2nd level (3 slots): detect thoughts, hold person\n\u2022 3rd level (3 slots): lightning bolt, water breathing\n\u2022 4th level (3 slots): blight, dimension door\n\u2022 5th level (2 slots): dominate person"
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/mage-hand/?format=json",
+                "https://api.open5e.com/spells/minor-illusion/?format=json",
+                "https://api.open5e.com/spells/ray-of-frost/?format=json",
+                "https://api.open5e.com/spells/charm-person/?format=json",
+                "https://api.open5e.com/spells/detect-magic/?format=json",
+                "https://api.open5e.com/spells/sleep/?format=json",
+                "https://api.open5e.com/spells/detect-thoughts/?format=json",
+                "https://api.open5e.com/spells/hold-person/?format=json",
+                "https://api.open5e.com/spells/lightning-bolt/?format=json",
+                "https://api.open5e.com/spells/water-breathing/?format=json",
+                "https://api.open5e.com/spells/blight/?format=json",
+                "https://api.open5e.com/spells/dimension-door/?format=json",
+                "https://api.open5e.com/spells/dominate-person/?format=json"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Astral Plane",
+                "Caverns",
+                "Desert",
+                "Forest",
+                "Jungle",
+                "Mountains",
+                "Ruin",
+                "Temple",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "young-cave-dragon",
+            "name": "Young Cave Dragon",
+            "size": "Large",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 157,
+            "hit_dice": "15d10+75",
+            "speed": {
+                "walk": 40,
+                "climb": 20,
+                "fly": 20
+            },
+            "strength": 22,
+            "dexterity": 12,
+            "constitution": 20,
+            "intelligence": 10,
+            "wisdom": 12,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 4,
+            "intelligence_save": 8,
+            "wisdom_save": 4,
+            "charisma_save": 7,
+            "perception": 4,
+            "skills": {
+                "perception": 4,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "acid, poison, thunder",
+            "condition_immunities": "poisoned",
+            "senses": "blindsight 120 ft., passive Perception 14",
+            "languages": "Common, Darakhul, Draconic",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon makes three attacks; one with its bite and two with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) piercing damage plus 3 (1d6) poison damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Poison Breath (Recharge 5-6)",
+                    "desc": "The dragon exhales a cone of black poison gas in a 30-foot cone. Each creature in that area must make a DC 16 Constitution saving throw, taking 45 (13d6) poison damage on a failed save and becoming poisoned if it is a creature. The poisoned condition lasts until the target takes a long or short rest or removes the condition with lesser restoration or comparable magic. If the save is successful, the target takes half damage and is not poisoned."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Ruff Spikes",
+                    "desc": "When a creature tries to enter a space adjacent to a cave dragon, the dragon flares its many feelers and spikes. The creature cannot enter a space adjacent to the dragon unless it makes a successful DC 16 Dexterity saving throw. If the saving throw fails, the creature can keep moving but only into spaces that aren't within 5 feet of the dragon and takes 4 (1d8) piercing damage from spikes."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Tunneler",
+                    "desc": "The cave dragon can burrow through solid rock at half its burrowing speed and leaves a 10-foot wide, 5-foot high tunnel in its wake."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the dragon's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:\n\n1/day each: blur, counterspell, web\n\n3/day: darkness"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "underdark"
+            ]
+        }
+    ]
+}

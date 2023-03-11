@@ -1,0 +1,317 @@
+{
+    "count": 4,
+    "monsters": [
+        {
+            "slug": "far-darrig",
+            "name": "Far Darrig",
+            "size": "Small",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 14,
+            "armor_desc": "hide armor",
+            "hit_points": 104,
+            "hit_dice": "16d6+48",
+            "speed": {
+                "walk": 20
+            },
+            "strength": 15,
+            "dexterity": 16,
+            "constitution": 17,
+            "intelligence": 11,
+            "wisdom": 15,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": 5,
+            "constitution_save": 7,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 7,
+            "perception": 6,
+            "skills": {
+                "medicine": 6,
+                "nature": 4,
+                "perception": 6,
+                "survival": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 16",
+            "languages": "Common, Elvish, Sylvan",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The far darrig makes four antler glaive attacks."
+                },
+                {
+                    "name": "Antler Glaive",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft. or 10 ft., one target. Hit: 7 (1d10 + 2) slashing damage and the target must make a successful DC 13 Strength saving throw or either be disarmed or fall prone; the attacking far darrig chooses which effect occurs.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d10"
+                },
+                {
+                    "name": "Enchanted Glaive Maneuvers",
+                    "desc": "A far darrig can magically extend or shrink its antler glaive as a bonus action to give it either a 10-foot or 5-foot reach."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the far darrig's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nconstant: magic weapon (antler glaive only), speak with animals\n\nat will: calm emotions, charm animal (as charm person but affects beasts only), cure wounds, detect poison and disease, water breathing, water walk\n\n3/day each: barkskin, conjure woodland beings, hold animal (as hold person but affects beasts only), jump, longstrider\n\n1/day each: commune with nature, freedom of movement, nondetection, tree stride"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "plains",
+                "forest",
+                "plain"
+            ]
+        },
+        {
+            "slug": "gnoll-havoc-runner",
+            "name": "Gnoll Havoc Runner",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "gnoll",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "chain shirt",
+            "hit_points": 58,
+            "hit_dice": "9d8+18",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 14,
+            "constitution": 14,
+            "intelligence": 8,
+            "wisdom": 12,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "athletics": 5,
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "Gnoll",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The gnoll makes one bite attack and two battleaxe attacks."
+                },
+                {
+                    "name": "Battleaxe",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage or 8 (1d10 + 3) slashing damage if used in two hands.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Harrying Attacks",
+                    "desc": "If the gnoll attacks two creatures in the same turn, the first target has disadvantage on attack rolls until the end of its next turn."
+                },
+                {
+                    "name": "Lightning Lope",
+                    "desc": "The gnoll can Dash or Disengage as a bonus action."
+                },
+                {
+                    "name": "Pack Tactics",
+                    "desc": "The gnoll has advantage on its attack rolls against a target if at least one of the gnoll's allies is within 5 feet of the target and the ally isn't incapacitated."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "plains",
+                "plain"
+            ]
+        },
+        {
+            "slug": "night-scorpion",
+            "name": "Night Scorpion",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 90,
+            "hit_dice": "12d10+24",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 15,
+            "dexterity": 14,
+            "constitution": 14,
+            "intelligence": 1,
+            "wisdom": 9,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 60 ft., passive Perception 9",
+            "languages": "-",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The scorpion makes three attacks: two with its claws and one with its sting."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple one target.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8+2"
+                },
+                {
+                    "name": "Sting",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target takes 7 (2d6) poison damage and is blinded for 1d3 hours; a successful DC 12 Constitution saving throw reduces damage by half and prevents blindness. If the target fails the saving throw by 5 or more, the target is also paralyzed while poisoned. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d10"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "forests",
+                "plains",
+                "ruins",
+                "underground",
+                "forest",
+                "plain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "stygian-fat-tailed-scorpion",
+            "name": "Stygian Fat-Tailed Scorpion",
+            "size": "Tiny",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 10,
+            "hit_dice": "4d4",
+            "speed": {
+                "walk": 30,
+                "climb": 20
+            },
+            "strength": 3,
+            "dexterity": 16,
+            "constitution": 10,
+            "intelligence": 1,
+            "wisdom": 10,
+            "charisma": 2,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "-",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The scorpion makes three attacks: two with its claws and one with its sting."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1"
+                },
+                {
+                    "name": "Sting",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, plus 21 (6d6) poison damage and the target is poisoned until it completes a short or long rest. A successful DC 10 Constitution saving throw reduces the poison damage to half and prevents the poisoned condition. If the target fails this saving throw while already poisoned, it gains one level of exhaustion in addition to the other effects.",
+                    "attack_bonus": 5,
+                    "damage_dice": "6d6+1"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "forests",
+                "plains",
+                "ruins",
+                "underground",
+                "forest",
+                "plain",
+                "underdark"
+            ]
+        }
+    ]
+}

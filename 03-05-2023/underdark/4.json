@@ -1,0 +1,998 @@
+{
+    "count": 12,
+    "monsters": [
+        {
+            "slug": "angler-worm",
+            "name": "Angler Worm",
+            "size": "Huge",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 133,
+            "hit_dice": "14d12+42",
+            "speed": {
+                "walk": 20,
+                "climb": 20
+            },
+            "strength": 14,
+            "dexterity": 5,
+            "constitution": 16,
+            "intelligence": 3,
+            "wisdom": 14,
+            "charisma": 1,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison",
+            "condition_immunities": "blinded, charmed, deafened, poisoned, prone",
+            "senses": "tremorsense 60 ft., passive Perception 12",
+            "languages": "-",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "An angler worm makes one bite attack. It also makes one coils attack against every enemy creature restrained by its threads and within reach of its coils-once it has coiled around one creature it stops coil attacks against others."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage plus 3 (1d6) acid damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Coils",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 13 (3d8) acid damage, and the target creature must make a successful DC 12 Dexterity saving throw or be pulled adjacent to the angler worm (if it wasn't already) and grappled in the angler worm's coils (escape DC 12). While grappled this way, the creature is restrained by the angler worm (but not by its snare lines), it can't breathe, and it takes 22 (5d8) acid damage at the start of each of the angler worm's turns. A creature that escapes from the angler worm's coils may need to make an immediate DC 12 Dexterity saving throw to avoid being restrained again, if it escapes into a space occupied by more snare lines.",
+                    "attack_bonus": 4,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Ethereal Lure (Recharge 4-6)",
+                    "desc": "The angler worm selects a spot within 20 feet of itself; that spot glows with a faint, blue light until the start of the worm's next turn. All other creatures that can see the light at the start of their turn must make a successful DC 12 Wisdom saving throw or be charmed until the start of their next turn. A creature charmed this way must Dash toward the light by the most direct route, automatically fails saving throws against being restrained by snare lines, and treats the angler worm as invisible."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Spider Climb",
+                    "desc": "The worm can climb difficult surfaces, including upside down on ceilings and along its snare lines, without needing an ability check. The angler worm is never restrained by its own or other angler worms' snare lines."
+                },
+                {
+                    "name": "Keen Touch",
+                    "desc": "The angler worm has advantage on Wisdom (Perception) checks that rely on vibrations."
+                },
+                {
+                    "name": "Transparent Trap",
+                    "desc": "A successful DC 12 Wisdom (Perception) check must be made to spot angler worm snare lines, and the check is always made with disadvantage unless the searcher has some means of overcoming the snares' invisibility. A creature that enters a space containing angler worm snare lines must make a successful DC 12 Dexterity saving throw or be restrained by the sticky snares (escape DC 14). This saving throw is made with disadvantage if the creature was unaware of the snare lines' presence."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "black-pudding",
+            "name": "Black Pudding",
+            "size": "Large",
+            "type": "ooze",
+            "subtype": "",
+            "group": "Oozes",
+            "alignment": "unaligned",
+            "armor_class": 7,
+            "armor_desc": null,
+            "hit_points": 85,
+            "hit_dice": "10d10+30",
+            "speed": {
+                "walk": 20,
+                "climb": 20
+            },
+            "strength": 16,
+            "dexterity": 5,
+            "constitution": 16,
+            "intelligence": 1,
+            "wisdom": 6,
+            "charisma": 1,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "acid, cold, lightning, slashing",
+            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8",
+            "languages": "",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Pseudopod",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage plus 18 (4d8) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6+4d8",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Split",
+                    "desc": "When a pudding that is Medium or larger is subjected to lightning or slashing damage, it splits into two new puddings if it has at least 10 hit points. Each new pudding has hit points equal to half the original pudding's, rounded down. New puddings are one size smaller than the original pudding."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amorphous",
+                    "desc": "The pudding can move through a space as narrow as 1 inch wide without squeezing."
+                },
+                {
+                    "name": "Corrosive Form",
+                    "desc": "A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes 4 (1d8) acid damage. Any nonmagical weapon made of metal or wood that hits the pudding corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the pudding is destroyed after dealing damage. The pudding can eat through 2-inch-thick, nonmagical wood or metal in 1 round.",
+                    "attack_bonus": 0,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Spider Climb",
+                    "desc": "The pudding can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Ruin",
+                "Sewer",
+                "Water",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "cavelight-moss",
+            "name": "Cavelight Moss",
+            "size": "Large",
+            "type": "plant",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 95,
+            "hit_dice": "10d10+40",
+            "speed": {
+                "walk": 5,
+                "climb": 5
+            },
+            "strength": 24,
+            "dexterity": 10,
+            "constitution": 18,
+            "intelligence": 1,
+            "wisdom": 13,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, cold, fire; slashing from nonmagical attacks",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, deafened, frightened, paralyzed, prone, stunned, unconscious",
+            "senses": "tremorsense 60 ft., passive Perception 11",
+            "languages": "-",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Tendrils",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 33 (4d12 + 7) bludgeoning damage. If the target is a creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the cavelight moss can't use its tendrils against another target.",
+                    "attack_bonus": 9,
+                    "damage_dice": "4d12"
+                },
+                {
+                    "name": "Strength Drain",
+                    "desc": "Living creatures hit by the cavelight moss's tendril attack or caught up in its grapple must make a successful DC 14 Constitution saving throw or 1 level of exhaustion. Creatures that succeed are immune to that particular cavelight moss's Strength Drain ability for 24 hours. For every level of exhaustion drained, the cavelight moss gains 5 temporary hit points."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Luminescence",
+                    "desc": "The chemicals within cavelight moss make the entire creature shed light as a torch. A cavelight moss cannot suppress this effect. It can, however, diminish the light produced to shed illumination as a candle."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "chuul",
+            "name": "Chuul",
+            "size": "Large",
+            "type": "aberration",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 93,
+            "hit_dice": "11d10+33",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 19,
+            "dexterity": 10,
+            "constitution": 16,
+            "intelligence": 5,
+            "wisdom": 11,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison",
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "understands Deep Speech but can't speak",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The chuul makes two pincer attacks. If the chuul is grappling a creature, the chuul can also use its tentacles once."
+                },
+                {
+                    "name": "Pincer",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. The target is grappled (escape DC 14) if it is a Large or smaller creature and the chuul doesn't have two other creatures grappled.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Tentacles",
+                    "desc": "One creature grappled by the chuul must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The chuul can breathe air and water."
+                },
+                {
+                    "name": "Sense Magic",
+                    "desc": "The chuul senses magic within 120 feet of it at will. This trait otherwise works like the detect magic spell but isn't itself magical."
+                }
+            ],
+            "spell_list": [],
+            "img_main": "http://api.open5e.com/static/img/monsters/chuul.png",
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Plane of Water",
+                "Water",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "derro-fetal-savant",
+            "name": "Derro Fetal Savant",
+            "size": "Tiny",
+            "type": "humanoid",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "cage",
+            "hit_points": 2,
+            "hit_dice": "4d4-8",
+            "speed": {
+                "walk": 5
+            },
+            "strength": 1,
+            "dexterity": 1,
+            "constitution": 6,
+            "intelligence": 6,
+            "wisdom": 12,
+            "charisma": 20,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 3,
+            "charisma_save": 7,
+            "perception": 3,
+            "skills": {
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "psychic",
+            "condition_immunities": "charmed, frightened",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "-",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Babble",
+                    "desc": "The sight of potential host bodies so excites the fetal savant that it babbles and giggles madly and childishly, creating an insanity effect. All sane creatures that start their turns within 60 feet of the fetal savant must succeed on a DC 13 Charisma saving throw or be affected by confusion (as the spell) for 1d4 rounds. This is a psychic effect. Creatures that successfully save cannot be affected by the same fetal savant's babbling for 24 hours. This action cannot be taken when the fetal savant is using Soul Exchange."
+                },
+                {
+                    "name": "Soul Exchange",
+                    "desc": "As an action, the fetal savant can attempt to take control of a creature it can see within 90 feet, forcing an exchange of souls as a magic jar spell, using its own body as the container. The fetal savant can use this power at will, but it can exchange souls with only one other creature at a time. The victim resists the attack with a successful DC 13 Charisma saving throw. A creature that successfully saves is immune to the same fetal savant's soul exchange for 24 hours. If the saving throw fails, the fetal savant takes control of the target's body and ferociously attacks nearby opponents, eyes blazing with otherworldly light. As an action, the fetal savant can shift from its host body back to its own, if it is within range, returning the victim's soul to its own body. If the host body or fetal savant is brought to 0 hit points within 90 feet of each other, the two souls return to their original bodies and the creature at 0 hit points is dying; it must make death saving throws until it dies, stabilizes, or regains hit points, as usual. If the host body or fetal savant is slain while they are more than 90 feet apart, their souls cannot return to their bodies and they are both slain. While trapped in the fetal savant's withered body, the victim is effectively paralyzed and helpless."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Enchanted Cage",
+                    "desc": "The iron cage that holds the fetal savant provides cover for the creature. The cage (AC 19, 10 hp) is considered an equipped object when borne by a derro and cannot be attacked directly. In addition, the cage protects the occupant from up to 20 spell levels of spells 4th level or lower but provides no protection to those outside of the cage. Spells of level 5 or higher take full, normal effect against the cage and its occupant. Once the cage protects against 20 or more spell levels it is rendered non-magical. If exposed to direct sunlight for over one hour of cumulative time it is destroyed."
+                },
+                {
+                    "name": "Madness",
+                    "desc": "A derro fetal savant's particular madness grants it immunity to psychic effects. It cannot be restored to sanity by any means short of a wish spell or comparable magic. A derro fetal savant brought to sanity gains 4 points of Wisdom and loses 6 points of Charisma."
+                },
+                {
+                    "name": "Vulnerability to Sunlight",
+                    "desc": "A derro fetal savant takes 1 point of Constitution damage for every hour it is exposed to sunlight, and it dies if its Constitution score reaches 0. Lost Constitution points are recovered at the rate of 1/day spent underground or otherwise sheltered from the sun."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "ettin",
+            "name": "Ettin",
+            "size": "Large",
+            "type": "giant",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 12,
+            "armor_desc": "natural armor",
+            "hit_points": 85,
+            "hit_dice": "10d10+30",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 21,
+            "dexterity": 8,
+            "constitution": 17,
+            "intelligence": 6,
+            "wisdom": 10,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Giant, Orc",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The ettin makes two attacks: one with its battleaxe and one with its morningstar."
+                },
+                {
+                    "name": "Battleaxe",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Morningstar",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 5
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Two Heads",
+                    "desc": "The ettin has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+                },
+                {
+                    "name": "Wakeful",
+                    "desc": "When one of the ettin's heads is asleep, its other head is awake."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Hills",
+                "Ruin",
+                "hill",
+                "mountain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "ghost",
+            "name": "Ghost",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 45,
+            "hit_dice": "10d8",
+            "speed": {
+                "hover": true,
+                "walk": 0,
+                "fly": 40
+            },
+            "strength": 7,
+            "dexterity": 13,
+            "constitution": 10,
+            "intelligence": 10,
+            "wisdom": 12,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "cold, necrotic, poison",
+            "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "any languages it knew in life",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Withering Touch",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) necrotic damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "4d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Etherealness",
+                    "desc": "The ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+                },
+                {
+                    "name": "Horrifying Visage",
+                    "desc": "Each non-undead creature within 60 ft. of the ghost that can see it must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 x 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring."
+                },
+                {
+                    "name": "Possession (Recharge 6)",
+                    "desc": "One humanoid that the ghost can see within 5 ft. of it must succeed on a DC 13 Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is incapacitated and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.\nThe possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 ft. of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Ethereal Sight",
+                    "desc": "The ghost can see 60 ft. into the Ethereal Plane when it is on the Material Plane, and vice versa."
+                },
+                {
+                    "name": "Incorporeal Movement",
+                    "desc": "The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Ethereal Plane",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Ruin",
+                "Settlement",
+                "Shadowfell",
+                "Swamp",
+                "Temple",
+                "Tomb",
+                "Tundra",
+                "Water",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "ghoul-imperial",
+            "name": "Ghoul, Imperial",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 16,
+            "armor_desc": "breastplate",
+            "hit_points": 93,
+            "hit_dice": "17d8+17",
+            "speed": {
+                "walk": 30,
+                "burrow": 15
+            },
+            "strength": 16,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 13,
+            "wisdom": 14,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison",
+            "condition_immunities": "charmed, exhaustion, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Common, Darakhul, Undercommon",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The imperial ghoul makes one bite attack and one claws attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage, and if the target creature is humanoid it must succeed on a DC 11 Constitution saving throw or contract darakhul fever.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d8+3"
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach, one target. Hit: 17 (4d6 + 3) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                    "attack_bonus": 5,
+                    "damage_dice": "4d6"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 80/320, one target. Hit: 8 (1d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Turning Defiance",
+                    "desc": "The imperial ghoul and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "kobold-chieftain",
+            "name": "Kobold Chieftain",
+            "size": "Small",
+            "type": "humanoid",
+            "subtype": "kobold",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 17,
+            "armor_desc": "studded leather and shield",
+            "hit_points": 82,
+            "hit_dice": "15d6+30",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 10,
+            "dexterity": 17,
+            "constitution": 14,
+            "intelligence": 11,
+            "wisdom": 13,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 5,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 4,
+            "perception": null,
+            "skills": {
+                "intimidation": 6,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Common, Draconic",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The kobold makes 2 attacks."
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage and the target must make a successful DC 12 Constitution saving throw or be poisoned for 1 minute. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on a success.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Shortbow",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage and the target must make a successful DC 12 Constitution saving throw or be poisoned for 1 minute. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on a success.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Inspiring Presence (Recharge after Short or Long Rest)",
+                    "desc": "The chieftain chooses up to six allied kobolds it can see within 30 feet. For the next minute, the kobolds gain immunity to the charmed and frightened conditions, and add the chieftain's Charisma bonus to attack rolls."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Springspike Shield (5/rest)",
+                    "desc": "When the kobold chieftain is hit by a melee attack within 5 feet, the kobold chieftain can fire one of its shield spikes at the attacker. The attacker takes 3 (1d6) piercing damage plus 3 (1d6) poison damage."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Pack Tactics",
+                    "desc": "The kobold chieftain has advantage on an attack roll against a target if at least one of the chieftain's allies is within 5 feet of the target and the ally isn't incapacitated."
+                },
+                {
+                    "name": "Sunlight Sensitivity",
+                    "desc": "While in sunlight, the kobold chieftain has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "urban",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "oculo-swarm",
+            "name": "Oculo Swarm",
+            "size": "Large",
+            "type": "swarm of Tiny aberrations",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "",
+            "hit_points": 110,
+            "hit_dice": "13d10+39",
+            "speed": {
+                "hover": true,
+                "walk": 5,
+                "fly": 40
+            },
+            "strength": 10,
+            "dexterity": 20,
+            "constitution": 16,
+            "intelligence": 8,
+            "wisdom": 15,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 6,
+            "skills": {
+                "insight": 6,
+                "perception": 6,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, slashing",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
+            "senses": "darkvision 60 ft., passive Perception 16",
+            "languages": "understands Common but can't speak",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Eye Extraction",
+                    "desc": "Every creature that occupies the same space as the swarm must succeed on a DC 13 Constitution saving throw or become temporarily blinded as their eyes strain from their sockets. This blindness lasts for as long as the affected creature remains in the same space as the oculus; it ends at the end of the blinded creature's turn if the creature is out of the oculus's space. Also, any cure spell cast on the blinded creature ends the temporary blindness, but not restoration spells. If a creature that's already temporarily blinded is targeted again by eye extraction and fails the saving throw, that creature becomes permanently blind as its eyes are pulled from their sockets to join the swarm (causing 1d8 piercing damage). Success on either saving throw renders that creature immune to eye extraction for 24 hours (but it still doesn't recover its sight until it gets out of the swarm). An oculo swarm with 50 or fewer hit points can't use this ability."
+                },
+                {
+                    "name": "Gaze (recharge 5-6)",
+                    "desc": "The swarm targets every creature in its space with a gaze attack. The swarm can choose one of two effects for the attack: confusion or hold person. Every target in the swarm's space is affected unless it makes a successful DC 14 Charisma saving throw. Even creatures that avert their eyes or are blind can be affected by an oculus swarm's gaze. The confusion or hold person effect lasts 1d4 rounds."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Swarm",
+                    "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening at least 2 inches square. The swarm can't regain hit points or gain temporary hit points."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "ostinato",
+            "name": "Ostinato",
+            "size": "Medium",
+            "type": "aberration",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 15,
+            "armor_desc": "",
+            "hit_points": 39,
+            "hit_dice": "6d8+12",
+            "speed": {
+                "fly": 50,
+                "hover": true
+            },
+            "strength": 1,
+            "dexterity": 20,
+            "constitution": 15,
+            "intelligence": 5,
+            "wisdom": 12,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3
+            },
+            "damage_vulnerabilities": "thunder",
+            "damage_resistances": "acid, cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "poison",
+            "condition_immunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "telepathy 200 ft.",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The ostinato makes two cacophony ray attacks."
+                },
+                {
+                    "name": "Cacophony Ray",
+                    "desc": "Ranged Spell Attack: +7 to hit, range 60 ft., one target. Hit: 10 (3d6) thunder damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "3d6"
+                },
+                {
+                    "name": "Aural Symbiosis (1/Day)",
+                    "desc": "One humanoid that the ostinato can see within 5 feet of it must succeed on a DC 13 Charisma saving throw or the ostinato merges with it, becoming an enjoyable, repetitive tune in its host's mind. The ostinato can't be targeted by any attack, spell, or other effect. The target retains control of its body and is aware of the ostinato's presence only as a melody, not as a living entity. The target no longer needs to eat or drink, gains the ostinato's Magic Resistance trait, and has advantage on Charisma checks. It also has disadvantage on Wisdom saving throws and it can't maintain concentration on spells or other effects for more than a single turn. The target can make a DC 13 Wisdom (Insight) check once every 24 hours; on a success, it realizes that the music it hears comes from an external entity. The Aural Symbiosis lasts until the target drops to 0 hit points, the ostinato ends it as a bonus action, or the ostinato is forced out by a dispel evil and good spell or comparable magic. When the Aural Symbiosis ends, the ostinato bursts forth in a thunderous explosion of sound and reappears in an unoccupied space within 5 feet of the target. All creatures within 60 feet, including the original target, take 21 (6d6) thunder damage, or half damage with a successful DC 13 Constitution saving throw. The target becomes immune to this ostinato's Aural Symbiosis for 24 hours if it succeeds on the saving throw or after the Aural Symbiosis ends."
+                },
+                {
+                    "name": "Voracious Aura (1/Day)",
+                    "desc": "While merged with a humanoid (see Aural Symbiosis), the ostinato feeds on nearby creatures. Up to nine creatures of the ostinato's choice within 60 feet of it can be targeted. Each target must succeed on a DC 13 Charisma saving throw or take 3 (1d6) necrotic damage and have its hit point maximum reduced by the same amount until it finishes a long rest. The target dies if its maximum hit points are reduced to 0. Victims notice this damage immediately, but not its source."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Incorporeal Movement",
+                    "desc": "The ostinato can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+                },
+                {
+                    "name": "Invisibility",
+                    "desc": "The ostinato is invisible as per a greater invisibility spell."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The ostinato has advantage on saving throws against spells and other magical effects."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "underdark",
+                "any"
+            ]
+        },
+        {
+            "slug": "skitterhaunt",
+            "name": "Skitterhaunt",
+            "size": "Large",
+            "type": "ooze",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 95,
+            "hit_dice": "10d10+40",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 15,
+            "dexterity": 11,
+            "constitution": 19,
+            "intelligence": 1,
+            "wisdom": 7,
+            "charisma": 1,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "acid",
+            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8",
+            "languages": "-",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The skitterhaunt makes two claw attacks and one sting attack."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage plus 5 (1d10) acid damage, and the target is grappled (escape DC 12). The skitterhaunt has two claws, each of which can grapple one target.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Sting",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) acid damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d10"
+                },
+                {
+                    "name": "Acid Spray (Recharge 6)",
+                    "desc": "The skitterhaunt spits acid in a line 30 feet long and 5 feet wide. Each creature in that line takes 18 (4d8) acid damage, or half damage with a successful DC 14 Dexterity saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Broken Shell",
+                    "desc": "A creature that hits the skitterhaunt with a melee attack while within 5 feet of it takes 5 (1d10) acid damage."
+                },
+                {
+                    "name": "Infest Vermin",
+                    "desc": "If the skitterhaunt damages a Medium or smaller beast, it can try to infest it as a bonus action. The damaged creature must succeed on a DC 14 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. If the disease reduces its hit point maximum to 0, the skitterhaunt has devoured the creature's insides and the affected becomes a skitterhaunt, retaining its outward shell but replacing its flesh with skitterhaunt ooze."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "desert",
+                "ruins",
+                "underground",
+                "underdark"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,442 @@
+{
+    "count": 5,
+    "monsters": [
+        {
+            "slug": "deep-drake",
+            "name": "Deep Drake",
+            "size": "Large",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 150,
+            "hit_dice": "20d10+40",
+            "speed": {
+                "walk": 50,
+                "climb": 30,
+                "fly": 100
+            },
+            "strength": 21,
+            "dexterity": 19,
+            "constitution": 14,
+            "intelligence": 11,
+            "wisdom": 14,
+            "charisma": 12,
+            "strength_save": null,
+            "dexterity_save": 8,
+            "constitution_save": 6,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 6,
+            "skills": {
+                "athletics": 9,
+                "insight": 6,
+                "perception": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "necrotic",
+            "condition_immunities": "paralyzed, unconscious",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 16",
+            "languages": "Common, Darakhul, Draconic, Undercommon",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The drake makes one bite attack, two claw attacks, and one stinger attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Stinger",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 16 Constitution saving throw or become poisoned for 4 rounds. While poisoned this way, the target must repeat the save at the start of its turn, ending the condition on a success. On a failure, it takes 10 (3d6) poison damage. When animate dead is cast on creatures killed by this poison, the caster requires no material components.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Breath Weapon (Recharge 5-6)",
+                    "desc": "A deep drake blasts forth a crackling 80-foot line of purple-black energy that wracks its victims with pain. This attack deals 35 (10d6) necrotic damage, or half damage with a successful DC 16 Dexterity saving throw. Targets that fail this saving throw must also succeed on a DC 16 Constitution saving throw or become stunned for 1d4 rounds."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The drake has advantage on saving throws against spells and other magical effects."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "fire-giant",
+            "name": "Fire Giant",
+            "size": "Huge",
+            "type": "giant",
+            "subtype": "",
+            "group": "Giants",
+            "alignment": "lawful evil",
+            "armor_class": 18,
+            "armor_desc": "plate",
+            "hit_points": 162,
+            "hit_dice": "13d12+78",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 25,
+            "dexterity": 9,
+            "constitution": 23,
+            "intelligence": 10,
+            "wisdom": 14,
+            "charisma": 13,
+            "strength_save": null,
+            "dexterity_save": 3,
+            "constitution_save": 10,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 5,
+            "perception": 6,
+            "skills": {
+                "athletics": 11,
+                "perception": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire",
+            "condition_immunities": "",
+            "senses": "passive Perception 16",
+            "languages": "Giant",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The giant makes two greatsword attacks."
+                },
+                {
+                    "name": "Greatsword",
+                    "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 28 (6d6 + 7) slashing damage.",
+                    "attack_bonus": 11,
+                    "damage_dice": "6d6",
+                    "damage_bonus": 7
+                },
+                {
+                    "name": "Rock",
+                    "desc": "Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.",
+                    "attack_bonus": 11,
+                    "damage_dice": "4d10",
+                    "damage_bonus": 7
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Mountains",
+                "Plane of Fire",
+                "Settlement",
+                "mountain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "horakh",
+            "name": "Horakh",
+            "size": "Medium",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 161,
+            "hit_dice": "19d8+76",
+            "speed": {
+                "walk": 40,
+                "climb": 30
+            },
+            "strength": 18,
+            "dexterity": 19,
+            "constitution": 19,
+            "intelligence": 8,
+            "wisdom": 15,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": 12,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 6,
+            "skills": {
+                "athletics": 8,
+                "perception": 6,
+                "stealth": 8
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., tremorsense 30 ft., passive Perception 20",
+            "languages": "understands Undercommon",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The horakh makes two claw attacks and one bite attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) slashing damage. If the bite attack hits a target that's grappled by the horakh, the target must make a successful DC 16 Dexterity saving throw or one of its eyes is bitten out. A creature with just one remaining eye has disadvantage on ranged attack rolls and on Wisdom (Perception) checks that rely on sight. If both (or all) eyes are lost, the target is blinded. The regenerate spell and comparable magic can restore lost eyes. Also see Implant Egg, below.",
+                    "attack_bonus": 8,
+                    "damage_dice": "4d8"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) piercing damage. If both attacks hit the same Medium or smaller target in a single turn, the target is grappled (escape DC 14).",
+                    "attack_bonus": 8,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Implant Egg",
+                    "desc": "If a horakh's bite attack reduces a grappled creature to 0 hit points, or it bites a target that's already at 0 hit points, it implants an egg in the creature's eye socket. The deposited egg grows for 2 weeks before hatching. If the implanted victim is still alive, it loses 1d2 Constitution every 24 hours and has disadvantage on attack rolls and ability checks. After the first week, the victim is incapacitated and blinded. When the egg hatches after 2 weeks, an immature horakh erupts from the victim's head, causing 1d10 bludgeoning, 1d10 piercing, and 1d10 slashing damage. A lesser restoration spell can kill the egg during its incubation."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Shadow Stealth",
+                    "desc": "A horakh can hide as a bonus action if it's in dim light or darkness."
+                },
+                {
+                    "name": "Standing Leap",
+                    "desc": "As part of its movement, the horakh can jump up to 20 feet horizontally and 10 feet vertically, with or without a running start."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "plains",
+                "ruins",
+                "underground",
+                "plain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "ushabti",
+            "name": "Ushabti",
+            "size": "Large",
+            "type": "construct",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 105,
+            "hit_dice": "10d10+50",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 21,
+            "dexterity": 17,
+            "constitution": 20,
+            "intelligence": 11,
+            "wisdom": 19,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 7,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 3,
+            "perception": 8,
+            "skills": {
+                "arcana": 4,
+                "history": 4,
+                "perception": 8
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 18",
+            "languages": "Ancient language of DM's choice",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The ushabti makes one attack with Medjai's scepter and one with its khopesh."
+                },
+                {
+                    "name": "Medjai's Scepter",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 10 (3d6) poison damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Khopesh",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Dynastic Aura",
+                    "desc": "A creature that starts its turn within 15 feet of the ushabti must make a DC 17 Constitution saving throw, unless the ushabti is incapacitated. On a failed save, the creature has its breath stolen; it takes 9 (2d8) necrotic damage, and until the end of the ushabti's next turn, can't cast spells that require a verbal component or speak louder than a whisper. If a creature's saving throw is successful, the creature is immune to this ushabti's Dynastic Aura for the next 24 hours."
+                },
+                {
+                    "name": "Healing Leech",
+                    "desc": "If a creature within 30 feet of the ushabti regains hit points from a spell or a magical effect, the creature gains only half the normal number of hit points and the ushabti gains the other half."
+                },
+                {
+                    "name": "Immutable Form",
+                    "desc": "The ushabti is immune to any spell or effect that would alter its form."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The ushabti has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The ushabti's weapon attacks are magical."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "young-flame-dragon",
+            "name": "Young Flame Dragon",
+            "size": "Large",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 161,
+            "hit_dice": "17d10+68",
+            "speed": {
+                "walk": 40,
+                "climb": 40,
+                "fly": 80
+            },
+            "strength": 15,
+            "dexterity": 14,
+            "constitution": 19,
+            "intelligence": 15,
+            "wisdom": 13,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": 6,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": 5,
+            "charisma_save": 8,
+            "perception": 9,
+            "skills": {
+                "deception": 8,
+                "insight": 5,
+                "perception": 9,
+                "persuasion": 8,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire",
+            "condition_immunities": "",
+            "senses": "passive Perception $1",
+            "languages": "Common, Draconic, Ignan, Giant, Infernal, Orc",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon makes one bite attack and two claw attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13 (2d10 + 2) piercing damage plus 3 (1d6) fire damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Fire Breath (Recharge 5-6)",
+                    "desc": "The dragon exhales fire in a 30-foot cone. Each creature in that area takes 56 (16d6) fire damage, or half damage with a successful DC 16 Dexterity saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Fire Incarnate",
+                    "desc": "All fire damage dealt by the dragon ignores fire resistance but not fire immunity."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "mountains",
+                "mountain",
+                "underdark"
+            ]
+        }
+    ]
+}

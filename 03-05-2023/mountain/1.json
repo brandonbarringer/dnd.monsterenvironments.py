@@ -1,0 +1,432 @@
+{
+    "count": 5,
+    "monsters": [
+        {
+            "slug": "dogmole",
+            "name": "Dogmole",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 71,
+            "hit_dice": "11d8+22",
+            "speed": {
+                "walk": 30,
+                "burrow": 10,
+                "swim": 10
+            },
+            "strength": 14,
+            "dexterity": 17,
+            "constitution": 15,
+            "intelligence": 2,
+            "wisdom": 12,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 30 ft., passive Perception 11",
+            "languages": "-",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dogmole makes one claw attack and one bite attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 12 (3d6 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "3d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Burrow",
+                    "desc": "Dogmoles cannot burrow into solid rock, but they can move through softer material like soil or loose rubble, leaving a usable tunnel 5 feet in diameter."
+                },
+                {
+                    "name": "Wormkiller Rage",
+                    "desc": "Wild dogmole packs are famed for their battles against monsters in the dark caverns of the world. If the dogmole draws blood against vermin, a purple worm, or other underground invertebrates, it gains a +4 boost to its Strength and Constitution, but suffers a -2 penalty to its AC. The wormkiller rage lasts for 3 rounds. It cannot end the rage voluntarily while the creatures that sent it into a rage still lives."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "hills",
+                "mountains",
+                "forest",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "giant-eagle",
+            "name": "Giant Eagle",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral good",
+            "armor_class": 13,
+            "armor_desc": null,
+            "hit_points": 26,
+            "hit_dice": "4d10",
+            "speed": {
+                "walk": 10,
+                "fly": 80
+            },
+            "strength": 16,
+            "dexterity": 17,
+            "constitution": 13,
+            "intelligence": 8,
+            "wisdom": 14,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "Giant Eagle, understands Common and Auran but can't speak",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The eagle makes two attacks: one with its beak and one with its talons."
+                },
+                {
+                    "name": "Beak",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Talons",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Sight",
+                    "desc": "The eagle has advantage on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Feywild",
+                "Hills",
+                "Mountains",
+                "coastal",
+                "desert",
+                "grassland",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "harpy",
+            "name": "Harpy",
+            "size": "Medium",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 38,
+            "hit_dice": "7d8+7",
+            "speed": {
+                "walk": 20,
+                "fly": 40
+            },
+            "strength": 12,
+            "dexterity": 13,
+            "constitution": 12,
+            "intelligence": 7,
+            "wisdom": 10,
+            "charisma": 13,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "Common",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The harpy makes two attacks: one with its claws and one with its club."
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "2d4",
+                    "damage_bonus": 1
+                },
+                {
+                    "name": "Club",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 1
+                },
+                {
+                    "name": "Luring Song",
+                    "desc": "The harpy sings a magical melody. Every humanoid and giant within 300 ft. of the harpy that can hear the song must succeed on a DC 11 Wisdom saving throw or be charmed until the song ends. The harpy must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is incapacitated.\nWhile charmed by the harpy, a target is incapacitated and ignores the songs of other harpies. If the charmed target is more than 5 ft. away from the harpy, the must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.\nA target that successfully saves is immune to this harpy's song for the next 24 hours."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "Tundra",
+                "coastal",
+                "desert",
+                "forest",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "hippogriff",
+            "name": "Hippogriff",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 19,
+            "hit_dice": "3d10+3",
+            "speed": {
+                "walk": 40,
+                "fly": 60
+            },
+            "strength": 17,
+            "dexterity": 13,
+            "constitution": 13,
+            "intelligence": 2,
+            "wisdom": 12,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 15",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The hippogriff makes two attacks: one with its beak and one with its claws."
+                },
+                {
+                    "name": "Beak",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Sight",
+                    "desc": "The hippogriff has advantage on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Plane of Air",
+                "grassland",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "lion",
+            "name": "Lion",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 26,
+            "hit_dice": "4d10",
+            "speed": {
+                "walk": 50
+            },
+            "strength": 17,
+            "dexterity": 15,
+            "constitution": 13,
+            "intelligence": 3,
+            "wisdom": 12,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The lion has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Pack Tactics",
+                    "desc": "The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+                },
+                {
+                    "name": "Pounce",
+                    "desc": "If the lion moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action."
+                },
+                {
+                    "name": "Running Leap",
+                    "desc": "With a 10-foot running start, the lion can long jump up to 25 ft.."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "grassland",
+                "hill",
+                "mountain"
+            ]
+        }
+    ]
+}

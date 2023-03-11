@@ -1,0 +1,314 @@
+{
+    "count": 4,
+    "monsters": [
+        {
+            "slug": "ash-drake",
+            "name": "Ash Drake",
+            "size": "Small",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 117,
+            "hit_dice": "18d6+54",
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "strength": 14,
+            "dexterity": 15,
+            "constitution": 16,
+            "intelligence": 9,
+            "wisdom": 15,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "fire",
+            "damage_immunities": "",
+            "condition_immunities": "paralyzed, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Common, Draconic",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The ash drake makes one bite attack and two claw attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage + 3 (1d6) fire damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Ash Cloud",
+                    "desc": "An ash drake can beat its wings and create a cloud of ash that extends 10 feet in all directions, centered on itself. This cloud provides half cover, though the ash drake can see normally through its own cloud. Any creature that enters or starts its turn in the cloud must succeed on a DC 14 Constitution saving throw or become blinded for 1d6 rounds."
+                },
+                {
+                    "name": "Ash Breath (recharge 6)",
+                    "desc": "An ash drake spews a 20-foot cone of blistering hot, choking ash. Any targets in the path of this spray takes 14 (4d6) fire damage and become poisoned for one minute; a successful DC 13 Dexterity saving throw reduces damage by half and negates the poisoning. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "mountains",
+                "urban",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "bereginyas",
+            "name": "Bereginyas",
+            "size": "Tiny",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "",
+            "hit_points": 70,
+            "hit_dice": "20d4+20",
+            "speed": {
+                "walk": 20,
+                "fly": 60
+            },
+            "strength": 14,
+            "dexterity": 20,
+            "constitution": 12,
+            "intelligence": 13,
+            "wisdom": 12,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": 7,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5,
+                "stealth": 9
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "bludgeoning",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "Common, Elvish, Sylvan",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The bereginyas makes two claw attacks. If both attacks hit the same target, the target is grappled (escape DC 12) and the bereginyas immediately uses Smother against it as a bonus action."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Smother",
+                    "desc": "If the bereginyas grapples an opponent, it extends a semi-solid gaseous tendril down the target's throat as a bonus action. The target must make a successful DC 14 Strength saving or it is immediately out of breath and begins suffocating. Suffocation ends if the grapple is broken or if the bereginyas is killed."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "mountains",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "ettin",
+            "name": "Ettin",
+            "size": "Large",
+            "type": "giant",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 12,
+            "armor_desc": "natural armor",
+            "hit_points": 85,
+            "hit_dice": "10d10+30",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 21,
+            "dexterity": 8,
+            "constitution": 17,
+            "intelligence": 6,
+            "wisdom": 10,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Giant, Orc",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The ettin makes two attacks: one with its battleaxe and one with its morningstar."
+                },
+                {
+                    "name": "Battleaxe",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Morningstar",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 5
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Two Heads",
+                    "desc": "The ettin has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+                },
+                {
+                    "name": "Wakeful",
+                    "desc": "When one of the ettin's heads is asleep, its other head is awake."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Hills",
+                "Ruin",
+                "hill",
+                "mountain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "flab-giant",
+            "name": "Flab Giant",
+            "size": "Large",
+            "type": "giant",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 110,
+            "hit_dice": "13d10+39",
+            "speed": {
+                "walk": 20
+            },
+            "strength": 20,
+            "dexterity": 6,
+            "constitution": 16,
+            "intelligence": 9,
+            "wisdom": 13,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 5,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison",
+            "condition_immunities": "poisoned",
+            "senses": "passive Perception $1",
+            "languages": "Dwarvish, Giant",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The giant makes two slam attacks. If both hit, the target is grappled (escape DC 15), and the flab giant uses its squatting pin against the target as a bonus action."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Squatting Pin",
+                    "desc": "The flab giant squats atop the target, pinning it to the ground, where it is grappled and restrained (escape DC 17). The flab giant is free to attack another target, but the restrained creatures are released if it moves from its current space. As long as the giant does not move from the spot, it can maintain the squatting pin on up to two Medium-sized or smaller creatures. A creature suffers 9 (1d8 + 5) bludgeoning damage every time it starts its turn restrained by a squatting pin."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Massive",
+                    "desc": "A flab giant can't dash. Attacks that push, trip, or grapple are made with disadvantage against a flab giant."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "hills",
+                "mountains",
+                "hill",
+                "mountain"
+            ]
+        }
+    ]
+}

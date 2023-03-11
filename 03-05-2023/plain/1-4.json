@@ -1,0 +1,235 @@
+{
+    "count": 3,
+    "monsters": [
+        {
+            "slug": "erina-scrounger",
+            "name": "Erina Scrounger",
+            "size": "Small",
+            "type": "humanoid",
+            "subtype": "erina",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 12,
+            "armor_desc": "leather armor",
+            "hit_points": 22,
+            "hit_dice": "4d6+8",
+            "speed": {
+                "walk": 20,
+                "burrow": 20
+            },
+            "strength": 9,
+            "dexterity": 12,
+            "constitution": 14,
+            "intelligence": 13,
+            "wisdom": 10,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "poison",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Common, Erina",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Dagger",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Sling",
+                    "desc": "Ranged Weapon Attack: +3 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The erina has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Hardy",
+                    "desc": "The erina has advantage on saving throws against poison."
+                },
+                {
+                    "name": "Spines",
+                    "desc": "An enemy who hits the erina with a melee attack while within 5 feet of it takes 2 (1d4) piercing damage."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "hills",
+                "plains",
+                "forest",
+                "hill",
+                "plain"
+            ]
+        },
+        {
+            "slug": "ramag",
+            "name": "Ramag",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "ramag",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 13,
+            "armor_desc": "leather armor",
+            "hit_points": 27,
+            "hit_dice": "6d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 9,
+            "dexterity": 14,
+            "constitution": 10,
+            "intelligence": 16,
+            "wisdom": 12,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "arcana": 5,
+                "investigation": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception $1",
+            "languages": "Common",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Scimitar",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Shortbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The ramag has advantage on saving throws against spells or other magical effects."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "plains",
+                "urban",
+                "plain"
+            ]
+        },
+        {
+            "slug": "treacle",
+            "name": "Treacle",
+            "size": "Tiny",
+            "type": "ooze",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 22,
+            "hit_dice": "4d4+12",
+            "speed": {
+                "walk": 15,
+                "climb": 10
+            },
+            "strength": 4,
+            "dexterity": 6,
+            "constitution": 17,
+            "intelligence": 1,
+            "wisdom": 1,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "deception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 60 ft., passive Perception 10",
+            "languages": "-",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Reshape",
+                    "desc": "The treacle assumes the shape of any tiny creature or object. A reshaped treacle gains the movement of its new form but no other special qualities."
+                },
+                {
+                    "name": "Blood Drain (1/hour)",
+                    "desc": "A treacle touching the skin of a warm-blooded creature inflicts 4 (1d8) necrotic damage per hour of contact, and the victim's maximum hit points are reduced by the same number. Blood is drained so slowly that the victim doesn't notice the damage unless he or she breaks contact with the treacle (sets it down or hands it to someone else, for example). When contact is broken, the victim notices blood on his or her skin or clothes with a successful DC 13 Wisdom (Perception) check."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amorphous",
+                    "desc": "The treacle can move through a space as narrow as 1 inch wide without squeezing."
+                },
+                {
+                    "name": "Charming Presence",
+                    "desc": "The treacle has an uncanny ability to sense and to play off of another creature's emotions. It uses Charisma (Deception) to oppose Wisdom (Insight or Perception) skill checks made to see through its ruse, and it has advantage on its check."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "plains",
+                "urban",
+                "forest",
+                "plain"
+            ]
+        }
+    ]
+}

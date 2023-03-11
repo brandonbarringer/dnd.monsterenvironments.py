@@ -1,0 +1,672 @@
+{
+    "count": 7,
+    "monsters": [
+        {
+            "slug": "goat-man",
+            "name": "Goat-Man",
+            "size": "Medium",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 65,
+            "hit_dice": "10d8+20",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 19,
+            "dexterity": 14,
+            "constitution": 14,
+            "intelligence": 10,
+            "wisdom": 13,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "acrobatics": 4,
+                "athletics": 6,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Common, Giant, Trollkin, but cannot speak",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The goat-man makes one bite attack and one slam attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Headbutt",
+                    "desc": "If the goat-man moves at least 10 feet straight toward a creature and then hits it with a slam attack on the same turn, the target must succeed on a DC 14 Strength saving throw or be knocked prone and stunned for 1 round. If the target is prone, the goat-man can make one bite attack against it immediately as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "forests",
+                "hills",
+                "forest",
+                "hill"
+            ]
+        },
+        {
+            "slug": "green-hag",
+            "name": "Green Hag",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": "Hags",
+            "alignment": "neutral evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 82,
+            "hit_dice": "11d8+33",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 18,
+            "dexterity": 12,
+            "constitution": 16,
+            "intelligence": 13,
+            "wisdom": 14,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "arcana": 3,
+                "deception": 4,
+                "perception": 4,
+                "stealth": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Common, Draconic, Sylvan",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Illusory Appearance",
+                    "desc": "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.\nThe changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised."
+                },
+                {
+                    "name": "Invisible Passage",
+                    "desc": "The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The hag can breathe air and water."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:\n\nAt will: dancing lights, minor illusion, vicious mockery"
+                },
+                {
+                    "name": "Mimicry",
+                    "desc": "The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check."
+                },
+                {
+                    "name": "Hag Coven",
+                    "desc": "When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.\nA coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos."
+                },
+                {
+                    "name": "Shared Spellcasting (Coven Only)",
+                    "desc": "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:\n\n\u2022 1st level (4 slots): identify, ray of sickness\n\u2022 2nd level (3 slots): hold person, locate object\n\u2022 3rd level (3 slots): bestow curse, counterspell, lightning bolt\n\u2022 4th level (3 slots): phantasmal killer, polymorph\n\u2022 5th level (2 slots): contact other plane, scrying\n\u2022 6th level (1 slot): eye bite\n\nFor casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier."
+                },
+                {
+                    "name": "Hag Eye (Coven Only)",
+                    "desc": "A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.\nA hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/dancing-lights/?format=json",
+                "https://api.open5e.com/spells/minor-illusion/?format=json",
+                "https://api.open5e.com/spells/vicious-mockery/?format=json",
+                "https://api.open5e.com/spells/identify/?format=json",
+                "https://api.open5e.com/spells/ray-of-sickness/?format=json",
+                "https://api.open5e.com/spells/hold-person/?format=json",
+                "https://api.open5e.com/spells/locate-object/?format=json",
+                "https://api.open5e.com/spells/bestow-curse/?format=json",
+                "https://api.open5e.com/spells/counterspell/?format=json",
+                "https://api.open5e.com/spells/lightning-bolt/?format=json",
+                "https://api.open5e.com/spells/phantasmal-killer/?format=json",
+                "https://api.open5e.com/spells/polymorph/?format=json",
+                "https://api.open5e.com/spells/contact-other-plane/?format=json",
+                "https://api.open5e.com/spells/scrying/?format=json",
+                "https://api.open5e.com/spells/eye-bite/?format=json"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Feywild",
+                "Forest",
+                "Jungle",
+                "Ruin",
+                "Settlement",
+                "Shadowfell",
+                "Swamp",
+                "forest",
+                "hill",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "manticore",
+            "name": "Manticore",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 68,
+            "hit_dice": "8d10+24",
+            "speed": {
+                "walk": 30,
+                "fly": 50
+            },
+            "strength": 17,
+            "dexterity": 16,
+            "constitution": 17,
+            "intelligence": 7,
+            "wisdom": 12,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The manticore makes three attacks: one with its bite and two with its claws or three with its tail spikes."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Tail Spike",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 100/200 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Tail Spike Regrowth",
+                    "desc": "The manticore has twenty-four tail spikes. Used spikes regrow when the manticore finishes a long rest."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "grassland",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "phase-spider",
+            "name": "Phase Spider",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 32,
+            "hit_dice": "5d10",
+            "speed": {
+                "walk": 30,
+                "climb": 30
+            },
+            "strength": 15,
+            "dexterity": 15,
+            "constitution": 12,
+            "intelligence": 6,
+            "wisdom": 10,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Ethereal Jaunt",
+                    "desc": "As a bonus action, the spider can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
+                },
+                {
+                    "name": "Spider Climb",
+                    "desc": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                },
+                {
+                    "name": "Web Walker",
+                    "desc": "The spider ignores movement restrictions caused by webbing."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Astral Plane",
+                "Caverns",
+                "Ethereal Plane",
+                "Feywild",
+                "Grassland",
+                "Mountains",
+                "Ruin",
+                "Shadowfell",
+                "forest",
+                "grassland",
+                "hill",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "ravenfolk-warrior",
+            "name": "Ravenfolk Warrior",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "kenku",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 15,
+            "armor_desc": "studded leather armor",
+            "hit_points": 78,
+            "hit_dice": "12d8+24",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 12,
+            "dexterity": 16,
+            "constitution": 14,
+            "intelligence": 10,
+            "wisdom": 13,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": 5,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 3,
+            "charisma_save": 2,
+            "perception": 5,
+            "skills": {
+                "deception": 2,
+                "perception": 5,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 120 ft., passive Perception 15",
+            "languages": "Common, Feather Speech, Huginn",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "A ravenfolk warrior makes two runespear attacks, or two longbow attacks, or one ghost wings attack and one runespear attack. It can substitute one peck attack for any other attack."
+                },
+                {
+                    "name": "Ghost Wings",
+                    "desc": "The ravenfolk warrior furiously \"beats\"a set of phantasmal wings. Every creature within 5 feet of the ravenfolk must make a successful DC 13 Dexterity saving throw or be blinded until the start of the ravenfolk's next turn."
+                },
+                {
+                    "name": "Longbow",
+                    "desc": "Ranged Weapon Attack. +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+                },
+                {
+                    "name": "Peck",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Radiant Runespear",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit: 7 (1d12 + 1) piercing damage plus 2 (1d4) radiant damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d12"
+                },
+                {
+                    "name": "Rapier",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8"
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Odin's Call",
+                    "desc": "A ravenfolk warrior can disengage after an attack reduces it to 10 hp or less."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Rune Weapons",
+                    "desc": "Kept keen with runic magic, runespears and runestaves are two-handed weapons that count as magical, though they provide no bonus to attack. Their magic must be renewed each week by a doom croaker or by Odin's own hand."
+                },
+                {
+                    "name": "Mimicry",
+                    "desc": "Ravenfolk warriors can mimic the voices of others with uncanny accuracy. They have advantage on Charisma (Deception) checks involving audible mimicry."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "hills",
+                "urban",
+                "forest",
+                "hill"
+            ]
+        },
+        {
+            "slug": "veteran",
+            "name": "Veteran",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 17,
+            "armor_desc": "splint",
+            "hit_points": 58,
+            "hit_dice": "9d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 13,
+            "constitution": 14,
+            "intelligence": 10,
+            "wisdom": 11,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "athletics": 5,
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "any one language (usually Common)",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+                },
+                {
+                    "name": "Longsword",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 1
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Settlement",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "mountain",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "werewolf",
+            "name": "Werewolf",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "human",
+            "group": "Lycanthropes",
+            "alignment": "chaotic evil",
+            "armor_class": 11,
+            "armor_desc": "11 in humanoid form, 12 (natural armor) in wolf or hybrid form",
+            "hit_points": 58,
+            "hit_dice": "9d8+18",
+            "speed": {
+                "notes": "40 ft. in wolf form",
+                "walk": 30
+            },
+            "strength": 15,
+            "dexterity": 13,
+            "constitution": 14,
+            "intelligence": 10,
+            "wisdom": 11,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "condition_immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "Common (can't speak in wolf form)",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack (Humanoid or Hybrid Form Only)",
+                    "desc": "The werewolf makes two attacks: two with its spear (humanoid form) or one with its bite and one with its claws (hybrid form)."
+                },
+                {
+                    "name": "Bite (Wolf or Hybrid Form Only)",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Claws (Hybrid Form Only)",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (2d4 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d4",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Spear (Humanoid Form Only)",
+                    "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": -2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Shapechanger",
+                    "desc": "The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "desc": "The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forest",
+                "hill"
+            ]
+        }
+    ]
+}

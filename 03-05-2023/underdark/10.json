@@ -1,0 +1,196 @@
+{
+    "count": 2,
+    "monsters": [
+        {
+            "slug": "aboleth",
+            "name": "Aboleth",
+            "size": "Large",
+            "type": "aberration",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 135,
+            "hit_dice": "18d10+36",
+            "speed": {
+                "walk": 10,
+                "swim": 40
+            },
+            "strength": 21,
+            "dexterity": 9,
+            "constitution": 15,
+            "intelligence": 18,
+            "wisdom": 15,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 6,
+            "intelligence_save": 8,
+            "wisdom_save": 6,
+            "charisma_save": null,
+            "perception": 10,
+            "skills": {
+                "history": 12,
+                "perception": 10
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 120 ft., passive Perception 20",
+            "languages": "Deep Speech, telepathy 120 ft.",
+            "challenge_rating": "10",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The aboleth makes three tentacle attacks."
+                },
+                {
+                    "name": "Tentacle",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Tail",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "3d6",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Enslave (3/day)",
+                    "desc": "The aboleth targets one creature it can see within 30 ft. of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth's control and can't take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.\nWhenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The aboleth regains spent legendary actions at the start of its turn.",
+            "legendary_actions": [
+                {
+                    "name": "Detect",
+                    "desc": "The aboleth makes a Wisdom (Perception) check."
+                },
+                {
+                    "name": "Tail Swipe",
+                    "desc": "The aboleth makes one tail attack."
+                },
+                {
+                    "name": "Psychic Drain (Costs 2 Actions)",
+                    "desc": "One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes."
+                }
+            ],
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The aboleth can breathe air and water."
+                },
+                {
+                    "name": "Mucous Cloud",
+                    "desc": "While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 ft. of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater."
+                },
+                {
+                    "name": "Probing Telepathy",
+                    "desc": "If a creature communicates telepathically with the aboleth, the aboleth learns the creature's greatest desires if the aboleth can see the creature."
+                }
+            ],
+            "spell_list": [],
+            "img_main": "http://api.open5e.com/static/img/monsters/aboleth.png",
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Plane of Water",
+                "Sewer",
+                "Water",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "sathaq-worm",
+            "name": "Sathaq Worm",
+            "size": "Huge",
+            "type": "elemental",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 172,
+            "hit_dice": "15d12+75",
+            "speed": {
+                "walk": 20,
+                "burrow": 20,
+                "swim": 20
+            },
+            "strength": 22,
+            "dexterity": 6,
+            "constitution": 20,
+            "intelligence": 5,
+            "wisdom": 12,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5,
+                "stealth": 2
+            },
+            "damage_vulnerabilities": "thunder",
+            "damage_resistances": "fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "acid, poison",
+            "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+            "senses": "tremorsense 60 ft., passive Perception 15",
+            "languages": "understands Deep Speech and Terran, but can't speak",
+            "challenge_rating": "10",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Dexterity saving throw or be swallowed by the sathaq worm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the worm, and takes 7 (2d6) bludgeoning damage plus 7 (2d6) slashing damage plus 7 (2d6) acid damage at the start of each of the sathaq worm's turns. The sathaq worm can have only one creature swallowed at a time. If the sathaq worm takes 20 damage or more on a single turn from a creature inside it, the sathaq worm must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls prone in a space within 5 feet of the sathaq worm. If the sathaq worm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone.",
+                    "attack_bonus": 10,
+                    "damage_dice": "4d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Agonizing Aura",
+                    "desc": "The sathaq worms' presence induces pain in creatures native to the Material Plane. Any creature that starts its turn within 30 feet of the sathaq worm must make a DC 17 Fortitude saving throw. On a failed save, the creature is poisoned until the start of its next turn. If a creature's saving throw succeeds, it is immune to the sathaq worm's Agonizing Aura for the next 24 hours."
+                },
+                {
+                    "name": "Earth Glide",
+                    "desc": "The sathaq worm can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through."
+                },
+                {
+                    "name": "Siege Monster",
+                    "desc": "The sathaq worm deals double damage to objects and structures."
+                },
+                {
+                    "name": "Earthen Camoflage",
+                    "desc": "The sathaq worm's stealth bonus is increased to +6 in sand, mud, or dirt."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "marshes",
+                "ruins",
+                "underground",
+                "swamp",
+                "underdark"
+            ]
+        }
+    ]
+}

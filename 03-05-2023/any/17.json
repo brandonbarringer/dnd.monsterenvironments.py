@@ -1,0 +1,437 @@
+{
+    "count": 4,
+    "monsters": [
+        {
+            "slug": "elemental-locus",
+            "name": "Elemental Locus",
+            "size": "Gargantuan",
+            "type": "elemental",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 290,
+            "hit_dice": "20d20+80",
+            "speed": {
+                "walk": 5
+            },
+            "strength": 28,
+            "dexterity": 1,
+            "constitution": 18,
+            "intelligence": 10,
+            "wisdom": 11,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": 6,
+            "wisdom_save": 6,
+            "charisma_save": 6,
+            "perception": 6,
+            "skills": {
+                "nature": 6,
+                "perception": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing",
+            "damage_immunities": "acid, cold, fire, lightning, poison, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious",
+            "senses": "darkvision 120 ft., tremorsense 120 ft., passive Perception 16",
+            "languages": "Primordial",
+            "challenge_rating": "17",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The elemental locus makes two slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 36 (6d8 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 23 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 15,
+                    "damage_dice": "6d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The elemental locus has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Immortal",
+                    "desc": "The elemental locus does not age and does not die when it drops to 0 hit points. If the elemental locus drops to 0 hit points, it falls into a quiescent state for 25 weeks before returning to activity with full hit points. Its spawned elementals continue fighting whatever enemies attacked the elemental locus; if no enemies are present, they defend the locus's area."
+                },
+                {
+                    "name": "Massive",
+                    "desc": "The elemental locus is larger than most Gargantuan creatures, occupying a space of 60 by 60 feet. Its movement is not affected by difficult terrain or by Huge or smaller creatures. Other creatures can enter and move through the elemental locus's space, but they must make a successful DC 20 Strength (Athletics) check after each 10 feet of movement. Failure indicates they fall prone and can move no farther that turn."
+                },
+                {
+                    "name": "Spawn Elementals",
+                    "desc": "As a bonus action, the elemental locus loses 82 hit points and spawns an air, earth, fire, or water elemental to serve it. Spawned elementals answer to their creator's will and are not fully independent. The types of elementals the locus can spawn depend on the terrain it embodies; for example, an elemental locus of the desert can spawn earth, fire, and air elementals, but not water."
+                },
+                {
+                    "name": "Siege Monster",
+                    "desc": "The elemental locus deals double damage to objects and structures."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "koschei",
+            "name": "Koschei",
+            "size": "Medium",
+            "type": "fiend",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 135,
+            "hit_dice": "18d8+54",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 22,
+            "dexterity": 12,
+            "constitution": 17,
+            "intelligence": 17,
+            "wisdom": 13,
+            "charisma": 21,
+            "strength_save": null,
+            "dexterity_save": 7,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 7,
+            "charisma_save": 11,
+            "perception": 7,
+            "skills": {
+                "arcana": 9,
+                "insight": 7,
+                "perception": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold, lightning",
+            "damage_immunities": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "condition_immunities": "charmed, exhaustion, frightened",
+            "senses": "darkvision 60 ft., passive Perception 17",
+            "languages": "Abyssal, Common, Celestial, Dwarvish, Infernal",
+            "challenge_rating": "17",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "Koschei makes two longsword attacks and one drain life attack."
+                },
+                {
+                    "name": "Longsword",
+                    "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage or 11 (1d10 + 6) slashing damage if used in two hands plus 14 (4d6) necrotic damage.",
+                    "attack_bonus": 12,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Drain Life",
+                    "desc": "Melee Spell Attack: +11 to hit, reach 5 ft., one target. Hit: 20 (4d6 + 6) necrotic damage. The target must succeed on a DC 19 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken from this attack, and Koschei regains an equal number of hit points. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+                    "attack_bonus": 11,
+                    "damage_dice": "4d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "Koschei can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Koschei regains spent legendary actions at the start of its turn.",
+            "legendary_actions": [
+                {
+                    "name": "Attack",
+                    "desc": "Koschei makes one attack with his longsword."
+                },
+                {
+                    "name": "Teleport",
+                    "desc": "Koschei teleports to an unoccupied space he can see within 40 feet."
+                },
+                {
+                    "name": "Drain (2 actions)",
+                    "desc": "Koschei makes one attack with Drain Life."
+                }
+            ],
+            "special_abilities": [
+                {
+                    "name": "Hidden Soul",
+                    "desc": "A creature holding the egg containing Koschei's soul can use an action to compel Koschei as if a dominate monster spell were cast on him and Koschei failed his saving throw. As long as the soul is within the needle, Koschei can't permanently die. If he is killed, his body reforms in his lair in 1d10 days. If the needle is broken, Koschei can be killed like any other creature."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "koschei's innate spellcasting attribute is Charisma (spell save DC 19, +11 to hit with spell attacks). He can innately cast the following spells, requiring no material components.\n\nat will: detect magic, phantom steed, scorching ray, sending\n\n3/day each: invisibility, magic missile, shield\n\n2/day each: animate objects, cone of cold, hypnotic pattern\n\n1/day each: disintegrate, meteor swarm, true polymorph"
+                },
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "desc": "If Koschei fails a saving throw, he can choose to succeed instead."
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "Koschei's weapon attacks are magical and do an extra 14 (4d6) necrotic damage (included below)."
+                },
+                {
+                    "name": "Koschei's Lair Actions",
+                    "desc": "on initiative count 20 (losing initiative ties), Koschei takes a lair action to cause one of the following effects; Koschei can't use the same effect two rounds in a row:\n\n- Koschei creates a whirlwind centered on a point he can see within 100 feet. The whirlwind is 10 feet wide and up to 50 feet tall. A creature in the area of the whirlwind when it's created, or who enters the area for the first time on a turn, must make a DC 15 Strength saving throw. On a failed save, the creature is restrained and takes 18 (4d8) bludgeoning damage from the buffeting wind. A restrained creature can escape from the whirlwind by using its action to repeat the saving throw; on a success, it moves 5 feet outside the area of the whirlwind. The whirlwind lasts until Koschei uses this action again or dies.\n\n- Tortured spirits appear and attack up to three creatures Koschei can see within the lair. One attack is made against each targeted creature; each attack has +8 to hit and does 10 (3d6) necrotic damage.\n\n- Koschei disrupts the flow of magic in his lair. Until initiative count 20 on the following round, any creature other than a fiend who targets Koschei with a spell must make a DC 15 Wisdom saving throw. On a failure, the creature still casts the spell, but it must target a creature other than Koschei."
+                },
+                {
+                    "name": "Regional Effects",
+                    "desc": "the region containing Koschei's lair is warped by Koschei's magic, which creates one or more of the following effects:\n\n- Rabbits, ducks, and other game animals become hostile toward intruders within 5 miles of the lair. They behave aggressively, but only attack if cornered. Foraging for food by hunting is difficult and only yields half the normal amount of food.\n\n- Wind and snowstorms are common within 5 miles of the lair.\n\n- Koschei is aware of any spell cast within 5 miles of his lair. He knows the source of the magic (innate, the caster's class, or a magic item) and knows the direction to the caster.\n\nif Koschei dies, conditions in the area surrounding his lair return to normal over the course of 1d10 days."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "moonlit-king",
+            "name": "Moonlit King",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral good",
+            "armor_class": 17,
+            "armor_desc": "half plate",
+            "hit_points": 170,
+            "hit_dice": "20d8+80",
+            "speed": {
+                "walk": 50
+            },
+            "strength": 16,
+            "dexterity": 20,
+            "constitution": 18,
+            "intelligence": 20,
+            "wisdom": 18,
+            "charisma": 20,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 10,
+            "intelligence_save": null,
+            "wisdom_save": 10,
+            "charisma_save": 11,
+            "perception": 10,
+            "skills": {
+                "arcana": 11,
+                "perception": 10
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid; bludgeoning, piercing, and slashing from weapons that aren't made of cold iron.",
+            "damage_immunities": "cold, fire, poison",
+            "condition_immunities": "charmed, frightened, poisoned",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 20",
+            "languages": "Abyssal, Celestial, Common, Draconic, Elvish, Infernal, Umbral; telepathy 100 ft.",
+            "challenge_rating": "17",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The Moonlit King makes three attacks with either his crystal staff or his moon bolt."
+                },
+                {
+                    "name": "Crystal Staff",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage plus 7 (2d6) radiant damage. A target that is struck by the staff two or more times in one turn must make a successful DC 17 Constitution saving throw or be stunned until the end of its next turn.",
+                    "attack_bonus": 9,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Moon Bolt",
+                    "desc": "Ranged Spell Attack: +11 to hit, range 150/600 ft., one target. Hit: 22 (4d10) radiant damage. If the target is a creature in a form other than its natural form, it takes an additional 22 (4d10) radiant damage and must succeed on a DC 19 Charisma saving throw or revert to its natural form. When the moon bolt hits a target, moonlight glows in a 10-foot radius from that point, creating dim light. The light is stationary and lasts until the end of the Moonlit King's next turn.",
+                    "attack_bonus": 11,
+                    "damage_dice": "4d10"
+                },
+                {
+                    "name": "Fearful Shadows (Recharge 5-6)",
+                    "desc": "The Moonlit King magically animates the shadows of all foes within 60 feet of himself. The animated shadows attack the creatures who cast them. All affected creatures in the area take 35 (10d6) necrotic damage, or half damage with a successful DC 19 Dexterity saving throw. A creature that fails the saving throw also loses 1d4 points from its Strength score. A creature reduced to 0 Strength is unconscious until it regains at least 1 point of Strength. Strength lost to fearful shadows returns when the creature finishes a short or long rest."
+                },
+                {
+                    "name": "Summon Devil (1/Day)",
+                    "desc": "The Moonlit King magically summons a lunar devil. The summoned devil appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other devils. It remains for 10 minutes, until its summoner dies, or until its summoner dismisses it as an action."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Shadow Slip",
+                    "desc": "The Moonlit King takes on the quality of his manifest delusions when he is targeted by an attacker he can see. He becomes nearly insubstantial, so that the attack roll is made with disadvantage. If the attack hits, the Moonlit King takes half damage."
+                }
+            ],
+            "legendary_desc": "The Moonlit King can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Moonlit King regains spent legendary actions at the start of his turn.",
+            "legendary_actions": [
+                {
+                    "name": "Staff",
+                    "desc": "The Moonlit King makes a crystal staff attack."
+                },
+                {
+                    "name": "Lightwalking",
+                    "desc": "The Moonlit King teleports from one area of moonlight to another within 100 feet."
+                },
+                {
+                    "name": "Aura of Madness (2 actions)",
+                    "desc": "While he is standing in an area of moonlight, the Moonlit King can spread his madness to other creatures within 30 feet. A creature other than a fiend that starts its turn in the aura or enters it for the first time on a turn (including when the aura is created) must succeed on a DC 19 Charisma saving throw or be confused (as if affected by the confusion spell) until the start of its next turn. The aura lasts until the start of the Moonlit King's next turn."
+                }
+            ],
+            "special_abilities": [
+                {
+                    "name": "Control Moonlight",
+                    "desc": "As a bonus action, the Moonlit King can cause all areas of moonlight within 100 feet to move up to 10 feet."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the Moonlit King's innate spellcasting ability score is Charisma (save DC 19, +11 to hit with spell attacks). The Moonlit King can innately cast the following spells, requiring no material components.\n\nat will: continual flame, detect evil and good, invisibility (self only), moonbeam, zone of truth\n\n3/day each: blight, dispel evil and good, dispel magic\n\n1/day each: demiplane, heal"
+                },
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "desc": "If the Moonlit King fails a saving throw, he can choose to succeed instead."
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The Moonlit King's weapon attacks are magical, and deal an extra 7 (2d6) radiant damage (included below)."
+                },
+                {
+                    "name": "Moonlit King's Lair",
+                    "desc": "on initiative count 20 (losing initiative ties), the Moonlit King takes a lair action to cause one of the following effects; the Moonlit King can't use the same effect two rounds in a row:\n\n- The Moonlit King creates four beams of moonlight at four points he can see within 100 feet. The beams each illuminate a 10-foot radius with dim light. These moon beams last until the Moonlit King uses this action again, or until he dies.\n\n- The Moonlit King chooses a point he can see within 100 feet. Disembodied whispers speaking of despair and failure fill a 30-foot radius from that point. All creatures other than fiends in the area must succeed on a DC 15 Wisdom saving throw or become frightened until initiative count 20 on the following round.\n\n- The Moonlit King magically summons four shadow demons. The demons appear in unoccupied spaces the Moonlit King can see within 60 feet. The demons act immediately and remain until initiative count 20 on the following round."
+                },
+                {
+                    "name": "Regional Effects",
+                    "desc": "the region containing the Moonlit King's lair is warped by the fey lord's magic, which creates one or more of the following effects:\n\n- Dreams and fears take on a life of their own. Minor visual and auditory hallucinations plague creatures within 6 miles of the lair.\n\n- The Moonlit King can communicate telepathically with and share the senses of any stryx within 10 miles of his lair.\n\n- Weather conditions don't inhibit moonlight shining within 10 miles of the lair; clouds part, rain seems to channel moonbeams, snow takes on a luminous silver glow.\n\nif the Moonlit King dies, conditions in the area surrounding the lair return to normal over the course of 1d10 days."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "queen-of-witches",
+            "name": "Queen Of Witches",
+            "size": "Large",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 123,
+            "hit_dice": "13d10+52",
+            "speed": {
+                "hover": true,
+                "walk": 40,
+                "fly": 50
+            },
+            "strength": 22,
+            "dexterity": 10,
+            "constitution": 19,
+            "intelligence": 16,
+            "wisdom": 18,
+            "charisma": 22,
+            "strength_save": null,
+            "dexterity_save": 6,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 10,
+            "charisma_save": 12,
+            "perception": 10,
+            "skills": {
+                "arcana": 9,
+                "deception": 12,
+                "history": 9,
+                "insight": 10,
+                "perception": 10
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold, fire; bludgeoning, piercing, and slashing damage from weapons that aren't cold iron",
+            "damage_immunities": "radiant",
+            "condition_immunities": "blinded, charmed, frightened",
+            "senses": "truesight 60 ft., passive Perception 19",
+            "languages": "Celestial, Common, Draconic, Elvish, Sylvan, Umbral",
+            "challenge_rating": "17",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "Nicnevin makes two attacks, or makes one attack and casts a spell."
+                },
+                {
+                    "name": "Moonsilver Ring",
+                    "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage plus 10 (3d6) radiant damage. The moonsilver ring is a magical weapon.",
+                    "attack_bonus": 12,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Blast",
+                    "desc": "Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit: 11 (1d10 + 6) force damage. A creature hit by a blast must succeed on a DC 19 Strength saving throw or be pushed 10 feet directly away from Nicnevin.",
+                    "attack_bonus": 12,
+                    "damage_dice": "1d10"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "Nicnevin can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Nicnevin regains spent legendary actions at the start of its turn.",
+            "legendary_actions": [
+                {
+                    "name": "Attack",
+                    "desc": "Nicnevin makes one attack."
+                },
+                {
+                    "name": "Spell (2 actions)",
+                    "desc": "Nicnevin casts a spell."
+                },
+                {
+                    "name": "Teleport",
+                    "desc": "Nicnevin magically teleports to an unoccupied space she can see within 40 feet."
+                }
+            ],
+            "special_abilities": [
+                {
+                    "name": "Absorb the Weave",
+                    "desc": "When Nicnevin counters or dispels a spell, she heals damage equal to twice the spell level."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "nicnevin's spellcasting attribute is Charisma (save DC 19, +12 to hit with spell attacks). She can innately cast the following spells, requiring no material components:\n\nat will: faerie fire, hex, misty step, silent image, tongues\n\n3/day each: chain lightning, counterspell, dispel magic, hypnotic pattern, teleportation circle\n\n2/day each: bestow curse, feeblemind, mass suggestion, flesh to stone\n\n1/day each: power word kill, sleep (9th level), true polymorph"
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "Nicnevin has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "desc": "If Nicnevin fails a saving throw she can choose to succeed instead."
+                },
+                {
+                    "name": "Token of Favor",
+                    "desc": "As an action, Nicnevin can cut a lock of her copper hair and twist it into a token for a creature she chooses. As long as that creature carries the token, it gains the magic resistance trait (see above). Nicnevin can revoke her favor at any time as a bonus action. When that happens, the creature loses the benefit of the token and, if Nicnevin wishes, the creature also has disadvantage on saving throws against spells and other magical effects for 24 hours."
+                },
+                {
+                    "name": "The Queen of Witches's Lair",
+                    "desc": "on initiative count 20 (losing initiative ties), Nicnevin takes a lair action to cause one of the following effects; Nicnevin can't use the same effect two rounds in a row:\n\n- Nicnevin causes a searing flare of moonlight to burst from a point she can see within 100 feet. All creatures Nicnevin chooses within 30 feet of that point take 13 (3d8) radiant damage, or half damage with a successful DC 15 Wisdom saving throw. Creatures not in their natural form have disadvantage on the saving throw, and if they fail, they revert to their natural form immediately (this does not affect any shape-changing effect created by Nicnevin).\n\n- A wall of softly glowing crystal springs up from a solid surface in the lair. The wall is 60 feet long, 10 feet high, 5 feet thick, blocks line of sight, and sheds dim light out to 10 feet. Creatures within the wall's area when it appears must succeed on a DC 15 Dexterity saving throw or take 14 (4d6) radiant damage. The creature is pushed out of the wall's space to whichever side it chooses. Each 5-foot section of the wall has AC 15, 10 hit points, resistance to fire, slashing, and piercing damage, immunity to poison and psychic damage, and vulnerability to thunder. The wall lasts until Nicnevin uses this action again or dies.\n\n- Until initiative count 20 on the following round, any creatures other than fey who attempt to cast a spell must succeed on a DC 15 Constitution saving throw or the spell fails and the spell slot is expended. A creature becomes aware of this effect the moment it begins casting a spell, and it can choose to take a different action instead."
+                },
+                {
+                    "name": "Regional Effects",
+                    "desc": "the region containing Nicnevin's lair is warped by the queen's magic, which creates one or more of the following effects:\n\n- Calling Nicnevin's name under the light of the moon within 10 miles of her lair draws Nicnevin's attention (as if she cast a scrying spell). She may visit the supplicant and hear a request, especially if the request is repeated on multiple nights. For 24 hours after the invocation, Nicenvin has a connection to the area that allows her to target it with teleportation circle.\n\n- Despite the weather, the moon is always visible for most of the night within 10 miles of the lair. Cloud cover has many breaks, or the moon's light sharply penetrates the clouds.\n\n- Silvery fog is common within 10 miles of the lair, and strange whispers are heard within the mist.\n\nif Nicnevin dies, conditions in the area surrounding the lair return to normal over the course of 1d10 days."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        }
+    ]
+}

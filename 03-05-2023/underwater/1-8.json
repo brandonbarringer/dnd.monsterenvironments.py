@@ -1,0 +1,139 @@
+{
+    "count": 2,
+    "monsters": [
+        {
+            "slug": "merfolk",
+            "name": "Merfolk",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "merfolk",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 11,
+            "hit_dice": "2d8+2",
+            "speed": {
+                "walk": 10,
+                "swim": 40
+            },
+            "strength": 10,
+            "dexterity": 13,
+            "constitution": 12,
+            "intelligence": 11,
+            "wisdom": 11,
+            "charisma": 12,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "Aquan, Common",
+            "challenge_rating": "1/8",
+            "actions": [
+                {
+                    "name": "Spear",
+                    "desc": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack.",
+                    "attack_bonus": 2,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The merfolk can breathe air and water."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Water",
+                "coastal",
+                "desert",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "wharfling",
+            "name": "Wharfling",
+            "size": "Tiny",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 13,
+            "armor_desc": "",
+            "hit_points": 6,
+            "hit_dice": "4d4 . 4",
+            "speed": {
+                "walk": 30,
+                "climb": 30,
+                "swim": 20
+            },
+            "strength": 4,
+            "dexterity": 16,
+            "constitution": 8,
+            "intelligence": 2,
+            "wisdom": 12,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "-",
+            "challenge_rating": "1/8",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target is grappled (escape DC 10). Until this grapple ends, the wharfling can't use its bite on another target. While the target is grappled, the wharfling's bite attack hits it automatically.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4+3"
+                },
+                {
+                    "name": "Pilfer",
+                    "desc": "A wharfling that has an opponent grappled at the start of its turn can make a Dexterity (Sleight of Hand) check as a bonus action. The DC for this check equals 10 plus the grappled target's Dexterity modifier. If the check is successful, the wharfling steals some small metallic object from the target, and the theft is unnoticed if the same result equals or exceeds the target's passive Perception. A wharfling flees with its treasure."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "aquatic",
+                "underwater"
+            ]
+        }
+    ]
+}

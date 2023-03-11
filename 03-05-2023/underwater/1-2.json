@@ -1,0 +1,495 @@
+{
+    "count": 6,
+    "monsters": [
+        {
+            "slug": "bone-crab",
+            "name": "Bone Crab",
+            "size": "Small",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 33,
+            "hit_dice": "6d6+12",
+            "speed": {
+                "walk": 20,
+                "swim": 10
+            },
+            "strength": 10,
+            "dexterity": 14,
+            "constitution": 14,
+            "intelligence": 1,
+            "wisdom": 12,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "-",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The bone crab makes two claw attacks."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "White Ghost Shivers",
+                    "desc": "A living creature that is injured by or makes physical contact with a creature carrying the white ghost shivers must succeed on a DC 11 Constitution saving throw at the end of the encounter to avoid becoming infected. This disease manifests after 24 hours, beginning as a mild chill, but increasingly severe after a day, accompanied by a fever. Hallucinations are common, and the fright they induce lends the disease its name. At onset, the infected creature gains two levels of exhaustion that cannot be removed until the disease is cured by lesser restoration, comparable magic, or rest. The infected creature makes another DC 11 Constitution saving throw at the end of each long rest; a successful save removes one level of exhaustion. If the saving throw fails, the disease persists. If both levels of exhaustion are removed by successful saving throws, the victim has recovered naturally."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The bone crab can breathe air and water."
+                },
+                {
+                    "name": "Bone Camouflage",
+                    "desc": "A bone crab has advantage on Dexterity (Stealth) checks while it's among bones."
+                },
+                {
+                    "name": "Hive Mind",
+                    "desc": "A bone crab can communicate perfectly with all other bone crabs within 100 feet of it. If one is aware of danger, they all are."
+                },
+                {
+                    "name": "Leap",
+                    "desc": "Bone crabs have incredibly powerful legs and can leap up to 10 feet straight ahead or backward as part of its movement; this counts as withdraw action when moving away from a foe."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "aquatic",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "giant-sea-horse",
+            "name": "Giant Sea Horse",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 16,
+            "hit_dice": "3d10",
+            "speed": {
+                "walk": 0,
+                "swim": 40
+            },
+            "strength": 12,
+            "dexterity": 15,
+            "constitution": 11,
+            "intelligence": 2,
+            "wisdom": 12,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Ram",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 1
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Charge",
+                    "desc": "If the sea horse moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 0,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Water Breathing",
+                    "desc": "The sea horse can breathe only underwater."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "underwater"
+            ]
+        },
+        {
+            "slug": "morphoi",
+            "name": "Morphoi",
+            "size": "Medium",
+            "type": "plant",
+            "subtype": "shapechanger",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 13,
+            "armor_desc": "may be higher with armor",
+            "hit_points": 33,
+            "hit_dice": "6d8+6",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 11,
+            "dexterity": 16,
+            "constitution": 13,
+            "intelligence": 14,
+            "wisdom": 10,
+            "charisma": 15,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Common",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Trident",
+                    "desc": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft., or +5 to hit, range 20/60 ft., one target. Hit: 4 (1d8) piercing damage if used with both hands to make a melee attack, or 6 (1d6 + 3) if thrown.",
+                    "attack_bonus": 2,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Shortbow",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The morphoi can breathe air and water."
+                },
+                {
+                    "name": "Immunity to Temporal Effects",
+                    "desc": "The morphoi is immune to all time-related spells and effects."
+                },
+                {
+                    "name": "Shapeshifter",
+                    "desc": "The morphoi can use its action to polymorph into a Medium creature or back into its true form. Its statistics are the same in each form. Any equipment the morphoi is carrying or wearing isn't transformed. The morphoi reverts to its true form when it dies."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "aquatic",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "reef-shark",
+            "name": "Reef Shark",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": "natural armor",
+            "hit_points": 22,
+            "hit_dice": "4d8",
+            "speed": {
+                "swim": 40
+            },
+            "strength": 14,
+            "dexterity": 13,
+            "constitution": 13,
+            "intelligence": 1,
+            "wisdom": 10,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 30 ft., passive Perception 12",
+            "languages": "",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Pack Tactics",
+                    "desc": "The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+                },
+                {
+                    "name": "Water Breathing",
+                    "desc": "The shark can breathe only underwater."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Water",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "rum-gremlin",
+            "name": "Rum Gremlin",
+            "size": "Tiny",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 13,
+            "armor_desc": "",
+            "hit_points": 22,
+            "hit_dice": "5d4+10",
+            "speed": {
+                "walk": 20,
+                "climb": 10,
+                "swim": 10
+            },
+            "strength": 10,
+            "dexterity": 16,
+            "constitution": 14,
+            "intelligence": 12,
+            "wisdom": 9,
+            "charisma": 12,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 120 ft., passive Perception 10",
+            "languages": "Common",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The goblin makes one claw attack and one bite attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, range 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +5 to hit, range 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Aura of Drunkenness",
+                    "desc": "A rum gremlin radiates an aura of drunkenness to a radius of 20 feet. Every creature that starts its turn in the aura must make a successful DC 12 Constitution saving throw against poison or be poisoned for one hour."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the gremlin's innate spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:\n\nat will: prestidigitation\n\n3/day: hex"
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The gremlin has advantage on saving throws against spells and other magical effects."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "underwater"
+            ]
+        },
+        {
+            "slug": "sahuagin",
+            "name": "Sahuagin",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "sahuagin",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 12,
+            "armor_desc": "natural armor",
+            "hit_points": 22,
+            "hit_dice": "4d8+4",
+            "speed": {
+                "walk": 30,
+                "swim": 40
+            },
+            "strength": 13,
+            "dexterity": 11,
+            "constitution": 12,
+            "intelligence": 12,
+            "wisdom": 13,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 120 ft., passive Perception 15",
+            "languages": "Sahuagin",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The sahuagin makes two melee attacks: one with its bite and one with its claws or spear."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 1
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 1
+                },
+                {
+                    "name": "Spear",
+                    "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 1
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Blood Frenzy",
+                    "desc": "The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+                },
+                {
+                    "name": "Limited Amphibiousness",
+                    "desc": "The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+                },
+                {
+                    "name": "Shark Telepathy",
+                    "desc": "The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Water",
+                "coastal",
+                "desert",
+                "underwater"
+            ]
+        }
+    ]
+}

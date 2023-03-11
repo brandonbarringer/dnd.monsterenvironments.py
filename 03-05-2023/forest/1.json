@@ -1,0 +1,1439 @@
+{
+    "count": 17,
+    "monsters": [
+        {
+            "slug": "brown-bear",
+            "name": "Brown Bear",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 11,
+            "armor_desc": "natural armor",
+            "hit_points": 34,
+            "hit_dice": "4d10",
+            "speed": {
+                "walk": 40,
+                "climb": 30
+            },
+            "strength": 19,
+            "dexterity": 10,
+            "constitution": 16,
+            "intelligence": 2,
+            "wisdom": 13,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The bear makes two attacks: one with its bite and one with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The bear has advantage on Wisdom (Perception) checks that rely on smell."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Feywild",
+                "Forest",
+                "Mountains",
+                "arctic",
+                "forest",
+                "hill"
+            ]
+        },
+        {
+            "slug": "bugbear",
+            "name": "Bugbear",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "goblinoid",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 16,
+            "armor_desc": "hide armor, shield",
+            "hit_points": 27,
+            "hit_dice": "5d8+5",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 15,
+            "dexterity": 14,
+            "constitution": 13,
+            "intelligence": 8,
+            "wisdom": 11,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 6,
+                "survival": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Common, Goblin",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Morningstar",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Javelin",
+                    "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Brute",
+                    "desc": "A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+                },
+                {
+                    "name": "Surprise Attack",
+                    "desc": "If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.",
+                    "attack_bonus": 0,
+                    "damage_dice": "2d6"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "forest",
+                "grassland",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "carbuncle",
+            "name": "Carbuncle",
+            "size": "Small",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic good",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 36,
+            "hit_dice": "8d6+8",
+            "speed": {
+                "climb": 20,
+                "walk": 40
+            },
+            "strength": 8,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 11,
+            "wisdom": 16,
+            "charisma": 12,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "charmed",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "Carbuncle, Common",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "desc": "The carbuncle makes one bite attack and one claw attack.",
+                    "name": "Multiattack"
+                },
+                {
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8+2",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                    "name": "Bite"
+                },
+                {
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6+2",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+                    "name": "Claw"
+                },
+                {
+                    "desc": "The carbuncle shoots a 30-foot-long, 5-foot-wide line of scintillating light from the garnet on its forehead. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) radiant damage on a failed save, or half as much damage on a successful one.",
+                    "name": "Light Beam (Recharge 5-6)"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "desc": "As a bonus action, the carbuncle can cause its garnet to glow or not. While glowing, the garnet sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+                    "name": "Gem Illumination"
+                },
+                {
+                    "desc": "The carbuncle has advantage on Dexterity (Stealth) checks made to hide in jungle terrain.",
+                    "name": "Jungle Camouflage"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "cc",
+            "document__title": "Creature Codex OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forest"
+            ]
+        },
+        {
+            "slug": "child-of-the-briar",
+            "name": "Child Of The Briar",
+            "size": "Tiny",
+            "type": "plant",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 13,
+            "armor_desc": "",
+            "hit_points": 50,
+            "hit_dice": "20d4",
+            "speed": {
+                "walk": 20,
+                "climb": 10
+            },
+            "strength": 6,
+            "dexterity": 17,
+            "constitution": 11,
+            "intelligence": 13,
+            "wisdom": 10,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "fire",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Briarclick, Common, Sylvan",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "A child of the briar makes two claw attacks. If both attacks hit the same target, the target is grappled (escape DC 13) and the child of the briar uses its Thorny Grapple on it."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Spitdart Tongue (Recharge 4-6)",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage. Every child of the briar can shoot thorns from its mouth.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6+3"
+                },
+                {
+                    "name": "Entangle",
+                    "desc": "Two children of the briar working together can cast a version of the entangle spell with no components, at will. Both creatures must be within 10 feet of each other, and both must use their action to cast the spell. The entangled area must include at least one of the casters but doesn't need to be centered on either caster. Creatures in the area must make a DC 13 Strength saving throw or be restrained. All children of the briar are immune to the spell's effects."
+                },
+                {
+                    "name": "Thorny Grapple",
+                    "desc": "A child of the briar's long thorny limbs help it grapple creatures up to Medium size. A grappled creature takes 2 (1d4) piercing damage at the end of the child's turn for as long as it remains grappled."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Fey Blood",
+                    "desc": "Children of the briar count as both plant and fey for any effect related to type."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "forest"
+            ]
+        },
+        {
+            "slug": "crimson-drake",
+            "name": "Crimson Drake",
+            "size": "Tiny",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 54,
+            "hit_dice": "12d4+24",
+            "speed": {
+                "walk": 15,
+                "fly": 80
+            },
+            "strength": 10,
+            "dexterity": 14,
+            "constitution": 14,
+            "intelligence": 8,
+            "wisdom": 9,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 1,
+            "skills": {
+                "acrobatics": 4,
+                "perception": 1
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire",
+            "condition_immunities": "paralyzed, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Common, Draconic, telepathy 60 ft.",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The crimson drake makes one bite attack and one stinger attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 4 (1d8) fire damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Stinger",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target takes 2 (1d4) poison damage at the start of each of its turns for 3 rounds. The target may repeat the saving throw at the end of its turn to end the effect early.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Breath Weapon (Recharge 6)",
+                    "desc": "The drake exhales fire in a 15-ft. cone. Each target in that cone takes 18 (4d8) fire damage, or half damage with a successful DC 12 Dexterity saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The drake has advantage on saving throws against spells and other magical effects."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "forest"
+            ]
+        },
+        {
+            "slug": "dire-wolf",
+            "name": "Dire Wolf",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 37,
+            "hit_dice": "5d10",
+            "speed": {
+                "walk": 50
+            },
+            "strength": 17,
+            "dexterity": 15,
+            "constitution": 15,
+            "intelligence": 3,
+            "wisdom": 12,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Hearing and Smell",
+                    "desc": "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                },
+                {
+                    "name": "Pack Tactics",
+                    "desc": "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Feywild",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Tundra",
+                "forest",
+                "hill"
+            ]
+        },
+        {
+            "slug": "dogmole",
+            "name": "Dogmole",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 71,
+            "hit_dice": "11d8+22",
+            "speed": {
+                "walk": 30,
+                "burrow": 10,
+                "swim": 10
+            },
+            "strength": 14,
+            "dexterity": 17,
+            "constitution": 15,
+            "intelligence": 2,
+            "wisdom": 12,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 30 ft., passive Perception 11",
+            "languages": "-",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dogmole makes one claw attack and one bite attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 12 (3d6 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "3d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Burrow",
+                    "desc": "Dogmoles cannot burrow into solid rock, but they can move through softer material like soil or loose rubble, leaving a usable tunnel 5 feet in diameter."
+                },
+                {
+                    "name": "Wormkiller Rage",
+                    "desc": "Wild dogmole packs are famed for their battles against monsters in the dark caverns of the world. If the dogmole draws blood against vermin, a purple worm, or other underground invertebrates, it gains a +4 boost to its Strength and Constitution, but suffers a -2 penalty to its AC. The wormkiller rage lasts for 3 rounds. It cannot end the rage voluntarily while the creatures that sent it into a rage still lives."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "hills",
+                "mountains",
+                "forest",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "dryad",
+            "name": "Dryad",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 11,
+            "armor_desc": "16 with _barkskin_",
+            "hit_points": 22,
+            "hit_dice": "5d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 10,
+            "dexterity": 12,
+            "constitution": 11,
+            "intelligence": 14,
+            "wisdom": 15,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Elvish, Sylvan",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Club",
+                    "desc": "Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.",
+                    "attack_bonus": 2,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Fey Charm",
+                    "desc": "The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.\nEach time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.\nThe dryad can have no more than one humanoid and up to three beasts charmed at a time."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components:\n\nAt will: druidcraft\n3/day each: entangle, goodberry\n1/day each: barkskin, pass without trace, shillelagh"
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The dryad has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Speak with Beasts and Plants",
+                    "desc": "The dryad can communicate with beasts and plants as if they shared a language."
+                },
+                {
+                    "name": "Tree Stride",
+                    "desc": "Once on her turn, the dryad can use 10 ft. of her movement to step magically into one living tree within her reach and emerge from a second living tree within 60 ft. of the first tree, appearing in an unoccupied space within 5 ft. of the second tree. Both trees must be large or bigger."
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/druidcraft/?format=json",
+                "https://api.open5e.com/spells/entangle/?format=json",
+                "https://api.open5e.com/spells/goodberry/?format=json",
+                "https://api.open5e.com/spells/barkskin/?format=json",
+                "https://api.open5e.com/spells/pass-without-trace/?format=json",
+                "https://api.open5e.com/spells/shillelagh/?format=json"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Jungle",
+                "forest"
+            ]
+        },
+        {
+            "slug": "erina-defender",
+            "name": "Erina Defender",
+            "size": "Small",
+            "type": "humanoid",
+            "subtype": "erina",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 15,
+            "armor_desc": "chain shirt",
+            "hit_points": 44,
+            "hit_dice": "8d6+16",
+            "speed": {
+                "walk": 20,
+                "burrow": 20
+            },
+            "strength": 11,
+            "dexterity": 14,
+            "constitution": 14,
+            "intelligence": 13,
+            "wisdom": 12,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "athletics": 4,
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "poison",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Common, Erina",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The erina defender makes two attacks."
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6+2"
+                },
+                {
+                    "name": "Shortbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6+2"
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Protect",
+                    "desc": "The erina imposes disadvantage on an attack roll made against an ally within 5 feet of the erina defender."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The erina has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Hardy",
+                    "desc": "The erina has advantage on saving throws against poison."
+                },
+                {
+                    "name": "Spines",
+                    "desc": "An enemy who hits the erina with a melee attack while within 5 feet of it takes 5 (2d4) piercing damage."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "hills",
+                "plains",
+                "forest",
+                "hill",
+                "plain"
+            ]
+        },
+        {
+            "slug": "giant-hyena",
+            "name": "Giant Hyena",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 45,
+            "hit_dice": "6d10",
+            "speed": {
+                "walk": 50
+            },
+            "strength": 16,
+            "dexterity": 14,
+            "constitution": 14,
+            "intelligence": 2,
+            "wisdom": 12,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Rampage",
+                    "desc": "When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Grassland",
+                "Ruin",
+                "Shadowfell",
+                "forest",
+                "grassland",
+                "hill"
+            ]
+        },
+        {
+            "slug": "giant-spider",
+            "name": "Giant Spider",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 26,
+            "hit_dice": "4d10",
+            "speed": {
+                "walk": 30,
+                "climb": 30
+            },
+            "strength": 14,
+            "dexterity": 16,
+            "constitution": 12,
+            "intelligence": 2,
+            "wisdom": 11,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Web (Recharge 5-6)",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).",
+                    "attack_bonus": 5
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Spider Climb",
+                    "desc": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                },
+                {
+                    "name": "Web Sense",
+                    "desc": "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+                },
+                {
+                    "name": "Web Walker",
+                    "desc": "The spider ignores movement restrictions caused by webbing."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Feywild",
+                "Forest",
+                "Jungle",
+                "Ruin",
+                "Shadowfell",
+                "Swamp",
+                "forest",
+                "swamp",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "giant-toad",
+            "name": "Giant Toad",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 39,
+            "hit_dice": "6d10",
+            "speed": {
+                "walk": 20,
+                "swim": 40
+            },
+            "strength": 15,
+            "dexterity": 13,
+            "constitution": 13,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 30 ft., passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Swallow",
+                    "desc": "The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.\nIf the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The toad can breathe air and water"
+                },
+                {
+                    "name": "Standing Leap",
+                    "desc": "The toad's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Jungle",
+                "Swamp",
+                "Water",
+                "coastal",
+                "desert",
+                "forest",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "harpy",
+            "name": "Harpy",
+            "size": "Medium",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 38,
+            "hit_dice": "7d8+7",
+            "speed": {
+                "walk": 20,
+                "fly": 40
+            },
+            "strength": 12,
+            "dexterity": 13,
+            "constitution": 12,
+            "intelligence": 7,
+            "wisdom": 10,
+            "charisma": 13,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "Common",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The harpy makes two attacks: one with its claws and one with its club."
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "2d4",
+                    "damage_bonus": 1
+                },
+                {
+                    "name": "Club",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 1
+                },
+                {
+                    "name": "Luring Song",
+                    "desc": "The harpy sings a magical melody. Every humanoid and giant within 300 ft. of the harpy that can hear the song must succeed on a DC 11 Wisdom saving throw or be charmed until the song ends. The harpy must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is incapacitated.\nWhile charmed by the harpy, a target is incapacitated and ignores the songs of other harpies. If the charmed target is more than 5 ft. away from the harpy, the must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.\nA target that successfully saves is immune to this harpy's song for the next 24 hours."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "Tundra",
+                "coastal",
+                "desert",
+                "forest",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "leshy",
+            "name": "Leshy",
+            "size": "Medium",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 84,
+            "hit_dice": "13d8+26",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 12,
+            "constitution": 14,
+            "intelligence": 14,
+            "wisdom": 15,
+            "charisma": 16,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "deception": 5,
+                "perception": 4,
+                "stealth": 3,
+                "survival": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Common, Elvish, Sylvan",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The leshy makes two club attacks."
+                },
+                {
+                    "name": "Change Size",
+                    "desc": "The leshy appears to change its size, becoming as tall as a massive oak (Gargantuan) or as short as a blade of grass (Tiny). The change is entirely illusory, so the leshy's statistics do not change."
+                },
+                {
+                    "name": "Club",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the leshy's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:\n\nat will: animal friendship, pass without trace, speak with animals\n\n1/day each: entangle, plant growth, shillelagh, speak with plants, hideous laughter"
+                },
+                {
+                    "name": "Camouflage",
+                    "desc": "A leshy has advantage on Stealth checks if it is at least lightly obscured by foliage."
+                },
+                {
+                    "name": "Mimicry",
+                    "desc": "A leshy can mimic the calls and voices of any creature it has heard. To use this ability, the leshy makes a Charisma (Deception) check. Listeners who succeed on an opposed Wisdom (Insight) or Intelligence (Nature)-DM's choice-realize that something is mimicking the sound. The leshy has advantage on the check if it's mimicking a general type of creature (a crow's call, a bear's roar) and not a specific individual's voice."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "forest"
+            ]
+        },
+        {
+            "slug": "moss-lurker",
+            "name": "Moss Lurker",
+            "size": "Small",
+            "type": "humanoid",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 45,
+            "hit_dice": "10d6+10",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 14,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 12,
+            "wisdom": 10,
+            "charisma": 10,
+            "strength_save": 4,
+            "dexterity_save": 4,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire, poison",
+            "condition_immunities": "blind, poisoned",
+            "senses": "blindsight 60 ft., passive Perception 12",
+            "languages": "Giant, Sylvan, Trollkin",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6+2"
+                },
+                {
+                    "name": "Great Sword or Maul",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing or bludgeoning damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Mushroom-Poisoned Javelin",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 30 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 6 (1d12) poison damage and the target is poisoned until the start of the moss lurker's next turn. A successful DC 11 Constitution save halves the poison damage and prevents poisoning.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Dropped Boulder",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 100 ft. (vertically), one target. Hit: 10 (3d6) bludgeoning damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "vertically"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Camouflage",
+                    "desc": "A moss lurker has advantage on Dexterity (Stealth) checks to hide in forested or swampy terrain."
+                },
+                {
+                    "name": "Love of Heavy Weapons",
+                    "desc": "While moss lurkers can use heavy weapons, they have disadvantage while wielding them."
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "desc": "The moss lurker has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                },
+                {
+                    "name": "Poisoned Gifts",
+                    "desc": "A moss lurker can contaminate liquids or food with poison. Someone who consumes the contaminated substance must make a successful DC 11 Constitution saving throw or become poisoned for 1 hour. When the poison is introduced, the moss lurker can choose a poison that also causes the victim to fall unconscious, or to become paralyzed while poisoned in this way. An unconscious creature wakes if it takes damage, or if a creature uses an action to shake it awake."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "marshes",
+                "ruins",
+                "underground",
+                "forest",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "tiger",
+            "name": "Tiger",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 37,
+            "hit_dice": "5d10",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 17,
+            "dexterity": 15,
+            "constitution": 14,
+            "intelligence": 3,
+            "wisdom": 12,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The tiger has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Pounce",
+                    "desc": "If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Grassland",
+                "Jungle",
+                "forest",
+                "grassland"
+            ]
+        },
+        {
+            "slug": "wampus-cat",
+            "name": "Wampus Cat",
+            "size": "Medium",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 58,
+            "hit_dice": "9d8+18",
+            "speed": {
+                "walk": 40,
+                "climb": 20,
+                "swim": 20
+            },
+            "strength": 14,
+            "dexterity": 18,
+            "constitution": 15,
+            "intelligence": 12,
+            "wisdom": 14,
+            "charisma": 16,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "deception": 5,
+                "persuasion": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Common",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6+4"
+                },
+                {
+                    "name": "Yowl (Recharge 5-6)",
+                    "desc": "Intelligent creatures within 60 feet of the cat who are able to hear its voice must make a DC 13 Charisma saving throw. Those who fail find the sound of the wampus cat's voice pleasant and alluring, so that the cat has advantage on Charisma checks against them for 1 minute. The affected characters cannot attack the wampus cat during this time unless they are wounded in that time."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Focused Animosity",
+                    "desc": "The wampus cat has advantage on melee attacks against any male she has seen employ divine magic or wield a holy symbol."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the wampus cat's innate spellcasting ability is Charisma (spell save DC 13). She can innately cast the following spells, requiring no material components:\n\nat will: disguise self (appearance of a female human), mage hand\n\n2/day: hex"
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The wampus cat has advantage on saving throws against spells and other magical effects."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "hills",
+                "forest",
+                "hill"
+            ]
+        }
+    ]
+}

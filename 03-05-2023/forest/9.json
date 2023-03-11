@@ -1,0 +1,270 @@
+{
+    "count": 3,
+    "monsters": [
+        {
+            "slug": "bukavac",
+            "name": "Bukavac",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 199,
+            "hit_dice": "21d10+84",
+            "speed": {
+                "walk": 40,
+                "swim": 20
+            },
+            "strength": 20,
+            "dexterity": 17,
+            "constitution": 18,
+            "intelligence": 7,
+            "wisdom": 15,
+            "charisma": 12,
+            "strength_save": null,
+            "dexterity_save": 7,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 10,
+            "skills": {
+                "perception": 10,
+                "stealth": 11
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "thunder",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 20",
+            "languages": "Sylvan",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The bukavac makes four claw attacks, or two claw attacks and one bite attack, or two claw attacks and one gore attack, or one bite and one gore attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) piercing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "3d10"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (1d12 + 5) slashing damage and grapples (escape DC15). A bukavac can grapple up to 2 Medium size foes.",
+                    "attack_bonus": 9,
+                    "damage_dice": "1d12"
+                },
+                {
+                    "name": "Gore",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) piercing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "3d10"
+                },
+                {
+                    "name": "Croaking Blast (Recharge 5-6)",
+                    "desc": "A bukavac can emit a howling thunderclap that deafens and damages those nearby. Creatures within 15 feet who fail a DC 17 Constitution saving throw take 36 (8d8) thunder damage and are permanently deafened. Those succeeding on the saving throw take half damage and are not deafened. The deafness can be cured with lesser restoration."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Hold Breath",
+                    "desc": "The bukavac can hold its breath for up to 20 minutes."
+                },
+                {
+                    "name": "Hop",
+                    "desc": "A bukavac can move its enormous bulk with remarkably quick hop of up to 20 feet, leaping over obstacles and foes. It may also use the hop as part of a withdraw action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "marshes",
+                "forest",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "ghostwalk-spider",
+            "name": "Ghostwalk Spider",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "",
+            "hit_points": 119,
+            "hit_dice": "14d10+42",
+            "speed": {
+                "walk": 50,
+                "climb": 50
+            },
+            "strength": 15,
+            "dexterity": 20,
+            "constitution": 17,
+            "intelligence": 9,
+            "wisdom": 14,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 9,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 3,
+            "perception": 6,
+            "skills": {
+                "perception": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison",
+            "condition_immunities": "poisoned",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 16",
+            "languages": "understands Undercommon but can't speak",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The ghostwalk spider makes two bite attacks. It can make a ghostly snare attack in place of one of its bites."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 13 (3d8) poison damage, or half poison damage with a successful DC 15 Constitution saving throw. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned and paralyzed for 1 hour, even after regaining hit points. While using Ghostwalk, the spider's bite and poison do half damage to targets that aren't affected by Ghostly Snare (see below).",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Ghostly Snare (During Ghostwalk Only, Recharge 5-6)",
+                    "desc": "Ranged Weapon Attack: +9 to hit, range 40/160 ft., one target. Hit: The target is restrained by ghostly webbing. While restrained in this way, the target is invisible to all creatures except ghostwalk spiders, and it has resistance to acid, cold, fire, lightning, and thunder damage. A creature restrained by Ghostly Snare can escape by using an action to make a successful DC 14 Strength check, or the webs can be attacked and destroyed (AC 10; hp 5)."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Ghostwalk",
+                    "desc": "As a bonus action, the ghostwalk spider becomes invisible and intangible. Attacking doesn't end this invisibility. While invisible, the ghostwalk spider has advantage on Dexterity (Stealth) checks and gains the following: Damage Resistances acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing damage from nonmagical attacks. Condition Immunities paralyzed, petrified, prone, restrained, stunned. The ghostwalk ends when the spider chooses to end it as a bonus action or when the spider dies"
+                },
+                {
+                    "name": "Incorporeal Movement (During Ghostwalk Only)",
+                    "desc": "The ghostwalk spider can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+                },
+                {
+                    "name": "Spider Climb",
+                    "desc": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                },
+                {
+                    "name": "Web Walker",
+                    "desc": "The spider ignores movement restrictions caused by webbing."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "forests",
+                "forest"
+            ]
+        },
+        {
+            "slug": "treant",
+            "name": "Treant",
+            "size": "Huge",
+            "type": "plant",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic good",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 138,
+            "hit_dice": "12d12+60",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 23,
+            "dexterity": 8,
+            "constitution": 21,
+            "intelligence": 12,
+            "wisdom": 16,
+            "charisma": 12,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "fire",
+            "damage_resistances": "bludgeoning, piercing",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "Common, Druidic, Elvish, Sylvan",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The treant makes two slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage.",
+                    "attack_bonus": 10,
+                    "damage_dice": "3d6",
+                    "damage_bonus": 6
+                },
+                {
+                    "name": "Rock",
+                    "desc": "Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.",
+                    "attack_bonus": 10,
+                    "damage_dice": "4d10",
+                    "damage_bonus": 6
+                },
+                {
+                    "name": "Animate Trees (1/Day)",
+                    "desc": "The treant magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the treant. The tree remains animate for 1 day or until it dies; until the treant dies or is more than 120 feet from the tree; or until the treant takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "False Appearance",
+                    "desc": "While the treant remains motionless, it is indistinguishable from a normal tree."
+                },
+                {
+                    "name": "Siege Monster",
+                    "desc": "The treant deals double damage to objects and structures."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Jungle",
+                "Swamp",
+                "forest"
+            ]
+        }
+    ]
+}

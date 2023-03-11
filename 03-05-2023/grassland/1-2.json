@@ -1,0 +1,690 @@
+{
+    "count": 9,
+    "monsters": [
+        {
+            "slug": "cockatrice",
+            "name": "Cockatrice",
+            "size": "Small",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 27,
+            "hit_dice": "6d6+6",
+            "speed": {
+                "walk": 20,
+                "fly": 40
+            },
+            "strength": 6,
+            "dexterity": 12,
+            "constitution": 12,
+            "intelligence": 2,
+            "wisdom": 13,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 11 Constitution saving throw against being magically petrified. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 1
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": "http://api.open5e.com/static/img/monsters/cockatrice.png",
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Ruin",
+                "Swamp",
+                "grassland"
+            ]
+        },
+        {
+            "slug": "giant-goat",
+            "name": "Giant Goat",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 11,
+            "armor_desc": "natural armor",
+            "hit_points": 19,
+            "hit_dice": "3d10",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 17,
+            "dexterity": 11,
+            "constitution": 12,
+            "intelligence": 3,
+            "wisdom": 12,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Ram",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d4",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Charge",
+                    "desc": "If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 0,
+                    "damage_dice": "2d4"
+                },
+                {
+                    "name": "Sure-Footed",
+                    "desc": "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Hills",
+                "Mountains",
+                "grassland",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "giant-wasp",
+            "name": "Giant Wasp",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 13,
+            "hit_dice": "3d8",
+            "speed": {
+                "walk": 10,
+                "fly": 50
+            },
+            "strength": 10,
+            "dexterity": 14,
+            "constitution": 10,
+            "intelligence": 1,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Sting",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Grassland",
+                "Hills",
+                "forest",
+                "grassland",
+                "jungle",
+                "urban"
+            ]
+        },
+        {
+            "slug": "gnoll",
+            "name": "Gnoll",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "gnoll",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "hide armor, shield",
+            "hit_points": 22,
+            "hit_dice": "5d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 14,
+            "dexterity": 12,
+            "constitution": 11,
+            "intelligence": 6,
+            "wisdom": 10,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Gnoll",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Spear",
+                    "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Longbow",
+                    "desc": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 1
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Rampage",
+                    "desc": "When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Abyss",
+                "Desert",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Settlement",
+                "forest",
+                "grassland",
+                "hill"
+            ]
+        },
+        {
+            "slug": "hobgoblin",
+            "name": "Hobgoblin",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "goblinoid",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 18,
+            "armor_desc": "chain mail, shield",
+            "hit_points": 11,
+            "hit_dice": "2d8+2",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 13,
+            "dexterity": 12,
+            "constitution": 12,
+            "intelligence": 10,
+            "wisdom": 10,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Common, Goblin",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Longsword",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 1
+                },
+                {
+                    "name": "Longbow",
+                    "desc": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 1
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Martial Advantage",
+                    "desc": "Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 ft. of an ally of the hobgoblin that isn't incapacitated.",
+                    "attack_bonus": 0,
+                    "damage_dice": "2d6"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "forest",
+                "grassland",
+                "hill",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "orc",
+            "name": "Orc",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "orc",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 13,
+            "armor_desc": "hide armor",
+            "hit_points": 15,
+            "hit_dice": "2d8+6",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 12,
+            "constitution": 16,
+            "intelligence": 7,
+            "wisdom": 11,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "intimidation": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Common, Orc",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Greataxe",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d12",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Javelin",
+                    "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Aggressive",
+                    "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "arctic",
+                "forest",
+                "grassland",
+                "hill",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "scout",
+            "name": "Scout",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 13,
+            "armor_desc": "leather armor",
+            "hit_points": 16,
+            "hit_dice": "3d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 11,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 11,
+            "wisdom": 13,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "nature": 4,
+                "perception": 5,
+                "stealth": 6,
+                "survival": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 15",
+            "languages": "any one language (usually Common)",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The scout makes two melee attacks or two ranged attacks."
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Longbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Hearing and Sight",
+                    "desc": "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Feywild",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "jungle",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "swarm-of-insects",
+            "name": "Swarm of Insects",
+            "size": "Medium",
+            "type": "swarm of Tiny beasts",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": "natural armor",
+            "hit_points": 22,
+            "hit_dice": "5d8",
+            "speed": {
+                "walk": 20,
+                "climb": 20
+            },
+            "strength": 3,
+            "dexterity": 13,
+            "constitution": 10,
+            "intelligence": 1,
+            "wisdom": 7,
+            "charisma": 1,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, slashing",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+            "senses": "blindsight 10 ft., passive Perception 8",
+            "languages": "",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Bites",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer.",
+                    "attack_bonus": 3,
+                    "damage_dice": "4d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Swarm",
+                    "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Jungle",
+                "Swamp",
+                "forest",
+                "grassland",
+                "hill",
+                "jungle",
+                "swamp",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "worg",
+            "name": "Worg",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 26,
+            "hit_dice": "4d10",
+            "speed": {
+                "walk": 50
+            },
+            "strength": 16,
+            "dexterity": 13,
+            "constitution": 13,
+            "intelligence": 7,
+            "wisdom": 11,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Goblin, Worg",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Hearing and Smell",
+                    "desc": "The worg has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forest",
+                "grassland",
+                "hill"
+            ]
+        }
+    ]
+}

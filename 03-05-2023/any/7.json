@@ -1,0 +1,907 @@
+{
+    "count": 11,
+    "monsters": [
+        {
+            "slug": "deathwisp",
+            "name": "Deathwisp",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "",
+            "hit_points": 82,
+            "hit_dice": "11d8+33",
+            "speed": {
+                "hover": true,
+                "walk": 0,
+                "fly": 60
+            },
+            "strength": 6,
+            "dexterity": 20,
+            "constitution": 16,
+            "intelligence": 18,
+            "wisdom": 16,
+            "charisma": 20,
+            "strength_save": null,
+            "dexterity_save": 8,
+            "constitution_save": 6,
+            "intelligence_save": null,
+            "wisdom_save": 6,
+            "charisma_save": null,
+            "perception": 6,
+            "skills": {
+                "perception": 6,
+                "stealth": 8
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "damage_immunities": "necrotic, poison",
+            "condition_immunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+            "senses": "darkvision 60 ft., passive Perception 16",
+            "languages": "the languages it knew in life",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Life Drain",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 36 (7d8 + 5) necrotic damage. The target must succeed on a DC 15 Constitution saving throw, or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+                    "attack_bonus": 8,
+                    "damage_dice": "7d8"
+                },
+                {
+                    "name": "Create Deathwisp",
+                    "desc": "The deathwisp targets a humanoid within 10 feet of it that died violently less than 1 minute ago. The target's spirit rises as a wraith in the space of its corpse or in the nearest unoccupied space. This wraith is under the deathwisp's control. The deathwisp can keep no more than five wraiths under its control at one time."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Flicker",
+                    "desc": "The deathwisp flickers in and out of sight, and ranged weapon attacks against it are made with disadvantage."
+                },
+                {
+                    "name": "Incorporeal Movement",
+                    "desc": "The deathwisp can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside a solid object."
+                },
+                {
+                    "name": "Shadow Jump",
+                    "desc": "A deathwisp can travel between shadows as if by means of dimension door. This magical transport must begin and end in an area with at least some shadow. A shadow fey can jump up to a total of 40 feet per day; this may be a single jump of 40 feet, four jumps of 10 feet each, etc. This ability must be used in 10-foot increments."
+                },
+                {
+                    "name": "Sunlight Sensitivity",
+                    "desc": "While in sunlight, the deathwisp has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+                },
+                {
+                    "name": "Unnatural Aura",
+                    "desc": "Animals do not willingly approach within 30 feet of a deathwisp, unless a master makes a successful DC 15 Wisdom (Animal Handling) check."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "dissimortuum",
+            "name": "Dissimortuum",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 112,
+            "hit_dice": "15d8+45",
+            "speed": {
+                "walk": 30,
+                "climb": 30
+            },
+            "strength": 14,
+            "dexterity": 10,
+            "constitution": 16,
+            "intelligence": 8,
+            "wisdom": 11,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 6,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "necrotic, poison",
+            "condition_immunities": "charmed, exhaustion, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Common",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dissimortuum makes three claw attacks."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 15 (3d8 + 2) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Terrifying Mask",
+                    "desc": "Each non-undead creature within 60 feet of the dissimortuum that can see it must make a successful DC 15 Wisdom saving throw or be frightened for 1d8 rounds. If a target's saving throw is successful or the effect ends for it, the target becomes immune to all dissimortuum's terrifying masks for the next 24 hours."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Spider Climb",
+                    "desc": "The dissimortuum can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "dwarven-ringmage",
+            "name": "Dwarven Ringmage",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "dwarf",
+            "group": null,
+            "alignment": "any",
+            "armor_class": 16,
+            "armor_desc": "breastplate",
+            "hit_points": 82,
+            "hit_dice": "15d8+15",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 10,
+            "dexterity": 14,
+            "constitution": 13,
+            "intelligence": 18,
+            "wisdom": 12,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 4,
+            "intelligence_save": 7,
+            "wisdom_save": 4,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "arcana": 7,
+                "history": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "poison",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Common, Dwarvish",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dwarven ringmage makes two melee attacks."
+                },
+                {
+                    "name": "Ring-Staff",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Dwarven Resistance",
+                    "desc": "The dwarven ringmage has advantage on saving throws against poison."
+                },
+                {
+                    "name": "Ring Magic",
+                    "desc": "The dwarven ringmage can imbue a nonmagical ring with a spell that has a range of self or touch. Doing so expends components as if the dwarven ringmage had cast the spell normally and uses a spell slot one level higher than the spell normally requires. When the wearer of the ring activates the ring as an action, the spell is cast as if the dwarven ringmage had cast the spell. The dwarven ringmage does not regain the spell slot until the ring is discharged or the dwarven ringmage chooses to dismiss the spell."
+                },
+                {
+                    "name": "Ring-Staff Focus",
+                    "desc": "The dwarven ringmage can use his ring-staff as a focus for spells that require rings as a focus or component, or for his Ring Magic ability. If used as a focus for Ring Magic, the spell does not require a spell slot one level higher than the spell normally requires. Once per day, the dwarven ringmage can imbue a spell of 4th level or lower into his ring-staff by expending a spell slot equal to the spell being imbued."
+                },
+                {
+                    "name": "Spellcasting",
+                    "desc": "the mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The mage has the following wizard spells prepared:\n\ncantrips (at will): fire bolt, mage hand, shocking grasp, true strike\n\n1st level (4 slots): expeditious retreat, magic missile, shield, thunderwave\n\n2nd level (3 slots): misty step, web\n\n3rd level (3 slots): counterspell, fireball, fly\n\n4th level (3 slots): greater invisibility, ice storm\n\n5th level (1 slot): cone of cold"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "gilded-devil",
+            "name": "Gilded Devil",
+            "size": "Medium",
+            "type": "fiend",
+            "subtype": "devil",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 16,
+            "armor_desc": "coin mail",
+            "hit_points": 112,
+            "hit_dice": "15d8+45",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 17,
+            "dexterity": 15,
+            "constitution": 17,
+            "intelligence": 15,
+            "wisdom": 18,
+            "charisma": 17,
+            "strength_save": 6,
+            "dexterity_save": null,
+            "constitution_save": 6,
+            "intelligence_save": null,
+            "wisdom_save": 7,
+            "charisma_save": 6,
+            "perception": null,
+            "skills": {
+                "deception": 9,
+                "history": 5,
+                "insight": 10,
+                "persuasion": 9
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "damage_immunities": "fire, poison",
+            "condition_immunities": "poisoned",
+            "senses": "passive Perception $1",
+            "languages": "Celestial, Common, Draconic, Infernal; telepathy (120 ft.)",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The gilded devil makes two heavy flail attacks."
+                },
+                {
+                    "name": "Heavy Flail (Scourge of Avarice)",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) bludgeoning damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d10+5"
+                },
+                {
+                    "name": "Betrayal of Riches (Recharge 5-6)",
+                    "desc": "as a bonus action, a gilded devil can turn rings, necklaces, and other jewelry momentarily against their wearer. The devil can affect any visible item of jewelry on up to two creatures within 60 feet, twisting them into cruel barbs and spikes. Each target must succeed on a DC 15 Wisdom saving throw to halve the damage from this effect. If the saving throw fails, the victim takes 13 (3d8) piercing damage and an additional effect based on the item location targeted.\n\nan item is treated as jewelry if it is made of a precious material (such as silver, gold, ivory, or adamantine), adorned with gems, or both, and is worth at least 100 gp.\n\narms: STR Save or Melee Damage halved until a short rest\n\nhand: STR Save or Drop any held item\n\neyes: DEX Save or Permanently blinded\n\nhead: DEX Save Disadvantage on INT checks until long rest\n\nfeet: DEX Save or Speed halved for 24 hours\n\nneck: CON Save or Stunned, unable to breathe for 1 round\n\nother: No additional effects"
+                },
+                {
+                    "name": "Scorn Base Metals",
+                    "desc": "A gilded devil's attacks ignore any protection provided by nonmagical armor made of bronze, iron, steel, or similar metals. Protection provided by valuable metals such as adamantine, mithral, and gold apply, as do bonuses provided by non-metallic objects."
+                },
+                {
+                    "name": "Scourge of Avarice",
+                    "desc": "As a bonus action, a gilded devil wearing jewelry worth at least 1,000 gp can reshape it into a +2 heavy flail. A creature struck by this jeweled flail suffers disadvantage on all Wisdom saving throws until his or her next short rest, in addition to normal weapon damage. The flail reverts to its base components 1 minute after it leaves the devil's grasp, or upon the gilded devil's death."
+                },
+                {
+                    "name": "Voracious Greed",
+                    "desc": "As an action, a gilded devil can consume nonmagical jewelry or coinage worth up to 1,000 gp. For each 200 gp consumed, it heals 5 hp of damage. A gilded devil can use this ability against the worn items of a grappled foe. The target must succeed on a DC 13 Dexterity saving throw to keep an item from being consumed."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Devil's Sight",
+                    "desc": "Magical darkness doesn't impede the devil's darkvision."
+                },
+                {
+                    "name": "Liar's Largesse",
+                    "desc": "A gilded devil has influence over the recipient of a gift for as long as that creature retains the gift. The recipient receives a -2 penalty on saving throws against the gilded devil's abilities and a further -10 penalty against scrying attempts made by the gilded devil. A remove curse spell removes this effect."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The devil has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The gilded devil's weapon attacks are magical."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the gilded devil's spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). The gilded devil can innately cast the following spells, requiring no material components:\n\nat will: detect thoughts, major image, suggestion\n\n3/day each: dominate person, polymorph, scorching ray (4 rays), scrying\n\n1/day: teleport (self plus 50 lb of objects only)"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "herald-of-darkness",
+            "name": "Herald Of Darkness",
+            "size": "Large",
+            "type": "fiend",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "chain shirt",
+            "hit_points": 105,
+            "hit_dice": "10d10+50",
+            "speed": {
+                "walk": 30,
+                "swim": 30,
+                "fly": 50
+            },
+            "strength": 20,
+            "dexterity": 14,
+            "constitution": 20,
+            "intelligence": 12,
+            "wisdom": 15,
+            "charisma": 20,
+            "strength_save": 8,
+            "dexterity_save": null,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 8,
+            "perception": 5,
+            "skills": {
+                "athletics": 8,
+                "deception": 8,
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, thunder",
+            "damage_immunities": "cold, lightning, necrotic, poison",
+            "condition_immunities": "exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 200 ft., passive Perception 15",
+            "languages": "Common, Elvish, Goblin, Infernal, Sylvan",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The herald of darkness uses Majesty of the Abyss, if it is available, and makes one melee attack."
+                },
+                {
+                    "name": "Embrace Darkness",
+                    "desc": "Melee Weapon Attack. +8 to hit, reach 5 ft., all creatures in reach. Hit: 6 (1d12) necrotic damage and targets are paralyzed until the start of the herald's next turn. Making a DC 17 Constitution saving throw negates the paralysis."
+                },
+                {
+                    "name": "Majesty of the Abyss (Recharge 4-6)",
+                    "desc": "The herald of darkness emits a sinister burst of infernal power. All creatures within 30 feet and in direct line of sight of the herald take 19 (3d12) necrotic damage and must make a DC 17 Constitution saving throw. Those who fail the saving throw are blinded for 2 rounds; those who succeed are frightened for 2 rounds."
+                },
+                {
+                    "name": "Shadow Sword",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (2d12 + 5) slashing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d12"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Corrupting Touch",
+                    "desc": "A herald of darkness can destroy any wooden, leather, copper, iron, or paper object by touching it as a bonus action. A mundane item is destroyed automatically; a magical item survives if its owner makes a successful DC 16 Dexterity saving throw."
+                },
+                {
+                    "name": "Gift of Darkness",
+                    "desc": "A herald of darkness can transform any fey, human, or goblin into one of the shadow fey, if the target willingly accepts this transformation."
+                },
+                {
+                    "name": "Shadow Form",
+                    "desc": "A herald of darkness can become incorporeal as a shadow as a bonus action. In this form, it has a fly speed of 10 feet; it can enter and occupy spaces occupied by other creatures; it gains resistance to all nonmagical damage; it has advantage on physical saving throws; it can pass through any gap or opening; it can't attack, interact with physical objects, or speak. It can return to its corporeal form also as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "psoglav-demon",
+            "name": "Psoglav Demon",
+            "size": "Large",
+            "type": "fiend",
+            "subtype": "demon",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 115,
+            "hit_dice": "11d10+55",
+            "speed": {
+                "walk": 40,
+                "fly": 60
+            },
+            "strength": 21,
+            "dexterity": 23,
+            "constitution": 20,
+            "intelligence": 16,
+            "wisdom": 19,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": 9,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": 7,
+            "charisma_save": 7,
+            "perception": 6,
+            "skills": {
+                "acrobatics": 9,
+                "intimidation": 7,
+                "perception": 6,
+                "stealth": 9
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold, lightning",
+            "damage_immunities": "fire, poison",
+            "condition_immunities": "poisoned",
+            "senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 16",
+            "languages": "Common, Infernal; telepathy 60 ft.",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The psoglav demon makes three bite attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12 + 5).",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d12"
+                },
+                {
+                    "name": "Shadow Stealing Ray (Recharge 5-6)",
+                    "desc": "The psoglav emits a beam from its single eye. One target within 60 feet of the psoglav is hit automatically by the ray. The target is knocked 20 feet back and must succeed on a DC 15 Dexterity saving throw or be knocked prone. The target's shadow stays in the space the target was originally in, and acts as an undead shadow under the command of the psoglav demon. If the creature hit with the shadow stealing ray flees the encounter, it is without a natural shadow for 1d12 days before the undead shadow fades and the creature's natural shadow returns. The undead shadow steals the body of its creature of origin if that creature is killed during the encounter; in that case, the creature's alignment shifts to evil and it falls under the command of the psoglav. The original creature regains its natural shadow immediately if the undead shadow is slain. A creature can only have its shadow stolen by the shadow stealing ray once per day, even if hit by the rays of two different psoglav demons, but it can be knocked back by it every time it is hit."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the psoglav's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spell, requiring no material components:\n\n1/day: greater invisibility"
+                },
+                {
+                    "name": "Magic Weapon",
+                    "desc": "The psoglav's weapon attacks are magical."
+                },
+                {
+                    "name": "Shadow Door (4/Day)",
+                    "desc": "The psoglav has the ability to travel between shadows as if by means of a dimension door spell. The magical transport must begin and end in an area with at least some dim light. The shadow door can span a maximum of 90 feet."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "red-hag",
+            "name": "Red Hag",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 119,
+            "hit_dice": "14d8+56",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 19,
+            "dexterity": 16,
+            "constitution": 18,
+            "intelligence": 18,
+            "wisdom": 22,
+            "charisma": 15,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 9,
+            "skills": {
+                "arcana": 9,
+                "deception": 5,
+                "insight": 7,
+                "perception": 9
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, poisoned",
+            "senses": "blood sense 90 ft., darkvision 60 ft., passive Perception 16",
+            "languages": "Common, Druidic, Giant",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Siphoning Aura (Recharge 5-6)",
+                    "desc": "The red hag radiates an aura in a 30-foot radius, lasting for 3 rounds, that draws all fluids out through a creature's mouth, nose, eyes, ears, and pores. Every creature of the hag's choosing that starts its turn in the affected area takes 18 (4d6 + 4) necrotic damage, or half damage with a successful DC 15 Constitution saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The hag can breathe air and water."
+                },
+                {
+                    "name": "Spellcasting",
+                    "desc": "the hag is an 8th-level spellcaster. Her spellcasting ability is Wisdom (Spell save DC 17, +9 to hit with spell attacks). She requires no material components to cast her spells. The hag has the following druid spells prepared:\n\ncantrips (at will): animal friendship (red hags treat this as a cantrip), poison spray, thorn whip\n\n1st level (4 slots): cure wounds, entangle, speak with animals\n\n2nd level (3 slots): barkskin, flame blade, lesser restoration\n\n3rd level (3 slots): call lightning, conjure animals, dispel magic, meld into stone\n\n4th level (2 slots): control water, dominate beast, freedom of movement, hallucinatory terrain"
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The hag has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Blood Sense",
+                    "desc": "A red hag automatically senses the presence of the blood of living creatures within 90 feet and can pinpoint their locations within 30 feet."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "risen-reaver",
+            "name": "Risen Reaver",
+            "size": "Large",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "studded leather",
+            "hit_points": 168,
+            "hit_dice": "16d10+80",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 19,
+            "dexterity": 16,
+            "constitution": 20,
+            "intelligence": 9,
+            "wisdom": 7,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": 6,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 1,
+            "skills": {
+                "perception": 1
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 120 ft., passive Perception 11",
+            "languages": "any languages it knew in life",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The risen reaver makes three blade attacks."
+                },
+                {
+                    "name": "Blade",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d10"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Life Sense",
+                    "desc": "The risen reaver automatically detects all living creatures within 120 feet. This sense is blocked by 3 feet of wood, 1 foot of earth or stone, an inch of metal, or a thin sheet of lead."
+                },
+                {
+                    "name": "Pounce",
+                    "desc": "When the risen reaver hits an enemy with its blade attack after moving at least 20 feet, the target creature must make a DC 15 Strength saving throw. On a failure, the creature falls prone and the risen reaver can use a bonus action to make a single blade attack."
+                },
+                {
+                    "name": "Infused Arsenal",
+                    "desc": "As a bonus action, the risen reaver can absorb one unattended weapon into its body. For every weapon it absorbs, it deals +1 damage with its blade attacks ( maximum of +3)."
+                },
+                {
+                    "name": "Skitter",
+                    "desc": "The risen reaver can take the Dash action as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "soul-eater",
+            "name": "Soul Eater",
+            "size": "Medium",
+            "type": "fiend",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 16,
+            "armor_desc": "",
+            "hit_points": 104,
+            "hit_dice": "16d8+32",
+            "speed": {
+                "walk": 30,
+                "fly": 100
+            },
+            "strength": 13,
+            "dexterity": 22,
+            "constitution": 14,
+            "intelligence": 12,
+            "wisdom": 11,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": 9,
+            "constitution_save": 5,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 3,
+            "perception": 3,
+            "skills": {
+                "intimidation": 3,
+                "perception": 3,
+                "stealth": 9
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "poison",
+            "condition_immunities": "paralyzed, poisoned, stunned, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Infernal",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The soul eater makes two claw attacks."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage plus 7 (2d6) psychic damage, or half as much psychic damage with a successful DC 15 Constitution saving throw.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Soul Drain",
+                    "desc": "If the soul eater reduces a target to 0 hit points, the soul eater can devour that creature's soul as a bonus action. The victim must make a DC 13 Constitution saving throw. Success means the target is dead but can be restored to life by normal means. Failure means the target's soul is consumed by the soul eater and the target can't be restored to life with clone, raise dead, or reincarnation. A resurrection, miracle, or wish spell can return the target to life, but only if the caster succeeds on a DC 15 spellcasting check. If the soul eater is killed within 120 feet of its victim's corpse and the victim has been dead for no longer than 1 minute, the victim's soul returns to the body and restores it to life, leaving the victim unconscious and stable with 0 hit points."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Caster Link",
+                    "desc": "When a soul eater is summoned, it creates a mental link between itself and its conjurer. If the soul eater's assigned target (see Find Target ability, below) dies before the soul eater can drain the target's soul, or if the soul eater is defeated by its target (but not slain), it returns to its conjurer at full speed and attacks. While the soul eater and the conjurer share the same plane, it can use its Find Target ability to locate its conjurer."
+                },
+                {
+                    "name": "Find Target",
+                    "desc": "When a soul eater's conjurer orders it to find a creature, it can do so unerringly, despite the distance or intervening obstacles, provided the target is on the same plane of existence. The conjurer must have seen the desired target and must speak the target's name."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "spark",
+            "name": "Spark",
+            "size": "Tiny",
+            "type": "elemental",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 84,
+            "hit_dice": "13d4+52",
+            "speed": {
+                "hover": true,
+                "walk": 10,
+                "fly": 60
+            },
+            "strength": 4,
+            "dexterity": 20,
+            "constitution": 18,
+            "intelligence": 10,
+            "wisdom": 12,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": 8,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, fire, force, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "lightning",
+            "condition_immunities": "exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Common, Primordial",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Inhabit",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: The target must succeed on a DC 14 Charisma saving throw or become dominated by the spark, as the dominate person spell. The spark instantly enters the target's space and merges into the target's physical form. While inhabiting a creature, a spark takes no damage from physical attacks. The target creature receives a +4 bonus to its Dexterity and Charisma scores while it's inhabited. The speech and actions of an inhabited creature are noticeably jerky and erratic to any creature with passive Perception 14 or higher. Each time the spark uses innate spellcasting, the host can attempt another DC 14 Charisma saving throw. A successful save expels the spark, which appears in an unoccupied space within 5 feet of the former host. The inhabiting spark slowly burns out its host's nervous system. The inhabited creature must make a successful DC 15 Constitution saving throw at the end of each 24 hour-period or take 2d6 lightning damage and have its maximum hit points reduced by the same amount. The creature dies if this damage reduces its hit point maximum to 0. The reduction lasts until the inhabited creature completes a long rest after the spark is expelled."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the spark's innate casting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nat will: shocking grasp\n\n3/day: lightning bolt\n\n1/day: call lightning"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "umbral-vampire",
+            "name": "Umbral Vampire",
+            "size": "Medium",
+            "type": "fiend",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 84,
+            "hit_dice": "13d8+26",
+            "speed": {
+                "hover": true,
+                "walk": 0,
+                "fly": 40
+            },
+            "strength": 1,
+            "dexterity": 18,
+            "constitution": 15,
+            "intelligence": 14,
+            "wisdom": 14,
+            "charisma": 19,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 7,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 7,
+            "perception": 5,
+            "skills": {
+                "perception": 5,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "cold, necrotic, poison",
+            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "Common, Umbral, Void Speech",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Umbral Grasp",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) cold damage and the target's Strength score is reduced by 1d6. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a shadow rises from the corpse 1d4 hours later.",
+                    "attack_bonus": 7,
+                    "damage_dice": "4d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Incorporeal Movement",
+                    "desc": "The umbral vampire can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the umbral vampire's innate spellcasting ability is Charisma (spell save DC 15). The umbral vampire can innately cast the following spells, requiring no material components:\n\nat will: mirror image, plane shift (plane of shadows only)\n\n1/day each: bane (when in dim light or darkness only), black tentacles"
+                },
+                {
+                    "name": "Shadow Blend",
+                    "desc": "When in dim light or darkness, the umbral vampire can Hide as a bonus action, even while being observed."
+                },
+                {
+                    "name": "Strike from Shadow",
+                    "desc": "The reach of the umbral vampire's umbral grasp attack increases by 10 feet and its damage increases by 4d6 when both the umbral vampire and the target of the attack are in dim light or darkness and the umbral vampire is hidden from its target."
+                },
+                {
+                    "name": "Sunlight Sensitivity",
+                    "desc": "While in direct sunlight, the umbral vampire has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        }
+    ]
+}

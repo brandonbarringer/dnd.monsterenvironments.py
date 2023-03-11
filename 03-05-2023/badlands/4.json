@@ -1,0 +1,416 @@
+{
+    "count": 5,
+    "monsters": [
+        {
+            "slug": "accursed-defiler",
+            "name": "Accursed Defiler",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 12,
+            "armor_desc": "",
+            "hit_points": 75,
+            "hit_dice": "10d8+30",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 19,
+            "dexterity": 14,
+            "constitution": 17,
+            "intelligence": 6,
+            "wisdom": 15,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "poison",
+            "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "understands an ancient language, but can't speak",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The accursed defiler makes two slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) bludgeoning damage. If a creature is hit by this attack twice in the same round (from the same or different accursed defilers), the target must make a DC 13 Constitution saving throw or gain one level of exhaustion.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Sandslash (Recharge 5-6)",
+                    "desc": "As an action, the accursed defiler intensifies the vortex of sand that surrounds it. All creatures within 10 feet of the accursed defiler take 21 (6d6) slashing damage, or half damage with a successful DC 14 Dexterity saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Cursed Existence",
+                    "desc": "When it drops to 0 hit points in desert terrain, the accursed defiler's body disintegrates into sand and a sudden parched breeze. However, unless it was killed in a hallowed location, with radiant damage, or by a blessed creature, the accursed defiler reforms at the next sundown 1d100 miles away in a random direction."
+                },
+                {
+                    "name": "Sand Shroud",
+                    "desc": "A miniature sandstorm constantly whirls around the accursed defiler in a 10-foot radius. This area is lightly obscured to creatures other than an accursed defiler. Wisdom (Survival) checks made to follow tracks left by an accursed defiler or other creatures that were traveling in its sand shroud are made with disadvantage."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "desert"
+            ]
+        },
+        {
+            "slug": "dorreq",
+            "name": "Dorreq",
+            "size": "Medium",
+            "type": "aberration",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 93,
+            "hit_dice": "17d8+17",
+            "speed": {
+                "walk": 20,
+                "climb": 15
+            },
+            "strength": 19,
+            "dexterity": 19,
+            "constitution": 13,
+            "intelligence": 11,
+            "wisdom": 8,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": 6,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 8
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, cold, lightning",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Void Speech",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dorreq makes two tentacle attacks and one bite attack. If both tentacle attacks hit, the target is grappled (escape DC 14)."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "4d8"
+                },
+                {
+                    "name": "Tentacle",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage. If both tentacles hit the same target in a single turn, the target is grappled (escape DC 14) and pulled within reach of the bite attack, if it was farther than 5 feet away. The target must be size Large or smaller to be pulled this way. The dorreq can maintain a grapple on one Large, two Medium, or two Small creatures at one time.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Entanglement",
+                    "desc": "Any creature that starts its turn within 10 feet of a dorreq must make a successful DC 14 Dexterity saving throw each round or be restrained by the dorreq's tentacles until the start of its next turn. On its turn, the dorreq can ignore or freely release a creature in the affected area."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "The dorreq's innate spellcasting ability is Intelligence (spell save DC 10). It can innately cast the following spells, requiring no material components: 3/day each: blink, dimension door, haste, shatter Wasteland Stride. This ability works like tree stride, but the dorreq can use it to sink into and appear out of any sandy or rocky ground, and the range is only 30 ft. Using this ability replaces the dorreq's usual movement."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands"
+            ]
+        },
+        {
+            "slug": "forest-marauder",
+            "name": "Forest Marauder",
+            "size": "Large",
+            "type": "giant",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 114,
+            "hit_dice": "12d10+48",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 21,
+            "dexterity": 10,
+            "constitution": 18,
+            "intelligence": 6,
+            "wisdom": 10,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 6,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 120 ft., passive Perception 10",
+            "languages": "Giant, Orcish, Sylvan",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The forest marauder makes two boar spear attacks."
+                },
+                {
+                    "name": "Boar Spear",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:16 (2d10 + 5) piercing damage, and the forest marauder can choose to push the target 10 feet away if it fails a DC 16 Strength saving throw.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Rock",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 19 (3d8 + 5) bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "3d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Sunlight Sensitivity",
+                    "desc": "While in sunlight, the forest marauder has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "forests",
+                "forest"
+            ]
+        },
+        {
+            "slug": "mngwa",
+            "name": "Mngwa",
+            "size": "Medium",
+            "type": "aberration",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 16,
+            "armor_desc": "",
+            "hit_points": 91,
+            "hit_dice": "14d8+28",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 19,
+            "dexterity": 17,
+            "constitution": 15,
+            "intelligence": 11,
+            "wisdom": 17,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "Common, Sylvan, can speak with felines",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The mngwa makes one bite attack and two claw attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The mngwa has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Pack Tactics",
+                    "desc": "The mngwa has advantage on attack rolls against a creature if at least one of the mngwa's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                },
+                {
+                    "name": "Running Leap",
+                    "desc": "With a 10-foot running start, the mngwa can long jump up to 25 feet."
+                },
+                {
+                    "name": "Feline Empathy",
+                    "desc": "The mngwa has advantage on Wisdom (Animal Handling) checks to deal with felines."
+                },
+                {
+                    "name": "Ethereal Coat",
+                    "desc": "The armor class of the mngwa includes its Charisma modifier. All attack rolls against the mngwa have disadvantage. If the mngwa is adjacent to an area of smoke or mist, it can take a Hide action even if under direct observation."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "forests",
+                "plains",
+                "forest",
+                "plain"
+            ]
+        },
+        {
+            "slug": "skitterhaunt",
+            "name": "Skitterhaunt",
+            "size": "Large",
+            "type": "ooze",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 95,
+            "hit_dice": "10d10+40",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 15,
+            "dexterity": 11,
+            "constitution": 19,
+            "intelligence": 1,
+            "wisdom": 7,
+            "charisma": 1,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "acid",
+            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8",
+            "languages": "-",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The skitterhaunt makes two claw attacks and one sting attack."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage plus 5 (1d10) acid damage, and the target is grappled (escape DC 12). The skitterhaunt has two claws, each of which can grapple one target.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Sting",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) acid damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d10"
+                },
+                {
+                    "name": "Acid Spray (Recharge 6)",
+                    "desc": "The skitterhaunt spits acid in a line 30 feet long and 5 feet wide. Each creature in that line takes 18 (4d8) acid damage, or half damage with a successful DC 14 Dexterity saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Broken Shell",
+                    "desc": "A creature that hits the skitterhaunt with a melee attack while within 5 feet of it takes 5 (1d10) acid damage."
+                },
+                {
+                    "name": "Infest Vermin",
+                    "desc": "If the skitterhaunt damages a Medium or smaller beast, it can try to infest it as a bonus action. The damaged creature must succeed on a DC 14 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. If the disease reduces its hit point maximum to 0, the skitterhaunt has devoured the creature's insides and the affected becomes a skitterhaunt, retaining its outward shell but replacing its flesh with skitterhaunt ooze."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "desert",
+                "ruins",
+                "underground",
+                "underdark"
+            ]
+        }
+    ]
+}

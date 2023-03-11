@@ -1,0 +1,243 @@
+{
+    "count": 3,
+    "monsters": [
+        {
+            "slug": "bulette",
+            "name": "Bulette",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 94,
+            "hit_dice": "9d10+45",
+            "speed": {
+                "walk": 40,
+                "burrow": 40
+            },
+            "strength": 19,
+            "dexterity": 11,
+            "constitution": 21,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 6,
+            "skills": {
+                "perception": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16",
+            "languages": "",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30 (4d12 + 4) piercing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "4d12",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Deadly Leap",
+                    "desc": "If the bulette jumps at least 15 ft. as part of its movement, it can then use this action to land on its ft. in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 ft. out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the bulette's space."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Standing Leap",
+                    "desc": "The bulette's long jump is up to 30 ft. and its high jump is up to 15 ft., with or without a running start."
+                }
+            ],
+            "spell_list": [],
+            "img_main": "http://api.open5e.com/static/img/monsters/bulette.png",
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Plane of Earth",
+                "Ruin",
+                "Settlement",
+                "grassland",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "gorgon",
+            "name": "Gorgon",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 19,
+            "armor_desc": "natural armor",
+            "hit_points": 114,
+            "hit_dice": "12d10+48",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 20,
+            "dexterity": 11,
+            "constitution": 18,
+            "intelligence": 2,
+            "wisdom": 12,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "petrified",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Gore",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12 + 5) piercing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d12",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Hooves",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d10",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Petrifying Breath (Recharge 5-6)",
+                    "desc": "The gorgon exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw. On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Trampling Charge",
+                    "desc": "If the gorgon moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the gorgon can make one attack with its hooves against it as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Plane of Earth",
+                "forest",
+                "grassland",
+                "hill"
+            ]
+        },
+        {
+            "slug": "triceratops",
+            "name": "Triceratops",
+            "size": "Huge",
+            "type": "beast",
+            "subtype": "",
+            "group": "Dinosaurs",
+            "alignment": "unaligned",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 95,
+            "hit_dice": "10d12+30",
+            "speed": {
+                "walk": 50
+            },
+            "strength": 22,
+            "dexterity": 9,
+            "constitution": 17,
+            "intelligence": 2,
+            "wisdom": 11,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Gore",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (4d8 + 6) piercing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "4d8",
+                    "damage_bonus": 6
+                },
+                {
+                    "name": "Stomp",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one prone creature. Hit: 22 (3d10 + 6) bludgeoning damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "3d10",
+                    "damage_bonus": 6
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Trampling Charge",
+                    "desc": "If the triceratops moves at least 20 ft. straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the triceratops can make one stomp attack against it as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Grassland",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "grassland",
+                "jungle"
+            ]
+        }
+    ]
+}

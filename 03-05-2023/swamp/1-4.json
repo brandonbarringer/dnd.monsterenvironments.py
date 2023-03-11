@@ -1,0 +1,604 @@
+{
+    "count": 8,
+    "monsters": [
+        {
+            "slug": "constrictor-snake",
+            "name": "Constrictor Snake",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 13,
+            "hit_dice": "2d10",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 15,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 1,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 10 ft., passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Constrict",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Jungle",
+                "Swamp",
+                "forest",
+                "jungle",
+                "swamp",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "dipsa",
+            "name": "Dipsa",
+            "size": "Tiny",
+            "type": "ooze",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 15,
+            "armor_desc": "",
+            "hit_points": 27,
+            "hit_dice": "6d4+12",
+            "speed": {
+                "walk": 20,
+                "climb": 20,
+                "swim": 20
+            },
+            "strength": 3,
+            "dexterity": 17,
+            "constitution": 14,
+            "intelligence": 1,
+            "wisdom": 6,
+            "charisma": 1,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid",
+            "damage_immunities": "",
+            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8",
+            "languages": "-",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 0 ft., one creature in the dipsa's space. Hit: 1 piercing damage, and the dipsa attaches to the target. A creature with a dipsa attached takes 3 (1d6) acid damage per round per dipsa, and it must make a successful DC 12 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. If a creature's hit point maximum is reduced to 0 by this effect, the creature dies. This reduction to a creature's hit point maximum lasts until it is affected by a lesser restoration spell or comparable magic.",
+                    "attack_bonus": 7,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Swamp Stealth",
+                    "desc": "The dipsa gains an additional +2 (+9 in total) to Stealth in swamp terrain."
+                },
+                {
+                    "name": "Amorphous",
+                    "desc": "The dipsa can move through a space as narrow as 1 inch wide without squeezing."
+                },
+                {
+                    "name": "Discreet Bite",
+                    "desc": "The bite of a dipsa is barely perceptible and the wound is quickly anesthetized. A creature bitten must succeed on a DC 15 Wisdom (Perception) check to notice the attack or any damage taken from it."
+                },
+                {
+                    "name": "Translucent",
+                    "desc": "The dipsa can take the Hide action as a bonus action on each of its turns."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "marshes",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "giant-frog",
+            "name": "Giant Frog",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 18,
+            "hit_dice": "4d8",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 12,
+            "dexterity": 13,
+            "constitution": 11,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2,
+                "stealth": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 30 ft., passive Perception 12",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can't bite another target.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 1
+                },
+                {
+                    "name": "Swallow",
+                    "desc": "The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The frog can breathe air and water"
+                },
+                {
+                    "name": "Standing Leap",
+                    "desc": "The frog's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Jungle",
+                "Swamp",
+                "Water",
+                "forest",
+                "jungle",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "giant-lizard",
+            "name": "Giant Lizard",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": "natural armor",
+            "hit_points": 19,
+            "hit_dice": "3d10",
+            "speed": {
+                "walk": 30,
+                "climb": 30
+            },
+            "strength": 15,
+            "dexterity": 12,
+            "constitution": 13,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 30 ft., passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Variant: Hold Breath",
+                    "desc": "The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)"
+                },
+                {
+                    "name": "Variant: Spider Climb",
+                    "desc": "The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Grassland",
+                "Jungle",
+                "Ruin",
+                "Swamp",
+                "coastal",
+                "desert",
+                "forest",
+                "jungle",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "giant-poisonous-snake",
+            "name": "Giant Poisonous Snake",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": null,
+            "hit_points": 11,
+            "hit_dice": "2d8",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 10,
+            "dexterity": 18,
+            "constitution": 13,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 10 ft., passive Perception 12",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Ruin",
+                "Sewer",
+                "Swamp",
+                "Tomb",
+                "Water",
+                "forest",
+                "grassland",
+                "jungle",
+                "swamp",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "suturefly",
+            "name": "Suturefly",
+            "size": "Tiny",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 7,
+            "hit_dice": "3d4",
+            "speed": {
+                "hover": true,
+                "walk": 10,
+                "fly": 40
+            },
+            "strength": 1,
+            "dexterity": 19,
+            "constitution": 10,
+            "intelligence": 1,
+            "wisdom": 12,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "-",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Sew",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the suturefly sews the target's mouth, nose, or eye closed. With supernatural speed, the suturefly repeatedly pierces the target's face, each time threading a loop of the target's own skin through the previous hole. These skin loops rapidly blacken, shrink, and draw the orifice tightly closed. It takes two actions and a sharp blade to sever the loops and reopen the orifice, and the process causes intense pain and 2 slashing damage. A victim whose mouth and nose have been sewn shut begins suffocating at the start of his or her next turn.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Camouflage",
+                    "desc": "A suturefly in forest surroundings has advantage on Dexterity (Stealth) checks."
+                },
+                {
+                    "name": "Detect Blasphemy",
+                    "desc": "The most common variety of suturefly attacks any creature that blasphemes aloud, which it can detect at a range of 100 feet unless the blasphemer makes a successful DC 13 Charisma saving throw."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "marshes",
+                "forest",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "swarm-of-rats",
+            "name": "Swarm of Rats",
+            "size": "Medium",
+            "type": "swarm of Tiny beasts",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 10,
+            "armor_desc": null,
+            "hit_points": 24,
+            "hit_dice": "7d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 9,
+            "dexterity": 11,
+            "constitution": 9,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, slashing",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+            "senses": "darkvision 30 ft., passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bites",
+                    "desc": "Melee Weapon Attack: +2 to hit, reach 0 ft., one target in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer.",
+                    "attack_bonus": 2,
+                    "damage_dice": "2d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The swarm has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Swarm",
+                    "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Forest",
+                "Ruin",
+                "Settlement",
+                "Sewer",
+                "Swamp",
+                "swamp",
+                "urban"
+            ]
+        },
+        {
+            "slug": "swarm-of-ravens",
+            "name": "Swarm of Ravens",
+            "size": "Medium",
+            "type": "swarm of Tiny beasts",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 24,
+            "hit_dice": "7d8",
+            "speed": {
+                "walk": 10,
+                "fly": 50
+            },
+            "strength": 6,
+            "dexterity": 14,
+            "constitution": 8,
+            "intelligence": 3,
+            "wisdom": 12,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, slashing",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+            "senses": "passive Perception 15",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Beaks",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Swarm",
+                    "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain hit points or gain temporary hit points."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "forest",
+                "hill",
+                "swamp",
+                "urban"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+{
+    "count": 3,
+    "monsters": [
+        {
+            "slug": "ice-mephit",
+            "name": "Ice Mephit",
+            "size": "Small",
+            "type": "elemental",
+            "subtype": "",
+            "group": "Mephits",
+            "alignment": "neutral evil",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 21,
+            "hit_dice": "6d6",
+            "speed": {
+                "walk": 30,
+                "fly": 30
+            },
+            "strength": 7,
+            "dexterity": 13,
+            "constitution": 10,
+            "intelligence": 9,
+            "wisdom": 11,
+            "charisma": 12,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2,
+                "stealth": 3
+            },
+            "damage_vulnerabilities": "bludgeoning, fire",
+            "damage_resistances": "",
+            "damage_immunities": "cold, poison",
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Aquan, Auran",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 1
+                },
+                {
+                    "name": "Frost Breath (Recharge 6)",
+                    "desc": "The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage on a failed save, or half as much damage on a successful one."
+                },
+                {
+                    "name": "Variant: Summon Mephits (1/Day)",
+                    "desc": "The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Death Burst",
+                    "desc": "When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 ft. of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one.",
+                    "attack_bonus": 0,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "False Appearance",
+                    "desc": "While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice."
+                },
+                {
+                    "name": "Innate Spellcasting (1/Day)",
+                    "desc": "The mephit can innately cast _fog cloud_, requiring no material components. Its innate spellcasting ability is Charisma."
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/fog-cloud/?format=json"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Mountains",
+                "Plane of Air",
+                "Plane of Water",
+                "Tundra",
+                "arctic"
+            ]
+        },
+        {
+            "slug": "orc",
+            "name": "Orc",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "orc",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 13,
+            "armor_desc": "hide armor",
+            "hit_points": 15,
+            "hit_dice": "2d8+6",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 12,
+            "constitution": 16,
+            "intelligence": 7,
+            "wisdom": 11,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "intimidation": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Common, Orc",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Greataxe",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d12",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Javelin",
+                    "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Aggressive",
+                    "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "arctic",
+                "forest",
+                "grassland",
+                "hill",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "scout",
+            "name": "Scout",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 13,
+            "armor_desc": "leather armor",
+            "hit_points": 16,
+            "hit_dice": "3d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 11,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 11,
+            "wisdom": 13,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "nature": 4,
+                "perception": 5,
+                "stealth": 6,
+                "survival": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 15",
+            "languages": "any one language (usually Common)",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The scout makes two melee attacks or two ranged attacks."
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Longbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Hearing and Sight",
+                    "desc": "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Feywild",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "jungle",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        }
+    ]
+}

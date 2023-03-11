@@ -1,0 +1,674 @@
+{
+    "count": 9,
+    "monsters": [
+        {
+            "slug": "axe-beak",
+            "name": "Axe Beak",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 19,
+            "hit_dice": "3d10",
+            "speed": {
+                "walk": 50
+            },
+            "strength": 14,
+            "dexterity": 12,
+            "constitution": 12,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Beak",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Grassland",
+                "Swamp",
+                "grassland",
+                "hill",
+                "jungle"
+            ]
+        },
+        {
+            "slug": "boar",
+            "name": "Boar",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 11,
+            "armor_desc": "natural armor",
+            "hit_points": 11,
+            "hit_dice": "2d8",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 13,
+            "dexterity": 11,
+            "constitution": 12,
+            "intelligence": 2,
+            "wisdom": 9,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 9",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Tusk",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 1
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Charge",
+                    "desc": "If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 (1d6) slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 0,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Relentless (Recharges after a Short or Long Rest)",
+                    "desc": "If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "forest",
+                "grassland",
+                "hill"
+            ]
+        },
+        {
+            "slug": "elk",
+            "name": "Elk",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 10,
+            "armor_desc": null,
+            "hit_points": 13,
+            "hit_dice": "2d10",
+            "speed": {
+                "walk": 50
+            },
+            "strength": 16,
+            "dexterity": 10,
+            "constitution": 12,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Ram",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage."
+                },
+                {
+                    "name": "Hooves",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Charge",
+                    "desc": "If the elk moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 0,
+                    "damage_dice": "2d6"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Tundra",
+                "forest",
+                "grassland",
+                "hill"
+            ]
+        },
+        {
+            "slug": "giant-poisonous-snake",
+            "name": "Giant Poisonous Snake",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": null,
+            "hit_points": 11,
+            "hit_dice": "2d8",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 10,
+            "dexterity": 18,
+            "constitution": 13,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 10 ft., passive Perception 12",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Ruin",
+                "Sewer",
+                "Swamp",
+                "Tomb",
+                "Water",
+                "forest",
+                "grassland",
+                "jungle",
+                "swamp",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "giant-wolf-spider",
+            "name": "Giant Wolf Spider",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 13,
+            "armor_desc": null,
+            "hit_points": 11,
+            "hit_dice": "2d8",
+            "speed": {
+                "walk": 40,
+                "climb": 40
+            },
+            "strength": 12,
+            "dexterity": 16,
+            "constitution": 13,
+            "intelligence": 3,
+            "wisdom": 12,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 13",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 1
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Spider Climb",
+                    "desc": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                },
+                {
+                    "name": "Web Sense",
+                    "desc": "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+                },
+                {
+                    "name": "Web Walker",
+                    "desc": "The spider ignores movement restrictions caused by webbing."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Feywild",
+                "Grassland",
+                "Ruin",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill"
+            ]
+        },
+        {
+            "slug": "goblin",
+            "name": "Goblin",
+            "size": "Small",
+            "type": "humanoid",
+            "subtype": "goblinoid",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "leather armor, shield",
+            "hit_points": 7,
+            "hit_dice": "2d6",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 8,
+            "dexterity": 14,
+            "constitution": 10,
+            "intelligence": 10,
+            "wisdom": 8,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 9",
+            "languages": "Common, Goblin",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Scimitar",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Shortbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Nimble Escape",
+                    "desc": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Feywild",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Ruin",
+                "Settlement",
+                "Sewer",
+                "Swamp",
+                "Tundra",
+                "forest",
+                "grassland",
+                "hill",
+                "jungle",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "panther",
+            "name": "Panther",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 13,
+            "hit_dice": "3d8",
+            "speed": {
+                "walk": 50,
+                "climb": 40
+            },
+            "strength": 14,
+            "dexterity": 15,
+            "constitution": 10,
+            "intelligence": 3,
+            "wisdom": 14,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The panther has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Pounce",
+                    "desc": "If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Jungle",
+                "forest",
+                "grassland",
+                "hill"
+            ]
+        },
+        {
+            "slug": "riding-horse",
+            "name": "Riding Horse",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 10,
+            "armor_desc": null,
+            "hit_points": 13,
+            "hit_dice": "2d10",
+            "speed": {
+                "walk": 60
+            },
+            "strength": 16,
+            "dexterity": 10,
+            "constitution": 12,
+            "intelligence": 2,
+            "wisdom": 11,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Hooves",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d4",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Settlement",
+                "grassland",
+                "urban"
+            ]
+        },
+        {
+            "slug": "wolf",
+            "name": "Wolf",
+            "size": "Medium",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 11,
+            "hit_dice": "2d8",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 12,
+            "dexterity": 15,
+            "constitution": 12,
+            "intelligence": 3,
+            "wisdom": 12,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d4",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Hearing and Smell",
+                    "desc": "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                },
+                {
+                    "name": "Pack Tactics",
+                    "desc": "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forest",
+                "grassland",
+                "hill"
+            ]
+        }
+    ]
+}

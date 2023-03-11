@@ -1,0 +1,230 @@
+{
+    "count": 3,
+    "monsters": [
+        {
+            "slug": "giant-boar",
+            "name": "Giant Boar",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": "natural armor",
+            "hit_points": 42,
+            "hit_dice": "5d10",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 17,
+            "dexterity": 10,
+            "constitution": 16,
+            "intelligence": 2,
+            "wisdom": 7,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 8",
+            "languages": "",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Tusk",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Charge",
+                    "desc": "If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 0,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Relentless (Recharges after a Short or Long Rest)",
+                    "desc": "If the boar takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Feywild",
+                "Forest",
+                "forest",
+                "grassland",
+                "hill",
+                "jungle"
+            ]
+        },
+        {
+            "slug": "giant-constrictor-snake",
+            "name": "Giant Constrictor Snake",
+            "size": "Huge",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 60,
+            "hit_dice": "8d12",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 19,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 1,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 10 ft., passive Perception 12",
+            "languages": "",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 11 (2d6 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Constrict",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Jungle",
+                "Swamp",
+                "forest",
+                "jungle",
+                "swamp",
+                "underdark",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "swarm-of-poisonous-snakes",
+            "name": "Swarm of Poisonous Snakes",
+            "size": "Medium",
+            "type": "swarm of Tiny beasts",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": null,
+            "hit_points": 36,
+            "hit_dice": "8d8",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 8,
+            "dexterity": 18,
+            "constitution": 11,
+            "intelligence": 1,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, slashing",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+            "senses": "blindsight 10 ft., passive Perception 10",
+            "languages": "",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Bites",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 0 ft., one creature in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer. The target must make a DC 10 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a successful one.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Swarm",
+                    "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain hit points or gain temporary hit points."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Ruin",
+                "Sewer",
+                "Swamp",
+                "Tomb",
+                "Water",
+                "forest",
+                "jungle",
+                "swamp"
+            ]
+        }
+    ]
+}

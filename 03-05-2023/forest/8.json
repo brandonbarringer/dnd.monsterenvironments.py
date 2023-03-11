@@ -1,0 +1,251 @@
+{
+    "count": 3,
+    "monsters": [
+        {
+            "slug": "dragonleaf-tree",
+            "name": "Dragonleaf Tree",
+            "size": "Large",
+            "type": "plant",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 152,
+            "hit_dice": "16d10+64",
+            "speed": {
+                "walk": 5
+            },
+            "strength": 16,
+            "dexterity": 10,
+            "constitution": 19,
+            "intelligence": 3,
+            "wisdom": 12,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "A dragonleaf tree enjoys the same immunities as its progenitor. Black, copper, and green trees are immune to acid damage; blue and bronze trees are immune to lightning damage; brass, gold, and red trees are immune to fire damage; and silver and white trees are immune to cold damage.",
+            "condition_immunities": "blinded, deafened",
+            "senses": "blindsight 120 ft., passive Perception 11",
+            "languages": "can understand the language of its creator or designated master",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 58 (10d10 + 3) bludgeoning damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "10d10"
+                },
+                {
+                    "name": "Leaves",
+                    "desc": "Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 45 (10d8) slashing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "10d8"
+                },
+                {
+                    "name": "Breath Weapon (Recharge 6)",
+                    "desc": "Dragonleaf tree can issue forth a breath weapon from its leaves appropriate to the dragon it honors. The creature's breath weapon deals 49 (14d6) damage, or half damage to targets that make a successful DC 15 Dexterity saving throw. A black, copper, or green tree breathes a 60-foot line of acid; a blue or bronze tree breathes a 60-foot line of lightning; a brass, gold, or red tree breathes a 30-foot cone of fire; and a silver or white tree breathes a 30-foot cone of cold."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Loyal to Dragon Master",
+                    "desc": "A dragonleaf tree only follows commands from its designated master (or from any creatures to whom the master grants control). It has advantage on saving throws against any charm or compulsion spell or effect. Additionally, the tree has advantage on any saving throw to resist Bluff, Diplomacy, or Intimidate checks made to influence it to act against its masters."
+                },
+                {
+                    "name": "Weaknesses",
+                    "desc": "Dragonleaf trees with immunity to fire also have vulnerability to cold, and trees with immunity to cold have vulnerability to fire."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "urban",
+                "forest"
+            ]
+        },
+        {
+            "slug": "savager",
+            "name": "Savager",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 115,
+            "hit_dice": "1d10+60",
+            "speed": {
+                "walk": 40,
+                "climb": 20
+            },
+            "strength": 22,
+            "dexterity": 14,
+            "constitution": 22,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 13,
+            "strength_save": null,
+            "dexterity_save": 5,
+            "constitution_save": 9,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The savager makes one bite attack and one claw attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 19 (2d12 + 6) piercing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d12"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 38 (5d12 + 6) slashing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "5d12"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Mighty Swing",
+                    "desc": "When a savager attacks without moving during its turn, it makes its claw attack with advantage."
+                },
+                {
+                    "name": "Quills",
+                    "desc": "A creature takes 4 (1d8) piercing damage at the start of its turn while it is grappling a savager."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "plains",
+                "forest",
+                "plain"
+            ]
+        },
+        {
+            "slug": "young-green-dragon",
+            "name": "Young Green Dragon",
+            "size": "Large",
+            "type": "dragon",
+            "subtype": "",
+            "group": "Green Dragon",
+            "alignment": "lawful evil",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 136,
+            "hit_dice": "16d10+48",
+            "speed": {
+                "walk": 40,
+                "fly": 80,
+                "swim": 40
+            },
+            "strength": 19,
+            "dexterity": 12,
+            "constitution": 17,
+            "intelligence": 16,
+            "wisdom": 13,
+            "charisma": 15,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": 6,
+            "intelligence_save": null,
+            "wisdom_save": 4,
+            "charisma_save": 5,
+            "perception": 7,
+            "skills": {
+                "deception": 5,
+                "perception": 7,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison",
+            "condition_immunities": "poisoned",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 17",
+            "languages": "Common, Draconic",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d10+2d6",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Poison Breath (Recharge 5-6)",
+                    "desc": "The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.",
+                    "attack_bonus": 0,
+                    "damage_dice": "12d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The dragon can breathe air and water."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forest"
+            ]
+        }
+    ]
+}

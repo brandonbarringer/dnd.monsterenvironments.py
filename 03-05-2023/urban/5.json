@@ -1,0 +1,697 @@
+{
+    "count": 8,
+    "monsters": [
+        {
+            "slug": "dream-eater",
+            "name": "Dream Eater",
+            "size": "Medium",
+            "type": "fiend",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 75,
+            "hit_dice": "10d8+30",
+            "speed": {
+                "walk": 30,
+                "fly": 20
+            },
+            "strength": 15,
+            "dexterity": 18,
+            "constitution": 17,
+            "intelligence": 16,
+            "wisdom": 13,
+            "charisma": 20,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "deception": 8,
+                "insight": 4,
+                "persuasion": 8
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "poison",
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Celestial, Common, Draconic, Infernal, telepathy 100 ft.",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dream eater makes one bite attack and one claw attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage, and the target is grappled (escape DC 12).",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 24 (4d10 + 2) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "4d10"
+                },
+                {
+                    "name": "Dream Eater's Caress",
+                    "desc": "A creature that ends its turn grappled by a dream eater is restrained until the end of its next turn, it takes 5 (1d4 + 3) psychic damage, and the dream eater gains the same number of temporary hit points."
+                },
+                {
+                    "name": "Lotus Scent (Recharge 6)",
+                    "desc": "The dream eater secretes an oily chemical that most creatures find intoxicating. All living creatures within 30 feet must succeed on a DC 14 Constitution saving throw against poison or be poisoned for 2d4 rounds. While poisoned this way, the creature is stunned. Creatures that successfully save are immune to that dream eater's lotus scent for 24 hours."
+                },
+                {
+                    "name": "Waking Dreams (1/Day)",
+                    "desc": "Every creature within 20 feet of the dream eater must make a DC 16 Charisma saving throw. Those that fail enter waking dreams and are confused (as the spell) for 6 rounds. On turns when the creature can act normally (rolls 9 or 10 for the confusion effect), it can repeat the saving throw at the end of its turn, and the effect ends early on a successful save."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Shapechanger",
+                    "desc": "The dream eater can use its turn to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in all forms. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the dream eater's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:\n\nat will: command\n\n3/day: suggestion"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "urban",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "gladiator",
+            "name": "Gladiator",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 16,
+            "armor_desc": "studded leather, shield",
+            "hit_points": 112,
+            "hit_dice": "15d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 18,
+            "dexterity": 15,
+            "constitution": 16,
+            "intelligence": 10,
+            "wisdom": 12,
+            "charisma": 15,
+            "strength_save": 7,
+            "dexterity_save": 5,
+            "constitution_save": 6,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "athletics": 10,
+                "intimidation": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 11",
+            "languages": "any one language (usually Common)",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The gladiator makes three melee attacks or two ranged attacks."
+                },
+                {
+                    "name": "Spear",
+                    "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Shield Bash",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d4",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Parry",
+                    "desc": "The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Brave",
+                    "desc": "The gladiator has advantage on saving throws against being frightened."
+                },
+                {
+                    "name": "Brute",
+                    "desc": "A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack)."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Settlement",
+                "urban"
+            ]
+        },
+        {
+            "slug": "kikimora",
+            "name": "Kikimora",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 65,
+            "hit_dice": "10d8+20",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 13,
+            "dexterity": 18,
+            "constitution": 15,
+            "intelligence": 12,
+            "wisdom": 16,
+            "charisma": 21,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "deception": 7,
+                "persuasion": 7,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Common, Sylvan",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The kikimora makes two claw attacks."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Hidey-Hole",
+                    "desc": "When a kikimora chooses a house to inhabit, she scrawls a symbol on a wall, baseboard, cupboard, or semi-permanent object (like a stove) to be her tiny domain. This ability creates a hidden extra-dimensional dwelling. After creating a hidey-hole, a kikimora can teleport herself and up to 50 lb of objects to the designated location instead of making a normal move. This extradimensional space can only be entered by the kikimora or by a creature using a plane shift spell or ability. The location can be determined by casting detect magic in the area of the sigil, but it takes a successful DC 15 Intelligence (Arcana) check to plane shift into the space. Inside the hidey-hole, a kikimora can see what is going on outside the space through a special sensor. This sensor functions like a window, and it can be blocked by mundane objects placed in front of the sigil. If she leaves an item in her space, it remains there even if she removes the sigil and places it in another location. If someone else removes the sigil, all contents are emptied into the Ethereal Plane (including any beings within her hidey-hole at the time). In this case, the kikimora can attempt a DC 15 Charisma saving throw to instead eject herself (but none of her possessions) into a space adjacent to the sigil."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The kikimora has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the kikimora's innate spellcasting ability is Charisma (spell save DC 15). She can innately cast the following spells, requiring no material components:\n\nat will: invisibility (self only), mage hand, mending, minor illusion, prestidigitation\n\n3/day each: animal friendship, blinding smite, sleep\n\n1/day each: insect plague, major image"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "urban"
+            ]
+        },
+        {
+            "slug": "owl-harpy",
+            "name": "Owl Harpy",
+            "size": "Medium",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 112,
+            "hit_dice": "15d8+45",
+            "speed": {
+                "walk": 20,
+                "fly": 80,
+                "hover": true
+            },
+            "strength": 12,
+            "dexterity": 17,
+            "constitution": 16,
+            "intelligence": 11,
+            "wisdom": 14,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "performance": 7,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "thunder",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 60 ft., passive Perception 12",
+            "languages": "Common, Abyssal, Giant",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The owl harpy makes two claw attacks and two talon attacks."
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d4"
+                },
+                {
+                    "name": "Talons",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Hovering Darkness",
+                    "desc": "An owl harpy that hovers in flight can shake a fine, magical dander from her wings over a creature within 20 feet and directly below her. The creature must succeed on a DC 15 Constitution saving throw or fall unconscious and be poisoned for 10 minutes. It wakes up if it takes damage or if a creature uses an action to shake it awake, but waking up doesn't end the poisoning."
+                },
+                {
+                    "name": "Luring Song",
+                    "desc": "The owl harpy sings a magical melody. Every humanoid and giant within 300 feet of the harpy that can hear the song must succeed on a DC 15 Wisdom saving throw or be charmed until the song ends. The harpy must use a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy becomes incapacitated. While charmed by the harpy, a target is incapacitated and ignores the songs of other harpies. A charmed target that is more than 5 feet away from the harpy must move at its highest rate (including dashing, if necessary) along the most direct route to get within 5 feet of the harpy. The charmed creature doesn't maneuver to avoid opportunity attacks, but it can repeat the saving throw every time it takes damage from anything other than the harpy. It also repeats the saving throw before entering damaging terrain (lava or a pit, for example), if the most direct route includes a dangerous space. A creature also repeats the saving throw at the end of each of its turns. A successful saving throw ends the effect on that creature and makes the creature immune to this harpy's song for 24 hours."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Quiet Flight",
+                    "desc": "The owl harpy gains an additional +3 to Stealth (+9 in total) while flying."
+                },
+                {
+                    "name": "Dissonance",
+                    "desc": "The owl harpy can't use its blindsight while deafened."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the owl harpy's innate spellcasting ability is Charisma. The owl harpy can innately cast the following spells, requiring no material components:\n\n3/day: darkness"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "forests",
+                "urban",
+                "forest"
+            ]
+        },
+        {
+            "slug": "rat-king",
+            "name": "Rat King",
+            "size": "Medium",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 76,
+            "hit_dice": "9d8+36",
+            "speed": {
+                "walk": 30,
+                "burrow": 20
+            },
+            "strength": 6,
+            "dexterity": 16,
+            "constitution": 18,
+            "intelligence": 11,
+            "wisdom": 15,
+            "charisma": 16,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, slashing",
+            "damage_immunities": "poison",
+            "condition_immunities": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Common, Thieves' Cant",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The rat king makes four bite attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage, and a bitten creature must succeed on a DC 15 Constitution saving throw or be infected with a disease. A diseased creature gains one level of exhaustion immediately. When the creature finishes a long rest, it must repeat the saving throw. On a failure, the creature gains another level of exhaustion. On a success, the disease does not progress. The creature recovers from the disease if its saving throw succeeds after two consecutive long rests or if it receives a lesser restoration spell or comparable magic. The creature then recovers from one level of exhaustion after each long rest.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Summon Swarm (1/Day)",
+                    "desc": "The rat king summons three swarms of rats. The swarms appear immediately within 60 feet of the rat king. They can appear in spaces occupied by other creatures. The swarms act as allies of the rat king. They remain for 1 hour or until the rat king dies."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Absorption",
+                    "desc": "When the rat king does damage to a rat or rat swarm, it can absorb the rat, or part of the swarm, into its own mass. The rat king regains hit points equal to the damage it did to the rat or swarm."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The rat king has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Plague of Ill Omen",
+                    "desc": "The rat king radiates a magical aura of misfortune in a 30-foot radius. A foe of the rat king that starts its turn in the aura must make a successful DC 14 Charisma saving throw or be cursed with bad luck until the start of its next turn. When a cursed character makes an attack roll, ability check, or saving throw, it must subtract 1d4 from the result."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "urban",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "ravenfolk-doom-croaker",
+            "name": "Ravenfolk Doom Croaker",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "kenku",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 14,
+            "armor_desc": "studded leather armor",
+            "hit_points": 88,
+            "hit_dice": "16d8+16",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 10,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 12,
+            "wisdom": 18,
+            "charisma": 14,
+            "strength_save": 3,
+            "dexterity_save": 5,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 7,
+            "charisma_save": null,
+            "perception": 10,
+            "skills": {
+                "perception": 10
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 120 ft., passive Perception 20",
+            "languages": "Common, Feather Speech, Huginn",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Ghost Wings",
+                    "desc": "The ravenfolk doom croaker furiously \"beats\"a set of phantasmal wings. Every creature within 5 feet of the ravenfolk must make a successful DC 13 Dexterity saving throw or be blinded until the start of the ravenfolk's next turn."
+                },
+                {
+                    "name": "Radiant Runestaff",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage plus 4 (1d8) radiant damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Mimicry",
+                    "desc": "Ravenfolk doom croakers can mimic the voices of others with uncanny accuracy. They have advantage on Charisma (Deception) checks involving audible mimicry."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The doom croaker has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the doom croaker's innate spellcasting ability is Wisdom (spell save DC 15). It can innately cast the following spells, requiring no material components:\n\nat will: comprehend languages\n\n3/day each: counterspell, fear, phantom steed\n\n1/day each: blight, call lightning, clairvoyance, insect plague\n\n1/week: legend lore"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "hills",
+                "urban",
+                "forest",
+                "hill"
+            ]
+        },
+        {
+            "slug": "temple-dog",
+            "name": "Temple Dog",
+            "size": "Medium",
+            "type": "celestial",
+            "subtype": "",
+            "group": null,
+            "alignment": "good",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 97,
+            "hit_dice": "15d8+30",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 18,
+            "dexterity": 14,
+            "constitution": 15,
+            "intelligence": 8,
+            "wisdom": 14,
+            "charisma": 10,
+            "strength_save": 7,
+            "dexterity_save": null,
+            "constitution_save": 5,
+            "intelligence_save": 2,
+            "wisdom_save": 5,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "understands Celestial and Common but can't speak",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) piercing damage plus 9 (2d4 + 4) bludgeoning damage, and the target is grappled (escape DC 14). The target must also make a successful DC 15 Constitution saving throw or be stunned until the end of its next turn.",
+                    "attack_bonus": 7,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) bludgeoning damage, and the target must succeed on a DC 15 Strength saving throw or be knocked prone and pushed 5 feet. The temple dog can immediately enter the position the target was pushed out of, if it chooses to.",
+                    "attack_bonus": 7,
+                    "damage_dice": "3d6+4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The temple dog has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Protector's Initiative",
+                    "desc": "If the temple dog is entering combat against a clear threat to its temple, it has advantage on its initiative roll."
+                },
+                {
+                    "name": "Rushing Slam",
+                    "desc": "If the temple dog moves at least 10 feet straight toward a target and then makes a slam attack against that target, it can make an additional slam attack against a second creature within 5 feet of the first target as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "urban",
+                "any"
+            ]
+        },
+        {
+            "slug": "vampire-spawn",
+            "name": "Vampire Spawn",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": "Vampires",
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 82,
+            "hit_dice": "11d8+33",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 16,
+            "constitution": 16,
+            "intelligence": 11,
+            "wisdom": 10,
+            "charisma": 12,
+            "strength_save": null,
+            "dexterity_save": 6,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 3,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "the languages it knew in life",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The vampire makes two attacks, only one of which can be a bite attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vampire, incapacitated, or restrained. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.",
+                    "attack_bonus": 61
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8 (2d4 + 3) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape DC 13).",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d4",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Regeneration",
+                    "desc": "The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+                },
+                {
+                    "name": "Spider Climb",
+                    "desc": "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                },
+                {
+                    "name": "Vampire Weaknesses",
+                    "desc": "The vampire has the following flaws:\nForbiddance. The vampire can't enter a residence without an invitation from one of the occupants.\nHarmed by Running Water. The vampire takes 20 acid damage when it ends its turn in running water.\nStake to the Heart. The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place.\nSunlight Hypersensitivity. The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Hills",
+                "Mountains",
+                "Ruin",
+                "Settlement",
+                "Shadowfell",
+                "Tomb",
+                "underdark",
+                "urban"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,209 @@
+{
+    "count": 2,
+    "monsters": [
+        {
+            "slug": "bear-king",
+            "name": "Bear King",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "shapechanger",
+            "group": null,
+            "alignment": "lawful neutral",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 133,
+            "hit_dice": "14d8+70",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 21,
+            "dexterity": 10,
+            "constitution": 20,
+            "intelligence": 12,
+            "wisdom": 17,
+            "charisma": 16,
+            "strength_save": 9,
+            "dexterity_save": 4,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 7,
+            "charisma_save": null,
+            "perception": 7,
+            "skills": {
+                "athletics": 9,
+                "perception": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold",
+            "damage_immunities": "poison; bludgeoning, slashing, and piercing from nonmagical attacks not made with cold iron weapons",
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 17",
+            "languages": "Common, Elvish, Giant, Sylvan",
+            "challenge_rating": "12",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The bear king makes two ranged attacks or two melee attacks. In hybrid or grizzly bear form he can also make one additional bite attack."
+                },
+                {
+                    "name": "Bite (Grizzly or Hybrid Form Only)",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage. A target creature other than a construct or undead must make a successful DC 17 Constitution saving throw at the start of each of its turns or lose 10 (3d6) hit points from blood loss. Each time the Bear King hits the wounded creature with this attack, the hit point loss increases by 10 (3d6). A creature can take an action to staunch the bleeding on itself or an adjacent ally with a successful DC 12 Wisdom (Medicine) check. The bleeding also stops if the creature receives any magical healing.",
+                    "attack_bonus": 9,
+                    "damage_dice": "1d10+5"
+                },
+                {
+                    "name": "Claws (Grizzly or Hybrid Form Only)",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d6+5"
+                },
+                {
+                    "name": "Maul (Human or Hybrid Form Only)",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. A creature hit by two maul attacks in the same turn must succeed on a DC 17 Strength saving throw or fall prone.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d6+5"
+                },
+                {
+                    "name": "Javelin (Human Form Only)",
+                    "desc": "Ranged Weapon Attack: +9 to hit, range 30/60 ft., one target. Hit: 8 (1d6 + 5) piercing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "1d5+5"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "The Bear King can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Bear King regains spent legendary actions at the start of his turn.",
+            "legendary_actions": [
+                {
+                    "name": "Melee Attack",
+                    "desc": "The Bear King makes a claw or maul attack."
+                },
+                {
+                    "name": "Honey Toss",
+                    "desc": "The Bear King reaches into the jar he carries at his side and hurls a glob of honey at a target within 30 feet as a ranged weapon attack (+9 to hit). If the attack hits, the creature is restrained (escape DC 17)."
+                },
+                {
+                    "name": "Frightful Roar (2 actions)",
+                    "desc": "The Bear King lets out a bloodcurdling roar. All creatures within 90 feet who can hear the Bear King must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature that makes its save, or who the effect ends for, is immune to the Frightful Roar for 24 hours. The bear king's allies are unaffected."
+                }
+            ],
+            "special_abilities": [
+                {
+                    "name": "Alternate Form",
+                    "desc": "As a bonus action, the Bear King can assume the form of a shaggy grizzly bear, or a hybrid of his humanoid and bear forms. In alternate form the Bear King's size increases to Large, and he can make bite and claw attacks. He remains in this form until he returns to human form as a bonus action or he falls unconscious or dies."
+                },
+                {
+                    "name": "Keen Smell",
+                    "desc": "The Bear King has advantage on Perception (Wisdom) checks that rely on smell."
+                },
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "desc": "If the Bear King fails a saving throw, he can choose to succeed instead."
+                },
+                {
+                    "name": "Regeneration (Alternate Form only)",
+                    "desc": "The Bear King regains 10 hit points at the start of his turn if he has at least 1 hit point."
+                },
+                {
+                    "name": "Bear King's Lair",
+                    "desc": "on initiative count 20 (losing initiative ties), the Bear King takes a lair action to cause one of the following effects; the Bear King can't use the same effect two rounds in a row:- The Bear King magically conjures up a swarm of eight giant bees (use giant wasp statistics) to defend his lair. The bees act immediately, and on initiative count 20 in subsequent rounds. The bees remain until they're killed or until the Bear King dismisses them as an action. The Bear King can use this action again, but no more than eight giant bees can be present at a time. - The Bear King targets a creature within the lair that he can see. The creature must succeed on a DC 15 Constitution saving throw or be magically transformed into a brown bear as if by a polymorph spell. At the beginning of its turn, a transformed creature repeats the saving throw. If it fails, the creature must use its action to attack one of the Bear King's foes. If it succeeds, the effect ends and the creature returns to its normal form. The effect lasts until the creature succeeds on the saving throw or until the Bear King uses this lair action again.- The Bear King causes the ground in a 20-foot radius to tremble and shake. Any creatures in the affected area must succeed on a DC 15 Strength saving throw or suffer 7 (2d6) bludgeoning damage and fall prone. The ground continues to tremble until initiative count 20 on the following round, during which time the area is difficult terrain."
+                },
+                {
+                    "name": "Regional Effects",
+                    "desc": "the region surrounding Gloaming Crag is warped by the Bear King's magic, which creates one or more of the following effects:- Within 10 miles of the Bear King's lair, creatures have disadvantage on saving throws made to avoid contracting lycanthropy from a werebear.- Bees within 10 miles of the Bear King's lair are easily agitated quick to attack. Insect swarms (bees or hornets) are common in the area, but they tend to ignore locals.- Emotions within 5 miles of the Bear King's lair run high. Arguments quickly descend into physical scuffles and enjoyable get-togethers are likely to become raucous carousing or even brawls. If the Bear King dies, conditions in the area surrounding the lair return to normal over the course of 1d6 days."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "hills",
+                "forest",
+                "hill"
+            ]
+        },
+        {
+            "slug": "titanoboa",
+            "name": "Titanoboa",
+            "size": "Gargantuan",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 232,
+            "hit_dice": "15d20+75",
+            "speed": {
+                "walk": 40,
+                "climb": 40,
+                "swim": 40
+            },
+            "strength": 26,
+            "dexterity": 10,
+            "constitution": 20,
+            "intelligence": 3,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": 5,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 5,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 10 ft., passive Perception 15",
+            "languages": "-",
+            "challenge_rating": "12",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The titanoboa makes one bite attack and one constrict attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage. If the target is a Huge or smaller creature, it must succeed on a DC 18 Dexterity saving throw or be swallowed by the titanoboa. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the snake, and takes 21 (6d6) acid damage at the start of each of the titanoboa's turns. If the titanoboa takes 30 damage or more on a single turn from a creature inside it, the titanoboa must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the titanoboa. If the titanoboa dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.",
+                    "attack_bonus": 13,
+                    "damage_dice": "3d8+8"
+                },
+                {
+                    "name": "Constrict",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 27 (3d12 + 8) bludgeoning damage, and the target is grappled (escape DC 18). Until this grapple ends, the target is restrained, and the titanoboa can't constrict another target.",
+                    "attack_bonus": 13,
+                    "damage_dice": "3d12"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Slither",
+                    "desc": "If the titanoboa hasn't eaten a Huge creature in the last 24 hours, it can move through a space as narrow as 10 feet wide without squeezing, or 5 feet while squeezing."
+                },
+                {
+                    "name": "Sparkling Scales",
+                    "desc": "The titanoboa's scales refract light in iridescent cascades that are hypnotic to gaze upon. If the titanoboa is in bright light, a creature within 30 feet that looks at it must make a successful DC 17 Wisdom saving throw or be stunned until the end of its next turn. Unless surprised, a creature can avoid the saving throw by choosing to avert its eyes at the start of its turn. A creature that averts its eyes can't see the titanoboa until the start of its next turn, when it can choose to avert its eyes again. If the creature looks at the titanoboa in the meantime, it must immediately make the saving throw."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "forest"
+            ]
+        }
+    ]
+}

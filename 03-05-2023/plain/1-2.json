@@ -1,0 +1,252 @@
+{
+    "count": 3,
+    "monsters": [
+        {
+            "slug": "burrowling",
+            "name": "Burrowling",
+            "size": "Small",
+            "type": "humanoid",
+            "subtype": "burrowling",
+            "group": null,
+            "alignment": "lawful neutral",
+            "armor_class": 13,
+            "armor_desc": "",
+            "hit_points": 27,
+            "hit_dice": "6d6+6",
+            "speed": {
+                "walk": 30,
+                "burrow": 10
+            },
+            "strength": 10,
+            "dexterity": 16,
+            "constitution": 12,
+            "intelligence": 9,
+            "wisdom": 12,
+            "charisma": 13,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Common",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The burrowling makes one bite attack and one claw attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Sling",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Burrow Awareness",
+                    "desc": "A burrowling gets advantage on Perception checks if at least one other burrowling is awake within 10 feet."
+                },
+                {
+                    "name": "Pack Tactics",
+                    "desc": "The burrowling has advantage on attack rolls when its target is adjacent to at least one other burrowling that's capable of attacking."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "plains",
+                "plain"
+            ]
+        },
+        {
+            "slug": "nkosi",
+            "name": "Nkosi",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "shapechanger, nkosi",
+            "group": null,
+            "alignment": "lawful neutral",
+            "armor_class": 15,
+            "armor_desc": "studded leather",
+            "hit_points": 11,
+            "hit_dice": "2d8+2",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 16,
+            "constitution": 12,
+            "intelligence": 10,
+            "wisdom": 10,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "survival": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Common",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Scimitar (Nkosi Form Only)",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Mambele Throwing Knife (Nkosi Form Only)",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Shapechanger",
+                    "desc": "The nkosi can use its action to polymorph into a Medium lion or back into its true form. While in lion form, the nkosi can't speak, and its speed is 50 feet. Other than its speed, its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                },
+                {
+                    "name": "Keen Smell",
+                    "desc": "The nkosi has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Hunter's Maw",
+                    "desc": "If the nkosi moves at least 20 feet straight toward a creature and then hits it with a scimitar attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is knocked prone, the nkosi can immediately make one bite attack against it as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "plains",
+                "plain"
+            ]
+        },
+        {
+            "slug": "tosculi-drone",
+            "name": "Tosculi Drone",
+            "size": "Small",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 13,
+            "armor_desc": "",
+            "hit_points": 22,
+            "hit_dice": "4d6+8",
+            "speed": {
+                "walk": 20
+            },
+            "strength": 8,
+            "dexterity": 16,
+            "constitution": 14,
+            "intelligence": 8,
+            "wisdom": 12,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Tosculi",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d4"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Gliding Wings",
+                    "desc": "The tosculi drone can use its wings to slowly descend when falling (as if under the effect of the feather fall spell). It can move up to 5 feet horizontally for every foot it falls. The tosculi drone can't gain height with these wings alone. If subjected to a strong wind or lift of any kind, it can use the updraft to glide farther."
+                },
+                {
+                    "name": "Skittering",
+                    "desc": "Up to two tosculi can share the same space at one time. The tosculi has advantage on melee attack rolls while sharing its space with another tosculi that isn't incapacitated."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "hills",
+                "plains",
+                "hill",
+                "plain"
+            ]
+        }
+    ]
+}

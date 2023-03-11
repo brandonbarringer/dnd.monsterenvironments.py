@@ -1,0 +1,391 @@
+{
+    "count": 3,
+    "monsters": [
+        {
+            "slug": "ancient-flame-dragon",
+            "name": "Ancient Flame Dragon",
+            "size": "Gargantuan",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 22,
+            "armor_desc": "natural armor",
+            "hit_points": 481,
+            "hit_dice": "26d20+208",
+            "speed": {
+                "walk": 40,
+                "climb": 40,
+                "fly": 80
+            },
+            "strength": 23,
+            "dexterity": 14,
+            "constitution": 27,
+            "intelligence": 19,
+            "wisdom": 16,
+            "charisma": 22,
+            "strength_save": null,
+            "dexterity_save": 9,
+            "constitution_save": 15,
+            "intelligence_save": 10,
+            "wisdom_save": null,
+            "charisma_save": 13,
+            "perception": 17,
+            "skills": {
+                "deception": 13,
+                "insight": 10,
+                "perception": 17,
+                "persuasion": 13,
+                "stealth": 9
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire",
+            "condition_immunities": "",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27",
+            "languages": "Common, Draconic, Giant, Ignan, Infernal, Orc",
+            "challenge_rating": "24",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon can use its Frightful Presence. It then makes one bite attack and two claw attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 14 (4d6) fire damage.",
+                    "attack_bonus": 13,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+                    "attack_bonus": 13,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Tail",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 20 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage.",
+                    "attack_bonus": 13,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Frightful Presence",
+                    "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A frightened creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+                },
+                {
+                    "name": "Fire Breath (Recharge 5-6)",
+                    "desc": "The dragon exhales fire in a 90-foot cone. Each creature in that area takes 91 (26d6) fire damage, or half damage with a successful DC 23 Dexterity saving throw. Each creature in that area must also succeed on a DC 21 Wisdom saving throw or go on a rampage for 1 minute. A rampaging creature must attack the nearest living creature or smash some object smaller than itself if no creature can be reached with a single move. A rampaging creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                },
+                {
+                    "name": "Shifting Flames",
+                    "desc": "The dragon magically polymorphs into a creature that has immunity to fire damage and a size and challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+            "legendary_actions": [
+                {
+                    "name": "Detect",
+                    "desc": "The dragon makes a Wisdom (Perception) check."
+                },
+                {
+                    "name": "Tail Attack",
+                    "desc": "The dragon makes a tail attack."
+                },
+                {
+                    "name": "Wing Attack (Costs 2 Actions)",
+                    "desc": "The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                }
+            ],
+            "special_abilities": [
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+                },
+                {
+                    "name": "Fire Incarnate",
+                    "desc": "All fire damage dealt by the dragon ignores fire resistance but not fire immunity."
+                },
+                {
+                    "name": "Flame Dragon's Lair",
+                    "desc": "on initiative count 20 (losing initiative ties), the dragon takes a lair action to cause one of the following effects; the dragon can't use the same effect two rounds in a row.\n\n- A cloud of smoke swirls in a 20-foot-radius sphere centered on a point the dragon can see within 120 feet of it. The cloud spreads around corners and the area is lightly obscured. Each creature in the cloud must succeed on a DC 15 Constitution saving throw or be blinded for 1 minute. A blinded creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\n- The ground erupts with volcanic force at a point the dragon can see within 120 feet of it. Any creature within 20 feet of the point must make a successful DC 15 Dexterity saving throw or be knocked prone and trapped in the ground. A creature trapped in this way is restrained and can't stand up. A creature can end the restraint if it or another creature takes an action to make a successful DC 15 Strength check.\n\n- A wall of fire rises up from the ground within 120 feet of the dragon. The wall is up to 60 feet long, 10 feet high, and 5 feet thick, can take any shape the dragon wants, and blocks line of sight. When the wall appears, each creature in its area must make a DC 15 Dexterity saving throw. A creature that fails the saving throw takes 21 (6d6) fire damage. Each creature that enters the wall for the first time each turn or ends its turn there takes 21 (6d6) fire damage. The wall is extinguished when the dragon uses this lair action again or when the dragon dies."
+                },
+                {
+                    "name": "Regional Effects",
+                    "desc": "the region containing a legendary flame dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:\n\n- Arguments and misunderstandings erupt easily within 6 miles of the lair. Friendships are easily broken and criminal acts are common.\n\n- Temperatures rise within 6 miles of the lair. Crops wither, producing famines.\n\n- Sulfur geysers form in and around the dragon's lair. Some of them erupt only once an hour, so they're spotted only with a successful DC 20 Wisdom (Perception) check. A creature on top of an erupting geyser takes 21 (6d6) fire damage, or half damage with a successful DC 15 Dexterity saving throw.\n\nif the dragon dies, the arguments and misunderstandings disappear immediately and the temperatures go back to normal within 1d10 days. Any geysers remain where they are."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "mountains",
+                "mountain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "ancient-red-dragon",
+            "name": "Ancient Red Dragon",
+            "size": "Gargantuan",
+            "type": "dragon",
+            "subtype": "",
+            "group": "Red Dragon",
+            "alignment": "chaotic evil",
+            "armor_class": 22,
+            "armor_desc": "natural armor",
+            "hit_points": 546,
+            "hit_dice": "28d20+252",
+            "speed": {
+                "walk": 40,
+                "climb": 40,
+                "fly": 80
+            },
+            "strength": 30,
+            "dexterity": 10,
+            "constitution": 29,
+            "intelligence": 18,
+            "wisdom": 15,
+            "charisma": 23,
+            "strength_save": null,
+            "dexterity_save": 7,
+            "constitution_save": 16,
+            "intelligence_save": null,
+            "wisdom_save": 9,
+            "charisma_save": 13,
+            "perception": 16,
+            "skills": {
+                "perception": 16,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire",
+            "condition_immunities": "",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26",
+            "languages": "Common, Draconic",
+            "challenge_rating": "24",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21 (2d10 + 10) piercing damage plus 14 (4d6) fire damage.",
+                    "attack_bonus": 17,
+                    "damage_dice": "2d10+4d6",
+                    "damage_bonus": 10
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 17 (2d6 + 10) slashing damage.",
+                    "attack_bonus": 17,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 10
+                },
+                {
+                    "name": "Tail",
+                    "desc": "Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 19 (2d8 + 10) bludgeoning damage.",
+                    "attack_bonus": 17,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 10
+                },
+                {
+                    "name": "Frightful Presence",
+                    "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+                },
+                {
+                    "name": "Fire Breath (Recharge 5-6)",
+                    "desc": "The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one.",
+                    "attack_bonus": 0,
+                    "damage_dice": "26d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+            "legendary_actions": [
+                {
+                    "name": "Detect",
+                    "desc": "The dragon makes a Wisdom (Perception) check."
+                },
+                {
+                    "name": "Tail Attack",
+                    "desc": "The dragon makes a tail attack."
+                },
+                {
+                    "name": "Wing Attack (Costs 2 Actions)",
+                    "desc": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                }
+            ],
+            "special_abilities": [
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Mountains",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "ancient-void-dragon",
+            "name": "Ancient Void Dragon",
+            "size": "Gargantuan",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 22,
+            "armor_desc": "natural armor",
+            "hit_points": 448,
+            "hit_dice": "23d20+207",
+            "speed": {
+                "hover": true,
+                "walk": 40,
+                "fly": 80
+            },
+            "strength": 28,
+            "dexterity": 10,
+            "constitution": 29,
+            "intelligence": 18,
+            "wisdom": 15,
+            "charisma": 23,
+            "strength_save": null,
+            "dexterity_save": 7,
+            "constitution_save": 16,
+            "intelligence_save": null,
+            "wisdom_save": 9,
+            "charisma_save": 13,
+            "perception": 16,
+            "skills": {
+                "arcana": 18,
+                "history": 18,
+                "perception": 16,
+                "persuasion": 13,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "cold",
+            "condition_immunities": "charmed, frightened",
+            "senses": "passive Perception $1",
+            "languages": "Celestial, Common, Draconic, Infernal, Primordial, Void Speech",
+            "challenge_rating": "24",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon can use its Aura of Madness. It then makes three attacks: one with its bite and two with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 14 (4d6) cold damage.",
+                    "attack_bonus": 16,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage plus 7 (2d6) cold damage.",
+                    "attack_bonus": 16,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Tail",
+                    "desc": "Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8 + 9) bludgeoning damage.",
+                    "attack_bonus": 16,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Aura of Madness",
+                    "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 22 Wisdom saving throw or become frightened for 1 minute. A creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature fails the saving throw by 5 or more it is driven insane. An insane creature is frightened permanently, and behaves as if affected by confusion while it is frightened in this way. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Aura of Madness for the next 24 hours."
+                },
+                {
+                    "name": "Breath Weapons (Recharge 5-6)",
+                    "desc": "The dragon uses one of the following breath weapons:"
+                },
+                {
+                    "name": "Gravitic Breath",
+                    "desc": "The dragon exhales a 90-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, it must make a DC 24 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively."
+                },
+                {
+                    "name": "Stellar Flare Breath",
+                    "desc": "The dragon exhales star fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 45 (13d6) fire damage and 45 (13d6) radiant damage on a failed save, or half as much damage on a successful one."
+                },
+                {
+                    "name": "Teleport",
+                    "desc": "The dragon magically teleports to any open space within 100 feet."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Void Twist",
+                    "desc": "When the dragon is hit by a ranged attack, it can create a small rift in space to increase its AC by 7 against that attack. If the attack misses because of this increase, the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target."
+                }
+            ],
+            "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+            "legendary_actions": [
+                {
+                    "name": "Detect",
+                    "desc": "The dragon makes a Wisdom (Perception) check."
+                },
+                {
+                    "name": "Tail Attack",
+                    "desc": "The dragon makes a tail attack."
+                },
+                {
+                    "name": "Void Slip (Costs 2 Actions)",
+                    "desc": "The dragon twists the fabric of space. Each creature within 15 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then teleport to an unoccupied space within 40 feet."
+                },
+                {
+                    "name": "Void Cache (Costs 3 Actions)",
+                    "desc": "The dragon can magically reach into its treasure hoard and retrieve one item. If the dragon is holding an item, it can use this ability to deposit the item into its hoard."
+                }
+            ],
+            "special_abilities": [
+                {
+                    "name": "Chill of the Void",
+                    "desc": "Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity."
+                },
+                {
+                    "name": "Collapsing Star",
+                    "desc": "When the void dragon is killed it explodes in a swath of celestial destruction. Each creature and object within 1 mile of the dragon take 55 (10d10) bludgeoning damage, 55 (10d10) cold damage, and 55 (10d10) psychic damage. Each damage type can be reduced by half with a successful DC 21 saving throw: Dexterity vs. bludgeoning, Constitution vs. cold, and Wisdom vs. psychic. Additionally, a creature that fails two or three of the saving throws is affected by a plane shift spell and sent to a random plane. If it is sent to the plane it currently occupies, it appears 5d100 miles away in a random direction."
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+                },
+                {
+                    "name": "Void Dweller",
+                    "desc": "Void dragons dwell in the empty expanse between the stars, and do not require air, food, drink, or sleep. When flying between stars the void dragon magically glides on solar winds, making the immense journey through the void in an impossibly short time."
+                },
+                {
+                    "name": "Void Dragon's Lair",
+                    "desc": "on initiative count 20 (losing initiative ties), the dragon takes a lair action to generate one of the following effects; the dragon can't use the same effect two rounds in a row:\n\n- The dragon negates natural gravity within its lair (an area affected by its gravitic breath is unaffected). Creatures drift 10 feet away from the ground over the course of a round and are restrained. Flying creatures can move at half speed, unless they have the (hover) tag or use magical flight, in which case they move normally. This effect persists until initiative count 20 on the following round.\n\n- The Void briefly overlaps the dragon's lair in a 20-foot-radius sphere of blackness punctuated by deep blue streaks and pinpoints of light. The sphere is centered on a point the dragon can see within 120 feet of the dragon. The area spreads around corners, is heavily obscured, and contains no air (creatures must hold their breath). Each creature in the sphere when it appears must make a DC 15 Constitution saving throw, taking 10 (3d6) cold damage on a failed save or half as much on a successful one. Any creature that ends its turn in the sphere takes 10 (3d6) cold damage. The sphere lasts until the dragon uses this lair action again or until the dragon dies.\n\n- The dragon rips the fabric of space, forcing two creatures it can see within 120 feet of it to suddenly exist in the same place. Space itself repels the creatures to their original positions. Each creature takes 16 (3d10) force damage and is knocked prone, or takes half as much damage and is not knocked prone with a successful DC 15 Strength saving throw."
+                },
+                {
+                    "name": "Regional Effects",
+                    "desc": "the region containing a legendary void dragon's lair is warped by the dragon's magic, which creates one or more of the following effects:\n\n- Secrets have a way of coming to light within 6 miles of the lair. Clues are inadvertently discovered, slips of the tongue hint at a hidden truth, and creatures become morbidly curious for forbidden knowledge.\n\n- Light is muted within 6 miles of the lair. Nonmagical illumination, including sunlight, can't create bright light in this area.\n\n- Visitations from otherworldly beings occur and disembodied voices whisper in the night within 6 miles of the dragon's lair. Celestials, fey, and fiends of CR 2 or lower can slip into the world in this area.\n\nif the dragon dies, these effects fade over the course of 1d10 days."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "mountains",
+                "mountain"
+            ]
+        }
+    ]
+}

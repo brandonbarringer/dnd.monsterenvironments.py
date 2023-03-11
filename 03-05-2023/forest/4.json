@@ -1,0 +1,863 @@
+{
+    "count": 10,
+    "monsters": [
+        {
+            "slug": "couatl",
+            "name": "Couatl",
+            "size": "Medium",
+            "type": "celestial",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful good",
+            "armor_class": 19,
+            "armor_desc": "natural armor",
+            "hit_points": 97,
+            "hit_dice": "13d8+39",
+            "speed": {
+                "walk": 30,
+                "fly": 90
+            },
+            "strength": 16,
+            "dexterity": 20,
+            "constitution": 17,
+            "intelligence": 18,
+            "wisdom": 20,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 5,
+            "intelligence_save": null,
+            "wisdom_save": 7,
+            "charisma_save": 6,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "radiant",
+            "damage_immunities": "psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "condition_immunities": "",
+            "senses": "truesight 120 ft., passive Perception 15",
+            "languages": "all, telepathy 120 ft.",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Constrict",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one Medium or smaller creature. Hit: 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Change Shape",
+                    "desc": "The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice).\nIn a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components:\n\nAt will: detect evil and good, detect magic, detect thoughts\n3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield\n1/day each: dream, greater restoration, scrying"
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The couatl's weapon attacks are magical."
+                },
+                {
+                    "name": "Shielded Mind",
+                    "desc": "The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location."
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/detect-evil-and-good/?format=json",
+                "https://api.open5e.com/spells/detect-magic/?format=json",
+                "https://api.open5e.com/spells/detect-thoughts/?format=json",
+                "https://api.open5e.com/spells/bless/?format=json",
+                "https://api.open5e.com/spells/create-food-and-water/?format=json",
+                "https://api.open5e.com/spells/cure-wounds/?format=json",
+                "https://api.open5e.com/spells/lesser-restoration/?format=json",
+                "https://api.open5e.com/spells/protection-from-poison/?format=json",
+                "https://api.open5e.com/spells/sanctuary/?format=json",
+                "https://api.open5e.com/spells/shield/?format=json",
+                "https://api.open5e.com/spells/dream/?format=json",
+                "https://api.open5e.com/spells/greater-restoration/?format=json",
+                "https://api.open5e.com/spells/scrying/?format=json"
+            ],
+            "img_main": "http://api.open5e.com/static/img/monsters/couatl.png",
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Astral Plane",
+                "Desert",
+                "Jungle",
+                "forest",
+                "grassland",
+                "urban"
+            ]
+        },
+        {
+            "slug": "death-butterfly-swarm",
+            "name": "Death Butterfly Swarm",
+            "size": "Large",
+            "type": "swarm of Tiny beasts",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 60,
+            "hit_dice": "11d10",
+            "speed": {
+                "hover": true,
+                "walk": 5,
+                "fly": 40
+            },
+            "strength": 1,
+            "dexterity": 13,
+            "constitution": 10,
+            "intelligence": 1,
+            "wisdom": 12,
+            "charisma": 15,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "cold, fire",
+            "damage_resistances": "bludgeoning, piercing, slashing",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened, paralyzed, petrified, prone, restrained, petrified",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The swarm makes a Bite attack against every target in its spaces."
+                },
+                {
+                    "name": "Bites",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., every target in the swarm's space. Hit: 22 (6d6 + 1) piercing damage, or 11 (3d6 + 1) piercing damage if the swarm has half of its hit points or fewer. The target also takes 10 (3d6) poison damage and becomes poisoned for 1d4 rounds; a successful DC 13 Constitution saving throw reduces poison damage by half and prevents the poisoned condition.",
+                    "attack_bonus": 3,
+                    "damage_dice": "6d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Potent Poison",
+                    "desc": "The death butterfly swarm's poison affects corporeal undead who are otherwise immune to poison."
+                },
+                {
+                    "name": "Swarm",
+                    "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+                },
+                {
+                    "name": "Weight of Wings",
+                    "desc": "A creature in a space occupied by the death butterfly swarm has its speed reduced by half, and must succeed on a DC 13 Dexterity saving throw or become blinded. Both effects end when the creature doesn't share a space with the swarm at the end of the creature's turn. If a creature succeeds on the saving throw, it is immune to the swarm's blindness (but not the speed reduction) for 24 hours."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "plains",
+                "forest",
+                "plain"
+            ]
+        },
+        {
+            "slug": "domovoi",
+            "name": "Domovoi",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 93,
+            "hit_dice": "11d8+44",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 19,
+            "dexterity": 13,
+            "constitution": 18,
+            "intelligence": 6,
+            "wisdom": 10,
+            "charisma": 16,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "intimidation": 5,
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "acid, lightning",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Common, Dwarvish, Elvish",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The domovoi makes two slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the domovoi's innate spellcasting ability is Charisma (spell save DC 15). He can innately cast the following spells, requiring no material components:\n\nat will: alter self, invisibility\n\n3/day each: darkness, dimension door, haste"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "forests",
+                "forest"
+            ]
+        },
+        {
+            "slug": "forest-marauder",
+            "name": "Forest Marauder",
+            "size": "Large",
+            "type": "giant",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 114,
+            "hit_dice": "12d10+48",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 21,
+            "dexterity": 10,
+            "constitution": 18,
+            "intelligence": 6,
+            "wisdom": 10,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 6,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 120 ft., passive Perception 10",
+            "languages": "Giant, Orcish, Sylvan",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The forest marauder makes two boar spear attacks."
+                },
+                {
+                    "name": "Boar Spear",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:16 (2d10 + 5) piercing damage, and the forest marauder can choose to push the target 10 feet away if it fails a DC 16 Strength saving throw.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Rock",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 19 (3d8 + 5) bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "3d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Sunlight Sensitivity",
+                    "desc": "While in sunlight, the forest marauder has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "forests",
+                "forest"
+            ]
+        },
+        {
+            "slug": "lemurfolk-greyfur",
+            "name": "Lemurfolk Greyfur",
+            "size": "Small",
+            "type": "humanoid",
+            "subtype": "lemurfolk",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 13,
+            "armor_desc": "16 with mage armor",
+            "hit_points": 67,
+            "hit_dice": "15d6+15",
+            "speed": {
+                "walk": 20,
+                "climb": 10,
+                "fly": 40
+            },
+            "strength": 9,
+            "dexterity": 16,
+            "constitution": 12,
+            "intelligence": 16,
+            "wisdom": 12,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "acrobatics": 5,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Common, Lemurfolk",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Kukri Dagger",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., range 20/60, one target. Hit: 5 (1d4 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Blowgun",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 25/100 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned and unconscious for 1d4 hours. Another creature can use an action to shake the target awake and end its unconsciousness but not the poisoning.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Silent Glide",
+                    "desc": "The lemurfolk can glide for 1 minute, making almost no sound. It gains a fly speed of 40 feet, and it must move at least 20 feet on its turn to keep flying. A gliding lemurfolk has advantage on Dexterity (Stealth) checks."
+                },
+                {
+                    "name": "Sneak Attack (1/Turn)",
+                    "desc": "The greyfur deals an extra 7 (2d6) damage when it hits with a weapon attack and it has advantage, or when the target is within 5 feet of an ally of the greyfur that isn't incapacitated and the greyfur doesn't have disadvantage on the attack roll."
+                },
+                {
+                    "name": "Spellcasting",
+                    "desc": "the greyfur is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The greyfur has the following wizard spells prepared:\n\ncantrips (at will): light, mage hand, minor illusion, poison spray, resistance\n\n1st Level (4 slots): mage armor, sleep\n\n2nd Level (3 slots): detect thoughts, misty step\n\n3rd Level (2 slots): lightning bolt"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "forest"
+            ]
+        },
+        {
+            "slug": "mngwa",
+            "name": "Mngwa",
+            "size": "Medium",
+            "type": "aberration",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 16,
+            "armor_desc": "",
+            "hit_points": 91,
+            "hit_dice": "14d8+28",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 19,
+            "dexterity": 17,
+            "constitution": 15,
+            "intelligence": 11,
+            "wisdom": 17,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "Common, Sylvan, can speak with felines",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The mngwa makes one bite attack and two claw attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The mngwa has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Pack Tactics",
+                    "desc": "The mngwa has advantage on attack rolls against a creature if at least one of the mngwa's allies is within 5 feet of the creature and the ally isn't incapacitated."
+                },
+                {
+                    "name": "Running Leap",
+                    "desc": "With a 10-foot running start, the mngwa can long jump up to 25 feet."
+                },
+                {
+                    "name": "Feline Empathy",
+                    "desc": "The mngwa has advantage on Wisdom (Animal Handling) checks to deal with felines."
+                },
+                {
+                    "name": "Ethereal Coat",
+                    "desc": "The armor class of the mngwa includes its Charisma modifier. All attack rolls against the mngwa have disadvantage. If the mngwa is adjacent to an area of smoke or mist, it can take a Hide action even if under direct observation."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "forests",
+                "plains",
+                "forest",
+                "plain"
+            ]
+        },
+        {
+            "slug": "ratatosk",
+            "name": "Ratatosk",
+            "size": "Tiny",
+            "type": "celestial",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 42,
+            "hit_dice": "12d4+12",
+            "speed": {
+                "walk": 20,
+                "climb": 20
+            },
+            "strength": 4,
+            "dexterity": 18,
+            "constitution": 12,
+            "intelligence": 17,
+            "wisdom": 10,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 4,
+            "charisma_save": 4,
+            "perception": null,
+            "skills": {
+                "deception": 6,
+                "persuasion": 6,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Celestial, Common; telepathy 100 ft.",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Gore",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 14 (4d6) psychic damage and the target must make a successful DC 14 Wisdom saving throw or be charmed for 1 round. While charmed in this way, the creature regards one randomly determined ally as a foe.",
+                    "attack_bonus": 6,
+                    "damage_dice": "4d6"
+                },
+                {
+                    "name": "Divisive Chatter (recharge 5-6)",
+                    "desc": "Up to six creatures within 30 feet that can hear the ratatosk must make DC 14 Charisma saving throws. On a failure, the creature is affected as if by a confusion spell for 1 minute. An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Desperate Lies",
+                    "desc": "A creature that can hear the ratatosk must make a DC 14 Wisdom saving throw when it attacks the ratatosk. If the saving throw fails, the creature still attacks, but it must choose a different target creature. An ally must be chosen if no other enemies are within the attack's reach or range. If no other target is in the attack's range or reach, the attack is still made (and ammunition or a spell slot is expended, if appropriate) but it automatically misses and has no effect."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the ratatosk's spellcasting attribute is Charisma (save DC 14). It can innately cast the following spells without requiring material or somatic components:\n\nat will: animal messenger, message, vicious mockery\n\n1/day each: commune, mirror image\n\n3/day each: sending, suggestion"
+                },
+                {
+                    "name": "Skitter",
+                    "desc": "The ratatosk can take the Dash, Disengage, or Hide action as a bonus action on each of its turns."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "forest",
+                "any"
+            ]
+        },
+        {
+            "slug": "sap-demon",
+            "name": "Sap Demon",
+            "size": "Small",
+            "type": "ooze",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 13,
+            "armor_desc": "natural",
+            "hit_points": 67,
+            "hit_dice": "15d6+15",
+            "speed": {
+                "walk": 20,
+                "climb": 20
+            },
+            "strength": 14,
+            "dexterity": 6,
+            "constitution": 12,
+            "intelligence": 10,
+            "wisdom": 14,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "piercing and slashing from nonmagical attacks",
+            "damage_immunities": "bludgeoning; acid, lightning",
+            "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+            "senses": "blindsight 90 ft. (blind beyond this radius), passive Perception 12",
+            "languages": "none in its natural form; knows the same languages as a creature it dominates",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The sap demon makes two slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) bludgeoning damage. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 12), and the sap demon uses Soul Sap on it as a bonus action.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Soul Sap",
+                    "desc": "The sap demon slides down the throat of a sleeping, helpless, or grappled living creature of Medium size or smaller. Once inside, the sap demon takes control of its host, as per the dominate monster spell (Wisdom DC 12 negates). While dominated, the host gains blindsight 90 feet. The host drips blood from its ears, nose, eyes, or from a wound that resembles the injury done to the sap demon's tree (1 damage/ hour). Damage inflicted on the host has no effect on the sap demon. If the host dies or is reduced to 0 hit points, the sap demon must leave the body within one hour."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amorphous",
+                    "desc": "The sap demon can move through a space as narrow as 1 inch wide without squeezing."
+                },
+                {
+                    "name": "Season's Change",
+                    "desc": "If a sap demon (or its host) takes at least 10 fire damage, it also gains the effect of a haste spell until the end of its next turn. If it takes at least 10 cold damage, it gains the effect of a slow spell until the end of its next turn."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "forest"
+            ]
+        },
+        {
+            "slug": "wereboar",
+            "name": "Wereboar",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "human",
+            "group": "Lycanthropes",
+            "alignment": "neutral evil",
+            "armor_class": 10,
+            "armor_desc": "10 in humanoid form, 11 (natural armor) in boar or hybrid form",
+            "hit_points": 78,
+            "hit_dice": "12d8+24",
+            "speed": {
+                "notes": "40 ft. in boar form",
+                "walk": 30
+            },
+            "strength": 17,
+            "dexterity": 10,
+            "constitution": 15,
+            "intelligence": 10,
+            "wisdom": 11,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "condition_immunities": "",
+            "senses": "passive Perception 12",
+            "languages": "Common (can't speak in boar form)",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack (Humanoid or Hybrid Form Only)",
+                    "desc": "The wereboar makes two attacks, only one of which can be with its tusks."
+                },
+                {
+                    "name": "Maul (Humanoid or Hybrid Form Only)",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Tusks (Boar or Hybrid Form Only)",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Shapechanger",
+                    "desc": "The wereboar can use its action to polymorph into a boar-humanoid hybrid or into a boar, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                },
+                {
+                    "name": "Charge (Boar or Hybrid Form Only)",
+                    "desc": "If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 0,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Relentless (Recharges after a Short or Long Rest)",
+                    "desc": "If the wereboar takes 14 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Feywild",
+                "Forest",
+                "Hills",
+                "Settlement",
+                "Shadowfell",
+                "forest",
+                "grassland",
+                "hill",
+                "jungle"
+            ]
+        },
+        {
+            "slug": "weretiger",
+            "name": "Weretiger",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "human",
+            "group": "Lycanthropes",
+            "alignment": "neutral",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 120,
+            "hit_dice": "16d8+48",
+            "speed": {
+                "notes": "40 ft. in tiger form",
+                "walk": 30
+            },
+            "strength": 17,
+            "dexterity": 15,
+            "constitution": 16,
+            "intelligence": 10,
+            "wisdom": 13,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "Common (can't speak in tiger form)",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack (Humanoid or Hybrid Form Only)",
+                    "desc": "In humanoid form, the weretiger makes two scimitar attacks or two longbow attacks. In hybrid form, it can attack like a humanoid or make two claw attacks."
+                },
+                {
+                    "name": "Bite (Tiger or Hybrid Form Only)",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage. If the target is a humanoid, it must succeed on a DC 13 Constitution saving throw or be cursed with weretiger lycanthropy.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Claw (Tiger or Hybrid Form Only)",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Scimitar (Humanoid or Hybrid Form Only)",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Longbow (Humanoid or Hybrid Form Only)",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Shapechanger",
+                    "desc": "The weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "desc": "The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                },
+                {
+                    "name": "Pounce (Tiger or Hybrid Form Only)",
+                    "desc": "If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the weretiger can make one bite attack against it as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forest",
+                "grassland",
+                "jungle"
+            ]
+        }
+    ]
+}

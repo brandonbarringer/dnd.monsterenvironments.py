@@ -1,0 +1,168 @@
+{
+    "count": 2,
+    "monsters": [
+        {
+            "slug": "erina-defender",
+            "name": "Erina Defender",
+            "size": "Small",
+            "type": "humanoid",
+            "subtype": "erina",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 15,
+            "armor_desc": "chain shirt",
+            "hit_points": 44,
+            "hit_dice": "8d6+16",
+            "speed": {
+                "walk": 20,
+                "burrow": 20
+            },
+            "strength": 11,
+            "dexterity": 14,
+            "constitution": 14,
+            "intelligence": 13,
+            "wisdom": 12,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "athletics": 4,
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "poison",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Common, Erina",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The erina defender makes two attacks."
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6+2"
+                },
+                {
+                    "name": "Shortbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6+2"
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Protect",
+                    "desc": "The erina imposes disadvantage on an attack roll made against an ally within 5 feet of the erina defender."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The erina has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Hardy",
+                    "desc": "The erina has advantage on saving throws against poison."
+                },
+                {
+                    "name": "Spines",
+                    "desc": "An enemy who hits the erina with a melee attack while within 5 feet of it takes 5 (2d4) piercing damage."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "hills",
+                "plains",
+                "forest",
+                "hill",
+                "plain"
+            ]
+        },
+        {
+            "slug": "wyrmling-wind-dragon",
+            "name": "Wyrmling Wind Dragon",
+            "size": "Medium",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 45,
+            "hit_dice": "7d8+14",
+            "speed": {
+                "walk": 40,
+                "fly": 80
+            },
+            "strength": 16,
+            "dexterity": 19,
+            "constitution": 14,
+            "intelligence": 12,
+            "wisdom": 11,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": 6,
+            "constitution_save": 4,
+            "intelligence_save": null,
+            "wisdom_save": 2,
+            "charisma_save": 4,
+            "perception": 4,
+            "skills": {
+                "perception": 4,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "lightning",
+            "condition_immunities": "charmed, exhausted, paralyzed",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
+            "languages": "Draconic, Primordial",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d10"
+                },
+                {
+                    "name": "Breath of Gales (Recharge 5-6)",
+                    "desc": "The dragon exhales a blast of wind in a 15-foot cone. Each creature in that cone must make a successful DC 12 Strength saving throw or be pushed 15 feet away from the dragon and knocked prone. Unprotected flames in the cone are extinguished, and sheltered flames (such as those in lanterns) have a 50 percent chance of being extinguished."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "hills",
+                "mountains",
+                "plains",
+                "hill",
+                "plain"
+            ]
+        }
+    ]
+}

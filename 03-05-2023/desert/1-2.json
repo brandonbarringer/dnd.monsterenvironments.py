@@ -1,0 +1,350 @@
+{
+    "count": 4,
+    "monsters": [
+        {
+            "slug": "sahuagin",
+            "name": "Sahuagin",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "sahuagin",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 12,
+            "armor_desc": "natural armor",
+            "hit_points": 22,
+            "hit_dice": "4d8+4",
+            "speed": {
+                "walk": 30,
+                "swim": 40
+            },
+            "strength": 13,
+            "dexterity": 11,
+            "constitution": 12,
+            "intelligence": 12,
+            "wisdom": 13,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 120 ft., passive Perception 15",
+            "languages": "Sahuagin",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The sahuagin makes two melee attacks: one with its bite and one with its claws or spear."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 1
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 1
+                },
+                {
+                    "name": "Spear",
+                    "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 1
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Blood Frenzy",
+                    "desc": "The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+                },
+                {
+                    "name": "Limited Amphibiousness",
+                    "desc": "The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+                },
+                {
+                    "name": "Shark Telepathy",
+                    "desc": "The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Water",
+                "coastal",
+                "desert",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "scorpion-cultist",
+            "name": "Scorpion Cultist",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 13,
+            "armor_desc": "leather armor",
+            "hit_points": 19,
+            "hit_dice": "3d8+6",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 11,
+            "dexterity": 14,
+            "constitution": 15,
+            "intelligence": 10,
+            "wisdom": 13,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "deception": 2,
+                "perception": 3,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "poison",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception $1",
+            "languages": "Common",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The scorpion cultist makes two melee attacks or two ranged attacks."
+                },
+                {
+                    "name": "Scimitar",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 3 (1d6) poison damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Sling",
+                    "desc": "Melee Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Senses",
+                    "desc": "The scorpion cultist has advantage on Wisdom (Perception) checks."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert"
+            ]
+        },
+        {
+            "slug": "scout",
+            "name": "Scout",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 13,
+            "armor_desc": "leather armor",
+            "hit_points": 16,
+            "hit_dice": "3d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 11,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 11,
+            "wisdom": 13,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "nature": 4,
+                "perception": 5,
+                "stealth": 6,
+                "survival": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 15",
+            "languages": "any one language (usually Common)",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The scout makes two melee attacks or two ranged attacks."
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Longbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Hearing and Sight",
+                    "desc": "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Feywild",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "jungle",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "tosculi-drone",
+            "name": "Tosculi Drone",
+            "size": "Small",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 13,
+            "armor_desc": "",
+            "hit_points": 22,
+            "hit_dice": "4d6+8",
+            "speed": {
+                "walk": 20
+            },
+            "strength": 8,
+            "dexterity": 16,
+            "constitution": 14,
+            "intelligence": 8,
+            "wisdom": 12,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Tosculi",
+            "challenge_rating": "1/2",
+            "actions": [
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d4"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Gliding Wings",
+                    "desc": "The tosculi drone can use its wings to slowly descend when falling (as if under the effect of the feather fall spell). It can move up to 5 feet horizontally for every foot it falls. The tosculi drone can't gain height with these wings alone. If subjected to a strong wind or lift of any kind, it can use the updraft to glide farther."
+                },
+                {
+                    "name": "Skittering",
+                    "desc": "Up to two tosculi can share the same space at one time. The tosculi has advantage on melee attack rolls while sharing its space with another tosculi that isn't incapacitated."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "desert",
+                "hills",
+                "plains",
+                "hill",
+                "plain"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,522 @@
+{
+    "count": 6,
+    "monsters": [
+        {
+            "slug": "boloti",
+            "name": "Boloti",
+            "size": "Tiny",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "",
+            "hit_points": 63,
+            "hit_dice": "14d4+28",
+            "speed": {
+                "walk": 20,
+                "swim": 60
+            },
+            "strength": 12,
+            "dexterity": 20,
+            "constitution": 14,
+            "intelligence": 13,
+            "wisdom": 12,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Common, Primordial, Sylvan",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Dagger",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Vortex (1/Day)",
+                    "desc": "A boloti can transform into a vortex of swirling, churning water for up to 4 minutes. This ability can be used only while the boloti is underwater, and the boloti can't leave the water while in vortex form. While in vortex form, the boloti can enter another creature's space and stop there in vortex form. In this liquid form, the boloti still takes normal damage from weapons and magic. A creature in the same space as the boloti at the start of the creature's turn takes 9 (2d8) bludgeoning damage unless it makes a successful DC 15 Dexterity saving throw. If the creature is Medium or smaller, a failed saving throw also means it is grappled (escape DC 11). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw succeeds, the target is pushed 5 feet so it is out of the boloti's space."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The boloti can breathe air and water."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the boloti's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:\n\nat will: detect magic, water walk\n\n3/day: control water, create or destroy water, fog cloud, invisibility, see invisibility, water breathing\n\n1/day: wall of ice"
+                },
+                {
+                    "name": "Water Mastery",
+                    "desc": "A boloti has advantage on attack rolls if both it and its opponent are in water. If the opponent and the boloti are both on dry ground, the boloti has disadvantage on attack rolls."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "marshes",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "ghoul",
+            "name": "Ghoul",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": "Ghouls",
+            "alignment": "chaotic evil",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 22,
+            "hit_dice": "5d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 13,
+            "dexterity": 15,
+            "constitution": 10,
+            "intelligence": 7,
+            "wisdom": 10,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison",
+            "condition_immunities": "charmed, exhaustion, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Common",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit: 9 (2d6 + 2) piercing damage.",
+                    "attack_bonus": 2,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Abyss",
+                "Caverns",
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Ruin",
+                "Sewer",
+                "Shadowfell",
+                "Swamp",
+                "Temple",
+                "Tomb",
+                "Tundra",
+                "jungle",
+                "swamp",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "giant-spider",
+            "name": "Giant Spider",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 26,
+            "hit_dice": "4d10",
+            "speed": {
+                "walk": 30,
+                "climb": 30
+            },
+            "strength": 14,
+            "dexterity": 16,
+            "constitution": 12,
+            "intelligence": 2,
+            "wisdom": 11,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Web (Recharge 5-6)",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).",
+                    "attack_bonus": 5
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Spider Climb",
+                    "desc": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                },
+                {
+                    "name": "Web Sense",
+                    "desc": "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+                },
+                {
+                    "name": "Web Walker",
+                    "desc": "The spider ignores movement restrictions caused by webbing."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Feywild",
+                "Forest",
+                "Jungle",
+                "Ruin",
+                "Shadowfell",
+                "Swamp",
+                "forest",
+                "swamp",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "giant-toad",
+            "name": "Giant Toad",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 39,
+            "hit_dice": "6d10",
+            "speed": {
+                "walk": 20,
+                "swim": 40
+            },
+            "strength": 15,
+            "dexterity": 13,
+            "constitution": 13,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 3,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 30 ft., passive Perception 10",
+            "languages": "",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 5 (1d10) poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Swallow",
+                    "desc": "The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.\nIf the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The toad can breathe air and water"
+                },
+                {
+                    "name": "Standing Leap",
+                    "desc": "The toad's long jump is up to 20 ft. and its high jump is up to 10 ft., with or without a running start."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Jungle",
+                "Swamp",
+                "Water",
+                "coastal",
+                "desert",
+                "forest",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "glass-gator",
+            "name": "Glass Gator",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 45,
+            "hit_dice": "7d10+7",
+            "speed": {
+                "walk": 30,
+                "swim": 50
+            },
+            "strength": 15,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 4,
+            "wisdom": 10,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "Blindsight 30 ft., passive Perception 12",
+            "languages": "-",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the glass gator can't attack a different target.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d4"
+                },
+                {
+                    "name": "Constrict",
+                    "desc": "One creature that's already grappled by the glass gator takes 7 (2d4 + 2) bludgeoning damage plus 7 (2d6) poison damage, or half as much poison damage with a successful DC 11 Constitution saving throw."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Silt Cloud (Recharges after a Short or Long Rest)",
+                    "desc": "After taking damage while in water, the glass gator thrashes to stir up a 10-foot-radius cloud of silt around itself. The area inside the sphere is heavily obscured for 1 minute (10 rounds) in still water or 5 (2d4) rounds in a strong current. After stirring up the silt, the glass gator can move its speed."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The glass gator can breathe air and water."
+                },
+                {
+                    "name": "Lunge",
+                    "desc": "When the glass gator leaps at least 10 feet toward a creature and hits that creature with a claws attack on the same turn, it can immediately constrict the target as a bonus action."
+                },
+                {
+                    "name": "Transparency",
+                    "desc": "The glass gator has advantage on Dexterity (Stealth) checks while underwater or in dim light."
+                },
+                {
+                    "name": "Standing Leap",
+                    "desc": "The glass gator can long jump up to 15 feet from water or up to 10 feet on land, with or without a running start."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "aquatic",
+                "marshes",
+                "swamp",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "moss-lurker",
+            "name": "Moss Lurker",
+            "size": "Small",
+            "type": "humanoid",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 45,
+            "hit_dice": "10d6+10",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 14,
+            "dexterity": 14,
+            "constitution": 12,
+            "intelligence": 12,
+            "wisdom": 10,
+            "charisma": 10,
+            "strength_save": 4,
+            "dexterity_save": 4,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire, poison",
+            "condition_immunities": "blind, poisoned",
+            "senses": "blindsight 60 ft., passive Perception 12",
+            "languages": "Giant, Sylvan, Trollkin",
+            "challenge_rating": "1",
+            "actions": [
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6+2"
+                },
+                {
+                    "name": "Great Sword or Maul",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing or bludgeoning damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Mushroom-Poisoned Javelin",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 30 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 6 (1d12) poison damage and the target is poisoned until the start of the moss lurker's next turn. A successful DC 11 Constitution save halves the poison damage and prevents poisoning.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Dropped Boulder",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 100 ft. (vertically), one target. Hit: 10 (3d6) bludgeoning damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "vertically"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Camouflage",
+                    "desc": "A moss lurker has advantage on Dexterity (Stealth) checks to hide in forested or swampy terrain."
+                },
+                {
+                    "name": "Love of Heavy Weapons",
+                    "desc": "While moss lurkers can use heavy weapons, they have disadvantage while wielding them."
+                },
+                {
+                    "name": "Keen Hearing and Smell",
+                    "desc": "The moss lurker has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                },
+                {
+                    "name": "Poisoned Gifts",
+                    "desc": "A moss lurker can contaminate liquids or food with poison. Someone who consumes the contaminated substance must make a successful DC 11 Constitution saving throw or become poisoned for 1 hour. When the poison is introduced, the moss lurker can choose a poison that also causes the victim to fall unconscious, or to become paralyzed while poisoned in this way. An unconscious creature wakes if it takes damage, or if a creature uses an action to shake it awake."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "marshes",
+                "ruins",
+                "underground",
+                "forest",
+                "swamp",
+                "underdark"
+            ]
+        }
+    ]
+}

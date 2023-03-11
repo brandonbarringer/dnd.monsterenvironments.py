@@ -1,0 +1,463 @@
+{
+    "count": 5,
+    "monsters": [
+        {
+            "slug": "ash-drake",
+            "name": "Ash Drake",
+            "size": "Small",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 117,
+            "hit_dice": "18d6+54",
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "strength": 14,
+            "dexterity": 15,
+            "constitution": 16,
+            "intelligence": 9,
+            "wisdom": 15,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "fire",
+            "damage_immunities": "",
+            "condition_immunities": "paralyzed, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Common, Draconic",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The ash drake makes one bite attack and two claw attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage + 3 (1d6) fire damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Ash Cloud",
+                    "desc": "An ash drake can beat its wings and create a cloud of ash that extends 10 feet in all directions, centered on itself. This cloud provides half cover, though the ash drake can see normally through its own cloud. Any creature that enters or starts its turn in the cloud must succeed on a DC 14 Constitution saving throw or become blinded for 1d6 rounds."
+                },
+                {
+                    "name": "Ash Breath (recharge 6)",
+                    "desc": "An ash drake spews a 20-foot cone of blistering hot, choking ash. Any targets in the path of this spray takes 14 (4d6) fire damage and become poisoned for one minute; a successful DC 13 Dexterity saving throw reduces damage by half and negates the poisoning. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "mountains",
+                "urban",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "city-watch-captain",
+            "name": "City Watch Captain",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "lawful neutral",
+            "armor_class": 17,
+            "armor_desc": "scale mail",
+            "hit_points": 91,
+            "hit_dice": "14d8+28",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 13,
+            "dexterity": 16,
+            "constitution": 14,
+            "intelligence": 10,
+            "wisdom": 11,
+            "charisma": 13,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception $1",
+            "languages": "one language (usually Common)",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The city watch captain makes two rapier attacks and one dagger attack. The captain can substitute a disarming attack for one rapier attack."
+                },
+                {
+                    "name": "Rapier",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Dagger",
+                    "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Disarming Attack",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: the target must make a successful DC 13 Strength saving throw or drop one item it's holding of the city watch captain's choice. The item lands up to 10 feet from the target, in a spot selected by the captain."
+                },
+                {
+                    "name": "Orders to Attack (1/Day)",
+                    "desc": "Each creature of the city watch captain's choice that is within 30 feet of it and can hear it makes one melee or ranged weapon attack as a reaction. This person could easily have been on the other side of the law, but he likes the way he looks in the city watch uniform-and the way city residents look at him when he walks down the street leading a patrol. With a long mustache and a jaunty cap, there's no denying that he cuts a rakishly handsome figure. While a trained investigator, the city watch captain is not afraid to draw his blade to end a threat to his city."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Tactical Insight",
+                    "desc": "The city watch captain has advantage on initiative rolls. City watch soldiers under the captain's command take their turns on the same initiative count as the captain."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "urban"
+            ]
+        },
+        {
+            "slug": "couatl",
+            "name": "Couatl",
+            "size": "Medium",
+            "type": "celestial",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful good",
+            "armor_class": 19,
+            "armor_desc": "natural armor",
+            "hit_points": 97,
+            "hit_dice": "13d8+39",
+            "speed": {
+                "walk": 30,
+                "fly": 90
+            },
+            "strength": 16,
+            "dexterity": 20,
+            "constitution": 17,
+            "intelligence": 18,
+            "wisdom": 20,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 5,
+            "intelligence_save": null,
+            "wisdom_save": 7,
+            "charisma_save": 6,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "radiant",
+            "damage_immunities": "psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "condition_immunities": "",
+            "senses": "truesight 120 ft., passive Perception 15",
+            "languages": "all, telepathy 120 ft.",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Constrict",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one Medium or smaller creature. Hit: 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Change Shape",
+                    "desc": "The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice).\nIn a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components:\n\nAt will: detect evil and good, detect magic, detect thoughts\n3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield\n1/day each: dream, greater restoration, scrying"
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The couatl's weapon attacks are magical."
+                },
+                {
+                    "name": "Shielded Mind",
+                    "desc": "The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location."
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/detect-evil-and-good/?format=json",
+                "https://api.open5e.com/spells/detect-magic/?format=json",
+                "https://api.open5e.com/spells/detect-thoughts/?format=json",
+                "https://api.open5e.com/spells/bless/?format=json",
+                "https://api.open5e.com/spells/create-food-and-water/?format=json",
+                "https://api.open5e.com/spells/cure-wounds/?format=json",
+                "https://api.open5e.com/spells/lesser-restoration/?format=json",
+                "https://api.open5e.com/spells/protection-from-poison/?format=json",
+                "https://api.open5e.com/spells/sanctuary/?format=json",
+                "https://api.open5e.com/spells/shield/?format=json",
+                "https://api.open5e.com/spells/dream/?format=json",
+                "https://api.open5e.com/spells/greater-restoration/?format=json",
+                "https://api.open5e.com/spells/scrying/?format=json"
+            ],
+            "img_main": "http://api.open5e.com/static/img/monsters/couatl.png",
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Astral Plane",
+                "Desert",
+                "Jungle",
+                "forest",
+                "grassland",
+                "urban"
+            ]
+        },
+        {
+            "slug": "ghost",
+            "name": "Ghost",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 11,
+            "armor_desc": null,
+            "hit_points": 45,
+            "hit_dice": "10d8",
+            "speed": {
+                "hover": true,
+                "walk": 0,
+                "fly": 40
+            },
+            "strength": 7,
+            "dexterity": 13,
+            "constitution": 10,
+            "intelligence": 10,
+            "wisdom": 12,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "cold, necrotic, poison",
+            "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "any languages it knew in life",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Withering Touch",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) necrotic damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "4d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Etherealness",
+                    "desc": "The ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane."
+                },
+                {
+                    "name": "Horrifying Visage",
+                    "desc": "Each non-undead creature within 60 ft. of the ghost that can see it must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 x 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring."
+                },
+                {
+                    "name": "Possession (Recharge 6)",
+                    "desc": "One humanoid that the ghost can see within 5 ft. of it must succeed on a DC 13 Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is incapacitated and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.\nThe possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 ft. of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Ethereal Sight",
+                    "desc": "The ghost can see 60 ft. into the Ethereal Plane when it is on the Material Plane, and vice versa."
+                },
+                {
+                    "name": "Incorporeal Movement",
+                    "desc": "The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Ethereal Plane",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Ruin",
+                "Settlement",
+                "Shadowfell",
+                "Swamp",
+                "Temple",
+                "Tomb",
+                "Tundra",
+                "Water",
+                "underdark",
+                "urban"
+            ]
+        },
+        {
+            "slug": "kobold-chieftain",
+            "name": "Kobold Chieftain",
+            "size": "Small",
+            "type": "humanoid",
+            "subtype": "kobold",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 17,
+            "armor_desc": "studded leather and shield",
+            "hit_points": 82,
+            "hit_dice": "15d6+30",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 10,
+            "dexterity": 17,
+            "constitution": 14,
+            "intelligence": 11,
+            "wisdom": 13,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 5,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 4,
+            "perception": null,
+            "skills": {
+                "intimidation": 6,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Common, Draconic",
+            "challenge_rating": "4",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The kobold makes 2 attacks."
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage and the target must make a successful DC 12 Constitution saving throw or be poisoned for 1 minute. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on a success.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Shortbow",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage and the target must make a successful DC 12 Constitution saving throw or be poisoned for 1 minute. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on a success.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Inspiring Presence (Recharge after Short or Long Rest)",
+                    "desc": "The chieftain chooses up to six allied kobolds it can see within 30 feet. For the next minute, the kobolds gain immunity to the charmed and frightened conditions, and add the chieftain's Charisma bonus to attack rolls."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Springspike Shield (5/rest)",
+                    "desc": "When the kobold chieftain is hit by a melee attack within 5 feet, the kobold chieftain can fire one of its shield spikes at the attacker. The attacker takes 3 (1d6) piercing damage plus 3 (1d6) poison damage."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Pack Tactics",
+                    "desc": "The kobold chieftain has advantage on an attack roll against a target if at least one of the chieftain's allies is within 5 feet of the target and the ally isn't incapacitated."
+                },
+                {
+                    "name": "Sunlight Sensitivity",
+                    "desc": "While in sunlight, the kobold chieftain has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "urban",
+                "underdark"
+            ]
+        }
+    ]
+}

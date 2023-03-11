@@ -1,0 +1,463 @@
+{
+    "count": 5,
+    "monsters": [
+        {
+            "slug": "elder-shadow-drake",
+            "name": "Elder Shadow Drake",
+            "size": "Large",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 114,
+            "hit_dice": "12d10+48",
+            "speed": {
+                "walk": 20,
+                "fly": 60
+            },
+            "strength": 22,
+            "dexterity": 13,
+            "constitution": 18,
+            "intelligence": 8,
+            "wisdom": 9,
+            "charisma": 13,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": 7,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 4,
+            "perception": 5,
+            "skills": {
+                "perception": 5,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "radiant",
+            "damage_resistances": "",
+            "damage_immunities": "cold",
+            "condition_immunities": "paralyzed, unconscious",
+            "senses": "darkvision 120 ft., passive Perception 15",
+            "languages": "Common, Draconic, Umbral",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The drake makes one bite attack and one tail slap attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "3d10"
+                },
+                {
+                    "name": "Tail Slap",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Stygian Breath (Recharge 5-6)",
+                    "desc": "The elder shadow drake exhales a ball of black liquid that travels up to 60 feet before exploding into a cloud of frigid black mist with a 20-foot radius. Each creature in that sphere takes 42 (12d6) cold damage, or half damage with a successful DC 15 Constitution saving throw. Within the area of effect, the mist snuffs out nonmagical light sources and dispels magical light of 1st level or lower."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Shadow Blend",
+                    "desc": "In areas of dim light or darkness, an elder shadow drake is treated as invisible. Artificial illumination, such as a lantern or a light or continual flame spell, does not negate this ability; nothing less than true sunlight or a daylight spell does. The drake cannot use its Speed Surge or its Stygian Breath while invisible. An elder shadow drake can suspend or resume this ability at will, so long as the drake is in dim light or darkness."
+                },
+                {
+                    "name": "Shadow Jump (3/Day)",
+                    "desc": "An elder shadow drake can travel between shadows as if by means of a dimension door spell. This magical transport must begin and end in an area of dim light or darkness, and the distance must be no more than 60 feet."
+                },
+                {
+                    "name": "Speed Surge (3/Day)",
+                    "desc": "The elder shadow drake takes one additional move action on its turn. It can use only one speed surge per round."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "forest"
+            ]
+        },
+        {
+            "slug": "giant-ape",
+            "name": "Giant Ape",
+            "size": "Huge",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 157,
+            "hit_dice": "15d12",
+            "speed": {
+                "walk": 40,
+                "climb": 40
+            },
+            "strength": 23,
+            "dexterity": 14,
+            "constitution": 18,
+            "intelligence": 7,
+            "wisdom": 12,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "athletics": 9,
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The ape makes two fist attacks."
+                },
+                {
+                    "name": "Fist",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) bludgeoning damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "3d10",
+                    "damage_bonus": 6
+                },
+                {
+                    "name": "Rock",
+                    "desc": "Ranged Weapon Attack: +9 to hit, range 50/100 ft., one target. Hit: 30 (7d6 + 6) bludgeoning damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "7d6",
+                    "damage_bonus": 6
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Jungle",
+                "forest",
+                "jungle"
+            ]
+        },
+        {
+            "slug": "oni",
+            "name": "Oni",
+            "size": "Large",
+            "type": "giant",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful evil",
+            "armor_class": 16,
+            "armor_desc": "chain mail",
+            "hit_points": 110,
+            "hit_dice": "13d10+39",
+            "speed": {
+                "walk": 30,
+                "fly": 30
+            },
+            "strength": 19,
+            "dexterity": 11,
+            "constitution": 16,
+            "intelligence": 14,
+            "wisdom": 12,
+            "charisma": 15,
+            "strength_save": null,
+            "dexterity_save": 3,
+            "constitution_save": 6,
+            "intelligence_save": null,
+            "wisdom_save": 4,
+            "charisma_save": 5,
+            "perception": 4,
+            "skills": {
+                "arcana": 5,
+                "deception": 8,
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Common, Giant",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The oni makes two attacks, either with its claws or its glaive."
+                },
+                {
+                    "name": "Claw (Oni Form Only)",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Glaive",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) slashing damage, or 9 (1d10 + 4) slashing damage in Small or Medium form.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d10",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Change Shape",
+                    "desc": "The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "The oni's innate spellcasting ability is Charisma (spell save DC 13). The oni can innately cast the following spells, requiring no material components:\n\nAt will: darkness, invisibility\n1/day each: charm person, cone of cold, gaseous form, sleep"
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The oni's weapon attacks are magical."
+                },
+                {
+                    "name": "Regeneration",
+                    "desc": "The oni regains 10 hit points at the start of its turn if it has at least 1 hit point."
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/darkness/?format=json",
+                "https://api.open5e.com/spells/invisibility/?format=json",
+                "https://api.open5e.com/spells/charm-person/?format=json",
+                "https://api.open5e.com/spells/cone-of-cold/?format=json",
+                "https://api.open5e.com/spells/gaseous-form/?format=json",
+                "https://api.open5e.com/spells/sleep/?format=json"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forest",
+                "urban"
+            ]
+        },
+        {
+            "slug": "shadow-beast",
+            "name": "Shadow Beast",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 135,
+            "hit_dice": "18d8+54",
+            "speed": {
+                "hover": true,
+                "walk": 0,
+                "fly": 40
+            },
+            "strength": 20,
+            "dexterity": 18,
+            "constitution": 17,
+            "intelligence": 14,
+            "wisdom": 14,
+            "charisma": 19,
+            "strength_save": null,
+            "dexterity_save": 7,
+            "constitution_save": 6,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Common, Elvish, Umbral, Void Speech",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The shadow beast makes one bite attack and two claw attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) slashing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Shadow Push (Recharge 5-6)",
+                    "desc": "The shadow beast buffets opponents with a gale of animated shadows in a 15-foot cone. Any creatures in the area of effect must succeed on a DC 15 Strength saving throw or be pushed back 10 feet and knocked prone."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amorphous",
+                    "desc": "The shadow beast can move through a space as narrow as 1 inch wide without squeezing."
+                },
+                {
+                    "name": "Incorporeal Movement",
+                    "desc": "The shadow beast can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the shadow beast's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:\n\n3/day each: fear, telekinesis"
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The beast has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Sunlight Sensitivity",
+                    "desc": "While in sunlight, the shadow beast has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "forests",
+                "ruins",
+                "underground",
+                "forest",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "vine-lord",
+            "name": "Vine Lord",
+            "size": "Medium",
+            "type": "plant",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful neutral",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 105,
+            "hit_dice": "14d8+42",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 12,
+            "dexterity": 20,
+            "constitution": 16,
+            "intelligence": 14,
+            "wisdom": 16,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 6,
+            "intelligence_save": null,
+            "wisdom_save": 6,
+            "charisma_save": 7,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "fire",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "blinded, deafened",
+            "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 13",
+            "languages": "Common",
+            "challenge_rating": "7",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The vine lord makes two claw attacks and four tendril attacks. A single creature can't be the target of more than one tendril attack per turn."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Spore Sacs (1/week)",
+                    "desc": "The vine lord can release seeds from specialized sacs on its tendrils. These seeds sprout into 1d4 green spore pods that reach maturity in 3 days. The pods contain noxious spores that are released when the pod is stepped on, picked, or otherwise tampered with. A humanoid or beast that inhales these spores must succeed on a DC 14 Constitution saving throw against disease or tendrils start growing inside the creature's body. If the disease is not cured within 3 months, the tendrils take over the creature's nervous system and the victim becomes a tendril puppet."
+                },
+                {
+                    "name": "Tendril",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 7 (1d4 + 5) slashing damage plus 3 (1d6) poison damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Awaken the Green (1/Day)",
+                    "desc": "The vine lord magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the vine lord. The tree remains animate for 1 day or until it dies; until the vine lord dies or is more than 120 feet from the tree; or until the vine lord takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Green Strider",
+                    "desc": "The vine lord ignores movement restrictions and damage caused by natural undergrowth."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The vine lord has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Regeneration",
+                    "desc": "The vine lord regains 10 hit points at the start of its turn if it has at least 1 hit point and is within its home forest or jungle."
+                },
+                {
+                    "name": "Root Mind",
+                    "desc": "Within its home forest or jungle, the vine lord's blindsight extends to 60 ft., it succeeds on all Wisdom (Perception) checks, and it can't be surprised."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "forest"
+            ]
+        }
+    ]
+}

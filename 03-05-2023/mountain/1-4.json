@@ -1,0 +1,252 @@
+{
+    "count": 3,
+    "monsters": [
+        {
+            "slug": "azza-gremlin",
+            "name": "Azza Gremlin",
+            "size": "Small",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 7,
+            "hit_dice": "2d6",
+            "speed": {
+                "walk": 10,
+                "fly": 40,
+                "hover": true
+            },
+            "strength": 5,
+            "dexterity": 18,
+            "constitution": 10,
+            "intelligence": 12,
+            "wisdom": 13,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "lightning, thunder",
+            "condition_immunities": "",
+            "senses": "darkvision 120 ft., passive Perception 11",
+            "languages": "Common, Primordial",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Lightning Jolt",
+                    "desc": "Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 30 ft., one creature. Hit: 3 (1d6) lightning damage, and the target is affected by Contagious Lightning.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Ride the Bolt",
+                    "desc": "The azza gremlin can travel instantly along any bolt of lightning. When it is within 5 feet of a lightning effect, the azza can teleport to any unoccupied space inside or within 5 feet of that lightning effect."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Contagious Lightning",
+                    "desc": "A creature that touches the azza gremlin or hits it with a melee attack using a metal weapon receives a discharge of lightning. The creature must succeed on a DC 10 Constitution saving throw or attract lightning for 1 minute. For the duration, attacks that cause lightning damage have advantage against this creature, the creature has disadvantage on saving throws against lightning damage and lightning effects, and if the creature takes lightning damage, it is paralyzed until the end of its next turn. An affected creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "mountains",
+                "urban",
+                "mountain",
+                "any"
+            ]
+        },
+        {
+            "slug": "pseudodragon",
+            "name": "Pseudodragon",
+            "size": "Tiny",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral good",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 7,
+            "hit_dice": "2d4+2",
+            "speed": {
+                "walk": 15,
+                "fly": 60
+            },
+            "strength": 6,
+            "dexterity": 15,
+            "constitution": 13,
+            "intelligence": 10,
+            "wisdom": 12,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 13",
+            "languages": "understands Common and Draconic but can't speak",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Sting",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d4",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Senses",
+                    "desc": "The pseudodragon has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The pseudodragon has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Limited Telepathy",
+                    "desc": "The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 ft. of it that can understand a language."
+                },
+                {
+                    "name": "Variant: Familiar",
+                    "desc": "The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "coastal",
+                "desert",
+                "forest",
+                "hill",
+                "mountain",
+                "urban"
+            ]
+        },
+        {
+            "slug": "swarm-of-bats",
+            "name": "Swarm of Bats",
+            "size": "Medium",
+            "type": "swarm of Tiny beasts",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 22,
+            "hit_dice": "5d8",
+            "speed": {
+                "walk": 0,
+                "fly": 30
+            },
+            "strength": 5,
+            "dexterity": 15,
+            "constitution": 10,
+            "intelligence": 2,
+            "wisdom": 12,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, slashing",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+            "senses": "blindsight 60 ft., passive Perception 11",
+            "languages": "",
+            "challenge_rating": "1/4",
+            "actions": [
+                {
+                    "name": "Bites",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space. Hit: 5 (2d4) piercing damage, or 2 (1d4) piercing damage if the swarm has half of its hit points or fewer.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Echolocation",
+                    "desc": "The swarm can't use its blindsight while deafened."
+                },
+                {
+                    "name": "Keen Hearing",
+                    "desc": "The swarm has advantage on Wisdom (Perception) checks that rely on hearing."
+                },
+                {
+                    "name": "Swarm",
+                    "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain hit points or gain temporary hit points."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Mountains",
+                "Shadowfell",
+                "Tomb",
+                "hill",
+                "jungle",
+                "mountain",
+                "underdark",
+                "urban"
+            ]
+        }
+    ]
+}

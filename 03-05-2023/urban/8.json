@@ -1,0 +1,334 @@
+{
+    "count": 4,
+    "monsters": [
+        {
+            "slug": "assassin",
+            "name": "Assassin",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any non-good alignment",
+            "armor_class": 15,
+            "armor_desc": "studded leather",
+            "hit_points": 78,
+            "hit_dice": "12d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 11,
+            "dexterity": 16,
+            "constitution": 14,
+            "intelligence": 13,
+            "wisdom": 11,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": 6,
+            "constitution_save": null,
+            "intelligence_save": 4,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "acrobatics": 6,
+                "deception": 3,
+                "perception": 3,
+                "stealth": 9
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "poison",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "Thieves' cant plus any two languages",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The assassin makes two shortsword attacks."
+                },
+                {
+                    "name": "Shortsword",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 3
+                },
+                {
+                    "name": "Light Crossbow",
+                    "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Assassinate",
+                    "desc": "During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
+                },
+                {
+                    "name": "Evasion",
+                    "desc": "If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+                },
+                {
+                    "name": "Sneak Attack (1/Turn)",
+                    "desc": "The assassin deals an extra 13 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll.",
+                    "attack_bonus": 0,
+                    "damage_dice": "4d6"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Settlement",
+                "Sewer",
+                "urban"
+            ]
+        },
+        {
+            "slug": "dragonleaf-tree",
+            "name": "Dragonleaf Tree",
+            "size": "Large",
+            "type": "plant",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 152,
+            "hit_dice": "16d10+64",
+            "speed": {
+                "walk": 5
+            },
+            "strength": 16,
+            "dexterity": 10,
+            "constitution": 19,
+            "intelligence": 3,
+            "wisdom": 12,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "A dragonleaf tree enjoys the same immunities as its progenitor. Black, copper, and green trees are immune to acid damage; blue and bronze trees are immune to lightning damage; brass, gold, and red trees are immune to fire damage; and silver and white trees are immune to cold damage.",
+            "condition_immunities": "blinded, deafened",
+            "senses": "blindsight 120 ft., passive Perception 11",
+            "languages": "can understand the language of its creator or designated master",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 58 (10d10 + 3) bludgeoning damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "10d10"
+                },
+                {
+                    "name": "Leaves",
+                    "desc": "Ranged Weapon Attack: +3 to hit, range 30/60 ft., one target. Hit: 45 (10d8) slashing damage.",
+                    "attack_bonus": 3,
+                    "damage_dice": "10d8"
+                },
+                {
+                    "name": "Breath Weapon (Recharge 6)",
+                    "desc": "Dragonleaf tree can issue forth a breath weapon from its leaves appropriate to the dragon it honors. The creature's breath weapon deals 49 (14d6) damage, or half damage to targets that make a successful DC 15 Dexterity saving throw. A black, copper, or green tree breathes a 60-foot line of acid; a blue or bronze tree breathes a 60-foot line of lightning; a brass, gold, or red tree breathes a 30-foot cone of fire; and a silver or white tree breathes a 30-foot cone of cold."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Loyal to Dragon Master",
+                    "desc": "A dragonleaf tree only follows commands from its designated master (or from any creatures to whom the master grants control). It has advantage on saving throws against any charm or compulsion spell or effect. Additionally, the tree has advantage on any saving throw to resist Bluff, Diplomacy, or Intimidate checks made to influence it to act against its masters."
+                },
+                {
+                    "name": "Weaknesses",
+                    "desc": "Dragonleaf trees with immunity to fire also have vulnerability to cold, and trees with immunity to cold have vulnerability to fire."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "urban",
+                "forest"
+            ]
+        },
+        {
+            "slug": "rust-drake",
+            "name": "Rust Drake",
+            "size": "Medium",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 161,
+            "hit_dice": "19d8+76",
+            "speed": {
+                "walk": 30,
+                "burrow": 5,
+                "fly": 100
+            },
+            "strength": 20,
+            "dexterity": 15,
+            "constitution": 19,
+            "intelligence": 12,
+            "wisdom": 8,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "acid",
+            "damage_resistances": "",
+            "damage_immunities": "poison",
+            "condition_immunities": "paralyzed, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Common, Draconic",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The drake makes one bite attack and one tail swipe attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) piercing damage, and the target must succeed on a DC 16 Constitution save or contract Rust Drake Lockjaw.",
+                    "attack_bonus": 8,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Tail Swipe",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Vomits Scrap (Recharge 5-6)",
+                    "desc": "A rust drake can vomit forth a 15-foot cone of rusted metal. Targets in the affected area take 55 (10d10) slashing damage, or half damage with a successful DC 15 Dexterity saving throw. In addition, affected creatures must also make a successful DC 15 Constitution saving throw or contract Rust Drake Tetanus."
+                },
+                {
+                    "name": "Rust Drake Lockjaw",
+                    "desc": "This disease manifests symptoms in 1d4 days, when the affected creature experiences painful muscle spasms, particularly in the jaw. After each long rest, the creature must repeat the saving throw. If it fails, the victim takes 1d3 Dexterity damage and is paralyzed for 24 hours; if the saving throw succeeds, the creature takes no damage and feels well enough to act normally for the day. This continues until the creature dies from Dexterity loss, recovers naturally by making successful saving throws after two consecutive long rests, or is cured with lesser restoration or comparable magic. After the disease ends, the victim recovers 1d3 lost Dexterity with each long rest; greater restoration or comparable magic can restore it all at once."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "urban",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "tophet",
+            "name": "Tophet",
+            "size": "Huge",
+            "type": "construct",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 184,
+            "hit_dice": "16d12+80",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 24,
+            "dexterity": 10,
+            "constitution": 20,
+            "intelligence": 6,
+            "wisdom": 10,
+            "charisma": 10,
+            "strength_save": 10,
+            "dexterity_save": 3,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "necrotic",
+            "damage_immunities": "cold, fire, poison",
+            "condition_immunities": "exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 200 ft., passive Perception 13",
+            "languages": "Common",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "A tophet makes two attacks, no more than one of which can be a gout of flame."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack. +10 to hit, reach 5 ft., one target. Hit: 12 (1d10+7) bludgeoning damage. The target is also knocked inside the tophet's burning belly if the attack scores a critical hit."
+                },
+                {
+                    "name": "Gout of Flame",
+                    "desc": "The tophet targets a point within 100 feet of itself that it can see. All targets within 10 feet of that point take 22 (4d10) fire damage, or half damage with a successful DC 16 Dexterity saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Fiery Heart",
+                    "desc": "A tophet's inner fire can be ignited or doused at will. Its heat is such that all creatures have resistance to cold damage while within 30 feet of the tophet."
+                },
+                {
+                    "name": "Burning Belly",
+                    "desc": "Creatures inside a tophet's burning core take 21 (6d6) fire damage at the start of each of the tophet's turns. Escaping from a tophet's belly takes 10 feet of movement and a successful DC 16 Dexterity (Acrobatics) check."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "urban",
+                "any"
+            ]
+        }
+    ]
+}

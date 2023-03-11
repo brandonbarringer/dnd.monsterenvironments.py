@@ -1,0 +1,277 @@
+{
+    "count": 3,
+    "monsters": [
+        {
+            "slug": "djinni",
+            "name": "Djinni",
+            "size": "Large",
+            "type": "elemental",
+            "subtype": "",
+            "group": "Genies",
+            "alignment": "chaotic good",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 161,
+            "hit_dice": "14d10+84",
+            "speed": {
+                "walk": 30,
+                "fly": 90
+            },
+            "strength": 21,
+            "dexterity": 15,
+            "constitution": 22,
+            "intelligence": 15,
+            "wisdom": 16,
+            "charisma": 20,
+            "strength_save": null,
+            "dexterity_save": 6,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 7,
+            "charisma_save": 9,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "lightning, thunder",
+            "condition_immunities": "",
+            "senses": "darkvision 120 ft., passive Perception 13",
+            "languages": "Auran",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The djinni makes three scimitar attacks."
+                },
+                {
+                    "name": "Scimitar",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage plus 3 (1d6) lightning or thunder damage (djinni's choice).",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d6+1d6",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Create Whirlwind",
+                    "desc": "A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms on a point the djinni can see within 120 feet of it. The whirlwind lasts as long as the djinni maintains concentration (as if concentrating on a spell). Any creature but the djinni that enters the whirlwind must succeed on a DC 18 Strength saving throw or be restrained by it. The djinni can move the whirlwind up to 60 feet as an action, and creatures restrained by the whirlwind move with it. The whirlwind ends if the djinni loses sight of it.\nA creature can use its action to free a creature restrained by the whirlwind, including itself, by succeeding on a DC 18 Strength check. If the check succeeds, the creature is no longer restrained and moves to the nearest space outside the whirlwind."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Elemental Demise",
+                    "desc": "If the djinni dies, its body disintegrates into a warm breeze, leaving behind only equipment the djinni was wearing or carrying."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "The djinni's innate spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nAt will: detect evil and good, detect magic, thunderwave\n3/day each: create food and water (can create wine instead of water), tongues, wind walk\n1/day each: conjure elemental (air elemental only), creation, gaseous form, invisibility, major image, plane shift"
+                },
+                {
+                    "name": "Variant: Genie Powers",
+                    "desc": "Genies have a variety of magical capabilities, including spells. A few have even greater powers that allow them to alter their appearance or the nature of reality.\n\n**Disguises.** Some genies can veil themselves in illusion to pass as other similarly shaped creatures. Such genies can innately cast the disguise self spell at will, often with a longer duration than is normal for that spell. Mightier genies can cast the true polymorph spell one to three times per day, possibly with a longer duration than normal. Such genies can change only their own shape, but a rare few can use the spell on other creatures and objects as well.\n**Wishes.** The genie power to grant wishes is legendary among mortals. Only the most potent genies, such as those among the nobility, can do so. A particular genie that has this power can grant one to three wishes to a creature that isn't a genie. Once a genie has granted its limit of wishes, it can't grant wishes again for some amount of time (usually 1 year). and cosmic law dictates that the same genie can expend its limit of wishes on a specific creature only once in that creature's existence.\nTo be granted a wish, a creature within 60 feet of the genie states a desired effect to it. The genie can then cast the wish spell on the creature's behalf to bring about the effect. Depending on the genie's nature, the genie might try to pervert the intent of the wish by exploiting the wish's poor wording. The perversion of the wording is usually crafted to be to the genie's benefit."
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/detect-evil-and-good/?format=json",
+                "https://api.open5e.com/spells/detect-magic/?format=json",
+                "https://api.open5e.com/spells/create-food-and-water/?format=json",
+                "https://api.open5e.com/spells/tongues/?format=json",
+                "https://api.open5e.com/spells/wind-walk/?format=json",
+                "https://api.open5e.com/spells/conjure-elemental/?format=json",
+                "https://api.open5e.com/spells/creation/?format=json",
+                "https://api.open5e.com/spells/gaseous-form/?format=json",
+                "https://api.open5e.com/spells/invisibility/?format=json",
+                "https://api.open5e.com/spells/major-image/?format=json",
+                "https://api.open5e.com/spells/plane-shift/?format=json"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Plane of Air",
+                "coastal",
+                "desert"
+            ]
+        },
+        {
+            "slug": "roc",
+            "name": "Roc",
+            "size": "Gargantuan",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 248,
+            "hit_dice": "16d20+80",
+            "speed": {
+                "walk": 20,
+                "fly": 120
+            },
+            "strength": 28,
+            "dexterity": 10,
+            "constitution": 20,
+            "intelligence": 3,
+            "wisdom": 10,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": 9,
+            "intelligence_save": null,
+            "wisdom_save": 4,
+            "charisma_save": 3,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The roc makes two attacks: one with its beak and one with its talons."
+                },
+                {
+                    "name": "Beak",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 27 (4d8 + 9) piercing damage.",
+                    "attack_bonus": 13,
+                    "damage_dice": "4d8",
+                    "damage_bonus": 9
+                },
+                {
+                    "name": "Talons",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 23 (4d6 + 9) slashing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the roc can't use its talons on another target.",
+                    "attack_bonus": 13,
+                    "damage_dice": "4d6",
+                    "damage_bonus": 9
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Sight",
+                    "desc": "The roc has advantage on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Water",
+                "arctic",
+                "coastal",
+                "desert",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "vesiculosa",
+            "name": "Vesiculosa",
+            "size": "Gargantuan",
+            "type": "plant",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 203,
+            "hit_dice": "14d20+56",
+            "speed": {
+                "walk": 0,
+                "burrow": 5
+            },
+            "strength": 20,
+            "dexterity": 10,
+            "constitution": 19,
+            "intelligence": 2,
+            "wisdom": 14,
+            "charisma": 2,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 6,
+            "skills": {
+                "perception": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "fire, bludgeoning, piercing",
+            "damage_immunities": "",
+            "condition_immunities": "charmed, blinded, deafened, frightened, prone",
+            "senses": "tremorsense 60 ft., passive Perception 16",
+            "languages": "-",
+            "challenge_rating": "11",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The vesiculosa uses Entrap 4 times, and uses Reel and Engulf once each. It loses one Entrap attack for each rootlet swarm that's been destroyed."
+                },
+                {
+                    "name": "Entrap",
+                    "desc": "The vesiculosa targets a Large or smaller creature within 5 feet of one of its rootlet swarms. The target takes 10 (4d4) piercing damage and is grappled (escape DC 15), or takes half damage and isn't grappled if it makes a successful DC 17 Dexterity saving throw. Until the grapple ends, the target is restrained, it has disadvantage on Strength checks and Strength saving throws, and that rootlet swarm can't entrap another target."
+                },
+                {
+                    "name": "Reel",
+                    "desc": "Each rootlet swarm that has a creature grappled moves up to 20 feet toward the vesiculosa's main body. Rootlets wander up to 100 feet from the main body."
+                },
+                {
+                    "name": "Engulf",
+                    "desc": "The vesiculosa engulfs all restrained or unconscious creatures within 5 feet of its main body (up to 2 Large, 4 Medium or 8 Small creatures). An engulfed creature is restrained, has total cover against attacks and other effects outside the vesiculosa, and takes 21 (6d6) acid damage at the start of each of the vesiculosa's turns. When the vesiculosa moves, the engulfed creature moves with it. An engulfed creature can try to escape by using an action to make a DC 15 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the vesiculosa's main body."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "False Appearance",
+                    "desc": "While the vesiculosa remains motionless, it is indistinguishable from a normal pool of water."
+                },
+                {
+                    "name": "Rich Sapphire Heartvine",
+                    "desc": "A vesiculosa's heartvine resembles a lump of sapphire and is highly prized by alchemists (worth 1,000 gp). It can be reached with an hour or two of hard digging."
+                },
+                {
+                    "name": "Rootlet Swarms",
+                    "desc": "The vesiculosa is surrounded at all times by four Medium swarms of Tiny rootlets that move as the vesiculosa directs. Each swarm has a speed of 30 feet, can be targeted independently, has 25 hit points, and (unlike the parent plant) quite vulnerable to fire damage. Other than that, they have the same statistics as the vesiculosa's main body. For each swarm that drops to 0 hit points, the vesiculosa loses one of its Entrap attacks. A destroyed swarm regrows in 24 hours."
+                },
+                {
+                    "name": "Sweet Water",
+                    "desc": "The vesiculosa's pool emits a sweet fragrance that lures creatures to drink. Creatures that are neither undead nor constructs within 60 feet must succeed on a DC 16 Wisdom saving throw or be compelled to approach the vesiculosa and drink. The water is cool and refreshing but carries a sleeping poison: any creature (other than undead and constructs) that drinks from it regains 1d4 hp and recovers from 1 level of exhaustion, but must succeed on a DC 15 Constitution saving throw against poison or fall unconscious for 1 minute. If the saving throw fails by 5 or more, the creature is unconscious for 1 hour. An unconscious creature wakes up if it takes damage or if another creature uses an action to shake it awake."
+                },
+                {
+                    "name": "Verdant",
+                    "desc": "The vesiculosa's sap seeps into the soil, promoting lush vegetation. At any given time, 3d6 beneficial fruits (fruit, nuts, figs, dates) can be found within 30 feet of the vesiculosa. These have the same effect as berries from a goodberry spell, but they retain their potency for one week after being picked or after the vesiculosa is killed."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "desert"
+            ]
+        }
+    ]
+}

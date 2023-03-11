@@ -1,0 +1,177 @@
+{
+    "count": 2,
+    "monsters": [
+        {
+            "slug": "hydra",
+            "name": "Hydra",
+            "size": "Huge",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 172,
+            "hit_dice": "15d12+75",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 20,
+            "dexterity": 12,
+            "constitution": 20,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 6,
+            "skills": {
+                "perception": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 16",
+            "languages": "",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The hydra makes as many bite attacks as it has heads."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 5
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Hold Breath",
+                    "desc": "The hydra can hold its breath for 1 hour."
+                },
+                {
+                    "name": "Multiple Heads",
+                    "desc": "The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.\nWhenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.\nAt the end of its turn, it grows two heads for each of its heads that died since its last turn, unless it has taken fire damage since its last turn. The hydra regains 10 hit points for each head regrown in this way."
+                },
+                {
+                    "name": "Reactive Heads",
+                    "desc": "For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+                },
+                {
+                    "name": "Wakeful",
+                    "desc": "While the hydra sleeps, at least one of its heads is awake."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Plane of Water",
+                "Swamp",
+                "Water",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "shabti",
+            "name": "Shabti",
+            "size": "Medium",
+            "type": "construct",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 102,
+            "hit_dice": "12d8+48",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 14,
+            "dexterity": 20,
+            "constitution": 18,
+            "intelligence": 6,
+            "wisdom": 11,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+            "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "understands the languages of its creator but can't speak",
+            "challenge_rating": "8",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The shabti uses Telekinesis and makes two attacks with its nabboot."
+                },
+                {
+                    "name": "Nabboot",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d4 + 5) bludgeoning damage plus 7 (2d6) necrotic damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be cursed with tomb taint. The cursed target's speed is reduced to half, and its hit point maximum decreases by 3 (1d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies and its body turns to dust. The curse lasts until removed by the remove curse spell or comparable magic.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Telekinesis",
+                    "desc": "The shabti targets a creature within 60 feet. The target must succeed on a DC 15 Strength check or the shabti moves it up to 30 feet in any direction (including upward), and it is restrained until the end of the shabti's next turn."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Immutable Form",
+                    "desc": "The shabti is immune to spells and effects that would alter its form."
+                },
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The shabti has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "The shabti's weapon attacks are magical."
+                },
+                {
+                    "name": "Serpentine Armlets",
+                    "desc": "As a bonus action, the shabti commands its armlets to drop to the floor, whereupon they become two giant poisonous snakes. The shabti can mentally direct the serpents (this does not require an action). If the snakes are killed, they dissolve into wisps of smoke which reform around the shabti's forearms, and they can't be turned into snakes for 1 week. These armlets are linked to the shabti at the time of its creation and do not function for other creatures."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "marshes",
+                "ruins",
+                "underground",
+                "swamp",
+                "underdark"
+            ]
+        }
+    ]
+}

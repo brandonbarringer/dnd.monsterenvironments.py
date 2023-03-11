@@ -1,0 +1,537 @@
+{
+    "count": 6,
+    "monsters": [
+        {
+            "slug": "cloud-giant",
+            "name": "Cloud Giant",
+            "size": "Huge",
+            "type": "giant",
+            "subtype": "",
+            "group": "Giants",
+            "alignment": "neutral good (50%) or neutral evil (50%)",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 200,
+            "hit_dice": "16d12+96",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 27,
+            "dexterity": 10,
+            "constitution": 22,
+            "intelligence": 12,
+            "wisdom": 16,
+            "charisma": 16,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 10,
+            "intelligence_save": null,
+            "wisdom_save": 7,
+            "charisma_save": 7,
+            "perception": 7,
+            "skills": {
+                "insight": 7,
+                "perception": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 17",
+            "languages": "Common, Giant",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The giant makes two morningstar attacks."
+                },
+                {
+                    "name": "Morningstar",
+                    "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage.",
+                    "attack_bonus": 12,
+                    "damage_dice": "3d8",
+                    "damage_bonus": 8
+                },
+                {
+                    "name": "Rock",
+                    "desc": "Ranged Weapon Attack: +12 to hit, range 60/240 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage.",
+                    "attack_bonus": 12,
+                    "damage_dice": "4d10",
+                    "damage_bonus": 8
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The giant has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:\n\nAt will: detect magic, fog cloud, light\n3/day each: feather fall, fly, misty step, telekinesis\n1/day each: control weather, gaseous form"
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/detect-magic/?format=json",
+                "https://api.open5e.com/spells/fog-cloud/?format=json",
+                "https://api.open5e.com/spells/light/?format=json",
+                "https://api.open5e.com/spells/feather-fall/?format=json",
+                "https://api.open5e.com/spells/fly/?format=json",
+                "https://api.open5e.com/spells/misty-step/?format=json",
+                "https://api.open5e.com/spells/telekinesis/?format=json",
+                "https://api.open5e.com/spells/control-weather/?format=json",
+                "https://api.open5e.com/spells/gaseous-form/?format=json"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Mountains",
+                "Plane of Air",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "fire-giant",
+            "name": "Fire Giant",
+            "size": "Huge",
+            "type": "giant",
+            "subtype": "",
+            "group": "Giants",
+            "alignment": "lawful evil",
+            "armor_class": 18,
+            "armor_desc": "plate",
+            "hit_points": 162,
+            "hit_dice": "13d12+78",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 25,
+            "dexterity": 9,
+            "constitution": 23,
+            "intelligence": 10,
+            "wisdom": 14,
+            "charisma": 13,
+            "strength_save": null,
+            "dexterity_save": 3,
+            "constitution_save": 10,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": 5,
+            "perception": 6,
+            "skills": {
+                "athletics": 11,
+                "perception": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire",
+            "condition_immunities": "",
+            "senses": "passive Perception 16",
+            "languages": "Giant",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The giant makes two greatsword attacks."
+                },
+                {
+                    "name": "Greatsword",
+                    "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 28 (6d6 + 7) slashing damage.",
+                    "attack_bonus": 11,
+                    "damage_dice": "6d6",
+                    "damage_bonus": 7
+                },
+                {
+                    "name": "Rock",
+                    "desc": "Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.",
+                    "attack_bonus": 11,
+                    "damage_dice": "4d10",
+                    "damage_bonus": 7
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Mountains",
+                "Plane of Fire",
+                "Settlement",
+                "mountain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "young-flame-dragon",
+            "name": "Young Flame Dragon",
+            "size": "Large",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 161,
+            "hit_dice": "17d10+68",
+            "speed": {
+                "walk": 40,
+                "climb": 40,
+                "fly": 80
+            },
+            "strength": 15,
+            "dexterity": 14,
+            "constitution": 19,
+            "intelligence": 15,
+            "wisdom": 13,
+            "charisma": 18,
+            "strength_save": null,
+            "dexterity_save": 6,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": 5,
+            "charisma_save": 8,
+            "perception": 9,
+            "skills": {
+                "deception": 8,
+                "insight": 5,
+                "perception": 9,
+                "persuasion": 8,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire",
+            "condition_immunities": "",
+            "senses": "passive Perception $1",
+            "languages": "Common, Draconic, Ignan, Giant, Infernal, Orc",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon makes one bite attack and two claw attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13 (2d10 + 2) piercing damage plus 3 (1d6) fire damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Fire Breath (Recharge 5-6)",
+                    "desc": "The dragon exhales fire in a 30-foot cone. Each creature in that area takes 56 (16d6) fire damage, or half damage with a successful DC 16 Dexterity saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Fire Incarnate",
+                    "desc": "All fire damage dealt by the dragon ignores fire resistance but not fire immunity."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "mountains",
+                "mountain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "young-sea-dragon",
+            "name": "Young Sea Dragon",
+            "size": "Large",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 152,
+            "hit_dice": "16d10+64",
+            "speed": {
+                "walk": 40,
+                "fly": 80,
+                "swim": 50
+            },
+            "strength": 21,
+            "dexterity": 10,
+            "constitution": 19,
+            "intelligence": 15,
+            "wisdom": 13,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": 8,
+            "intelligence_save": null,
+            "wisdom_save": 5,
+            "charisma_save": 7,
+            "perception": 9,
+            "skills": {
+                "perception": 9,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "cold",
+            "condition_immunities": "",
+            "senses": "blindsight 30 ft. darkvision 120 ft., passive Perception 19",
+            "languages": "Common, Draconic",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 5 (1d10) cold damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Tidal Breath (Recharge 5-6)",
+                    "desc": "The dragon exhales a crushing wave of frigid seawater in a 30-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw. On a failure, the target takes 27 (5d10) bludgeoning damage and 27 (5d10) cold damage, and is pushed 30 feet away from the dragon and knocked prone. On a successful save the creature takes half as much damage and isn't pushed or knocked prone."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The dragon can breathe air and water."
+                },
+                {
+                    "name": "Siege Monster",
+                    "desc": "The dragon deals double damage to objects and structures"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "aquatic",
+                "mountains",
+                "mountain",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "young-silver-dragon",
+            "name": "Young Silver Dragon",
+            "size": "Large",
+            "type": "dragon",
+            "subtype": "",
+            "group": "Silver Dragon",
+            "alignment": "lawful good",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 168,
+            "hit_dice": "16d10+80",
+            "speed": {
+                "walk": 40,
+                "fly": 80
+            },
+            "strength": 23,
+            "dexterity": 10,
+            "constitution": 21,
+            "intelligence": 14,
+            "wisdom": 11,
+            "charisma": 19,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": 9,
+            "intelligence_save": null,
+            "wisdom_save": 4,
+            "charisma_save": 8,
+            "perception": 8,
+            "skills": {
+                "arcana": 6,
+                "history": 6,
+                "perception": 8,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "cold",
+            "condition_immunities": "",
+            "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18",
+            "languages": "Common, Draconic",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage.",
+                    "attack_bonus": 10,
+                    "damage_dice": "2d10",
+                    "damage_bonus": 6
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage.",
+                    "attack_bonus": 10,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 6
+                },
+                {
+                    "name": "Breath Weapons (Recharge 5-6)",
+                    "desc": "The dragon uses one of the following breath weapons.\n**Cold Breath.** The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 54 (12d8) cold damage on a failed save, or half as much damage on a successful one.\n**Paralyzing Breath.** The dragon exhales paralyzing gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                    "attack_bonus": 0,
+                    "damage_dice": "12d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "mountain",
+                "urban"
+            ]
+        },
+        {
+            "slug": "young-void-dragon",
+            "name": "Young Void Dragon",
+            "size": "Large",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 157,
+            "hit_dice": "15d10+75",
+            "speed": {
+                "hover": true,
+                "walk": 40,
+                "fly": 80
+            },
+            "strength": 20,
+            "dexterity": 10,
+            "constitution": 21,
+            "intelligence": 14,
+            "wisdom": 11,
+            "charisma": 19,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": 9,
+            "intelligence_save": null,
+            "wisdom_save": 4,
+            "charisma_save": 8,
+            "perception": 8,
+            "skills": {
+                "arcana": 10,
+                "history": 10,
+                "perception": 8,
+                "persuasion": 8,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "cold",
+            "condition_immunities": "charmed, frightened",
+            "senses": "passive Perception $1",
+            "languages": "Common, Draconic, Void Speech",
+            "challenge_rating": "9",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 3 (1d6) cold damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+                    "attack_bonus": 9,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Breath Weapons (Recharge 5-6)",
+                    "desc": "The dragon uses one of the following breath weapons:"
+                },
+                {
+                    "name": "Gravitic Breath",
+                    "desc": "The dragon exhales a 30-foot cube of powerful localized gravity, originating from the dragon."
+                },
+                {
+                    "name": "Falling damage in the area increases to 1d10 per 10 feet fallen",
+                    "desc": "When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, it must make a DC 17 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively."
+                },
+                {
+                    "name": "Stellar Flare Breath",
+                    "desc": "The dragon exhales star fire in a 30- foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 28 (8d6) fire damage and 28 (8d6) radiant damage on a failed save, or half as much damage on a successful one."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Void Twist",
+                    "desc": "When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 4 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Chill of the Void",
+                    "desc": "Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity."
+                },
+                {
+                    "name": "Void Dweller",
+                    "desc": "As ancient void dragon."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "mountains",
+                "mountain"
+            ]
+        }
+    ]
+}

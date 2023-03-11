@@ -1,0 +1,291 @@
+{
+    "count": 3,
+    "monsters": [
+        {
+            "slug": "bagiennik",
+            "name": "Bagiennik",
+            "size": "Medium",
+            "type": "aberration",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 75,
+            "hit_dice": "10d8+30",
+            "speed": {
+                "walk": 30,
+                "swim": 40
+            },
+            "strength": 16,
+            "dexterity": 18,
+            "constitution": 16,
+            "intelligence": 9,
+            "wisdom": 16,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "Common",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The bagiennik makes two claw attacks."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "4d6"
+                },
+                {
+                    "name": "Acid Spray",
+                    "desc": "Ranged Weapon Attack: +6 to hit, range 15 ft., one target. Hit: 14 (2d10 + 3) acid damage. The target must make a successful DC 13 Dexterity saving throw or fall prone in the slick oil, which covers an area 5 feet square. A creature that enters the oily area or ends its turn there must also make the Dexterity saving throw to avoid falling prone. A creature needs to make only one saving throw per 5-foot-square per turn, even if it enters and ends its turn in the area. The slippery effect lasts for 3 rounds.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d10"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Healing Oil",
+                    "desc": "A bagiennik can automatically stabilize a dying creature by using an action to smear some of its oily secretion on the dying creature's flesh. A similar application on an already-stable creature or one with 1 or more hit points acts as a potion of healing, restoring 2d4 + 2 hit points. Alternatively, the bagiennik's secretion can have the effect of a lesser restoration spell. However, any creature receiving a bagiennik's Healing Oil must make a successful DC 13 Constitution saving throw or be slowed for 1 minute."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "marshes",
+                "forest",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "green-hag",
+            "name": "Green Hag",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": "Hags",
+            "alignment": "neutral evil",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 82,
+            "hit_dice": "11d8+33",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 18,
+            "dexterity": 12,
+            "constitution": 16,
+            "intelligence": 13,
+            "wisdom": 14,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "arcana": 3,
+                "deception": 4,
+                "perception": 4,
+                "stealth": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Common, Draconic, Sylvan",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Illusory Appearance",
+                    "desc": "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.\nThe changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised."
+                },
+                {
+                    "name": "Invisible Passage",
+                    "desc": "The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The hag can breathe air and water."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:\n\nAt will: dancing lights, minor illusion, vicious mockery"
+                },
+                {
+                    "name": "Mimicry",
+                    "desc": "The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check."
+                },
+                {
+                    "name": "Hag Coven",
+                    "desc": "When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.\nA coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos."
+                },
+                {
+                    "name": "Shared Spellcasting (Coven Only)",
+                    "desc": "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:\n\n\u2022 1st level (4 slots): identify, ray of sickness\n\u2022 2nd level (3 slots): hold person, locate object\n\u2022 3rd level (3 slots): bestow curse, counterspell, lightning bolt\n\u2022 4th level (3 slots): phantasmal killer, polymorph\n\u2022 5th level (2 slots): contact other plane, scrying\n\u2022 6th level (1 slot): eye bite\n\nFor casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier."
+                },
+                {
+                    "name": "Hag Eye (Coven Only)",
+                    "desc": "A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.\nA hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/dancing-lights/?format=json",
+                "https://api.open5e.com/spells/minor-illusion/?format=json",
+                "https://api.open5e.com/spells/vicious-mockery/?format=json",
+                "https://api.open5e.com/spells/identify/?format=json",
+                "https://api.open5e.com/spells/ray-of-sickness/?format=json",
+                "https://api.open5e.com/spells/hold-person/?format=json",
+                "https://api.open5e.com/spells/locate-object/?format=json",
+                "https://api.open5e.com/spells/bestow-curse/?format=json",
+                "https://api.open5e.com/spells/counterspell/?format=json",
+                "https://api.open5e.com/spells/lightning-bolt/?format=json",
+                "https://api.open5e.com/spells/phantasmal-killer/?format=json",
+                "https://api.open5e.com/spells/polymorph/?format=json",
+                "https://api.open5e.com/spells/contact-other-plane/?format=json",
+                "https://api.open5e.com/spells/scrying/?format=json",
+                "https://api.open5e.com/spells/eye-bite/?format=json"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Feywild",
+                "Forest",
+                "Jungle",
+                "Ruin",
+                "Settlement",
+                "Shadowfell",
+                "Swamp",
+                "forest",
+                "hill",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "wight",
+            "name": "Wight",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 14,
+            "armor_desc": "studded leather",
+            "hit_points": 45,
+            "hit_dice": "6d8+18",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 15,
+            "dexterity": 14,
+            "constitution": 16,
+            "intelligence": 10,
+            "wisdom": 13,
+            "charisma": 15,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "condition_immunities": "poisoned",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "the languages it knew in life",
+            "challenge_rating": "3",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack."
+                },
+                {
+                    "name": "Life Drain",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.\nA humanoid slain by this attack rises 24 hours later as a zombie under the wight's control, unless the humanoid is restored to life or its body is destroyed. The wight can have no more than twelve zombies under its control at one time.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Longsword",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                },
+                {
+                    "name": "Longbow",
+                    "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Sunlight Sensitivity",
+                    "desc": "While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "swamp",
+                "underdark",
+                "urban"
+            ]
+        }
+    ]
+}

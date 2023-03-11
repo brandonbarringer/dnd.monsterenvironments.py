@@ -1,0 +1,258 @@
+{
+    "count": 2,
+    "monsters": [
+        {
+            "slug": "adult-mithral-dragon",
+            "name": "Adult Mithral Dragon",
+            "size": "Huge",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 18,
+            "armor_desc": "natural armor",
+            "hit_points": 184,
+            "hit_dice": "16d12+80",
+            "speed": {
+                "walk": 40,
+                "fly": 80
+            },
+            "strength": 27,
+            "dexterity": 18,
+            "constitution": 21,
+            "intelligence": 20,
+            "wisdom": 21,
+            "charisma": 20,
+            "strength_save": null,
+            "dexterity_save": 9,
+            "constitution_save": 10,
+            "intelligence_save": 10,
+            "wisdom_save": 10,
+            "charisma_save": 10,
+            "perception": 10,
+            "skills": {
+                "athletics": 13,
+                "history": 10,
+                "insight": 10,
+                "perception": 10,
+                "persuasion": 10
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "acid, thunder",
+            "condition_immunities": "charmed",
+            "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 20",
+            "languages": "Celestial, Common, Draconic, Primordial",
+            "challenge_rating": "14",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage.",
+                    "attack_bonus": 13,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage, and the target loses 4 hit points from bleeding at the start of each of its turns for six rounds unless it receives magical healing. Bleeding damage is cumulative; the target loses 4 hp per round for each bleeding wound it's taken from a mithral dragon's claws.",
+                    "attack_bonus": 13,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Tail",
+                    "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage.",
+                    "attack_bonus": 13,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Frightful Presence",
+                    "desc": "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of its turn, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+                },
+                {
+                    "name": "Breath Weapon (Recharge 5-6)",
+                    "desc": "A mithral dragon can spit a 60-foot-long, 5-foot-wide line of metallic shards. Targets in its path take 42 (12d6) magical slashing damage and lose another 8 hit points from bleeding at the start of their turns for 6 rounds; slashing and bleed damage are halved by a successful DC 18 Dexterity saving throw. Only magical healing stops the bleeding before 6 rounds. The shards dissolve into wisps of smoke 1 round after the breath weapon's use."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+            "legendary_actions": [
+                {
+                    "name": "Detect",
+                    "desc": "The dragon makes a Wisdom (Perception) check."
+                },
+                {
+                    "name": "Tail Attack",
+                    "desc": "The dragon makes a tail attack."
+                },
+                {
+                    "name": "Wing Attack (Costs 2 Actions)",
+                    "desc": "The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+                }
+            ],
+            "special_abilities": [
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the dragon's innate spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nat will: tongues\n\n5/day each: dispel magic, enhance ability"
+                },
+                {
+                    "name": "Spellcasting",
+                    "desc": "the dragon is a 6th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The dragon has the following wizard spells prepared:\n\ncantrips (at will): acid splash, light, mage hand, prestidigitation\n\n1st level (4 slots): charm person, expeditious retreat, magic missile, unseen servant\n\n2nd level (3 slots): blur, hold person, see invisibility\n\n3rd level (3 slots): haste, lightning bolt, protection from energy"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "mountains",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "adult-void-dragon",
+            "name": "Adult Void Dragon",
+            "size": "Huge",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 19,
+            "armor_desc": "natural armor",
+            "hit_points": 229,
+            "hit_dice": "17d12+119",
+            "speed": {
+                "hover": true,
+                "walk": 40,
+                "fly": 80
+            },
+            "strength": 24,
+            "dexterity": 10,
+            "constitution": 25,
+            "intelligence": 16,
+            "wisdom": 13,
+            "charisma": 21,
+            "strength_save": null,
+            "dexterity_save": 5,
+            "constitution_save": 12,
+            "intelligence_save": null,
+            "wisdom_save": 6,
+            "charisma_save": 10,
+            "perception": 11,
+            "skills": {
+                "arcana": 13,
+                "history": 13,
+                "perception": 11,
+                "persuasion": 10,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "cold",
+            "condition_immunities": "charmed, frightened",
+            "senses": "passive Perception $1",
+            "languages": "Common, Draconic, Void Speech",
+            "challenge_rating": "14",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dragon can use its Aura of Madness. It then makes three attacks: one with its bite and two with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 7 (2d6) cold damage.",
+                    "attack_bonus": 12,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage plus 3 (1d6) cold damage.",
+                    "attack_bonus": 12,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Tail",
+                    "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage.",
+                    "attack_bonus": 12,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Aura of Madness",
+                    "desc": "As ancient void dragon, with DC 18 Wisdom saving throw."
+                },
+                {
+                    "name": "Breath Weapons (Recharge 5-6)",
+                    "desc": "The dragon uses one of the following breath weapons:"
+                },
+                {
+                    "name": "Gravitic Breath",
+                    "desc": "The dragon exhales a 60-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 20 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively."
+                },
+                {
+                    "name": "Stellar Flare Breath",
+                    "desc": "The dragon exhales star fire in a 60- foot cone. Each creature in that area must make a DC 20 Dexterity saving throw, taking 31 (9d6) fire damage and 31 (9d6) radiant damage on a failed save, or half as much damage on a successful one."
+                },
+                {
+                    "name": "Teleport",
+                    "desc": "The dragon magically teleports to any open space within 100 feet."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Void Twist",
+                    "desc": "When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 5 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target."
+                }
+            ],
+            "legendary_desc": "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn.",
+            "legendary_actions": [
+                {
+                    "name": "Detect",
+                    "desc": "The dragon makes a Wisdom (Perception) check."
+                },
+                {
+                    "name": "Tail Attack",
+                    "desc": "The dragon makes a tail attack."
+                },
+                {
+                    "name": "Void Slip (Costs 2 Actions)",
+                    "desc": "The dragon twists the fabric of space. Each creature within 15 feet of the dragon must succeed on a DC 18 Dexterity saving throw or take 12 (2d6 + 5) bludgeoning damage and be knocked prone. The dragon can then teleport to an unoccupied space within 40 feet."
+                },
+                {
+                    "name": "Void Cache (Costs 3 Actions)",
+                    "desc": "The dragon can magically reach into its treasure hoard and retrieve one item. If it is holding an item, it can use this ability to deposit the item into its hoard."
+                }
+            ],
+            "special_abilities": [
+                {
+                    "name": "Chill of the Void",
+                    "desc": "Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity."
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "desc": "If the dragon fails a saving throw, it can choose to succeed instead."
+                },
+                {
+                    "name": "Void Dweller",
+                    "desc": "As ancient void dragon."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "badlands",
+                "mountains",
+                "mountain"
+            ]
+        }
+    ]
+}

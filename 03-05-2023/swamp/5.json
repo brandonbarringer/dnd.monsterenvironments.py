@@ -1,0 +1,693 @@
+{
+    "count": 8,
+    "monsters": [
+        {
+            "slug": "eleinomae",
+            "name": "Eleinomae",
+            "size": "Medium",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 18,
+            "armor_desc": "",
+            "hit_points": 112,
+            "hit_dice": "15d8+45",
+            "speed": {
+                "walk": 30,
+                "swim": 30
+            },
+            "strength": 13,
+            "dexterity": 19,
+            "constitution": 16,
+            "intelligence": 14,
+            "wisdom": 14,
+            "charisma": 19,
+            "strength_save": 4,
+            "dexterity_save": 7,
+            "constitution_save": 6,
+            "intelligence_save": 5,
+            "wisdom_save": 5,
+            "charisma_save": 7,
+            "perception": 5,
+            "skills": {
+                "deception": 7,
+                "insight": 5,
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception $1",
+            "languages": "Aquan, Common, Elvish, Sylvan",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The eleinomae makes three dagger attacks and one reed flower net attack."
+                },
+                {
+                    "name": "Dagger",
+                    "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4 + 4) slashing damage plus 3 (1d6) poison damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Reed Flower Net",
+                    "desc": "Ranged Weapon Attack: +7 to hit, range 5/15 ft., one Large or smaller creature. Hit: The target has disadvantage on Wisdom saving throws for 1 minute, and is restrained. A creature can free itself or another creature within reach from restraint by using an action to make a successful DC 15 Strength check or by doing 5 slashing damage to the net (AC 10).",
+                    "attack_bonus": 7,
+                    "damage_dice": "0"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Unearthly Grace",
+                    "desc": "The eleinomae's Charisma modifier is added to its armor class (included above)."
+                },
+                {
+                    "name": "Reed Walk",
+                    "desc": "The eleinomae can move across undergrowth or rivers without making an ability check. Additionally, difficult terrain of this kind doesn't cost it extra moment."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the eleinomae's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:\n\nat will: dancing lights\n\n3/day each: charm person, suggestion\n\n2/day each: hallucinatory terrain, major image"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "marshes",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "giant-crocodile",
+            "name": "Giant Crocodile",
+            "size": "Huge",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 85,
+            "hit_dice": "9d12",
+            "speed": {
+                "walk": 30,
+                "swim": 50
+            },
+            "strength": 21,
+            "dexterity": 9,
+            "constitution": 17,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The crocodile makes two attacks: one with its bite and one with its tail."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target.",
+                    "attack_bonus": 8,
+                    "damage_dice": "3d10",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Tail",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 5
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Hold Breath",
+                    "desc": "The crocodile can hold its breath for 30 minutes."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Swamp",
+                "Water",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "kongamato",
+            "name": "Kongamato",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 112,
+            "hit_dice": "15d10+30",
+            "speed": {
+                "walk": 10,
+                "fly": 60
+            },
+            "strength": 19,
+            "dexterity": 18,
+            "constitution": 14,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception $1",
+            "languages": "-",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The kongamato makes one bite attack and two claw attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (4d6 + 4) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 14). Until this grapple ends, the target is restrained and the kongamato can't bite another target. When the kongamato moves, any target it is grappling moves with it.",
+                    "attack_bonus": 7,
+                    "damage_dice": "4d6"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "3d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Flyby",
+                    "desc": "The kongamato doesn't provoke an opportunity attacks when it flies out of an enemy's reach."
+                },
+                {
+                    "name": "Breaker of Boats",
+                    "desc": "The kongamato deals double damage to objects and structures made of wood or lighter materials."
+                },
+                {
+                    "name": "Carry Off",
+                    "desc": "A single kongamato can carry away prey up to 50 lbs, or a single rider under that weight. A grouo of them can carry up to 100 lbs."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "marshes",
+                "plains",
+                "plain",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "shambling-mound",
+            "name": "Shambling Mound",
+            "size": "Large",
+            "type": "plant",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 136,
+            "hit_dice": "16d10+48",
+            "speed": {
+                "walk": 20,
+                "swim": 20
+            },
+            "strength": 18,
+            "dexterity": 8,
+            "constitution": 16,
+            "intelligence": 5,
+            "wisdom": 10,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold, fire",
+            "damage_immunities": "lightning",
+            "condition_immunities": "blinded, deafened, exhaustion",
+            "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10",
+            "languages": "",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The shambling mound makes two slam attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 14), and the shambling mound uses its Engulf on it."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Engulf",
+                    "desc": "The shambling mound engulfs a Medium or smaller creature grappled by it. The engulfed target is blinded, restrained, and unable to breathe, and it must succeed on a DC 14 Constitution saving throw at the start of each of the mound's turns or take 13 (2d8 + 4) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Lightning Absorption",
+                    "desc": "Whenever the shambling mound is subjected to lightning damage, it takes no damage and regains a number of hit points equal to the lightning damage dealt."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Feywild",
+                "Forest",
+                "Jungle",
+                "Swamp",
+                "forest",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "troll",
+            "name": "Troll",
+            "size": "Large",
+            "type": "giant",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 84,
+            "hit_dice": "8d10+40",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 18,
+            "dexterity": 13,
+            "constitution": 20,
+            "intelligence": 7,
+            "wisdom": 9,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Giant",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The troll makes three attacks: one with its bite and two with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The troll has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Regeneration",
+                    "desc": "The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+                },
+                {
+                    "name": "Variant: Loathsome Limbs",
+                    "desc": "Whenever the troll takes at least 15 slashing damage at one time, roll a d20 to determine what else happens to it:\n\n**1-10:** Nothing else happens.\n**11-14:** One leg is severed from the troll if it has any legs left.\n**15- 18:** One arm is severed from the troll if it has any arms left.\n**19-20:** The troll is decapitated, but the troll dies only if it can't regenerate. If it dies, so does the severed head.\n\nIf the troll finishes a short or long rest without reattaching a severed limb or head, the part regrows. At that point, the severed part dies. Until then, a severed part acts on the troll's initiative and has its own action and movement. A severed part has AC 13, 10 hit points, and the troll's Regeneration trait.\nA **severed leg** is unable to attack and has a speed of 5 feet.\nA **severed arm** has a speed of 5 feet and can make one claw attack on its turn, with disadvantage on the attack roll unless the troll can see the arm and its target. Each time the troll loses an arm, it loses a claw attack.\nIf its head is severed, the troll loses its bite attack and its body is blinded unless the head can see it. The **severed head** has a speed of 0 feet and the troll's Keen Smell trait. It can make a bite attack but only against a target in its space.\nThe troll's speed is halved if it's missing a leg. If it loses both legs, it falls prone. If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Feywild",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Ruin",
+                "Swamp",
+                "arctic",
+                "forest",
+                "hill",
+                "jungle",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "vapor-lynx",
+            "name": "Vapor Lynx",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 127,
+            "hit_dice": "15d10+45",
+            "speed": {
+                "walk": 50,
+                "climb": 30
+            },
+            "strength": 15,
+            "dexterity": 18,
+            "constitution": 16,
+            "intelligence": 10,
+            "wisdom": 13,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4,
+                "stealth": 7
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Common, Sylvan",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The vapor lynx makes one bite attack and two claw attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (3d8 + 4) piercing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "3d8"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Poison Breath (Recharge 5-6)",
+                    "desc": "The vapor lynx exhales a 40- foot radius poison fog, which heavily obscures a spherical area around the lynx. Any breathing creature that ends its turn in the fog must make a DC 14 Constitution saving throw or become poisoned for 1d4 + 1 rounds."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the lynx's innate spellcasting ability is Charisma. It can cast the following spell, requiring no material components:\n\n3/day: gaseous form"
+                },
+                {
+                    "name": "Smoky Constitution",
+                    "desc": "The vapor lynx spends its time in both gaseous and solid form. Its unique constitution makes it immune to all fog- or gas-related spells and attacks, including its own. A vapor lynx sees clearly through light or heavy obscurement caused by fog, mist, or spells such as fog cloud."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "marshes",
+                "plains",
+                "plain",
+                "swamp"
+            ]
+        },
+        {
+            "slug": "water-elemental",
+            "name": "Water Elemental",
+            "size": "Large",
+            "type": "elemental",
+            "subtype": "",
+            "group": "Elementals",
+            "alignment": "neutral",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 114,
+            "hit_dice": "12d10+48",
+            "speed": {
+                "walk": 30,
+                "swim": 90
+            },
+            "strength": 18,
+            "dexterity": 14,
+            "constitution": 18,
+            "intelligence": 5,
+            "wisdom": 10,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "poison",
+            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Aquan",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The elemental makes two slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Whelm (Recharge 4-6)",
+                    "desc": "Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.\nThe elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength and succeeding."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Water Form",
+                    "desc": "The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+                },
+                {
+                    "name": "Freeze",
+                    "desc": "If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 ft. until the end of its next turn."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Laboratory",
+                "Plane of Water",
+                "Water",
+                "coastal",
+                "desert",
+                "swamp",
+                "underwater"
+            ]
+        },
+        {
+            "slug": "zmey-headling",
+            "name": "Zmey Headling",
+            "size": "Medium",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 16,
+            "armor_desc": "natural armor",
+            "hit_points": 105,
+            "hit_dice": "14d8+42",
+            "speed": {
+                "walk": 30,
+                "swim": 20
+            },
+            "strength": 16,
+            "dexterity": 10,
+            "constitution": 1,
+            "intelligence": 8,
+            "wisdom": 16,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold, fire",
+            "damage_immunities": "",
+            "condition_immunities": "paralyzed, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Common, Draconic, Sylvan",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The zmey headline makes one bite attack and one claws attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 16 (2d12 + 3) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d12"
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage.",
+                    "attack_bonus": 11,
+                    "damage_dice": "2d12"
+                },
+                {
+                    "name": "Tail",
+                    "desc": "Melee Weapon Attack: +11 to hit, reach 20 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage.",
+                    "attack_bonus": 11,
+                    "damage_dice": "2d8"
+                },
+                {
+                    "name": "Fire Breath (Recharge 5-6)",
+                    "desc": "The zmey headling exhales fire in a 30-foot cone. Each creature in that area takes 16 (3d10) fire damage, or half damage with a successful DC 16 Dexterity saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amphibious",
+                    "desc": "The zmey headling can breathe air and water."
+                },
+                {
+                    "name": "Regeneration",
+                    "desc": "The zmey headling reaver regains 10 hit points at the start of its turn. This trait doesn't function if the zmey headling took acid or fire damage since the end of its previous turn. It dies if it starts its turn with 0 hit points and doesn't regenerate."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "forests",
+                "marshes",
+                "forest",
+                "swamp"
+            ]
+        }
+    ]
+}

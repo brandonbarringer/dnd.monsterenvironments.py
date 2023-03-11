@@ -1,0 +1,682 @@
+{
+    "count": 8,
+    "monsters": [
+        {
+            "slug": "berserker",
+            "name": "Berserker",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any chaotic alignment",
+            "armor_class": 13,
+            "armor_desc": "hide armor",
+            "hit_points": 67,
+            "hit_dice": "9d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 16,
+            "dexterity": 12,
+            "constitution": 17,
+            "intelligence": 9,
+            "wisdom": 11,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 10",
+            "languages": "any one language (usually Common)",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Greataxe",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d12",
+                    "damage_bonus": 3
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Reckless",
+                    "desc": "At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "druid",
+            "name": "Druid",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "any race",
+            "group": null,
+            "alignment": "any alignment",
+            "armor_class": 11,
+            "armor_desc": "16 with _barkskin_",
+            "hit_points": 27,
+            "hit_dice": "5d8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 10,
+            "dexterity": 12,
+            "constitution": 13,
+            "intelligence": 12,
+            "wisdom": 15,
+            "charisma": 11,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "medicine": 4,
+                "nature": 3,
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "Druidic plus any two languages",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Quarterstaff",
+                    "desc": "Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands.",
+                    "attack_bonus": 2,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Spellcasting",
+                    "desc": "The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:\n\n\u2022 Cantrips (at will): druidcraft, produce flame, shillelagh\n\u2022 1st level (4 slots): entangle, longstrider, speak with animals, thunderwave\n\u2022 2nd level (3 slots): animal messenger, barkskin"
+                }
+            ],
+            "spell_list": [
+                "https://api.open5e.com/spells/druidcraft/?format=json",
+                "https://api.open5e.com/spells/produce-flame/?format=json",
+                "https://api.open5e.com/spells/shillelagh/?format=json",
+                "https://api.open5e.com/spells/entangle/?format=json",
+                "https://api.open5e.com/spells/longstrider/?format=json",
+                "https://api.open5e.com/spells/speak-with-animals/?format=json",
+                "https://api.open5e.com/spells/thunderwave/?format=json",
+                "https://api.open5e.com/spells/animal-messenger/?format=json",
+                "https://api.open5e.com/spells/barkskin/?format=json"
+            ],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Swamp",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "giant-elk",
+            "name": "Giant Elk",
+            "size": "Huge",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 42,
+            "hit_dice": "5d12",
+            "speed": {
+                "walk": 60
+            },
+            "strength": 19,
+            "dexterity": 16,
+            "constitution": 14,
+            "intelligence": 7,
+            "wisdom": 14,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 14",
+            "languages": "Giant Elk, understands Common, Elvish, and Sylvan but can't speak",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Ram",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Hooves",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit: 22 (4d8 + 4) bludgeoning damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "4d8",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Charge",
+                    "desc": "If the elk moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.",
+                    "attack_bonus": 0,
+                    "damage_dice": "2d6"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Tundra",
+                "forest",
+                "grassland",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "griffon",
+            "name": "Griffon",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 59,
+            "hit_dice": "7d10+21",
+            "speed": {
+                "walk": 30,
+                "fly": 80
+            },
+            "strength": 18,
+            "dexterity": 15,
+            "constitution": 16,
+            "intelligence": 2,
+            "wisdom": 13,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The griffon makes two attacks: one with its beak and one with its claws."
+                },
+                {
+                    "name": "Beak",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d8",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Sight",
+                    "desc": "The griffon has advantage on Wisdom (Perception) checks that rely on sight."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Plane of Air",
+                "arctic",
+                "coastal",
+                "desert",
+                "grassland",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "kot-bayun",
+            "name": "Kot Bayun",
+            "size": "Medium",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 15,
+            "armor_desc": "",
+            "hit_points": 44,
+            "hit_dice": "8d8+8",
+            "speed": {
+                "walk": 40,
+                "climb": 20
+            },
+            "strength": 16,
+            "dexterity": 16,
+            "constitution": 13,
+            "intelligence": 12,
+            "wisdom": 16,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": 5,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 13",
+            "languages": "Common, Sylvan",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The kot bayun makes one bite attack and one claws attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Claws",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5ft., one target. Hit: 14 (2d10 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "2d10"
+                },
+                {
+                    "name": "Slumbering Song",
+                    "desc": "The kot bayun puts creatures to sleep with its haunting melody. While a kot bayun sings, it can target one hearing creature within a 100-foot radius. This target must succeed on a DC 13 Charisma saving throw or fall asleep. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. Each round the kot bayun maintains its song, it can select a new target. A creature that successfully saves is immune to the effect of that kot bayun's song for 24 hours. The slumbering song even affects elves, but they have advantage on the Charisma saving throw."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Folk Cure",
+                    "desc": "A kot bayun's tales have the effect of a lesser restoration spell at will, and once per week it can have the effect of greater restoration. The kot bayun designates one listener to benefit from its ability, and that listener must spend one uninterrupted hour listening to the cat's tales. Kot bayuns are reluctant to share this benefit and must be bargained with or under the effect of domination to grant the boon."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the kot bayun's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:\n\n3/day each: fog cloud, invisibility (self only)\n\n1/day: blink"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "hills",
+                "mountains",
+                "ruins",
+                "underground",
+                "hill",
+                "mountain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "ogre",
+            "name": "Ogre",
+            "size": "Large",
+            "type": "giant",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 11,
+            "armor_desc": "hide armor",
+            "hit_points": 59,
+            "hit_dice": "7d10+21",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 19,
+            "dexterity": 8,
+            "constitution": 16,
+            "intelligence": 5,
+            "wisdom": 7,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 8",
+            "languages": "Common, Giant",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Greatclub",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Javelin",
+                    "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Desert",
+                "Feywild",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Plane of Earth",
+                "Ruin",
+                "Swamp",
+                "Tundra",
+                "arctic",
+                "coastal",
+                "desert",
+                "forest",
+                "grassland",
+                "hill",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "saber-toothed-tiger",
+            "name": "Saber-Toothed Tiger",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 12,
+            "armor_desc": null,
+            "hit_points": 52,
+            "hit_dice": "7d10",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 18,
+            "dexterity": 14,
+            "constitution": 15,
+            "intelligence": 3,
+            "wisdom": 12,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception 13",
+            "languages": "",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d10",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 5
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The tiger has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Pounce",
+                    "desc": "If the tiger moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Forest",
+                "Jungle",
+                "Mountains",
+                "Tundra",
+                "arctic",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "void-dragon-wyrmling",
+            "name": "Void Dragon Wyrmling",
+            "size": "Medium",
+            "type": "dragon",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic neutral",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 45,
+            "hit_dice": "6d8+18",
+            "speed": {
+                "hover": true,
+                "walk": 30,
+                "fly": 60
+            },
+            "strength": 16,
+            "dexterity": 10,
+            "constitution": 17,
+            "intelligence": 12,
+            "wisdom": 9,
+            "charisma": 17,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": 5,
+            "intelligence_save": null,
+            "wisdom_save": 1,
+            "charisma_save": 5,
+            "perception": 3,
+            "skills": {
+                "perception": 3,
+                "stealth": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "cold",
+            "condition_immunities": "",
+            "senses": "passive Perception $1",
+            "languages": "Common, Draconic, Void Speech",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) cold damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d10"
+                },
+                {
+                    "name": "Breath Weapons (Recharge 5-6)",
+                    "desc": "The dragon uses one of the following breath weapons:"
+                },
+                {
+                    "name": "Gravitic Breath",
+                    "desc": "The dragon exhales a 15-foot cube of powerful localized gravity, originating from the dragon. Falling damage in the area increases to 1d10 per 10 feet fallen. When a creature starts its turn within the area or enters it for the first time in a turn, including when the dragon creates the field, must make a DC 13 Dexterity saving throw. On a failure the creature is restrained. On a success the creature's speed is halved as long as it remains in the field. A restrained creature repeats the saving throw at the end of its turn. The field persists until the dragon's breath recharges, and it can't use gravitic breath twice consecutively."
+                },
+                {
+                    "name": "Stellar Flare Breath",
+                    "desc": "The dragon exhales star fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage and 10 (3d6) radiant damage on a failed save, or half as much damage on a successful one."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Void Twist",
+                    "desc": "When the dragon is hit by a ranged attack it can create a small rift in space to increase its AC by 2 against that attack. If the attack misses because of this increase the dragon can choose a creature within 30 feet to become the new target for that attack. Use the original attack roll to determine if the attack hits the new target."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Chill of the Void",
+                    "desc": "Cold damage dealt by the void dragon ignores resistance to cold damage, but not cold immunity."
+                },
+                {
+                    "name": "Void Dweller",
+                    "desc": "As ancient void dragon."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "mountains",
+                "mountain"
+            ]
+        }
+    ]
+}

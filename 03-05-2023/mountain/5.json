@@ -1,0 +1,351 @@
+{
+    "count": 4,
+    "monsters": [
+        {
+            "slug": "air-elemental",
+            "name": "Air Elemental",
+            "size": "Large",
+            "type": "elemental",
+            "subtype": "",
+            "group": "Elementals",
+            "alignment": "neutral",
+            "armor_class": 15,
+            "armor_desc": null,
+            "hit_points": 90,
+            "hit_dice": "12d10+24",
+            "speed": {
+                "hover": true,
+                "walk": 0,
+                "fly": 90
+            },
+            "strength": 14,
+            "dexterity": 20,
+            "constitution": 14,
+            "intelligence": 6,
+            "wisdom": 10,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "poison",
+            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Auran",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The elemental makes two slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "2d8",
+                    "damage_bonus": 5
+                },
+                {
+                    "name": "Whirlwind (Recharge 4-6)",
+                    "desc": "Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.\nIf the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Air Form",
+                    "desc": "The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Laboratory",
+                "Plane of Air",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "bulette",
+            "name": "Bulette",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 17,
+            "armor_desc": "natural armor",
+            "hit_points": 94,
+            "hit_dice": "9d10+45",
+            "speed": {
+                "walk": 40,
+                "burrow": 40
+            },
+            "strength": 19,
+            "dexterity": 11,
+            "constitution": 21,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 5,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 6,
+            "skills": {
+                "perception": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16",
+            "languages": "",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30 (4d12 + 4) piercing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "4d12",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Deadly Leap",
+                    "desc": "If the bulette jumps at least 15 ft. as part of its movement, it can then use this action to land on its ft. in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 ft. out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the bulette's space."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Standing Leap",
+                    "desc": "The bulette's long jump is up to 30 ft. and its high jump is up to 15 ft., with or without a running start."
+                }
+            ],
+            "spell_list": [],
+            "img_main": "http://api.open5e.com/static/img/monsters/bulette.png",
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Desert",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Mountains",
+                "Plane of Earth",
+                "Ruin",
+                "Settlement",
+                "grassland",
+                "hill",
+                "mountain"
+            ]
+        },
+        {
+            "slug": "dogmole-juggernaut",
+            "name": "Dogmole Juggernaut",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 15,
+            "armor_desc": "chain armor",
+            "hit_points": 126,
+            "hit_dice": "12d10+60",
+            "speed": {
+                "walk": 30,
+                "burrow": 10,
+                "swim": 10
+            },
+            "strength": 21,
+            "dexterity": 14,
+            "constitution": 20,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 2,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": 11,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 30 ft., passive Perception 10",
+            "languages": "-",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The dogmole juggernaut makes one claw attack and one bite attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 11 (1d12 + 5) piercing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d12"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 19 (4d6 + 5) slashing damage.",
+                    "attack_bonus": 8,
+                    "damage_dice": "4d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Burrow",
+                    "desc": "Dogmole juggernauts cannot burrow into solid rock, but they can move through softer material like soil or loose rubble, leaving a usable tunnel 10 ft. in diameter."
+                },
+                {
+                    "name": "Ferocity (1/Day)",
+                    "desc": "When the dogmole juggernaut is reduced to 0 hit points, it doesn't die until the end of its next turn."
+                },
+                {
+                    "name": "Powerful Build",
+                    "desc": "A dogmole juggernaut is treated as one size larger if doing so is advantageous to it (such as during grapple checks, pushing attempts, and tripping attempts, but not for the purposes of squeezing or AC). It gains advantage against magical pushing attempts such as gust of wind or Repelling Blast."
+                },
+                {
+                    "name": "Wormkiller Rage",
+                    "desc": "Wild dogmole juggernaut packs are famed for their battles against the monsters of the dark caverns of the world. If a dogmole juggernaut draws blood against vermin, purple worms, or other underground invertebrate, it gains a +4 bonus to Strength and Constitution but suffers a -2 penalty to AC. The wormkiller rage lasts for a number of rounds equal to 1+ its Constitution modifier (minimum 1 round). It cannot end the rage voluntarily while the creatures that sent it into a rage still live."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "hills",
+                "mountains",
+                "ruins",
+                "underground",
+                "hill",
+                "mountain",
+                "underdark"
+            ]
+        },
+        {
+            "slug": "troll",
+            "name": "Troll",
+            "size": "Large",
+            "type": "giant",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 84,
+            "hit_dice": "8d10+40",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 18,
+            "dexterity": 13,
+            "constitution": 20,
+            "intelligence": 7,
+            "wisdom": 9,
+            "charisma": 7,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 2,
+            "skills": {
+                "perception": 2
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "Giant",
+            "challenge_rating": "5",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The troll makes three attacks: one with its bite and two with its claws."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "1d6",
+                    "damage_bonus": 4
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
+                    "attack_bonus": 7,
+                    "damage_dice": "2d6",
+                    "damage_bonus": 4
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The troll has advantage on Wisdom (Perception) checks that rely on smell."
+                },
+                {
+                    "name": "Regeneration",
+                    "desc": "The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate."
+                },
+                {
+                    "name": "Variant: Loathsome Limbs",
+                    "desc": "Whenever the troll takes at least 15 slashing damage at one time, roll a d20 to determine what else happens to it:\n\n**1-10:** Nothing else happens.\n**11-14:** One leg is severed from the troll if it has any legs left.\n**15- 18:** One arm is severed from the troll if it has any arms left.\n**19-20:** The troll is decapitated, but the troll dies only if it can't regenerate. If it dies, so does the severed head.\n\nIf the troll finishes a short or long rest without reattaching a severed limb or head, the part regrows. At that point, the severed part dies. Until then, a severed part acts on the troll's initiative and has its own action and movement. A severed part has AC 13, 10 hit points, and the troll's Regeneration trait.\nA **severed leg** is unable to attack and has a speed of 5 feet.\nA **severed arm** has a speed of 5 feet and can make one claw attack on its turn, with disadvantage on the attack roll unless the troll can see the arm and its target. Each time the troll loses an arm, it loses a claw attack.\nIf its head is severed, the troll loses its bite attack and its body is blinded unless the head can see it. The **severed head** has a speed of 0 feet and the troll's Keen Smell trait. It can make a bite attack but only against a target in its space.\nThe troll's speed is halved if it's missing a leg. If it loses both legs, it falls prone. If it has both arms, it can crawl. With only one arm, it can still crawl, but its speed is halved. With no arms or legs, its speed is 0, and it can't benefit from bonuses to speed."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "wotc-srd",
+            "document__title": "Systems Reference Document",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "Caverns",
+                "Feywild",
+                "Forest",
+                "Grassland",
+                "Hills",
+                "Jungle",
+                "Mountains",
+                "Ruin",
+                "Swamp",
+                "arctic",
+                "forest",
+                "hill",
+                "jungle",
+                "mountain",
+                "swamp",
+                "underdark"
+            ]
+        }
+    ]
+}

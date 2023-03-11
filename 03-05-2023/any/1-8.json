@@ -1,0 +1,149 @@
+{
+    "count": 2,
+    "monsters": [
+        {
+            "slug": "cikavak",
+            "name": "Cikavak",
+            "size": "Tiny",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 12,
+            "armor_desc": "",
+            "hit_points": 17,
+            "hit_dice": "7d4",
+            "speed": {
+                "walk": 10,
+                "fly": 40
+            },
+            "strength": 4,
+            "dexterity": 15,
+            "constitution": 10,
+            "intelligence": 12,
+            "wisdom": 12,
+            "charisma": 4,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5,
+                "stealth": 9
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "acid, fire, poison",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "passive Perception $1",
+            "languages": "understands Common; telepathy (touch)",
+            "challenge_rating": "1/8",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, range 5 ft., one target. Hit: 7 (1d4 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the cikavak's innate spellcasting ability is Wisdom (spell save DC 11). It can innately cast the following spells, requiring no material components:\n\nat will: speak with animals\n\n1/day: silence"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "shroud",
+            "name": "Shroud",
+            "size": "Medium",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 9,
+            "hit_dice": "2d8",
+            "speed": {
+                "hover": true,
+                "walk": 0,
+                "fly": 30
+            },
+            "strength": 4,
+            "dexterity": 13,
+            "constitution": 10,
+            "intelligence": 2,
+            "wisdom": 10,
+            "charisma": 8,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 3
+            },
+            "damage_vulnerabilities": "radiant",
+            "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "damage_immunities": "necrotic, poison",
+            "condition_immunities": "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+            "senses": "darkvision 60 ft., passive Perception 10",
+            "languages": "Common",
+            "challenge_rating": "1/8",
+            "actions": [
+                {
+                    "name": "Strength Drain",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) necrotic damage, and the target's Strength score is reduced by one-half that amount. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest. If a non-evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Amorphous",
+                    "desc": "The shroud can move through a space as narrow as 1 inch wide without squeezing."
+                },
+                {
+                    "name": "Shadow Evolution",
+                    "desc": "Shrouds instantly become shadows once they cause a total of 12 damage. Any damage they've suffered is subtracted from the shadow's total hit points or abilities."
+                },
+                {
+                    "name": "Shroud Stealth",
+                    "desc": "When in dim light or darkness, the shroud can take the Hide action as a bonus action."
+                },
+                {
+                    "name": "Sunlight Weakness",
+                    "desc": "While in sunlight, the shroud has disadvantage on attack rolls, ability checks, and saving throws."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        }
+    ]
+}

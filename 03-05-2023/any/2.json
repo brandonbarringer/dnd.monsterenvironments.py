@@ -1,0 +1,894 @@
+{
+    "count": 11,
+    "monsters": [
+        {
+            "slug": "anubian",
+            "name": "Anubian",
+            "size": "Medium",
+            "type": "elemental",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 13,
+            "armor_desc": "",
+            "hit_points": 44,
+            "hit_dice": "8d8+8",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 12,
+            "dexterity": 16,
+            "constitution": 12,
+            "intelligence": 10,
+            "wisdom": 12,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "poison",
+            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., tremorsense 30 ft., passive Perception 11",
+            "languages": "Primordial",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The anubian makes two claw attacks."
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Haboob (1/Day)",
+                    "desc": "The anubian creates a sandstorm in a cylinder 30-feet high, that reaches to within 5 feet of it. The storm moves with the anubian. The area is heavily obscured, and each creature other than an anubian that enters the sandstorm or ends its turn there must make a successful DC 13 Strength saving throw or be restrained by it. Also, each creature other than an anubian that ends its turn inside the sandstorm takes 3 (1d6) slashing damage. The anubian can maintain the haboob for up to 10 minutes as if concentrating on a spell. While maintaining the haboob, the anubian's speed is reduced to 5 feet and it can't sand step. Creatures restrained by the sandstorm move with the anubian. A creature can free itself or an adjacent creature from the sandstorm by using its action and making a DC 13 Strength check. A successful check ends the restraint on the target creature."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Sand Stealth",
+                    "desc": "The anubian gains an additional +2 (+7 in total) to Stealth in sand terrain"
+                },
+                {
+                    "name": "Sand Step",
+                    "desc": "Instead of moving, the anubian's humanoid form collapses into loose sand and immediately reforms at another unoccupied space within 10 feet. This movement doesn't provoke opportunity attacks. After using this trait in sand terrain, the anubian can Hide as part of this movement even if under direct observation. Anubians can sand step under doors or through similar obstacles, provided there's a gap large enough for sand to sift through."
+                },
+                {
+                    "name": "Vulnerability to Water",
+                    "desc": "For every 5 feet the anubian moves while touching water or for every gallon of water splashed on it, it takes 2 (1d4) cold damage. An anubian completely immersed in water takes 10 (4d4) cold damage at the start of its turn."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "beli",
+            "name": "Beli",
+            "size": "Small",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 15,
+            "armor_desc": "natural armor",
+            "hit_points": 45,
+            "hit_dice": "10d6+10",
+            "speed": {
+                "walk": 30,
+                "fly": 30
+            },
+            "strength": 11,
+            "dexterity": 16,
+            "constitution": 12,
+            "intelligence": 8,
+            "wisdom": 11,
+            "charisma": 14,
+            "strength_save": null,
+            "dexterity_save": 5,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4,
+                "stealth": 5
+            },
+            "damage_vulnerabilities": "fire",
+            "damage_resistances": "",
+            "damage_immunities": "cold",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 14",
+            "languages": "Common, Dwarvish, Giant",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Ice Dagger",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 2 (1d4) cold damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Icy Shortbow",
+                    "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 2 (1d4) cold damage, and the target must make a successful DC 13 Constitution saving throw or gain 2 levels of exhaustion from the arrow's icy chill. If the save succeeds, the target also becomes immune to further exhaustion from beli arrows for 24 hours (but any levels of exhaustion already gained remain in effect). A character who gains a sixth level of exhaustion doesn't die automatically but drops to 0 hit points and must make death saving throws as normal. The exhaustion lasts until the target recovers fully from the cold damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Arctic Hunter",
+                    "desc": "Beli have advantage on Dexterity (Stealth) checks and Wisdom (Perception) checks made in icy, natural surroundings."
+                },
+                {
+                    "name": "Cold Regeneration",
+                    "desc": "As long as the temperature is below freezing, the beli regains 3 hit points at the start of its turn. If the beli takes fire damage, this trait doesn't function at the start of the beli's next turn. The beli dies only if it starts its turn with 0 hit points and it doesn't regenerate."
+                },
+                {
+                    "name": "Flyby",
+                    "desc": "The beli doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+                },
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the beli's innate spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nat will: invisibility\n\n3/day: chill touch"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "eala",
+            "name": "Eala",
+            "size": "Small",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 15,
+            "armor_desc": "natural",
+            "hit_points": 40,
+            "hit_dice": "9d6+9",
+            "speed": {
+                "walk": 10,
+                "fly": 60
+            },
+            "strength": 10,
+            "dexterity": 16,
+            "constitution": 12,
+            "intelligence": 2,
+            "wisdom": 12,
+            "charisma": 16,
+            "strength_save": null,
+            "dexterity_save": 5,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "-",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The eala makes two attacks with its wing blades."
+                },
+                {
+                    "name": "Wing Blades",
+                    "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
+                    "attack_bonus": 5,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Fire Breath (recharge 5-6)",
+                    "desc": "The eala breathes fire in a 20-foot cone. Every creature in the area must make a DC 11 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save or half as much on a successful one. The eala's fire breath ignites flammable objects and melts soft metals in the area that aren't being worn or carried."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Swan Song",
+                    "desc": "When the eala is reduced to 0 hit points, it can use its last breath sing a plaintive and beautiful melody. Creatures within 20 feet that can hear the eala must succeed on a DC 13 Charisma saving throw or be incapacitated for 1 round. A creature incapacitated in this way has its speed reduced to 0."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "firegeist",
+            "name": "Firegeist",
+            "size": "Small",
+            "type": "elemental",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 14,
+            "armor_desc": "",
+            "hit_points": 87,
+            "hit_dice": "25d6",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 7,
+            "dexterity": 18,
+            "constitution": 10,
+            "intelligence": 4,
+            "wisdom": 16,
+            "charisma": 6,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "fire, poison",
+            "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 15",
+            "languages": "Primordial",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The firegeist makes two slam attacks."
+                },
+                {
+                    "name": "Slam",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Combustion Touch (Recharge 5-6)",
+                    "desc": "The firegeist may ignite a target when making a slam attack. The target must immediately succeed at a DC 13 Dexterity saving throw or catch fire, taking an additional 5 (1d10) fire damage at the beginning of its next turn. Until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Hide By Firelight",
+                    "desc": "In an area lit only by nonmagical flame, a Firegeist gains a +2 bonus on Stealth checks. This becomes +4 when hiding within the fire."
+                },
+                {
+                    "name": "Illumination",
+                    "desc": "The firegeist sheds dim light in a 30-foot radius."
+                },
+                {
+                    "name": "Magical Light Sensitivity",
+                    "desc": "While in magical light, the firegeist has disadvantage on attack rolls and ability checks."
+                },
+                {
+                    "name": "Water Susceptibility",
+                    "desc": "For every 5 feet the firegeist moves in water, or for every gallon of water splashed on it, it takes 3 cold damage."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "folk-of-leng",
+            "name": "Folk Of Leng",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 14,
+            "armor_desc": "studded leather",
+            "hit_points": 68,
+            "hit_dice": "8d8+32",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 12,
+            "dexterity": 15,
+            "constitution": 18,
+            "intelligence": 14,
+            "wisdom": 16,
+            "charisma": 22,
+            "strength_save": null,
+            "dexterity_save": 4,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": 5,
+            "charisma_save": null,
+            "perception": 5,
+            "skills": {
+                "arcana": 4,
+                "deception": 8,
+                "perception": 5
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "cold",
+            "damage_immunities": "necrotic",
+            "condition_immunities": "frightened",
+            "senses": "passive Perception $1",
+            "languages": "Common, Void Speech",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Etheric Harpoon",
+                    "desc": "Ranged Weapon Attack: +8 to hit, range 30 ft., one target. Hit: 10 (1d8 + 6) necrotic damage, and the target must make a successful DC 13 Wisdom saving throw or be grappled (escape DC 13). In addition, armor has no effect against the attack roll of an etheric harpoon; only the Dexterity modifier factored into the target's AC is considered.",
+                    "attack_bonus": 8,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Psychic Scimitar",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 3 (1d6) psychic damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Hooked Spider Net (Recharge 5-6)",
+                    "desc": "Ranged Weapon Attack. +4 to hit, range 20/50 ft., one target. Hit: 3 (1d6) piercing damage plus 19 (3d12) poison damage, and the target is restrained. A successful DC 14 Constitution saving throw halves the poison damage."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "the folk of Leng's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:\n\nat will: comprehend languages, minor illusion\n\n3/day each: disguise self, suggestion\n\n1/day each: dream, etherealness"
+                },
+                {
+                    "name": "Regeneration",
+                    "desc": "The folk of Leng regains 5 hit points at the start of its turn. If the folk of Leng takes fire or radiant damage, this trait does not function at the start of its next turn. The folk of Leng dies only if it starts its turn with 0 hit points and does not regenerate. Even if slain, their bodies reform in a crypt of Leng and go on about their business."
+                },
+                {
+                    "name": "Void Stare",
+                    "desc": "The folk of Leng can see through doors and around corners as a bonus action. As a result, they are very rarely surprised."
+                },
+                {
+                    "name": "Void Sailors",
+                    "desc": "The folk of Leng can travel the airless void without harm."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "giant-ant",
+            "name": "Giant Ant",
+            "size": "Large",
+            "type": "beast",
+            "subtype": "",
+            "group": null,
+            "alignment": "unaligned",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 52,
+            "hit_dice": "7d10+14",
+            "speed": {
+                "walk": 40
+            },
+            "strength": 15,
+            "dexterity": 13,
+            "constitution": 15,
+            "intelligence": 1,
+            "wisdom": 9,
+            "charisma": 2,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "blindsight 60 ft., passive Perception 9",
+            "languages": "-",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The giant ant makes one bite attack and one sting attack."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the giant ant can't bite a different target.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Sting",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage plus 22 (4d10) poison damage, or half as much poison damage with a successful DC 12 Constitution saving throw.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Keen Smell",
+                    "desc": "The giant ant has advantage on Wisdom (Perception) checks that rely on smell."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "myling",
+            "name": "Myling",
+            "size": "Small",
+            "type": "undead",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 13,
+            "armor_desc": "natural armor",
+            "hit_points": 45,
+            "hit_dice": "10d6+10",
+            "speed": {
+                "walk": 30,
+                "burrow": 10
+            },
+            "strength": 15,
+            "dexterity": 10,
+            "constitution": 12,
+            "intelligence": 10,
+            "wisdom": 12,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+            "damage_immunities": "necrotic, poison",
+            "condition_immunities": "charmed, frightened, poisoned, stunned, unconscious",
+            "senses": "darkvision 60 ft., passive Perception 11",
+            "languages": "Common",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The myling makes one bite and two claw attacks."
+                },
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage, and the target is grappled (escape DC 12). If the target was grappled by the myling at the start of the myling's turn, the bite attack hits automatically.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d4"
+                },
+                {
+                    "name": "Claw",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "2d6"
+                },
+                {
+                    "name": "Buried Alive",
+                    "desc": "If the myling starts its turn on its chosen burial ground, it sinks into the earth. If it has a creature grappled, that creature sinks with the myling. A Medium or larger creature sinks up to its waist; a Small creature sinks up to its neck. If the myling still has the victim grappled at the start of the myling's next turn, both of them disappear into the earth. While buried this way, a creature is considered stunned. It can free itself with a successful DC 20 Strength (Athletics) check, but only one check is allowed; if it fails, the creature is powerless to aid itself except with magic. The creature must also make a DC 10 Constitution saving throw; if it succeeds, the creature has a lungful of air and can hold its breath for (Constitution modifier + 1) minutes before suffocation begins. Otherwise, it begins suffocating immediately. Allies equipped with digging tools can reach it in four minutes divided by the number of diggers; someone using an improvised tool (a sword, a plate, bare hands) counts as only one-half of a digger."
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": "",
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "noctiny",
+            "name": "Noctiny",
+            "size": "Medium",
+            "type": "humanoid",
+            "subtype": "noctiny",
+            "group": null,
+            "alignment": "neutral evil",
+            "armor_class": 13,
+            "armor_desc": "studded leather armor",
+            "hit_points": 52,
+            "hit_dice": "8d8+16",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 12,
+            "dexterity": 13,
+            "constitution": 14,
+            "intelligence": 10,
+            "wisdom": 11,
+            "charisma": 16,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {},
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "frightened",
+            "senses": "passive Perception $1",
+            "languages": "Common, plus the language spoken by the noctini's fext master",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The noctiny makes two melee attacks."
+                },
+                {
+                    "name": "Pact Staff",
+                    "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage or 8 (1d8 + 4) bludgeoning damage if used in two hands.",
+                    "attack_bonus": 3,
+                    "damage_dice": "1d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Magic Resistance",
+                    "desc": "The noctiny has advantage on saving throws against spells and other magical effects."
+                },
+                {
+                    "name": "Pact Wrath",
+                    "desc": "One of the noctiny's weapons is infused with power. Its attacks with this weapon count as magical, and it adds its Charisma bonus to the weapon's damage (included below)."
+                },
+                {
+                    "name": "Spellcasting",
+                    "desc": "the noctiny is a 3rd-level spellcaster. Its spellcasting ability score is Charisma (save DC 13, +5 to hit with spell attacks). It knows the following warlock spells.\n\ncantrips (at will): chill touch, eldritch blast, poison spray\n\n1st level (4 slots): armor of agathys, charm person, hellish rebuke, hex\n\n2nd level (2 slots): crown of madness, misty step"
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "shadhavar",
+            "name": "Shadhavar",
+            "size": "Large",
+            "type": "monstrosity",
+            "subtype": "",
+            "group": null,
+            "alignment": "neutral",
+            "armor_class": 14,
+            "armor_desc": "natural",
+            "hit_points": 97,
+            "hit_dice": "13d10+26",
+            "speed": {
+                "walk": 50
+            },
+            "strength": 14,
+            "dexterity": 15,
+            "constitution": 14,
+            "intelligence": 8,
+            "wisdom": 10,
+            "charisma": 16,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "stealth": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "",
+            "damage_immunities": "",
+            "condition_immunities": "",
+            "senses": "darkvision 60 ft., passive Perception 12",
+            "languages": "understands Elvish and Umbral but can't speak",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "A shadhavar makes one gore attack and one hooves attack."
+                },
+                {
+                    "name": "Gore",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d8"
+                },
+                {
+                    "name": "Hooves",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 12 (3d6 + 2) bludgeoning damage.",
+                    "attack_bonus": 4,
+                    "damage_dice": "3d6"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Innate Spellcasting",
+                    "desc": "a shadhavar's innate spellcasting ability score is Charisma (spell save DC 13). It can cast the following spells, requiring no components:\n\nat will: disguise self (as horse or unicorn only)\n\n2/day: darkness (centered on itself, moves with the shadhavar)"
+                },
+                {
+                    "name": "Magic Weapons",
+                    "desc": "A shadhavar's gore attacks are magical."
+                },
+                {
+                    "name": "Plaintive Melody (3/day)",
+                    "desc": "As a bonus action, a shadhavar can play a captivating melody through its hollow horn. Creatures within 60 feet that can hear the shadhavar must make a successful DC 13 Wisdom saving throw or be charmed until the start of the shadhavar's next turn. A creature charmed in this way is incapacitated, its speed is reduced to 0, and a shadhavar has advantage on attack rolls against it."
+                },
+                {
+                    "name": "Shadesight",
+                    "desc": "A shadhavar's darkvision functions in magical darkness."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        },
+        {
+            "slug": "uraeus",
+            "name": "Uraeus",
+            "size": "Tiny",
+            "type": "celestial",
+            "subtype": "",
+            "group": null,
+            "alignment": "lawful neutral",
+            "armor_class": 14,
+            "armor_desc": "natural armor",
+            "hit_points": 40,
+            "hit_dice": "9d4+18",
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "strength": 6,
+            "dexterity": 15,
+            "constitution": 14,
+            "intelligence": 10,
+            "wisdom": 14,
+            "charisma": 9,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": 4,
+            "skills": {
+                "perception": 4
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+            "damage_immunities": "poison",
+            "condition_immunities": "poisoned",
+            "senses": "blindsight 10 ft., passive Perception 14",
+            "languages": "understands Celestial and Common but can't speak",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Bite",
+                    "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 9 (2d8) poison damage, and the target must make a successful DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target takes 9 (2d8) fire damage at the start of its turn. A poisoned creature repeats the saving throw at the end of its turn, ending the effect on a success.",
+                    "attack_bonus": 4,
+                    "damage_dice": "1d6"
+                },
+                {
+                    "name": "Searing Breath (Recharge 5-6)",
+                    "desc": "The uraeus exhales a 15-foot cone of fire. Creatures in the area take 10 (3d6) fire damage, or half damage with a successful DC 12 Dexterity saving throw."
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "Bonded Savior",
+                    "desc": "When the uraeus' bonded ward takes damage, the uraeus can transfer the damage to itself instead. The uraeus' damage resistance and immunity don't apply to transferred damage."
+                }
+            ],
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Flyby",
+                    "desc": "The uraeus doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+                },
+                {
+                    "name": "Ward Bond",
+                    "desc": "As a bonus action, the uraeus forms a magical bond with a willing creature within 5 feet. Afterward, no matter how great the distance between them, the uraeus knows the distance and direction to its bonded ward and is aware of the creature's general state of health. The bond lasts until the uraeus or the ward dies, or the uraeus ends the bond as an action."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "ruins",
+                "underground",
+                "underdark",
+                "any"
+            ]
+        },
+        {
+            "slug": "vile-barber",
+            "name": "Vile Barber",
+            "size": "Small",
+            "type": "fey",
+            "subtype": "",
+            "group": null,
+            "alignment": "chaotic evil",
+            "armor_class": 15,
+            "armor_desc": "leather armor",
+            "hit_points": 28,
+            "hit_dice": "8d6",
+            "speed": {
+                "walk": 30
+            },
+            "strength": 12,
+            "dexterity": 18,
+            "constitution": 10,
+            "intelligence": 10,
+            "wisdom": 8,
+            "charisma": 10,
+            "strength_save": null,
+            "dexterity_save": null,
+            "constitution_save": null,
+            "intelligence_save": null,
+            "wisdom_save": null,
+            "charisma_save": null,
+            "perception": null,
+            "skills": {
+                "athletics": 3,
+                "stealth": 6
+            },
+            "damage_vulnerabilities": "",
+            "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered or cold iron weapons",
+            "damage_immunities": "",
+            "condition_immunities": "frightened",
+            "senses": "60 ft., passive Perception 9",
+            "languages": "Common, Goblin, Sylvan, Umbral",
+            "challenge_rating": "2",
+            "actions": [
+                {
+                    "name": "Multiattack",
+                    "desc": "The vile barber makes two attacks with its straight razor."
+                },
+                {
+                    "name": "Straight Razor",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d4"
+                },
+                {
+                    "name": "Unclean Cut",
+                    "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature that is grappled by the vile barber, incapacitated, or restrained. Hit: 6 (1d4 + 4) slashing damage plus 7 (2d6) necrotic damage. The creature and all its allies who see this attack must make successful DC 15 Wisdom saving throws or become frightened for 1d4 rounds.",
+                    "attack_bonus": 6,
+                    "damage_dice": "1d4"
+                }
+            ],
+            "reactions": "",
+            "legendary_desc": "",
+            "legendary_actions": "",
+            "special_abilities": [
+                {
+                    "name": "Close-in Slasher",
+                    "desc": "The vile barber has advantage on attack rolls against any creature in the same space with it."
+                },
+                {
+                    "name": "Inhumanly Quick",
+                    "desc": "The vile barber can take two bonus actions on its turn, instead of one. Each bonus action must be different; it can't use the same bonus action twice in a single turn."
+                },
+                {
+                    "name": "Invasive",
+                    "desc": "The vile barber can enter, move through, or even remain in a hostile creature's space regardless of the creature's size, without penalty."
+                },
+                {
+                    "name": "Nimble Escape",
+                    "desc": "As a bonus action, the vile barber can take the Disengage or Hide action on each of its turns."
+                },
+                {
+                    "name": "Pilfer",
+                    "desc": "As a bonus action, the vile barber can take the Use an Object action or make a Dexterity (Sleight of Hand) check."
+                },
+                {
+                    "name": "Shadow Step",
+                    "desc": "As a bonus action, the vile barber magically teleports from an area of dim light or darkness it currently occupies, along with any equipment it is wearing or carrying, up to 80 feet to any other area of dim light or darkness it can see. The barber then has advantage on the first melee attack it makes before the end of the turn."
+                }
+            ],
+            "spell_list": [],
+            "img_main": null,
+            "document__slug": "tob",
+            "document__title": "Tome of Beasts OGL",
+            "document__license_url": "http://open5e.com/legal",
+            "environment": [
+                "any"
+            ]
+        }
+    ]
+}
