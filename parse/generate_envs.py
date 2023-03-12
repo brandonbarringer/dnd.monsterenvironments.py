@@ -2,7 +2,7 @@ import json
 import datetime
 from pprint import pprint
 
-with open('../exports/monsters-2023-03-05.json') as f:
+with open('exports/monsters-2023-03-05.json') as f:
     monsters = json.load(f)
 
 environments = ['arctic', 'coastal', 'desert', 'forest', 'grassland', 'hill', 'jungle', 'plain', 'mountain', 'swamp', 'underdark', 'underwater', 'urban', 'badlands', 'any']
@@ -21,5 +21,5 @@ for env in environments:
                 data['count'] += 1
         if data['count'] > 0:
             cr_str = cr.replace('/', '-')
-            with open(f'03-05-2023/{env}/{cr_str}.json', 'w') as f:
+            with open(f'exports/03-05-2023/{env}/{cr_str}.json', 'w') as f:
                 json.dump(data, f, indent=4)
